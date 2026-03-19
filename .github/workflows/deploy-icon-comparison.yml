@@ -44,9 +44,7 @@ jobs:
           pnpm --filter @blueprintjs/core compile
 
       - name: Build demo app
-        run: cd packages/demo-icon-comparison && pnpm build
-        env:
-          NODE_ENV: production
+        run: cd packages/demo-icon-comparison && NODE_ENV=production pnpm build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
