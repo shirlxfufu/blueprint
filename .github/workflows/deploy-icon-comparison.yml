@@ -37,9 +37,9 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build demo app
-        run: |
-          cd packages/demo-icon-comparison
-          NODE_ENV=production pnpm build
+        run: cd packages/demo-icon-comparison && pnpm build
+        env:
+          NODE_ENV: production
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
