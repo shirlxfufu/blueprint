@@ -36,6 +36,12 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Build required packages
+        run: |
+          pnpm --filter @blueprintjs/colors build || true
+          pnpm --filter @blueprintjs/icons build || true
+          pnpm --filter @blueprintjs/core build || true
+
       - name: Build demo app
         run: cd packages/demo-icon-comparison && pnpm build
         env:
