@@ -3,8 +3,7 @@ name: Deploy Icon Comparison Demo
 on:
   push:
     branches:
-      - develop
-      - main
+      - icon-comparison-fresh
     paths:
       - 'packages/demo-icon-comparison/**'
       - '.github/workflows/deploy-icon-comparison.yml'
