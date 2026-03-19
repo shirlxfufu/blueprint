@@ -492,6 +492,9 @@ importers:
 
   packages/demo-icon-comparison:
     dependencies:
+      '@blueprintjs/colors':
+        specifier: workspace:^
+        version: link:../colors
       '@blueprintjs/core':
         specifier: workspace:^
         version: link:../core
