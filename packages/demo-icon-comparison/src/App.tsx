@@ -13,7 +13,7 @@ const blueprintIcons: IconMetadata[] = require('@blueprintjs/icons/icons.json');
 // Load AI-suggested icon names
 const aiSuggestedNamesData = require('./data/ai-suggested-names.json');
 const aiSuggestedNames: Record<string, { newName: string; reason: string }> =
-  aiSuggestedNamesData.renames;
+  aiSuggestedNamesData.icons || aiSuggestedNamesData.renames || {};
 
 type FilterMode = 'all' | 'outline' | 'design' | 'ai-named';
 
@@ -45,52 +45,51 @@ export const App: React.FC = () => {
     setLoading(true);
 
     try {
-      // Create icon data from Blueprint icons
-      const iconData: IconData[] = [];
-
       const basePath = process.env.BASE_PATH || '/';
+      const BATCH_SIZE = 50; // Load 50 icons at a time
 
-      for (const bpIcon of blueprintIcons) {
-        // Load CURRENT Blueprint icon (from resources/icons/16px/)
-        let oldIconSvg: string | undefined;
-        try {
-          const oldResponse = await fetch(`${basePath}current-icons/${bpIcon.iconName}.svg`);
-          if (oldResponse.ok) {
-            oldIconSvg = await oldResponse.text();
+      // Load icons in batches for progressive rendering
+      const loadIconBatch = async (batch: typeof blueprintIcons) => {
+        const promises = batch.map(async (bpIcon) => {
+          // Load both icons in parallel
+          const [oldResponse, newResponse] = await Promise.allSettled([
+            fetch(`${basePath}current-icons/${bpIcon.iconName}.svg`),
+            fetch(`${basePath}new-icons/${bpIcon.iconName}.svg`),
+          ]);
+
+          let oldIconSvg: string | undefined;
+          let newIconSvg: string | undefined;
+
+          if (oldResponse.status === 'fulfilled' && oldResponse.value.ok) {
+            oldIconSvg = await oldResponse.value.text();
           }
-        } catch (error) {
-          console.warn(`Failed to load current icon: ${bpIcon.iconName}`);
-        }
 
-        // Load NEW icon (from Figma)
-        let newIconSvg: string | undefined;
-        let isUnfilled = false;
-
-        try {
-          const response = await fetch(`${basePath}new-icons/${bpIcon.iconName}.svg`);
-          if (response.ok) {
-            newIconSvg = await response.text();
-
-            // Auto-detect if icon changed from filled to outlined
-            const newStyle = analyzeIconStyle(newIconSvg);
-            isUnfilled = false; // Will be set by manual override
+          if (newResponse.status === 'fulfilled' && newResponse.value.ok) {
+            newIconSvg = await newResponse.value.text();
           }
-        } catch (error) {
-          console.warn(`Failed to load new icon: ${bpIcon.iconName}`);
-        }
 
-        iconData.push({
-          name: bpIcon.iconName,
-          displayName: bpIcon.displayName,
-          oldIcon: oldIconSvg,
-          newIconSvg,
-          isUnfilled: false,
-          hasMajorChange: false,
-          isManuallyTagged: false,
+          return {
+            name: bpIcon.iconName,
+            displayName: bpIcon.displayName,
+            oldIcon: oldIconSvg,
+            newIconSvg,
+            isUnfilled: false,
+            hasMajorChange: false,
+            isManuallyTagged: false,
+          };
         });
-      }
 
-      setIcons(iconData);
+        return Promise.all(promises);
+      };
+
+      // Process icons in batches
+      for (let i = 0; i < blueprintIcons.length; i += BATCH_SIZE) {
+        const batch = blueprintIcons.slice(i, i + BATCH_SIZE);
+        const batchData = await loadIconBatch(batch);
+
+        // Update state progressively - show icons as they load
+        setIcons((prev) => [...prev, ...batchData]);
+      }
     } catch (error) {
       console.error('Failed to load icons:', error);
     } finally {
