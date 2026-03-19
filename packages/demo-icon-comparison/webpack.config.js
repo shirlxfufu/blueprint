@@ -1,13 +1,16 @@
 const path = require('path');
+const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+
+const basePath = process.env.NODE_ENV === 'production' ? '/blueprint/' : '/';
 
 module.exports = {
   entry: './src/index.tsx',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: process.env.NODE_ENV === 'production' ? '/blueprint/' : '/',
+    publicPath: basePath,
   },
   module: {
     rules: [
@@ -67,6 +70,9 @@ module.exports = {
           to: 'new-icons',
         },
       ],
+    }),
+    new webpack.DefinePlugin({
+      'process.env.BASE_PATH': JSON.stringify(basePath),
     }),
   ],
   devServer: {

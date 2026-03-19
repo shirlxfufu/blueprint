@@ -10,7 +10,12 @@ import styles from './styles.module.scss';
 // Load Blueprint icon metadata
 const blueprintIcons: IconMetadata[] = require('@blueprintjs/icons/icons.json');
 
-type FilterMode = 'all' | 'outline' | 'design';
+// Load AI-suggested icon names
+const aiSuggestedNamesData = require('./data/ai-suggested-names.json');
+const aiSuggestedNames: Record<string, { newName: string; reason: string }> =
+  aiSuggestedNamesData.renames;
+
+type FilterMode = 'all' | 'outline' | 'design' | 'ai-named';
 
 export const App: React.FC = () => {
   const [icons, setIcons] = useState<IconData[]>([]);
@@ -43,11 +48,13 @@ export const App: React.FC = () => {
       // Create icon data from Blueprint icons
       const iconData: IconData[] = [];
 
+      const basePath = process.env.BASE_PATH || '/';
+
       for (const bpIcon of blueprintIcons) {
         // Load CURRENT Blueprint icon (from resources/icons/16px/)
         let oldIconSvg: string | undefined;
         try {
-          const oldResponse = await fetch(`/current-icons/${bpIcon.iconName}.svg`);
+          const oldResponse = await fetch(`${basePath}current-icons/${bpIcon.iconName}.svg`);
           if (oldResponse.ok) {
             oldIconSvg = await oldResponse.text();
           }
@@ -60,7 +67,7 @@ export const App: React.FC = () => {
         let isUnfilled = false;
 
         try {
-          const response = await fetch(`/new-icons/${bpIcon.iconName}.svg`);
+          const response = await fetch(`${basePath}new-icons/${bpIcon.iconName}.svg`);
           if (response.ok) {
             newIconSvg = await response.text();
 
@@ -93,13 +100,38 @@ export const App: React.FC = () => {
 
   // Apply manual overrides to icons
   const iconsWithOverrides = useMemo(() => {
-    return icons.map(icon => ({
-      ...icon,
-      isUnfilled: manualOverrides[icon.name]?.isUnfilled ?? icon.isUnfilled,
-      hasMajorChange: manualOverrides[icon.name]?.hasMajorChange ?? icon.hasMajorChange,
-      isManuallyTagged: icon.name in manualOverrides,
-      newName: manualOverrides[icon.name]?.newName,
-    }));
+    return icons.map(icon => {
+      const override = manualOverrides[icon.name];
+      const aiSuggestion = aiSuggestedNames[icon.name];
+
+      // Determine the effective new name
+      // Priority: manual override > AI suggestion > undefined
+      const hasManualName = override?.newName !== undefined;
+      const hasAISuggestion = aiSuggestion?.newName !== undefined;
+
+      let newName: string | undefined;
+      let aiSuggestedName: string | undefined;
+      let isNameManuallyOverridden = false;
+
+      if (hasAISuggestion) {
+        aiSuggestedName = aiSuggestion.newName;
+        newName = hasManualName ? override.newName : aiSuggestion.newName;
+        isNameManuallyOverridden = hasManualName;
+      } else if (hasManualName) {
+        newName = override.newName;
+        isNameManuallyOverridden = true;
+      }
+
+      return {
+        ...icon,
+        isUnfilled: override?.isUnfilled ?? icon.isUnfilled,
+        hasMajorChange: override?.hasMajorChange ?? icon.hasMajorChange,
+        isManuallyTagged: icon.name in manualOverrides,
+        newName,
+        aiSuggestedName,
+        isNameManuallyOverridden,
+      };
+    });
   }, [icons, manualOverrides]);
 
   // Filter icons based on search and filter mode
@@ -118,6 +150,8 @@ export const App: React.FC = () => {
       filtered = filtered.filter(icon => icon.isUnfilled);
     } else if (filterMode === 'design') {
       filtered = filtered.filter(icon => icon.hasMajorChange);
+    } else if (filterMode === 'ai-named') {
+      filtered = filtered.filter(icon => icon.newName && icon.newName !== icon.name);
     }
 
     return filtered;
@@ -154,10 +188,11 @@ export const App: React.FC = () => {
   const handleRenameIcon = (iconName: string, newName: string) => {
     const newOverrides = { ...manualOverrides };
     const currentOverride = newOverrides[iconName] || {};
+    const aiSuggestion = aiSuggestedNames[iconName];
 
-    // If newName is empty, remove the rename
+    // If newName is empty, remove the manual override
     if (!newName.trim()) {
-      const { newName: _, ...rest } = currentOverride;
+      const { newName: _, isNameManuallyOverridden: __, ...rest } = currentOverride;
       if (Object.keys(rest).length === 0) {
         delete newOverrides[iconName];
       } else {
@@ -167,9 +202,13 @@ export const App: React.FC = () => {
         };
       }
     } else {
+      // Check if this is different from AI suggestion
+      const isDifferentFromAI = !aiSuggestion || newName.trim() !== aiSuggestion.newName;
+
       newOverrides[iconName] = {
         ...currentOverride,
         newName: newName.trim(),
+        isNameManuallyOverridden: isDifferentFromAI,
         timestamp: Date.now()
       };
     }
@@ -196,6 +235,7 @@ export const App: React.FC = () => {
 
   const unfilledCount = iconsWithOverrides.filter(icon => icon.isUnfilled).length;
   const majorChangeCount = iconsWithOverrides.filter(icon => icon.hasMajorChange).length;
+  const aiNamedCount = iconsWithOverrides.filter(icon => icon.newName && icon.newName !== icon.name).length;
 
   return (
     <div className={styles.appContainer}>
@@ -268,6 +308,14 @@ export const App: React.FC = () => {
             <span className={`${styles.filterDot} ${styles.dotViolet}`}></span>
             Major Design Change <span className={styles.countBadge}>{loading ? <Skeleton width={20} height={13} /> : `(${majorChangeCount})`}</span>
           </div>
+          <div
+            className={styles.filterChip}
+            style={filterMode === 'ai-named' ? { backgroundColor: 'rgba(92, 112, 224, 0.1)', borderColor: 'rgba(92, 112, 224, 0.2)' } : {}}
+            onClick={() => setFilterMode('ai-named')}
+          >
+            <span className={styles.filterDot} style={{ background: '#5C70E0' }}></span>
+            AI Named <span className={styles.countBadge}>{loading ? <Skeleton width={20} height={13} /> : `(${aiNamedCount})`}</span>
+          </div>
         </div>
       </nav>
 
@@ -288,6 +336,8 @@ export const App: React.FC = () => {
                 hasMajorChange={icon.hasMajorChange}
                 isManuallyTagged={icon.isManuallyTagged}
                 newName={icon.newName}
+                aiSuggestedName={icon.aiSuggestedName}
+                isNameManuallyOverridden={icon.isNameManuallyOverridden}
                 onToggleUnfilled={() => handleToggleUnfilled(icon.name)}
                 onToggleMajorChange={() => handleToggleMajorChange(icon.name)}
                 onRename={(newName) => handleRenameIcon(icon.name, newName)}
