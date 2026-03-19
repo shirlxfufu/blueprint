@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Tag } from '@blueprintjs/core';
+import { Tag, Icon } from '@blueprintjs/core';
 import styles from '../styles.module.scss';
 
 interface IconComparisonCardProps {
@@ -11,6 +11,8 @@ interface IconComparisonCardProps {
   hasMajorChange: boolean;
   isManuallyTagged: boolean;
   newName?: string;
+  aiSuggestedName?: string;
+  isNameManuallyOverridden?: boolean;
   onToggleUnfilled: () => void;
   onToggleMajorChange: () => void;
   onRename: (newName: string) => void;
@@ -25,13 +27,22 @@ export const IconComparisonCard: React.FC<IconComparisonCardProps> = ({
   hasMajorChange,
   isManuallyTagged,
   newName,
+  aiSuggestedName,
+  isNameManuallyOverridden,
   onToggleUnfilled,
   onToggleMajorChange,
   onRename,
 }) => {
+  const [isEditingName, setIsEditingName] = useState(false);
   const [renameValue, setRenameValue] = useState(newName || '');
 
+  // Determine if we should show naming indicators
+  const hasNameChange = newName && newName !== iconName;
+  const showAIIndicator = hasNameChange && !isNameManuallyOverridden;
+  const showManualIndicator = hasNameChange && isNameManuallyOverridden;
+
   const handleRenameBlur = () => {
+    setIsEditingName(false);
     if (renameValue !== (newName || '')) {
       onRename(renameValue);
     }
@@ -39,8 +50,17 @@ export const IconComparisonCard: React.FC<IconComparisonCardProps> = ({
 
   const handleRenameKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter') {
+      setIsEditingName(false);
       onRename(renameValue);
+    } else if (e.key === 'Escape') {
+      setIsEditingName(false);
+      setRenameValue(newName || '');
     }
+  };
+
+  const handleNameClick = () => {
+    setIsEditingName(true);
+    setRenameValue(newName || iconName);
   };
 
   return (
@@ -93,6 +113,21 @@ export const IconComparisonCard: React.FC<IconComparisonCardProps> = ({
               Design Change
             </span>
           )}
+
+          {/* AI Named / Manual Override Tag */}
+          {showAIIndicator && (
+            <span className={`${styles.tag} ${styles.tagActive}`} style={{ backgroundColor: 'rgba(92, 112, 224, 0.15)', borderColor: 'rgba(92, 112, 224, 0.3)' }}>
+              <Icon icon="star" size={12} style={{ opacity: 0.7 }} />
+              AI Named
+            </span>
+          )}
+
+          {showManualIndicator && (
+            <span className={`${styles.tag} ${styles.tagActive}`} style={{ backgroundColor: 'rgba(92, 112, 224, 0.15)', borderColor: 'rgba(92, 112, 224, 0.3)' }}>
+              <Icon icon="edit" size={12} style={{ opacity: 0.7 }} />
+              Manual Override
+            </span>
+          )}
         </div>
       </div>
 
@@ -131,15 +166,37 @@ export const IconComparisonCard: React.FC<IconComparisonCardProps> = ({
           </div>
           <div className={styles.labelGroup}>
             <span className={styles.versionLabel}>New</span>
-            <input
-              type="text"
-              className={styles.iconNameInput}
-              value={renameValue}
-              onChange={(e) => setRenameValue(e.target.value)}
-              onBlur={handleRenameBlur}
-              onKeyPress={handleRenameKeyPress}
-              placeholder={iconName}
-            />
+
+            {/* Name display - click to edit */}
+            <div style={{ position: 'relative', width: '100%', minHeight: '28px' }}>
+              {/* Icon indicator - always rendered to prevent movement */}
+              {(showAIIndicator || showManualIndicator) && (
+                <div style={{ position: 'absolute', right: '4px', top: '50%', transform: 'translateY(-50%)', zIndex: 10, pointerEvents: 'none' }}>
+                  {showAIIndicator && <Icon icon="star" size={12} style={{ color: '#5C70E0', opacity: 0.7 }} />}
+                  {showManualIndicator && <Icon icon="edit" size={12} style={{ color: '#5C70E0', opacity: 0.7 }} />}
+                </div>
+              )}
+
+              {isEditingName ? (
+                <input
+                  type="text"
+                  className={styles.iconNameInput}
+                  value={renameValue}
+                  onChange={(e) => setRenameValue(e.target.value)}
+                  onBlur={handleRenameBlur}
+                  onKeyDown={handleRenameKeyPress}
+                  placeholder={iconName}
+                  autoFocus
+                  style={{ paddingRight: (showAIIndicator || showManualIndicator) ? '28px' : '4px' }}
+                />
+              ) : (
+                <div style={{ display: 'flex', alignItems: 'center', padding: '4px 0', paddingRight: (showAIIndicator || showManualIndicator) ? '28px' : '4px', cursor: 'text', borderRadius: '3px', transition: 'background-color 150ms' }} onClick={handleNameClick}>
+                  <span style={hasNameChange ? { fontSize: '14px', fontWeight: 500, color: '#5C70E0', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' } : { fontSize: '14px', fontWeight: 400, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                    {newName || iconName}
+                  </span>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </div>

@@ -1,0 +1,747 @@
+{
+  "metadata": {
+    "generatedAt": "2026-03-19T20:51:32.393Z",
+    "algorithmVersion": "1.0.0",
+    "totalIcons": 705,
+    "renamedIcons": 102,
+    "keptAsIs": 603
+  },
+  "stats": {
+    "total": 705,
+    "renamed": 102,
+    "keptAsIs": 603,
+    "confidence": {
+      "high": 687,
+      "medium": 18,
+      "low": 0
+    },
+    "categories": {
+      "object-primary": 18,
+      "keep-as-is": 603,
+      "action-to-object-reorder": 2,
+      "action-to-visual-container": 15,
+      "pattern-transformation": 25,
+      "object-action-to-modifier": 16,
+      "abbreviation-expansion": 11,
+      "layout-simplification": 4,
+      "state-prefix-to-suffix": 11
+    },
+    "manualReview": 18
+  },
+  "renames": {
+    "add-application": {
+      "newName": "application-plus",
+      "reason": "Semantic analysis: object-primary",
+      "category": "object-primary",
+      "confidence": "medium",
+      "manualReview": true
+    },
+    "add-child": {
+      "newName": "child-plus",
+      "reason": "Semantic analysis: object-primary",
+      "category": "object-primary",
+      "confidence": "medium",
+      "manualReview": true
+    },
+    "add-clip": {
+      "newName": "clip-plus",
+      "reason": "Semantic analysis: object-primary",
+      "category": "object-primary",
+      "confidence": "medium",
+      "manualReview": true
+    },
+    "add-location": {
+      "newName": "location-plus",
+      "reason": "Semantic analysis: object-primary",
+      "category": "object-primary",
+      "confidence": "medium",
+      "manualReview": true
+    },
+    "add-parent": {
+      "newName": "parent-plus",
+      "reason": "Semantic analysis: object-primary",
+      "category": "object-primary",
+      "confidence": "medium",
+      "manualReview": true
+    },
+    "add-tile": {
+      "newName": "tile-plus",
+      "reason": "Semantic analysis: object-primary",
+      "category": "object-primary",
+      "confidence": "medium",
+      "manualReview": true
+    },
+    "add-to-artifact": {
+      "newName": "artifact-plus",
+      "reason": "Pattern: action-to-object-reorder",
+      "category": "action-to-object-reorder",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "add-to-folder": {
+      "newName": "folder-plus",
+      "reason": "Pattern: action-to-object-reorder",
+      "category": "action-to-object-reorder",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "add": {
+      "newName": "plus-circle",
+      "reason": "Simple action → visual-container (visual is primary)",
+      "category": "action-to-visual-container",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "ban-circle": {
+      "newName": "circle-slash",
+      "reason": "Pattern-based transformation",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "bring-data": {
+      "newName": "container-arrow-down",
+      "reason": "Pattern-based transformation",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "compressed": {
+      "newName": "archive-arrow-down",
+      "reason": "Simple action → visual-container (visual is primary)",
+      "category": "action-to-visual-container",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "confirm": {
+      "newName": "check-circle",
+      "reason": "Simple action → visual-container (visual is primary)",
+      "category": "action-to-visual-container",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "cross-circle": {
+      "newName": "circle-cross",
+      "reason": "Pattern-based transformation",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "cube-add": {
+      "newName": "cube-plus",
+      "reason": "Pattern: object-action-to-modifier",
+      "category": "object-action-to-modifier",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "cube-remove": {
+      "newName": "cube-cross",
+      "reason": "Pattern: object-action-to-modifier",
+      "category": "object-action-to-modifier",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "delete-clip": {
+      "newName": "clip-cross",
+      "reason": "Semantic analysis: object-primary",
+      "category": "object-primary",
+      "confidence": "medium",
+      "manualReview": true
+    },
+    "delete": {
+      "newName": "cross-circle",
+      "reason": "Simple action → visual-container (visual is primary)",
+      "category": "action-to-visual-container",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "disable": {
+      "newName": "slash-circle",
+      "reason": "Simple action → visual-container (visual is primary)",
+      "category": "action-to-visual-container",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "edit": {
+      "newName": "pencil",
+      "reason": "Simple action → visual-container (visual is primary)",
+      "category": "action-to-visual-container",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "endorsed": {
+      "newName": "badge-check",
+      "reason": "Simple action → visual-container (visual is primary)",
+      "category": "action-to-visual-container",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "export": {
+      "newName": "tray-arrow-up",
+      "reason": "Simple action → visual-container (visual is primary)",
+      "category": "action-to-visual-container",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "eye-off": {
+      "newName": "eye-closed",
+      "reason": "Pattern-based transformation",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "eye-on": {
+      "newName": "eye-open",
+      "reason": "Pattern-based transformation",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "filter-remove": {
+      "newName": "filter-cross",
+      "reason": "Pattern: object-action-to-modifier",
+      "category": "object-action-to-modifier",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "filter-sort-asc": {
+      "newName": "filter-sort-arrow-up",
+      "reason": "Pattern: abbreviation-expansion",
+      "category": "abbreviation-expansion",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "filter-sort-desc": {
+      "newName": "filter-sort-arrow-down",
+      "reason": "Pattern: abbreviation-expansion",
+      "category": "abbreviation-expansion",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "filter": {
+      "newName": "funnel",
+      "reason": "Simple action → visual-container (visual is primary)",
+      "category": "action-to-visual-container",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "folder-close": {
+      "newName": "folder-closed",
+      "reason": "State suffix fix: close → closed",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "folder-new": {
+      "newName": "folder-plus",
+      "reason": "Pattern: object-action-to-modifier",
+      "category": "object-action-to-modifier",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "globe-network-add": {
+      "newName": "globe-network-plus",
+      "reason": "Pattern: object-action-to-modifier",
+      "category": "object-action-to-modifier",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "graph-remove": {
+      "newName": "graph-cross",
+      "reason": "Pattern: object-action-to-modifier",
+      "category": "object-action-to-modifier",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "greater-than-or-equal-to": {
+      "newName": "-greater-than-or-equal",
+      "reason": "Semantic analysis: object-primary",
+      "category": "object-primary",
+      "confidence": "medium",
+      "manualReview": true
+    },
+    "horizontal-bar-chart-asc": {
+      "newName": "horizontal-bar-chart-arrow-up",
+      "reason": "Pattern: abbreviation-expansion",
+      "category": "abbreviation-expansion",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "horizontal-bar-chart-desc": {
+      "newName": "horizontal-bar-chart-arrow-down",
+      "reason": "Pattern: abbreviation-expansion",
+      "category": "abbreviation-expansion",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "import": {
+      "newName": "tray-arrow-down",
+      "reason": "Simple action → visual-container (visual is primary)",
+      "category": "action-to-visual-container",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "insert": {
+      "newName": "plus-square",
+      "reason": "Simple action → visual-container (visual is primary)",
+      "category": "action-to-visual-container",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "issue-new": {
+      "newName": "issue-plus",
+      "reason": "Pattern: object-action-to-modifier",
+      "category": "object-action-to-modifier",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "layout-three-columns": {
+      "newName": "columns-three",
+      "reason": "Pattern: layout-simplification",
+      "category": "layout-simplification",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "layout-three-rows": {
+      "newName": "rows-three",
+      "reason": "Pattern: layout-simplification",
+      "category": "layout-simplification",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "layout-two-columns": {
+      "newName": "columns-two",
+      "reason": "Pattern: layout-simplification",
+      "category": "layout-simplification",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "layout-two-rows": {
+      "newName": "rows-two",
+      "reason": "Pattern: layout-simplification",
+      "category": "layout-simplification",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "less-than-or-equal-to": {
+      "newName": "-less-than-or-equal",
+      "reason": "Semantic analysis: object-primary",
+      "category": "object-primary",
+      "confidence": "medium",
+      "manualReview": true
+    },
+    "many-to-many": {
+      "newName": "many-many",
+      "reason": "Semantic analysis: object-primary",
+      "category": "object-primary",
+      "confidence": "medium",
+      "manualReview": true
+    },
+    "many-to-one": {
+      "newName": "one-many",
+      "reason": "Semantic analysis: object-primary",
+      "category": "object-primary",
+      "confidence": "medium",
+      "manualReview": true
+    },
+    "maximize": {
+      "newName": "arrows-expand",
+      "reason": "Pattern-based transformation",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "media-set-add": {
+      "newName": "media-set-plus",
+      "reason": "Pattern: object-action-to-modifier",
+      "category": "object-action-to-modifier",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "minimize": {
+      "newName": "arrows-collapse",
+      "reason": "Pattern-based transformation",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "multi-select": {
+      "newName": "selection-multiple",
+      "reason": "Pattern-based transformation",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "new-comment": {
+      "newName": "comment-plus",
+      "reason": "Pattern: state-prefix-to-suffix",
+      "category": "state-prefix-to-suffix",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "new-drawing": {
+      "newName": "drawing-plus",
+      "reason": "Pattern: state-prefix-to-suffix",
+      "category": "state-prefix-to-suffix",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "new-grid-item": {
+      "newName": "grid-item-plus",
+      "reason": "Pattern: state-prefix-to-suffix",
+      "category": "state-prefix-to-suffix",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "new-layer": {
+      "newName": "layer-plus",
+      "reason": "Pattern: state-prefix-to-suffix",
+      "category": "state-prefix-to-suffix",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "new-layers": {
+      "newName": "layers-plus",
+      "reason": "Pattern: state-prefix-to-suffix",
+      "category": "state-prefix-to-suffix",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "new-link": {
+      "newName": "link-plus",
+      "reason": "Pattern: state-prefix-to-suffix",
+      "category": "state-prefix-to-suffix",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "new-object": {
+      "newName": "object-plus",
+      "reason": "Pattern: state-prefix-to-suffix",
+      "category": "state-prefix-to-suffix",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "new-person": {
+      "newName": "person-plus",
+      "reason": "Pattern: state-prefix-to-suffix",
+      "category": "state-prefix-to-suffix",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "new-prescription": {
+      "newName": "prescription-plus",
+      "reason": "Pattern: state-prefix-to-suffix",
+      "category": "state-prefix-to-suffix",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "new-shield": {
+      "newName": "shield-plus",
+      "reason": "Pattern: state-prefix-to-suffix",
+      "category": "state-prefix-to-suffix",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "new-text-box": {
+      "newName": "text-box-plus",
+      "reason": "Pattern: state-prefix-to-suffix",
+      "category": "state-prefix-to-suffix",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "not-equal-to": {
+      "newName": "-not-equal",
+      "reason": "Semantic analysis: object-primary",
+      "category": "object-primary",
+      "confidence": "medium",
+      "manualReview": true
+    },
+    "notifications-add": {
+      "newName": "notifications-plus",
+      "reason": "Pattern: object-action-to-modifier",
+      "category": "object-action-to-modifier",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "numbered-list": {
+      "newName": "list-numbers",
+      "reason": "Pattern-based transformation",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "one-column": {
+      "newName": "column-single",
+      "reason": "Pattern-based transformation",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "one-to-many": {
+      "newName": "many-one",
+      "reason": "Semantic analysis: object-primary",
+      "category": "object-primary",
+      "confidence": "medium",
+      "manualReview": true
+    },
+    "one-to-one": {
+      "newName": "one-one",
+      "reason": "Semantic analysis: object-primary",
+      "category": "object-primary",
+      "confidence": "medium",
+      "manualReview": true
+    },
+    "open-application": {
+      "newName": "application-open",
+      "reason": "Semantic analysis: object-primary",
+      "category": "object-primary",
+      "confidence": "medium",
+      "manualReview": true
+    },
+    "remove-column": {
+      "newName": "column-minus",
+      "reason": "Semantic analysis: object-primary",
+      "category": "object-primary",
+      "confidence": "medium",
+      "manualReview": true
+    },
+    "remove": {
+      "newName": "minus-circle",
+      "reason": "Simple action → visual-container (visual is primary)",
+      "category": "action-to-visual-container",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "rotate-ccw": {
+      "newName": "rotate-counterclockwise",
+      "reason": "Pattern-based transformation",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "rotate-cw": {
+      "newName": "rotate-clockwise",
+      "reason": "Pattern-based transformation",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "saved": {
+      "newName": "document-check",
+      "reason": "Simple action → visual-container (visual is primary)",
+      "category": "action-to-visual-container",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "search": {
+      "newName": "magnifying-glass",
+      "reason": "Simple action → visual-container (visual is primary)",
+      "category": "action-to-visual-container",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "selection-box-add": {
+      "newName": "selection-box-plus",
+      "reason": "Pattern: object-action-to-modifier",
+      "category": "object-action-to-modifier",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "selection-box-remove": {
+      "newName": "selection-box-cross",
+      "reason": "Pattern: object-action-to-modifier",
+      "category": "object-action-to-modifier",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "send-to-graph": {
+      "newName": "graph-send",
+      "reason": "Semantic analysis: object-primary",
+      "category": "object-primary",
+      "confidence": "medium",
+      "manualReview": true
+    },
+    "send-to-map": {
+      "newName": "map-send",
+      "reason": "Semantic analysis: object-primary",
+      "category": "object-primary",
+      "confidence": "medium",
+      "manualReview": true
+    },
+    "send-to": {
+      "newName": "arrow-to-circle",
+      "reason": "Pattern-based transformation",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "series-add": {
+      "newName": "series-plus",
+      "reason": "Pattern: object-action-to-modifier",
+      "category": "object-action-to-modifier",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "share": {
+      "newName": "network-hub",
+      "reason": "Simple action → visual-container (visual is primary)",
+      "category": "action-to-visual-container",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "sort-alphabetical-desc": {
+      "newName": "sort-alphabetical-arrow-down",
+      "reason": "Pattern: abbreviation-expansion",
+      "category": "abbreviation-expansion",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "sort-asc": {
+      "newName": "bars-arrow-up",
+      "reason": "Abbreviation → spelled out",
+      "category": "abbreviation-expansion",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "sort-desc": {
+      "newName": "bars-arrow-down",
+      "reason": "Abbreviation → spelled out",
+      "category": "abbreviation-expansion",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "sort-numerical-desc": {
+      "newName": "sort-numerical-arrow-down",
+      "reason": "Pattern: abbreviation-expansion",
+      "category": "abbreviation-expansion",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "star-empty": {
+      "newName": "star-outline",
+      "reason": "Pattern-based transformation",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "step-backward": {
+      "newName": "triangle-bar-left",
+      "reason": "Pattern-based transformation",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "step-forward": {
+      "newName": "triangle-bar-right",
+      "reason": "Pattern-based transformation",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "tag-add": {
+      "newName": "tag-plus",
+      "reason": "Pattern: object-action-to-modifier",
+      "category": "object-action-to-modifier",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "th-add": {
+      "newName": "table-plus",
+      "reason": "Abbreviation expansion: th → table",
+      "category": "object-action-to-modifier",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "th-derived": {
+      "newName": "table-derived",
+      "reason": "Abbreviation expansion: th → table",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "th-disconnect": {
+      "newName": "table-disconnect",
+      "reason": "Abbreviation expansion: th → table",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "th-filtered": {
+      "newName": "table-filtered",
+      "reason": "Abbreviation expansion: th → table",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "th-list-add": {
+      "newName": "th-list-plus",
+      "reason": "Pattern: object-action-to-modifier",
+      "category": "object-action-to-modifier",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "th-list": {
+      "newName": "table-list",
+      "reason": "Abbreviation expansion: th → table",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "th-virtual-add": {
+      "newName": "th-virtual-plus",
+      "reason": "Pattern: object-action-to-modifier",
+      "category": "object-action-to-modifier",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "th-virtual": {
+      "newName": "table-virtual",
+      "reason": "Pattern: abbreviation-expansion",
+      "category": "abbreviation-expansion",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "th": {
+      "newName": "table",
+      "reason": "Pattern-based transformation",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "trending-down": {
+      "newName": "chart-arrow-down",
+      "reason": "Pattern-based transformation",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "trending-up": {
+      "newName": "chart-arrow-up",
+      "reason": "Pattern-based transformation",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "ungroup-objects": {
+      "newName": "shapes-ungroup",
+      "reason": "Pattern-based transformation",
+      "category": "pattern-transformation",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "vertical-bar-chart-asc": {
+      "newName": "vertical-bar-chart-arrow-up",
+      "reason": "Pattern: abbreviation-expansion",
+      "category": "abbreviation-expansion",
+      "confidence": "high",
+      "manualReview": false
+    },
+    "vertical-bar-chart-desc": {
+      "newName": "vertical-bar-chart-arrow-down",
+      "reason": "Pattern: abbreviation-expansion",
+      "category": "abbreviation-expansion",
+      "confidence": "high",
+      "manualReview": false
+    }
+  }
+}

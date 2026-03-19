@@ -151,7 +151,8 @@ export const App: React.FC = () => {
     } else if (filterMode === 'design') {
       filtered = filtered.filter(icon => icon.hasMajorChange);
     } else if (filterMode === 'ai-named') {
-      filtered = filtered.filter(icon => icon.newName && icon.newName !== icon.name);
+      // Show all icons with new SVGs (all new icons are AI-named/validated)
+      filtered = filtered.filter(icon => icon.newIconSvg);
     }
 
     return filtered;
@@ -235,7 +236,8 @@ export const App: React.FC = () => {
 
   const unfilledCount = iconsWithOverrides.filter(icon => icon.isUnfilled).length;
   const majorChangeCount = iconsWithOverrides.filter(icon => icon.hasMajorChange).length;
-  const aiNamedCount = iconsWithOverrides.filter(icon => icon.newName && icon.newName !== icon.name).length;
+  // All icons with new SVGs are AI-named/validated
+  const aiNamedCount = iconsWithOverrides.filter(icon => icon.newIconSvg).length;
 
   return (
     <div className={styles.appContainer}>

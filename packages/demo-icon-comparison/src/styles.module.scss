@@ -176,6 +176,11 @@ body {
     background: rgba($indigo4, 0.1);
     border-color: rgba($indigo4, 0.2);
   }
+
+  &.chipIndigo {
+    background: rgba($indigo3, 0.1);
+    border-color: rgba($indigo3, 0.2);
+  }
 }
 
 .countBadge {
@@ -196,6 +201,10 @@ body {
 
   &.dotViolet {
     background: var(--color-violet);
+  }
+
+  &.dotIndigo {
+    background: $indigo3;
   }
 }
 
@@ -282,6 +291,11 @@ body {
       border: 1px solid rgba($indigo4, 0.3);
     }
 
+    &.tagNaming {
+      background-color: rgba($blue3, 0.15);
+      border: 1px solid rgba($blue3, 0.3);
+    }
+
     .tagRemove {
       display: none;
     }
@@ -329,6 +343,11 @@ body {
       }
     }
   }
+}
+
+.tagIcon {
+  color: var(--color-text-primary);
+  opacity: 0.7;
 }
 
 .tagRemove {
@@ -425,12 +444,50 @@ body {
   text-overflow: ellipsis;
 }
 
+// Container for icon name display/editing
+.iconNameContainer {
+  width: 100%;
+  min-height: 28px;
+}
+
+// Display mode - styled text with Blue 3 color
+.iconNameDisplay {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: $pt-spacing 0;
+  cursor: text;
+  border-radius: var(--radius-sm);
+  transition: background-color var(--transition-fast);
+
+  &:hover {
+    background: rgba($light-gray1, 0.2);
+  }
+}
+
+.iconNameChanged {
+  font-size: $pt-font-size;
+  font-weight: 500; // Slightly bolder for changed names
+  color: $blue3; // Blue 3 color for new names
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// Edit mode wrapper
+.iconNameInputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
 .iconNameInput {
   width: 100%;
   appearance: none;
   border: 1px solid transparent;
   background: transparent;
-  padding: $pt-spacing 0;
+  padding: $pt-spacing $pt-spacing * 7 $pt-spacing 0; // Extra right padding for icon
   border-radius: var(--radius-sm);
   font-family: var(--font-family);
   font-size: $pt-font-size;
@@ -445,6 +502,22 @@ body {
     outline: none;
     border-color: var(--color-blue);
     background: $white;
+  }
+}
+
+// Inline icon indicator (sparkles or edit)
+.inlineIconIndicator {
+  flex-shrink: 0;
+  color: $blue3;
+  opacity: 0.7;
+  pointer-events: none;
+
+  // When inside input wrapper, position absolutely
+  .iconNameInputWrapper & {
+    position: absolute;
+    right: $pt-spacing;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
 

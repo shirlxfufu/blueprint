@@ -7,6 +7,8 @@ export interface IconData {
   hasMajorChange: boolean; // Major design change
   isManuallyTagged: boolean; // User manually set any tag
   newName?: string; // Renamed icon name
+  aiSuggestedName?: string; // AI-generated suggested name
+  isNameManuallyOverridden?: boolean; // User manually changed the name
 }
 
 export interface IconMetadata {
@@ -21,6 +23,7 @@ export interface ManualOverrides {
     isUnfilled?: boolean;
     hasMajorChange?: boolean;
     newName?: string; // Renamed icon name
+    isNameManuallyOverridden?: boolean; // User manually changed the name
     timestamp?: number; // When last edited
   };
 }
