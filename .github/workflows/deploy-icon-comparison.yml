@@ -28,7 +28,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
@@ -38,9 +38,9 @@ jobs:
 
       - name: Build required packages
         run: |
-          pnpm --filter @blueprintjs/colors build || true
-          pnpm --filter @blueprintjs/icons build || true
-          pnpm --filter @blueprintjs/core build || true
+          pnpm --filter @blueprintjs/colors compile
+          pnpm --filter @blueprintjs/icons compile
+          pnpm --filter @blueprintjs/core compile
 
       - name: Build demo app
         run: cd packages/demo-icon-comparison && pnpm build

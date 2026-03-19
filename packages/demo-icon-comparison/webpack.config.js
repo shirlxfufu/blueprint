@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: './src/index.tsx',
@@ -54,6 +55,18 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './public/index.html',
+    }),
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: 'public/current-icons',
+          to: 'current-icons',
+        },
+        {
+          from: 'public/new-icons',
+          to: 'new-icons',
+        },
+      ],
     }),
   ],
   devServer: {
