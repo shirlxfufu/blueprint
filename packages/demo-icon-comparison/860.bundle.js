@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_blueprintjs_demo_icon_comparison=self.webpackChunk_blueprintjs_demo_icon_comparison||[]).push([[860],{1219:function(n,o,c){c.d(o,{getIconPaths:function(){return i}});var e=c(2329),t=c(2590),s=c(2969),u=c(6638);function i(n,o){const c=(0,e.fL)(n);return o===u.l.STANDARD?t[c]:s[c]}}}]);
