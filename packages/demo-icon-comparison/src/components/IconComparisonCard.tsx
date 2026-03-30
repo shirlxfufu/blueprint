@@ -11,8 +11,8 @@ interface IconComparisonCardProps {
   hasMajorChange: boolean;
   isManuallyTagged: boolean;
   newName?: string;
-  aiSuggestedName?: string;
-  isNameManuallyOverridden?: boolean;
+  nameStatus?: 'renamed' | 'keep-as-is';
+  isEdited?: boolean;
   onToggleUnfilled: () => void;
   onToggleMajorChange: () => void;
   onRename: (newName: string) => void;
@@ -27,8 +27,8 @@ export const IconComparisonCard: React.FC<IconComparisonCardProps> = ({
   hasMajorChange,
   isManuallyTagged,
   newName,
-  aiSuggestedName,
-  isNameManuallyOverridden,
+  nameStatus,
+  isEdited,
   onToggleUnfilled,
   onToggleMajorChange,
   onRename,
@@ -37,9 +37,11 @@ export const IconComparisonCard: React.FC<IconComparisonCardProps> = ({
   const [renameValue, setRenameValue] = useState(newName || '');
 
   // Determine if we should show naming indicators
+  const showRenamedTag = nameStatus === 'renamed' && !isEdited;
+  const showKeepAsIsTag = nameStatus === 'keep-as-is' && !isEdited;
+  const showEditedTag = isEdited;
+  const hasAnyNameTag = showRenamedTag || showKeepAsIsTag || showEditedTag;
   const hasNameChange = newName && newName !== iconName;
-  const showAIIndicator = hasNameChange && !isNameManuallyOverridden;
-  const showManualIndicator = hasNameChange && isNameManuallyOverridden;
 
   const handleRenameBlur = () => {
     setIsEditingName(false);
@@ -114,18 +116,27 @@ export const IconComparisonCard: React.FC<IconComparisonCardProps> = ({
             </span>
           )}
 
-          {/* AI Named / Manual Override Tag */}
-          {showAIIndicator && (
+          {/* Renamed Tag */}
+          {showRenamedTag && (
             <span className={`${styles.tag} ${styles.tagActive}`} style={{ backgroundColor: 'rgba(92, 112, 224, 0.15)', borderColor: 'rgba(92, 112, 224, 0.3)' }}>
-              <Icon icon="star" size={12} style={{ opacity: 0.7 }} />
-              AI Named
+              <Icon icon="exchange" size={12} style={{ opacity: 0.7 }} />
+              Renamed
             </span>
           )}
 
-          {showManualIndicator && (
-            <span className={`${styles.tag} ${styles.tagActive}`} style={{ backgroundColor: 'rgba(92, 112, 224, 0.15)', borderColor: 'rgba(92, 112, 224, 0.3)' }}>
+          {/* Keep As-Is Tag */}
+          {showKeepAsIsTag && (
+            <span className={`${styles.tag} ${styles.tagActive}`} style={{ backgroundColor: 'rgba(16, 168, 107, 0.15)', borderColor: 'rgba(16, 168, 107, 0.3)' }}>
+              <Icon icon="tick-circle" size={12} style={{ opacity: 0.7 }} />
+              Keep As-Is
+            </span>
+          )}
+
+          {/* Edited Tag */}
+          {showEditedTag && (
+            <span className={`${styles.tag} ${styles.tagActive}`} style={{ backgroundColor: 'rgba(138, 92, 224, 0.15)', borderColor: 'rgba(138, 92, 224, 0.3)' }}>
               <Icon icon="edit" size={12} style={{ opacity: 0.7 }} />
-              Manual Override
+              Edited
             </span>
           )}
         </div>
@@ -170,10 +181,11 @@ export const IconComparisonCard: React.FC<IconComparisonCardProps> = ({
             {/* Name display - click to edit */}
             <div style={{ position: 'relative', width: '100%', minHeight: '28px' }}>
               {/* Icon indicator - always rendered to prevent movement */}
-              {(showAIIndicator || showManualIndicator) && (
+              {hasAnyNameTag && (
                 <div style={{ position: 'absolute', right: '4px', top: '50%', transform: 'translateY(-50%)', zIndex: 10, pointerEvents: 'none' }}>
-                  {showAIIndicator && <Icon icon="star" size={12} style={{ color: '#5C70E0', opacity: 0.7 }} />}
-                  {showManualIndicator && <Icon icon="edit" size={12} style={{ color: '#5C70E0', opacity: 0.7 }} />}
+                  {showRenamedTag && <Icon icon="exchange" size={12} style={{ color: '#5C70E0', opacity: 0.7 }} />}
+                  {showKeepAsIsTag && <Icon icon="tick-circle" size={12} style={{ color: '#10A86B', opacity: 0.7 }} />}
+                  {showEditedTag && <Icon icon="edit" size={12} style={{ color: '#8A5CE0', opacity: 0.7 }} />}
                 </div>
               )}
 
@@ -187,10 +199,10 @@ export const IconComparisonCard: React.FC<IconComparisonCardProps> = ({
                   onKeyDown={handleRenameKeyPress}
                   placeholder={iconName}
                   autoFocus
-                  style={{ paddingRight: (showAIIndicator || showManualIndicator) ? '28px' : '4px' }}
+                  style={{ paddingRight: hasAnyNameTag ? '28px' : '4px' }}
                 />
               ) : (
-                <div style={{ display: 'flex', alignItems: 'center', padding: '4px 0', paddingRight: (showAIIndicator || showManualIndicator) ? '28px' : '4px', cursor: 'text', borderRadius: '3px', transition: 'background-color 150ms' }} onClick={handleNameClick}>
+                <div style={{ display: 'flex', alignItems: 'center', padding: '4px 0', paddingRight: hasAnyNameTag ? '28px' : '4px', cursor: 'text', borderRadius: '3px', transition: 'background-color 150ms' }} onClick={handleNameClick}>
                   <span style={hasNameChange ? { fontSize: '14px', fontWeight: 500, color: '#5C70E0', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' } : { fontSize: '14px', fontWeight: 400, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
                     {newName || iconName}
                   </span>
