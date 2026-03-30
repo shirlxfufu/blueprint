@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-03-30T21:10:46.993Z",
+  "totalRenamed": 413,
+  "rules": [
+    {
+      "rule": "Rule 1: Action Verbs → Visual Objects",
+      "rationale": "Name what you SEE, not what it DOES",
+      "examples": [
+        "search → magnifying-glass",
+        "edit → pencil",
+        "filter → funnel",
+        "add → plus",
+        "remove → minus"
+      ]
+    },
+    {
+      "rule": "Rule 2: \"add\"/\"new\" Prefix → \"{object}-plus\" Suffix",
+      "rationale": "Move action to end, make object primary",
+      "examples": [
+        "add-application → window-plus",
+        "add-child → box-plus-below",
+        "add-clip → clip-plus",
+        "add-column-left → column-plus-left",
+        "add-column-right → column-plus-right"
+      ]
+    },
+    {
+      "rule": "Rule 3: Text Alignment → \"text-\" Prefix",
+      "rationale": "Clarify context for alignment icons",
+      "examples": [
+        "align-center → text-align-center",
+        "align-justify → text-align-justify",
+        "align-left → text-align-left",
+        "align-right → text-align-right",
+        "alignment-bottom → text-align-bottom"
+      ]
+    },
+    {
+      "rule": "Rule 4: \"flow\" → Use Specific Visual Pattern",
+      "rationale": "Avoid generic \"flow\", describe the visual (circles-arrows, diagram, etc.)",
+      "examples": [
+        "flow-branch → circles-arrows-branch",
+        "flow-end → arrow-right-circle",
+        "flow-linear → circles-arrow-linear",
+        "flow-review-branch → circles-arrows-branch-bidirectional",
+        "flow-review → circles-arrows-bidirectional"
+      ]
+    },
+    {
+      "rule": "Rule 5: \"array-{type}\" → \"brackets-square-{descriptor}\"",
+      "rationale": "Use visual descriptor (brackets) not programming concept (array)",
+      "examples": [
+        "array-boolean → brackets-square-toggle",
+        "array-date → brackets-square-calendar",
+        "array-floating-point → brackets-square-decimal",
+        "array-numeric → brackets-square-123",
+        "array-object → brackets-square-curly"
+      ]
+    },
+    {
+      "rule": "Rule 6: \"th\" → \"table\"",
+      "rationale": "No abbreviations - use full word",
+      "examples": [
+        "th-add → table-plus",
+        "th-derived → table-derived",
+        "th-disconnect → table-disconnect",
+        "th-filtered → table-filtered",
+        "th-list-add → table-list-plus",
+        "th-list → table-list",
+        "th-virtual-add → table-virtual-plus",
+        "th-virtual → table-virtual",
+        "th → table"
+      ]
+    }
+  ]
+}

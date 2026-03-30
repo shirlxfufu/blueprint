@@ -1,0 +1,3532 @@
+{
+  "metadata": {
+    "generatedAt": "2026-03-30T21:08:54.678Z",
+    "totalIcons": 704,
+    "renamedCount": 413,
+    "keptAsIsCount": 291,
+    "renamedPercentage": "58.7%",
+    "keptAsIsPercentage": "41.3%"
+  },
+  "icons": [
+    {
+      "oldName": "add",
+      "newName": "plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "add-application",
+      "newName": "window-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "add-child",
+      "newName": "box-plus-below",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "add-clip",
+      "newName": "clip-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "add-column-left",
+      "newName": "column-plus-left",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "add-column-right",
+      "newName": "column-plus-right",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "add-derived-column",
+      "newName": "column-plus-branch",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "add-location",
+      "newName": "map-pin-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "add-parent",
+      "newName": "box-plus-above",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "add-row-bottom",
+      "newName": "row-plus-bottom",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "add-row-top",
+      "newName": "row-plus-top",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "add-tile",
+      "newName": "tile-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "add-to-artifact",
+      "newName": "list-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "add-to-folder",
+      "newName": "folder-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "aimpoints-target",
+      "newName": "circle-plus-orbit",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "align-center",
+      "newName": "text-align-center",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "align-justify",
+      "newName": "text-align-justify",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "align-left",
+      "newName": "text-align-left",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "align-right",
+      "newName": "text-align-right",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "alignment-bottom",
+      "newName": "text-align-bottom",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "alignment-horizontal-center",
+      "newName": "text-align-horizontal-center",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "alignment-left",
+      "newName": "text-align-left",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "alignment-right",
+      "newName": "text-align-right",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "alignment-top",
+      "newName": "text-align-top",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "alignment-vertical-center",
+      "newName": "text-align-vertical-center",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "ammunition",
+      "newName": "bullets-three",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "anchor",
+      "newName": "anchor-ship",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "annotation",
+      "newName": "pencil-square",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "announcement",
+      "newName": "megaphone",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "app-header",
+      "newName": "rectangle-header-lines",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "application",
+      "newName": "window-lines-horizontal",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "applications",
+      "newName": "windows-stacked",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "archive",
+      "newName": "box-arrow-down",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "area-of-interest",
+      "newName": "map-pin-area",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "array",
+      "newName": "brackets-square",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "array-boolean",
+      "newName": "brackets-square-toggle",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "array-date",
+      "newName": "brackets-square-calendar",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "array-floating-point",
+      "newName": "brackets-square-decimal",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "array-numeric",
+      "newName": "brackets-square-123",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "array-object",
+      "newName": "brackets-square-curly",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "array-string",
+      "newName": "brackets-square-quotes",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "array-timestamp",
+      "newName": "brackets-square-clock",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "arrow-bottom-left",
+      "newName": "arrow-down-left",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "arrow-bottom-right",
+      "newName": "arrow-down-right",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "arrow-top-left",
+      "newName": "arrow-up-left",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "arrow-top-right",
+      "newName": "arrow-up-right",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "arrows-arc",
+      "newName": "arrows-corner-arc",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "arrows-horizontal",
+      "newName": "arrows-left-right",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "arrows-vertical",
+      "newName": "arrows-up-down",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "at",
+      "newName": "at-sign",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "automatic-updates",
+      "newName": "arrow-circular-check",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "axle",
+      "newName": "axle-wheels",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "backlink",
+      "newName": "link-arrow-left",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "backward-ten",
+      "newName": "arrow-circular-10-left",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "badge",
+      "newName": "badge-shield",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "ban-circle",
+      "newName": "circle-slash",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "bank-account",
+      "newName": "piggy-bank",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "binary-number",
+      "newName": "zero-one",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "block-promote",
+      "newName": "rectangle-arrows-t-shape",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "blocked-person",
+      "newName": "person-slash",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "bold",
+      "newName": "text-b",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "book",
+      "newName": "book-open",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "bookmark",
+      "newName": "bookmark-ribbon",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "box",
+      "newName": "box-cube",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "branch-locked",
+      "newName": "git-branch-padlock",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "branch-unlocked",
+      "newName": "git-branch-padlock-open",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "bring-data",
+      "newName": "database-arrow-down",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "bring-forward",
+      "newName": "layers-arrow-forward",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "british-pound",
+      "newName": "currency-pound",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "bug",
+      "newName": "bug-insect",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "build",
+      "newName": "hammer",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "bullseye",
+      "newName": "circles-concentric-arrow",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "cargo-ship",
+      "newName": "cargo-ship-containers",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "changes",
+      "newName": "arrows-up-down-bar",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "chart",
+      "newName": "chart-line-up",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "chat",
+      "newName": "chat-bubbles",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "chevron-backward",
+      "newName": "chevron-double-left",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "chevron-forward",
+      "newName": "chevron-double-right",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "circle-arrow-down",
+      "newName": "arrow-down-circle",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "circle-arrow-left",
+      "newName": "arrow-left-circle",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "circle-arrow-right",
+      "newName": "arrow-right-circle",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "circle-arrow-up",
+      "newName": "arrow-up-circle",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "citation",
+      "newName": "quote-brackets",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "clean",
+      "newName": "broom",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "clip",
+      "newName": "corners-circle-focus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "clipboard-file",
+      "newName": "clipboard-document",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "cloud-download",
+      "newName": "cloud-arrow-down",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "cloud-server",
+      "newName": "cloud-servers",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "cloud-tick",
+      "newName": "cloud-check",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "cloud-upload",
+      "newName": "cloud-arrow-up",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "code",
+      "newName": "code-brackets-slash",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "code-block",
+      "newName": "code-brackets-document",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "cog",
+      "newName": "cog-gear",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "collapse-all",
+      "newName": "arrows-in",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "color-fill",
+      "newName": "paint-bucket",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "column-layout",
+      "newName": "columns-three",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "comment",
+      "newName": "comment-bubble",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "comparison",
+      "newName": "bars-split",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "compressed",
+      "newName": "package-arrow-down",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "confirm",
+      "newName": "check-circle",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "console-alert",
+      "newName": "console-exclamation",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "control",
+      "newName": "sliders-horizontal",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "crop",
+      "newName": "crop-corners",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "cross",
+      "newName": "cross-x",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "cross-circle",
+      "newName": "circle-x",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "css-style",
+      "newName": "css-brackets",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "cube",
+      "newName": "cube-3d",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "cube-add",
+      "newName": "cube-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "cube-cutouts",
+      "newName": "cubes-overlapped",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "cube-edit",
+      "newName": "cube-pencil",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "cube-remove",
+      "newName": "cube-minus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "cubes",
+      "newName": "cubes-stacked",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "curly-braces",
+      "newName": "brackets-curly",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "curved-range-chart",
+      "newName": "chart-curved-range",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "cut",
+      "newName": "scissors",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "cycle",
+      "newName": "bicycle",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "dashboard",
+      "newName": "gauge",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "data-cloud",
+      "newName": "cloud-database",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "data-connection",
+      "newName": "database-lightning",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "data-lineage",
+      "newName": "rectangles-connected-tree",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "data-search",
+      "newName": "database-magnifying-glass",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "data-sync",
+      "newName": "database-arrows-circular",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "delete",
+      "newName": "trash",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "delete-clip",
+      "newName": "clip-x",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "delta",
+      "newName": "delta-triangle",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "derive-column",
+      "newName": "column-branch",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "descendant",
+      "newName": "arrow-down-square-below",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "desktop",
+      "newName": "desktop-monitor",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "detection",
+      "newName": "radar",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "diagnosis",
+      "newName": "stethoscope-clipboard",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "diagram-tree",
+      "newName": "squares-tree-connected",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "direction-left",
+      "newName": "triangle-arrow-left",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "direction-right",
+      "newName": "triangle-arrow-right",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "disable",
+      "newName": "slash-circle",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "divide",
+      "newName": "divide-dots",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "document-code",
+      "newName": "document-code-brackets",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "document-locked",
+      "newName": "document-padlock",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "document-open",
+      "newName": "document-arrow-down",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "document-share",
+      "newName": "document-arrow-up-right",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "dollar",
+      "newName": "currency-dollar",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "dot",
+      "newName": "dot-circle",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "double-caret-horizontal",
+      "newName": "carets-double-horizontal",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "double-caret-vertical",
+      "newName": "carets-double-vertical",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "double-chevron-down",
+      "newName": "chevrons-double-down",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "doughnut-chart",
+      "newName": "chart-doughnut",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "download",
+      "newName": "arrow-down-tray",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "draw",
+      "newName": "pencil-drawing",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "drive-time",
+      "newName": "car-clock",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "duplicate",
+      "newName": "squares-overlapped",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "edit",
+      "newName": "pencil",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "endorsed",
+      "newName": "check-endorsed",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "engagement",
+      "newName": "handshake-target",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "euro",
+      "newName": "currency-euro",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "exchange",
+      "newName": "circles-arrows-circular",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "exclude-row",
+      "newName": "row-x",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "expand-all",
+      "newName": "arrows-out",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "explain",
+      "newName": "circle-lightning-quarter",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "eye-off",
+      "newName": "eye-closed",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "eye-on",
+      "newName": "eye-open",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "feed",
+      "newName": "list-feed",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "feed-subscribed",
+      "newName": "rss-bell",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "filter",
+      "newName": "funnel",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "filter-keep",
+      "newName": "funnel-check",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "filter-list",
+      "newName": "funnel-list",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "filter-open",
+      "newName": "funnel-open",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "filter-remove",
+      "newName": "funnel-x",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "filter-sort-asc",
+      "newName": "funnel-arrow-up",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "filter-sort-desc",
+      "newName": "funnel-arrow-down",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "floating-point",
+      "newName": "one-point-zero",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "flow-branch",
+      "newName": "circles-arrows-branch",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "flow-end",
+      "newName": "arrow-right-circle",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "flow-linear",
+      "newName": "circles-arrow-linear",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "flow-review",
+      "newName": "circles-arrows-bidirectional",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "flow-review-branch",
+      "newName": "circles-arrows-branch-bidirectional",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "flows",
+      "newName": "diagram-flow",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "folder-close",
+      "newName": "folder-closed",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "folder-new",
+      "newName": "folder-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "follower",
+      "newName": "person-arrow-right",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "following",
+      "newName": "person-arrow-left",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "font",
+      "newName": "text-font",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "fork",
+      "newName": "path-split-right",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "fork-end",
+      "newName": "path-join-right",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "form",
+      "newName": "checkbox-box-lines",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "full-stacked-chart",
+      "newName": "chart-bars-stacked",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "fullscreen",
+      "newName": "arrows-outward",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "function",
+      "newName": "fx-parentheses",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "function-minimal",
+      "newName": "f-slash",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "gantt-chart",
+      "newName": "chart-gantt",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "generate",
+      "newName": "sparkle",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "geofence",
+      "newName": "map-pin-square-corner",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "geolocation",
+      "newName": "location-pin-arrow",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "geosearch",
+      "newName": "globe-magnifying-glass",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "geotime",
+      "newName": "clock-map-pin",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "git-new-branch",
+      "newName": "git-branch-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "git-push",
+      "newName": "git-arrow-up",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "git-rebase",
+      "newName": "git-branches-joined",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "globe-network-add",
+      "newName": "globe-network-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "graph",
+      "newName": "circles-lines-connected",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "graph-remove",
+      "newName": "graph-minus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "greater-than-or-equal-to",
+      "newName": "greater-than-equal",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "group-item",
+      "newName": "shapes-diamond-squares",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "group-objects",
+      "newName": "shapes-grouped",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "grouped-bar-chart",
+      "newName": "chart-bars-grouped",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "header",
+      "newName": "text-header",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "header-one",
+      "newName": "text-h1",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "header-three",
+      "newName": "text-h3",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "header-two",
+      "newName": "text-h2",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "heat-grid",
+      "newName": "grid-gradient-cells",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "helper-management",
+      "newName": "question-circle-grid",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "history",
+      "newName": "clock-counter-clockwise",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "horizontal-bar-chart",
+      "newName": "chart-bars-horizontal",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "horizontal-bar-chart-asc",
+      "newName": "chart-bars-horizontal-ascending",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "horizontal-bar-chart-desc",
+      "newName": "chart-bars-horizontal-descending",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "id-number",
+      "newName": "card-badge-lines",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "image-rotate-left",
+      "newName": "image-arrow-counter-clockwise",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "image-rotate-right",
+      "newName": "image-arrow-clockwise",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "inbox-search",
+      "newName": "inbox-magnifying-glass",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "info-sign",
+      "newName": "info-circle",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "inheritance",
+      "newName": "arrow-curved-down-left",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "inherited-group",
+      "newName": "people-arrow-right",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "inner-join",
+      "newName": "circles-overlap-filled",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "input",
+      "newName": "semicircle-arrow-in",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "insert",
+      "newName": "plus-square",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "intelligence",
+      "newName": "brain-lightbulb",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "intersection",
+      "newName": "circles-overlap-center-only",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "ip-address",
+      "newName": "map-pin-10",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "issue",
+      "newName": "exclamation-circle",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "issue-closed",
+      "newName": "issue-checkmark",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "issue-new",
+      "newName": "issue-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "italic",
+      "newName": "text-italic",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "join-table",
+      "newName": "tables-joined",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "known-vehicle",
+      "newName": "car-check",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "layers",
+      "newName": "layers-stacked",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "layout-three-columns",
+      "newName": "columns-three",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "layout-three-rows",
+      "newName": "rows-three",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "layout-two-columns",
+      "newName": "columns-two",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "layout-two-rows",
+      "newName": "rows-two",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "learning",
+      "newName": "brain-book",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "left-join",
+      "newName": "circles-overlap-left-filled",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "lengthen-text",
+      "newName": "text-lines-arrow-right",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "less-than-or-equal-to",
+      "newName": "less-than-equal",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "locate",
+      "newName": "map-pin-target",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "manual",
+      "newName": "hand-pointing",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "manually-entered-data",
+      "newName": "spreadsheet-hand",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "maximize",
+      "newName": "arrows-out-corners",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "menu",
+      "newName": "menu-hamburger",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "menu-open",
+      "newName": "menu-hamburger",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "merge-columns",
+      "newName": "columns-arrows-in",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "merge-links",
+      "newName": "links-arrows-in",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "minimize",
+      "newName": "arrows-in-corners",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "model",
+      "newName": "mountain-wave",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "more",
+      "newName": "dots-three-horizontal",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "move",
+      "newName": "arrows-four-way",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "mugshot",
+      "newName": "person-square-frame",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "multi-select",
+      "newName": "checkboxes-multiple",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "nest",
+      "newName": "arrow-curved-return",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "new-comment",
+      "newName": "comment-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "new-drawing",
+      "newName": "drawing-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "new-grid-item",
+      "newName": "grid-item-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "new-layer",
+      "newName": "layer-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "new-layers",
+      "newName": "layers-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "new-link",
+      "newName": "link-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "new-object",
+      "newName": "object-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "new-person",
+      "newName": "person-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "new-prescription",
+      "newName": "prescription-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "new-shield",
+      "newName": "shield-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "new-text-box",
+      "newName": "text-box-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "not-equal-to",
+      "newName": "not-equal",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "notifications",
+      "newName": "bell",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "notifications-add",
+      "newName": "bell-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "notifications-snooze",
+      "newName": "bell-zzz",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "notifications-updated",
+      "newName": "bell-dot",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "numbered-list",
+      "newName": "list-numbers",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "numerical",
+      "newName": "one-two-three",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "object-view",
+      "newName": "cube-frame-corners",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "offline",
+      "newName": "circle-lightning",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "one-column",
+      "newName": "column-one",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "open-application",
+      "newName": "window-arrow-up",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "outdated",
+      "newName": "arrow-circular-exclamation",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "outer-join",
+      "newName": "circles-overlap-outer-filled",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "output",
+      "newName": "semicircle-arrow-out",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "package",
+      "newName": "cube-3d",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "page-break",
+      "newName": "rectangles-dashed-line-between",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "page-layout",
+      "newName": "page-sections-grid",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "panel",
+      "newName": "rectangle-sidebar-right",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "panel-stats",
+      "newName": "panel-chart-lines",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "panel-table",
+      "newName": "panel-table-grid",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "paragraph",
+      "newName": "text-paragraph",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "paste-variable",
+      "newName": "clipboard-variable",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "path-search",
+      "newName": "path-magnifying-glass",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "phone-search",
+      "newName": "phone-magnifying-glass",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "pie-chart",
+      "newName": "chart-pie",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "pin",
+      "newName": "pushpin",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "pivot",
+      "newName": "arrows-corner-rotate",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "pivot-table",
+      "newName": "grid-arrows-swap",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "playbook",
+      "newName": "diagram-x-arrows",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "popout",
+      "newName": "arrow-square-out",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "predictive-analysis",
+      "newName": "brain",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "print",
+      "newName": "printer",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "projects",
+      "newName": "briefcase",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "properties",
+      "newName": "list-bullets",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "property",
+      "newName": "list-bullets-mixed",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "publish-function",
+      "newName": "package-arrow-up",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "random",
+      "newName": "arrows-crossed",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "refresh",
+      "newName": "arrows-clockwise",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "refresh-off",
+      "newName": "arrows-clockwise-slash",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "regex",
+      "newName": "asterisk-dot",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "regression-chart",
+      "newName": "chart-regression",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "remove",
+      "newName": "minus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "remove-column",
+      "newName": "column-minus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "remove-column-left",
+      "newName": "column-minus-left",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "remove-column-right",
+      "newName": "column-minus-right",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "remove-row-bottom",
+      "newName": "row-minus-bottom",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "remove-row-top",
+      "newName": "row-minus-top",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "repeat",
+      "newName": "arrow-circular-clockwise-square",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "reset",
+      "newName": "arrow-counter-clockwise-square",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "resolve",
+      "newName": "check-shield",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "right-join",
+      "newName": "circles-overlap-right-filled",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "root-folder",
+      "newName": "folder-tree-root",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "rotate-ccw",
+      "newName": "arrow-counter-clockwise",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "rotate-cw",
+      "newName": "arrow-clockwise",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "rotate-document",
+      "newName": "document-rotation",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "rotate-page",
+      "newName": "page-rotation",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "route",
+      "newName": "map-pins-path",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "saved",
+      "newName": "check-saved",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "scatter-plot",
+      "newName": "chart-scatter",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "search",
+      "newName": "magnifying-glass",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "search-around",
+      "newName": "magnifying-glass-area",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "search-template",
+      "newName": "magnifying-glass-document",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "search-text",
+      "newName": "magnifying-glass-text",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "segmented-control",
+      "newName": "buttons-segmented",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "select",
+      "newName": "cursor-selection",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "selection",
+      "newName": "circles-concentric-target",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "selection-box-add",
+      "newName": "selection-box-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "selection-box-remove",
+      "newName": "selection-box-minus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "send-backward",
+      "newName": "layers-arrow-backward",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "send-message",
+      "newName": "paper-plane",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "send-to",
+      "newName": "arrow-share",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "send-to-graph",
+      "newName": "chart-arrow",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "send-to-map",
+      "newName": "map-arrow",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "series-add",
+      "newName": "series-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "series-configuration",
+      "newName": "chart-settings",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "series-derived",
+      "newName": "chart-line-arrow-up",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "series-filtered",
+      "newName": "chart-line-funnel",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "series-search",
+      "newName": "series-magnifying-glass",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "settings",
+      "newName": "gear",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "shapes",
+      "newName": "circle-triangle-square",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "shared-filter",
+      "newName": "shared-funnel",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "shorten-text",
+      "newName": "text-lines-arrow-left",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "signal-search",
+      "newName": "signal-magnifying-glass",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "small-info-sign",
+      "newName": "info-circle-small",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "sort",
+      "newName": "bars-ascending",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "sort-alphabetical",
+      "newName": "letters-ascending",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "sort-alphabetical-desc",
+      "newName": "letters-descending",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "sort-asc",
+      "newName": "bars-arrow-up",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "sort-desc",
+      "newName": "bars-arrow-down",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "sort-numerical",
+      "newName": "numbers-ascending",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "sort-numerical-desc",
+      "newName": "numbers-descending",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "spell-check",
+      "newName": "letter-a-check",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "spin",
+      "newName": "arrows-spiral-refresh",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "split-columns",
+      "newName": "columns-arrows-out",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "stacked-chart",
+      "newName": "chart-stacked",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "star-empty",
+      "newName": "star-outline",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "step-backward",
+      "newName": "step-left",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "step-chart",
+      "newName": "chart-step",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "step-forward",
+      "newName": "step-right",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "strikethrough",
+      "newName": "text-strikethrough",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "style",
+      "newName": "text-style",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "subtract-right-join",
+      "newName": "circles-overlap-left-minus-center",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "swap-horizontal",
+      "newName": "arrows-swap-horizontal",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "swap-vertical",
+      "newName": "arrows-swap-vertical",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "sweep",
+      "newName": "broom",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "switch",
+      "newName": "toggle",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "tag-add",
+      "newName": "tag-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "take-action",
+      "newName": "hand-pen-diagonal",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "target",
+      "newName": "circle-crosshair",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "th",
+      "newName": "table",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "th-add",
+      "newName": "table-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "th-derived",
+      "newName": "table-derived",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "th-disconnect",
+      "newName": "table-disconnect",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "th-filtered",
+      "newName": "table-filtered",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "th-list",
+      "newName": "table-list",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "th-list-add",
+      "newName": "table-list-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "th-virtual",
+      "newName": "table-virtual",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "th-virtual-add",
+      "newName": "table-virtual-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "third-party",
+      "newName": "people-globe",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "tick-circle",
+      "newName": "check-circle",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "timeline-area-chart",
+      "newName": "timeline-chart-area",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "timeline-bar-chart",
+      "newName": "timeline-chart-bars",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "timeline-events",
+      "newName": "timeline-dots",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "timeline-line-chart",
+      "newName": "timeline-chart-line",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "translate",
+      "newName": "letter-a-globe",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "trending-down",
+      "newName": "arrow-trending-down",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "trending-up",
+      "newName": "arrow-trending-up",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "unarchive",
+      "newName": "box-arrow-up",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "underline",
+      "newName": "text-underline",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "ungroup-objects",
+      "newName": "shapes-ungrouped",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "unknown-vehicle",
+      "newName": "car-question",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "unpin",
+      "newName": "pushpin-slash",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "unresolve",
+      "newName": "x-shield",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "updated",
+      "newName": "arrow-circular-check",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "upload",
+      "newName": "arrow-up-tray",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "variable",
+      "newName": "x-curly-braces",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "vertical-bar-chart-asc",
+      "newName": "chart-bars-vertical-ascending",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "vertical-bar-chart-desc",
+      "newName": "chart-bars-vertical-descending",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "walk",
+      "newName": "person-walking",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "warning-sign",
+      "newName": "exclamation-triangle",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "waterfall-chart",
+      "newName": "chart-waterfall",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "wrap-lines",
+      "newName": "text-lines-curved-arrow",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "yen",
+      "newName": "currency-yen",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "zoom-in",
+      "newName": "magnifying-glass-plus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "zoom-out",
+      "newName": "magnifying-glass-minus",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "zoom-to-fit",
+      "newName": "frame-corners",
+      "tag": "renamed"
+    },
+    {
+      "oldName": "airplane",
+      "newName": "airplane",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "antenna",
+      "newName": "antenna",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "arrow-down",
+      "newName": "arrow-down",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "arrow-left",
+      "newName": "arrow-left",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "arrow-right",
+      "newName": "arrow-right",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "arrow-up",
+      "newName": "arrow-up",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "asterisk",
+      "newName": "asterisk",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "barcode",
+      "newName": "barcode",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "blank",
+      "newName": "blank",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "briefcase",
+      "newName": "briefcase",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "buggy",
+      "newName": "buggy",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "calculator",
+      "newName": "calculator",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "calendar",
+      "newName": "calendar",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "camera",
+      "newName": "camera",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "caret-down",
+      "newName": "caret-down",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "caret-left",
+      "newName": "caret-left",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "caret-right",
+      "newName": "caret-right",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "caret-up",
+      "newName": "caret-up",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "cell-tower",
+      "newName": "cell-tower",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "chevron-down",
+      "newName": "chevron-down",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "chevron-left",
+      "newName": "chevron-left",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "chevron-right",
+      "newName": "chevron-right",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "chevron-up",
+      "newName": "chevron-up",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "circle",
+      "newName": "circle",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "circle-dashed",
+      "newName": "circle-dashed",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "clipboard",
+      "newName": "clipboard",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "cloud",
+      "newName": "cloud",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "compass",
+      "newName": "compass",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "console",
+      "newName": "console",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "construction",
+      "newName": "construction",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "contrast",
+      "newName": "contrast",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "credit-card",
+      "newName": "credit-card",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "crown",
+      "newName": "crown",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "cube-cutout",
+      "newName": "cube-cutout",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "database",
+      "newName": "database",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "document",
+      "newName": "document",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "double-chevron-left",
+      "newName": "double-chevron-left",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "double-chevron-right",
+      "newName": "double-chevron-right",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "double-chevron-up",
+      "newName": "double-chevron-up",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "drag-handle-horizontal",
+      "newName": "drag-handle-horizontal",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "drag-handle-vertical",
+      "newName": "drag-handle-vertical",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "drawer-left",
+      "newName": "drawer-left",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "drawer-left-filled",
+      "newName": "drawer-left-filled",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "drawer-right",
+      "newName": "drawer-right",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "drawer-right-filled",
+      "newName": "drawer-right-filled",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "drone",
+      "newName": "drone",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "drone-uav",
+      "newName": "drone-uav",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "eject",
+      "newName": "eject",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "emoji",
+      "newName": "emoji",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "endnote",
+      "newName": "endnote",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "envelope",
+      "newName": "envelope",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "equals",
+      "newName": "equals",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "eraser",
+      "newName": "eraser",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "error",
+      "newName": "error",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "excavator",
+      "newName": "excavator",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "export",
+      "newName": "export",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "eye-open",
+      "newName": "eye-open",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "fast-backward",
+      "newName": "fast-backward",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "fast-forward",
+      "newName": "fast-forward",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "fighter-jet",
+      "newName": "fighter-jet",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "film",
+      "newName": "film",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "flag",
+      "newName": "flag",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "flame",
+      "newName": "flame",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "flash",
+      "newName": "flash",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "floppy-disk",
+      "newName": "floppy-disk",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "folder-open",
+      "newName": "folder-open",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "folder-shared",
+      "newName": "folder-shared",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "folder-shared-open",
+      "newName": "folder-shared-open",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "forward-ten",
+      "newName": "forward-ten",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "fuel",
+      "newName": "fuel",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "full-circle",
+      "newName": "full-circle",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "gift-box",
+      "newName": "gift-box",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "git-branch",
+      "newName": "git-branch",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "git-commit",
+      "newName": "git-commit",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "git-merge",
+      "newName": "git-merge",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "git-pull",
+      "newName": "git-pull",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "git-repo",
+      "newName": "git-repo",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "glass",
+      "newName": "glass",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "globe",
+      "newName": "globe",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "globe-network",
+      "newName": "globe-network",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "greater-than",
+      "newName": "greater-than",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "grid",
+      "newName": "grid",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "grid-view",
+      "newName": "grid-view",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "hand",
+      "newName": "hand",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "hand-down",
+      "newName": "hand-down",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "hand-left",
+      "newName": "hand-left",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "hand-right",
+      "newName": "hand-right",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "hand-up",
+      "newName": "hand-up",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "hat",
+      "newName": "hat",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "headset",
+      "newName": "headset",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "heart",
+      "newName": "heart",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "heart-broken",
+      "newName": "heart-broken",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "heatmap",
+      "newName": "heatmap",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "helicopter",
+      "newName": "helicopter",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "help",
+      "newName": "help",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "hexagon",
+      "newName": "hexagon",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "high-priority",
+      "newName": "high-priority",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "high-voltage-pole",
+      "newName": "high-voltage-pole",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "highlight",
+      "newName": "highlight",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "home",
+      "newName": "home",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "horizontal-distribution",
+      "newName": "horizontal-distribution",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "horizontal-inbetween",
+      "newName": "horizontal-inbetween",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "hurricane",
+      "newName": "hurricane",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "import",
+      "newName": "import",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "inbox",
+      "newName": "inbox",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "inbox-filtered",
+      "newName": "inbox-filtered",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "inbox-geo",
+      "newName": "inbox-geo",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "inbox-update",
+      "newName": "inbox-update",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "key",
+      "newName": "key",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "key-backspace",
+      "newName": "key-backspace",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "key-command",
+      "newName": "key-command",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "key-control",
+      "newName": "key-control",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "key-delete",
+      "newName": "key-delete",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "key-enter",
+      "newName": "key-enter",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "key-escape",
+      "newName": "key-escape",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "key-option",
+      "newName": "key-option",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "key-shift",
+      "newName": "key-shift",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "key-tab",
+      "newName": "key-tab",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "lab-test",
+      "newName": "lab-test",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "label",
+      "newName": "label",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "layer",
+      "newName": "layer",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "layer-outline",
+      "newName": "layer-outline",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "layout",
+      "newName": "layout",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "layout-auto",
+      "newName": "layout-auto",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "layout-balloon",
+      "newName": "layout-balloon",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "layout-bottom-row-three-tiles",
+      "newName": "layout-bottom-row-three-tiles",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "layout-bottom-row-two-tiles",
+      "newName": "layout-bottom-row-two-tiles",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "layout-circle",
+      "newName": "layout-circle",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "layout-grid",
+      "newName": "layout-grid",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "layout-group-by",
+      "newName": "layout-group-by",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "layout-hierarchy",
+      "newName": "layout-hierarchy",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "layout-left-column-three-tiles",
+      "newName": "layout-left-column-three-tiles",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "layout-left-column-two-tiles",
+      "newName": "layout-left-column-two-tiles",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "layout-linear",
+      "newName": "layout-linear",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "layout-right-column-three-tiles",
+      "newName": "layout-right-column-three-tiles",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "layout-right-column-two-tiles",
+      "newName": "layout-right-column-two-tiles",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "layout-skew-grid",
+      "newName": "layout-skew-grid",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "layout-sorted-clusters",
+      "newName": "layout-sorted-clusters",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "layout-top-row-three-tiles",
+      "newName": "layout-top-row-three-tiles",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "layout-top-row-two-tiles",
+      "newName": "layout-top-row-two-tiles",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "less-than",
+      "newName": "less-than",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "lifesaver",
+      "newName": "lifesaver",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "lightbulb",
+      "newName": "lightbulb",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "lightning",
+      "newName": "lightning",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "link",
+      "newName": "link",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "linked-squares",
+      "newName": "linked-squares",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "list",
+      "newName": "list",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "list-columns",
+      "newName": "list-columns",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "list-detail-view",
+      "newName": "list-detail-view",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "lock",
+      "newName": "lock",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "locomotive",
+      "newName": "locomotive",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "log-in",
+      "newName": "log-in",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "log-out",
+      "newName": "log-out",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "low-voltage-pole",
+      "newName": "low-voltage-pole",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "many-to-many",
+      "newName": "many-to-many",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "many-to-one",
+      "newName": "many-to-one",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "map",
+      "newName": "map",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "map-create",
+      "newName": "map-create",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "map-marker",
+      "newName": "map-marker",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "markdown",
+      "newName": "markdown",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "media",
+      "newName": "media",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "menu-closed",
+      "newName": "menu-closed",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "microphone",
+      "newName": "microphone",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "minus",
+      "newName": "minus",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "mobile-phone",
+      "newName": "mobile-phone",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "mobile-video",
+      "newName": "mobile-video",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "modal",
+      "newName": "modal",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "modal-filled",
+      "newName": "modal-filled",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "moon",
+      "newName": "moon",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "mountain",
+      "newName": "mountain",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "music",
+      "newName": "music",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "ninja",
+      "newName": "ninja",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "office",
+      "newName": "office",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "oil-field",
+      "newName": "oil-field",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "one-to-many",
+      "newName": "one-to-many",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "one-to-one",
+      "newName": "one-to-one",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "paperclip",
+      "newName": "paperclip",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "path",
+      "newName": "path",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "pause",
+      "newName": "pause",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "people",
+      "newName": "people",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "percentage",
+      "newName": "percentage",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "person",
+      "newName": "person",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "phone",
+      "newName": "phone",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "phone-call",
+      "newName": "phone-call",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "phone-forward",
+      "newName": "phone-forward",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "pill",
+      "newName": "pill",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "pistol",
+      "newName": "pistol",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "play",
+      "newName": "play",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "plus",
+      "newName": "plus",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "polygon-filter",
+      "newName": "polygon-filter",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "power",
+      "newName": "power",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "prescription",
+      "newName": "prescription",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "presentation",
+      "newName": "presentation",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "pulse",
+      "newName": "pulse",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "rain",
+      "newName": "rain",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "range-ring",
+      "newName": "range-ring",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "record",
+      "newName": "record",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "rect-height",
+      "newName": "rect-height",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "rect-width",
+      "newName": "rect-width",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "rectangle",
+      "newName": "rectangle",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "redo",
+      "newName": "redo",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "rig",
+      "newName": "rig",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "ring",
+      "newName": "ring",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "rocket",
+      "newName": "rocket",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "rocket-slant",
+      "newName": "rocket-slant",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "run-history",
+      "newName": "run-history",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "satellite",
+      "newName": "satellite",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "selection-box",
+      "newName": "selection-box",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "selection-box-edit",
+      "newName": "selection-box-edit",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "sensor",
+      "newName": "sensor",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "server",
+      "newName": "server",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "server-install",
+      "newName": "server-install",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "share",
+      "newName": "share",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "shield",
+      "newName": "shield",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "ship",
+      "newName": "ship",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "shop",
+      "newName": "shop",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "shopping-cart",
+      "newName": "shopping-cart",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "sim-card",
+      "newName": "sim-card",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "slash",
+      "newName": "slash",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "small-cross",
+      "newName": "small-cross",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "small-minus",
+      "newName": "small-minus",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "small-plus",
+      "newName": "small-plus",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "small-square",
+      "newName": "small-square",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "small-tick",
+      "newName": "small-tick",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "snowflake",
+      "newName": "snowflake",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "soccer-ball",
+      "newName": "soccer-ball",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "social-media",
+      "newName": "social-media",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "sports-stadium",
+      "newName": "sports-stadium",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "square",
+      "newName": "square",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "stadium-geometry",
+      "newName": "stadium-geometry",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "star",
+      "newName": "star",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "stop",
+      "newName": "stop",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "stopwatch",
+      "newName": "stopwatch",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "subscript",
+      "newName": "subscript",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "superscript",
+      "newName": "superscript",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "symbol-circle",
+      "newName": "symbol-circle",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "symbol-cross",
+      "newName": "symbol-cross",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "symbol-diamond",
+      "newName": "symbol-diamond",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "symbol-rectangle",
+      "newName": "symbol-rectangle",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "symbol-square",
+      "newName": "symbol-square",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "symbol-triangle-down",
+      "newName": "symbol-triangle-down",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "symbol-triangle-up",
+      "newName": "symbol-triangle-up",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "syringe",
+      "newName": "syringe",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "table-sync",
+      "newName": "table-sync",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "tag",
+      "newName": "tag",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "tag-promote",
+      "newName": "tag-promote",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "tag-refresh",
+      "newName": "tag-refresh",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "tag-undo",
+      "newName": "tag-undo",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "tags",
+      "newName": "tags",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "tank",
+      "newName": "tank",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "taxi",
+      "newName": "taxi",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "team",
+      "newName": "team",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "temperature",
+      "newName": "temperature",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "text-highlight",
+      "newName": "text-highlight",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "thumbs-down",
+      "newName": "thumbs-down",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "thumbs-up",
+      "newName": "thumbs-up",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "tick",
+      "newName": "tick",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "time",
+      "newName": "time",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "tint",
+      "newName": "tint",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "torch",
+      "newName": "torch",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "tractor",
+      "newName": "tractor",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "train",
+      "newName": "train",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "trash",
+      "newName": "trash",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "tree",
+      "newName": "tree",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "trophy",
+      "newName": "trophy",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "truck",
+      "newName": "truck",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "two-columns",
+      "newName": "two-columns",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "undo",
+      "newName": "undo",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "unlink",
+      "newName": "unlink",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "unlock",
+      "newName": "unlock",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "user",
+      "newName": "user",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "variable-layer",
+      "newName": "variable-layer",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "vector",
+      "newName": "vector",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "vertical-distribution",
+      "newName": "vertical-distribution",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "vertical-inbetween",
+      "newName": "vertical-inbetween",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "video",
+      "newName": "video",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "virus",
+      "newName": "virus",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "volume-down",
+      "newName": "volume-down",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "volume-off",
+      "newName": "volume-off",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "volume-up",
+      "newName": "volume-up",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "waves",
+      "newName": "waves",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "widget",
+      "newName": "widget",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "widget-button",
+      "newName": "widget-button",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "widget-footer",
+      "newName": "widget-footer",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "widget-header",
+      "newName": "widget-header",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "wind",
+      "newName": "wind",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "won",
+      "newName": "won",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "wrench",
+      "newName": "wrench",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "wrench-redo",
+      "newName": "wrench-redo",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "wrench-snooze",
+      "newName": "wrench-snooze",
+      "tag": "keep-as-is"
+    },
+    {
+      "oldName": "wrench-time",
+      "newName": "wrench-time",
+      "tag": "keep-as-is"
+    }
+  ]
+}

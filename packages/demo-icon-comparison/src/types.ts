@@ -7,8 +7,8 @@ export interface IconData {
   hasMajorChange: boolean; // Major design change
   isManuallyTagged: boolean; // User manually set any tag
   newName?: string; // Renamed icon name
-  aiSuggestedName?: string; // AI-generated suggested name
-  isNameManuallyOverridden?: boolean; // User manually changed the name
+  nameStatus?: 'renamed' | 'keep-as-is'; // Icon naming status from mapping
+  isEdited?: boolean; // User manually edited the name
 }
 
 export interface IconMetadata {
