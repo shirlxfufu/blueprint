@@ -1,0 +1,132 @@
+// Copyright 2025 Palantir Technologies, Inc. All rights reserved.
+// Licensed under the Apache License, Version 2.0.
+
+// Blueprint 7 Typography Mixins
+// Updated typography mixins that use the new BP7 font system
+
+@use "typography-bp7" as bp7;
+@use "color-aliases" as *;
+@use "variables" as *;
+
+// Base UI typography - for buttons, inputs, general UI elements
+@mixin base-typography-bp7() {
+  font-family: bp7.$pt-font-family;
+  font-size: bp7.$pt-font-size-body;
+  font-weight: bp7.$pt-font-weight-regular;
+  letter-spacing: bp7.$pt-letter-spacing-body;
+  line-height: bp7.$pt-line-height-body;
+  text-transform: none;
+}
+
+// Running text - for paragraphs and longform content
+@mixin running-typography-bp7() {
+  font-family: bp7.$pt-font-family;
+  font-size: bp7.$pt-font-size-body;
+  font-weight: bp7.$pt-font-weight-regular;
+  letter-spacing: bp7.$pt-letter-spacing-body;
+  line-height: bp7.$pt-line-height-body;
+}
+
+// Heading typography - for h1-h6 elements
+@mixin heading-typography-bp7() {
+  font-family: bp7.$pt-font-family;
+  font-weight: bp7.$pt-font-weight-medium;
+  color: $pt-heading-color;
+
+  .#{$ns}-dark & {
+    color: $pt-dark-heading-color;
+  }
+}
+
+// Display heading - for hero/large expressive headings
+@mixin display-typography-bp7() {
+  font-family: bp7.$pt-font-family-display;
+  font-size: bp7.$pt-font-size-display;
+  font-weight: bp7.$pt-font-weight-display;
+  letter-spacing: bp7.$pt-letter-spacing-display;
+  line-height: bp7.$pt-line-height-display;
+  color: $pt-heading-color;
+
+  .#{$ns}-dark & {
+    color: $pt-dark-heading-color;
+  }
+}
+
+// Monospace/code typography
+@mixin monospace-typography-bp7() {
+  font-family: bp7.$pt-font-family-monospace;
+  font-size: bp7.$pt-font-size-code;
+  font-weight: bp7.$pt-font-weight-regular;
+  line-height: bp7.$pt-line-height-code;
+  text-transform: none;
+}
+
+// Body text variants
+@mixin body-medium-typography-bp7() {
+  font-family: bp7.$pt-font-family;
+  font-size: bp7.$pt-font-size-body-medium;
+  font-weight: bp7.$pt-font-weight-regular;
+  letter-spacing: bp7.$pt-letter-spacing-body-medium;
+  line-height: bp7.$pt-line-height-body-medium;
+}
+
+@mixin body-small-typography-bp7() {
+  font-family: bp7.$pt-font-family;
+  font-size: bp7.$pt-font-size-body-small;
+  font-weight: bp7.$pt-font-weight-regular;
+  letter-spacing: bp7.$pt-letter-spacing-body-small;
+  line-height: bp7.$pt-line-height-body-small;
+}
+
+// Specific heading size mixins
+@mixin heading-xlarge-bp7() {
+  font-family: bp7.$pt-font-family;
+  font-size: bp7.$pt-font-size-heading-xlarge;
+  font-weight: bp7.$pt-font-weight-medium;
+  letter-spacing: bp7.$pt-letter-spacing-heading-xlarge;
+  line-height: bp7.$pt-line-height-heading-xlarge;
+}
+
+@mixin heading-large-bp7() {
+  font-family: bp7.$pt-font-family;
+  font-size: bp7.$pt-font-size-heading-large;
+  font-weight: bp7.$pt-font-weight-medium;
+  letter-spacing: bp7.$pt-letter-spacing-heading-large;
+  line-height: bp7.$pt-line-height-heading-large;
+}
+
+@mixin heading-medium-bp7() {
+  font-family: bp7.$pt-font-family;
+  font-size: bp7.$pt-font-size-heading-medium;
+  font-weight: bp7.$pt-font-weight-medium;
+  letter-spacing: bp7.$pt-letter-spacing-heading-medium;
+  line-height: bp7.$pt-line-height-heading-medium;
+}
+
+@mixin heading-small-bp7() {
+  font-family: bp7.$pt-font-family;
+  font-size: bp7.$pt-font-size-heading-small;
+  font-weight: bp7.$pt-font-weight-medium;
+  letter-spacing: bp7.$pt-letter-spacing-heading-small;
+  line-height: bp7.$pt-line-height-heading-small;
+}
+
+// Utility: Add font files via @font-face
+// Call this mixin once in your main stylesheet
+@mixin load-bp7-fonts() {
+  // Alliance No.2 Display Font
+  @font-face {
+    font-family: "Alliance No.2";
+    src:
+      url("../fonts/alliance-no2/AllianceNo2-Medium.woff2") format("woff2"),
+      url("../fonts/alliance-no2/AllianceNo2-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  // Note: Inter and JetBrains Mono should be imported via @fontsource packages:
+  // @import "@fontsource/inter/400.css";
+  // @import "@fontsource/inter/500.css";
+  // @import "@fontsource/jetbrains-mono/400.css";
+}

@@ -1,0 +1,4 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = ["M7 9a1 1 0 00-1 1v5a1 1 0 001 1h2a1 1 0 001-1v-5a1 1 0 00-1-1zM1 9a1 1 0 00-1 1v5a1 1 0 001 1h2a1 1 0 001-1v-5a1 1 0 00-1-1zm12 0a1 1 0 00-1 1v5a1 1 0 001 1h2a1 1 0 001-1v-5a1 1 0 00-1-1zM1 0a1 1 0 00-1 1v5a1 1 0 001 1h14a1 1 0 001-1V1a1 1 0 00-1-1z"];
+//# sourceMappingURL=layout-bottom-row-three-tiles.js.map

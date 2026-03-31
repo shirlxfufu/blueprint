@@ -1,0 +1,12 @@
+/*
+Copyright 2017-present Palantir Technologies, Inc. All rights reserved.
+Licensed under the Apache License, Version 2.0.
+*/
+@font-face {
+  font-family: "blueprint-icons-16";
+  src: url("./blueprint-icons-16.ttf?24caa17b1c4fa1e18eb5b4251546397b") format("truetype"), url("./blueprint-icons-16.eot?24caa17b1c4fa1e18eb5b4251546397b#iefix") format("embedded-opentype"), url("./blueprint-icons-16.woff2?24caa17b1c4fa1e18eb5b4251546397b") format("woff2"), url("./blueprint-icons-16.woff?24caa17b1c4fa1e18eb5b4251546397b") format("woff"), url("./blueprint-icons-16.svg?24caa17b1c4fa1e18eb5b4251546397b#blueprint-icons-16") format("svg");
+}
+@font-face {
+  font-family: "blueprint-icons-20";
+  src: url("./blueprint-icons-20.ttf?ec4f0fad430cabcfe12bd8e57e97642a") format("truetype"), url("./blueprint-icons-20.eot?ec4f0fad430cabcfe12bd8e57e97642a#iefix") format("embedded-opentype"), url("./blueprint-icons-20.woff2?ec4f0fad430cabcfe12bd8e57e97642a") format("woff2"), url("./blueprint-icons-20.woff?ec4f0fad430cabcfe12bd8e57e97642a") format("woff"), url("./blueprint-icons-20.svg?ec4f0fad430cabcfe12bd8e57e97642a#blueprint-icons-20") format("svg");
+}

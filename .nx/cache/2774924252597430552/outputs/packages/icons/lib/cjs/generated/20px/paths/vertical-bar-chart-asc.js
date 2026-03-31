@@ -1,0 +1,4 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = ["M11.125 16.25v-10a.75.75 0 011.5 0v10a.75.75 0 01-1.5 0m3.75 0V3.125a.75.75 0 011.5 0V16.25a.75.75 0 01-1.5 0m-7.5 0V9.375a.75.75 0 011.5 0v6.875a.75.75 0 01-1.5 0m-3.75 0V12.5a.75.75 0 011.5 0v3.75a.75.75 0 01-1.5 0"];
+//# sourceMappingURL=vertical-bar-chart-asc.js.map

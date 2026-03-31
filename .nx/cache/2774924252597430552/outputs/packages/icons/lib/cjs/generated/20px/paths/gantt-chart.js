@@ -1,0 +1,4 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = ["M1.75 3.75a.75.75 0 011.5 0V15.5H17.5a.75.75 0 010 1.5h-15a.75.75 0 01-.75-.75z", "M10 4.25a.75.75 0 010 1.5H5.625a.75.75 0 010-1.5zM13.75 8a.75.75 0 010 1.5h-5a.75.75 0 010-1.5zm3.75 3.75a.75.75 0 010 1.5h-5a.75.75 0 010-1.5z"];
+//# sourceMappingURL=gantt-chart.js.map

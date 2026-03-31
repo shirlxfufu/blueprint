@@ -1,0 +1,4 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = ["M0 1a1 1 0 011-1h5a1 1 0 010 2H2v4a1 1 0 01-2 0zm1 19a1 1 0 01-1-1v-5a1 1 0 112 0v4h4a1 1 0 110 2zm18 0a1 1 0 001-1v-5a1 1 0 10-2 0v4h-4a1 1 0 100 2zm0-20a1 1 0 011 1v5a1 1 0 11-2 0V2h-4a1 1 0 110-2zm-9 14a4 4 0 100-8 4 4 0 000 8"];
+//# sourceMappingURL=clip.js.map

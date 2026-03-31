@@ -1,0 +1,32 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.FloatingPoint = void 0;
+const tslib_1 = require("tslib");
+const jsx_runtime_1 = require("react/jsx-runtime");
+/*
+ * Copyright 2024 Palantir Technologies, Inc. All rights reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+const React = tslib_1.__importStar(require("react"));
+const iconTypes_1 = require("../../iconTypes");
+const svgIconContainer_1 = require("../../svgIconContainer");
+exports.FloatingPoint = React.forwardRef((props, ref) => {
+    const isLarge = (props.size ?? iconTypes_1.IconSize.STANDARD) >= iconTypes_1.IconSize.LARGE;
+    const pixelGridSize = isLarge ? iconTypes_1.IconSize.LARGE : iconTypes_1.IconSize.STANDARD;
+    const translation = `${-1 * pixelGridSize / 0.05 / 2}`;
+    const style = { transformOrigin: "center" };
+    return ((0, jsx_runtime_1.jsx)(svgIconContainer_1.SVGIconContainer, { iconName: "floating-point", ref: ref, ...props, children: (0, jsx_runtime_1.jsx)("path", { d: isLarge ? "M20 267.04Q30.28 267.04 40 268.74T57.42 274.42Q65.42 278.4 70.86 284.6600000000001Q76.56 290.9000000000001 78.28 300H104.86V101.06H69.14V241.46H20zM299.3 299.74Q319.94 299.74 332.84 290.18Q346.04 280.88 353.2 266.1Q360.62 251.62 363.1 234.1Q365.8400000000001 216.6 365.8400000000001 200.18Q365.8400000000001 183.78 363.1 166.26A104 104 0 0 0 353.2 133.98A64 64 0 0 0 332.84 109.92Q319.92 100.62 299.3 100.62Q278.7 100.62 265.48 109.92Q252.56 119.5 245.12 133.98A114 114 0 0 0 235.22 166.26A240 240 0 0 0 232.76 200.18Q232.76 216.6 235.22 234.1A110 110 0 0 0 245.12 266.1A65.2 65.2 0 0 0 265.48 290.18Q278.68 299.74 299.3 299.74M299.3 126.6Q309.48 126.6 316.36 132.34Q323.2200000000001 138.34 327.08 148.22A92 92 0 0 1 332.84 171.74Q334.52 185.14 334.5 200.18Q334.5 215.24 332.84 228.36A92 92 0 0 1 327.08 251.88Q323.22 262 316.36 267.74Q309.46 273.74 299.3 273.7600000000001Q288.86 273.7600000000001 281.98 267.7600000000001Q275.38 262 271.24 251.88Q267.38 241.76 265.76 228.36Q264.1 215.22 264.1 200.18Q264.1 185.16 265.74 171.74Q267.4000000000001 158.32 271.24 148.22Q275.3800000000001 138.36 281.98 132.34Q288.86 126.6 299.3 126.6M197.22 138.36H157.5V100H197.22z" : "M20 213.48Q28.22 213.48 36 214.86Q43.76 216.24 49.94 219.42A34 34 0 0 1 60.68 227.66Q65.28 232.66 66.62 240H87.88V80H59.32V192.92H20zM243.44 239.8Q259.94 239.8 270.2800000000001 232.1Q280.8400000000001 224.6 286.56 212.74Q292.5000000000001 201.08 294.48 187Q296.68 172.92 296.68 159.72T294.48 132.44Q292.5000000000001 118.36 286.56 106.48Q280.86 94.82 270.2800000000001 87.12Q259.9400000000001 79.62 243.44 79.64Q226.9400000000001 79.64 216.38 87.12A54.8 54.8 0 0 0 200.1 106.48A92 92 0 0 0 192.18 132.44A200 200 0 0 0 190.2 159.72Q190.2 172.92 192.18 187Q194.38 201.08 200.1 212.74Q206.04 224.62 216.38 232.1Q226.9400000000001 239.8 243.44 239.8M243.44 100.54Q251.58 100.54 257.0800000000001 105.16Q262.56 110 265.6600000000001 117.92Q268.9600000000001 126.06 270.2800000000001 136.84T271.6 159.72T270.2800000000001 182.38A74 74 0 0 1 265.6600000000001 201.3A30 30 0 0 1 257.0800000000001 214.06A20 20 0 0 1 243.44 218.9Q235.0800000000001 218.9 229.58 214.06A33.2 33.2 0 0 1 221 201.3A80 80 0 0 1 216.6 182.38Q215.28 171.82 215.28 159.72T216.6 136.84T221 117.92Q224.3 110 229.58 105.16Q235.06 100.54 243.44 100.54M161.78 110H130V79.14H161.78z", fillRule: "evenodd", transform: `scale(0.05, -0.05) translate(${translation}, ${translation})`, style: style }) }));
+});
+exports.FloatingPoint.displayName = `Blueprint6.Icon.FloatingPoint`;
+exports.default = exports.FloatingPoint;
+//# sourceMappingURL=floating-point.js.map

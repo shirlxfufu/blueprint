@@ -1,0 +1,74 @@
+
+> @blueprintjs/datetime@6.0.8 compile /Users/xinyif/Documents/GitHub/blueprint/packages/datetime
+> run-p "compile:*"
+
+
+> @blueprintjs/datetime@6.0.8 compile:css /Users/xinyif/Documents/GitHub/blueprint/packages/datetime
+> sass-compile ./src
+
+
+> @blueprintjs/datetime@6.0.8 compile:esnext /Users/xinyif/Documents/GitHub/blueprint/packages/datetime
+> tsc -p ./src -t esnext --outDir lib/esnext
+
+
+> @blueprintjs/datetime@6.0.8 compile:cjs /Users/xinyif/Documents/GitHub/blueprint/packages/datetime
+> tsc -p ./src -m commonjs --verbatimModuleSyntax false --outDir lib/cjs
+
+
+> @blueprintjs/datetime@6.0.8 compile:esm /Users/xinyif/Documents/GitHub/blueprint/packages/datetime
+> tsc -p ./src
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │ @import "common/react-day-picker-overrides";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    src/blueprint-datetime.scss 4:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "components/date-input/date-input";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    src/blueprint-datetime.scss 5:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "components/date-picker/date-picker";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    src/blueprint-datetime.scss 6:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+7 │ @import "components/date-picker/date-picker-caption";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    src/blueprint-datetime.scss 7:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+8 │ @import "components/date-range-picker/date-range-picker";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    src/blueprint-datetime.scss 8:9  root stylesheet
+
+WARNING: 39 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+[sass-compile] Finished compiling all input .scss files.

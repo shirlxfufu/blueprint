@@ -1,0 +1,14 @@
+> pnpm run dev
+
+
+> @blueprintjs/monaco-editor-theme@1.0.25 dev /Users/xinyif/Documents/GitHub/blueprint/packages/monaco-editor-theme
+> run-p "compile:esm --watch"
+
+
+> @blueprintjs/monaco-editor-theme@1.0.25 compile:esm /Users/xinyif/Documents/GitHub/blueprint/packages/monaco-editor-theme
+> tsc -p ./src --watch
+
+[2J[3J[H[[90m3:53:05 PM[0m] Starting compilation in watch mode...
+
+[[90m3:53:09 PM[0m] Found 0 errors. Watching for file changes.
+

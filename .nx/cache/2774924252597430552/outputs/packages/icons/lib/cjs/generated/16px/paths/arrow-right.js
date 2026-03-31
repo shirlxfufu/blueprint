@@ -1,0 +1,4 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = ["M8.47 2.97a.75.75 0 011.06 0l4.5 4.5a.75.75 0 010 1.06l-4.5 4.5a.75.75 0 11-1.06-1.06l3.22-3.22H2.5a.75.75 0 110-1.5h9.19L8.47 4.03a.75.75 0 010-1.06"];
+//# sourceMappingURL=arrow-right.js.map

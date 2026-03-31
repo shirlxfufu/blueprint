@@ -1,0 +1,32 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ArrayString = void 0;
+const tslib_1 = require("tslib");
+const jsx_runtime_1 = require("react/jsx-runtime");
+/*
+ * Copyright 2024 Palantir Technologies, Inc. All rights reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+const React = tslib_1.__importStar(require("react"));
+const iconTypes_1 = require("../../iconTypes");
+const svgIconContainer_1 = require("../../svgIconContainer");
+exports.ArrayString = React.forwardRef((props, ref) => {
+    const isLarge = (props.size ?? iconTypes_1.IconSize.STANDARD) >= iconTypes_1.IconSize.LARGE;
+    const pixelGridSize = isLarge ? iconTypes_1.IconSize.LARGE : iconTypes_1.IconSize.STANDARD;
+    const translation = `${-1 * pixelGridSize / 0.05 / 2}`;
+    const style = { transformOrigin: "center" };
+    return ((0, jsx_runtime_1.jsx)(svgIconContainer_1.SVGIconContainer, { iconName: "array-string", ref: ref, ...props, children: (0, jsx_runtime_1.jsx)("path", { d: isLarge ? "M380 400A20 20 0 0 0 399.86 382.34L400 380V20A20 20 0 0 0 382.3400000000001 0.14L380 0H300A20 20 0 0 0 297.66 39.86L300 40H360V360H300A20 20 0 0 0 280.14 377.6600000000001L280 380A20 20 0 0 0 297.66 399.86L300 400zM100 400A20 20 0 0 0 102.34 360.14L100 360H40V40H100A20 20 0 0 0 119.86 22.34L120 20A20 20 0 0 0 102.34 0.14L100 0H20A20 20 0 0 0 0.14 17.66L0 20V380A20 20 0 0 0 17.66 399.86L20 400zM140.24 280Q159.54 280 173.84 264.06Q188.14 248.14 188.14 221.16A89.4 89.4 0 0 0 168.84 164.88Q149.52 140 107.9 124.66V136.28L113.1 138.36A77.4 77.4 0 0 1 145.58 164.06Q159.3 183.04 159.3 203.48Q159.3 207.9 157.9 210Q157.2 211.4 156.04 211.4T152.32 209.54Q144.88 204.18 133.72 204.18Q120.22 204.18 110.12 215A36.4 36.4 0 0 0 100 240.7Q100 256.5 111.62 268.26A38.6 38.6 0 0 0 140.22 280M252.08 280Q271.38 280 285.68 264.06Q299.98 248.14 299.98 221.16A89.4 89.4 0 0 0 280.68 164.88Q261.36 139.98 219.74 124.66V136.28L224.94 138.36A77.4 77.4 0 0 1 257.42 164.06Q271.14 183.04 271.14 203.48Q271.14 207.9 269.74 210Q269.06 211.4 267.88 211.4Q266.74 211.4 264.16 209.54Q256.72 204.18 245.56 204.18Q232.06 204.18 221.96 215A36.4 36.4 0 0 0 211.84 240.7Q211.84 256.5 223.46 268.26A38.6 38.6 0 0 0 252.08 280" : "M300 320A20 20 0 0 0 319.86 302.34L320 300V20A20 20 0 0 0 302.3400000000001 0.14L300 0H240A20 20 0 0 0 237.66 39.86L240 40H280V280H240A20 20 0 0 0 220.14 297.6600000000001L220 300A20 20 0 0 0 237.66 319.86L240 320zM80 320A20 20 0 0 0 82.34 280.14L80 280H40V40H80A20 20 0 0 0 99.86 22.34L100 20A20 20 0 0 0 82.34 0.14L80 0H20A20 20 0 0 0 0.14 17.66L0 20V300A20 20 0 0 0 17.66 319.86L20 320zM112.2 220Q127.62 220 139.06 207.26Q150.52 194.52 150.52 172.94Q150.52 147.8 135.06 127.9Q119.62 108 86.32 95.72V105.02L90.98 106.92A62 62 0 0 1 116.46 127.26Q127.46 142.4 127.46 158.8A10 10 0 0 1 126.32 164Q125.78 165.12 124.84 165.12Q123.92 165.12 121.86 163.62Q115.92 159.34 106.98 159.34Q96.18 159.34 88.1 168A29 29 0 0 0 80 188.56Q80 201.22 89.3 210.6Q98.62 220 112.2 220M201.68 220Q217.12 220 228.56 207.26T240 172.94Q240 147.8 224.56 127.9T175.8 95.72V105.02L180.46 106.92A62 62 0 0 1 205.94 127.26Q216.92 142.4 216.92 158.8A10 10 0 0 1 215.8 164Q215.22 165.12 214.3000000000001 165.12Q213.4 165.12 211.3200000000001 163.62Q205.3800000000001 159.34 196.4400000000001 159.34Q185.6400000000001 159.34 177.5600000000001 168A29 29 0 0 0 169.4600000000001 188.56Q169.4600000000001 201.22 178.7800000000001 210.6T201.68 220", fillRule: "evenodd", transform: `scale(0.05, -0.05) translate(${translation}, ${translation})`, style: style }) }));
+});
+exports.ArrayString.displayName = `Blueprint6.Icon.ArrayString`;
+exports.default = exports.ArrayString;
+//# sourceMappingURL=array-string.js.map

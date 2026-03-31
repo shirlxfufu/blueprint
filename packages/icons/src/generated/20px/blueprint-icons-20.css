@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "blueprint-icons-20";
+    src: url("./blueprint-icons-20.ttf?d8e2a39f1342c7c800d5a48b712961d1") format("truetype"),
+url("./blueprint-icons-20.eot?d8e2a39f1342c7c800d5a48b712961d1#iefix") format("embedded-opentype"),
+url("./blueprint-icons-20.woff2?d8e2a39f1342c7c800d5a48b712961d1") format("woff2"),
+url("./blueprint-icons-20.woff?d8e2a39f1342c7c800d5a48b712961d1") format("woff"),
+url("./blueprint-icons-20.svg?d8e2a39f1342c7c800d5a48b712961d1#blueprint-icons-20") format("svg");
+}

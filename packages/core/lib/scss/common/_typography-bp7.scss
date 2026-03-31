@@ -1,0 +1,108 @@
+// Copyright 2025 Palantir Technologies, Inc. All rights reserved.
+// Licensed under the Apache License, Version 2.0.
+
+// Blueprint 7 Typography Variables
+// Based on Figma design system: Blueprint 7 - Aug 20th
+
+// ==========================================
+// FONT FAMILIES
+// ==========================================
+
+$pt-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    "Helvetica Neue", sans-serif !default;
+$pt-font-family-display: "Alliance No.2", $pt-font-family !default;
+$pt-font-family-monospace: "JetBrains Mono", "Courier New", monospace !default;
+
+// ==========================================
+// FONT WEIGHTS
+// ==========================================
+
+$pt-font-weight-regular: 450 !default;
+$pt-font-weight-medium: 550 !default;
+$pt-font-weight-display: 500 !default;
+
+// ==========================================
+// DISPLAY (Alliance No.2)
+// ==========================================
+
+$pt-font-size-display: 48px !default;
+$pt-line-height-display: 56px !default;
+$pt-letter-spacing-display: 0 !default;
+
+// ==========================================
+// HEADINGS (Inter)
+// ==========================================
+
+// Extra Large (h2)
+$pt-font-size-heading-xlarge: 28px !default;
+$pt-line-height-heading-xlarge: 30px !default;
+$pt-letter-spacing-heading-xlarge: 0 !default;
+
+// Large (h3)
+$pt-font-size-heading-large: 24px !default;
+$pt-line-height-heading-large: 26px !default;
+$pt-letter-spacing-heading-large: 0 !default;
+
+// Medium (h4)
+$pt-font-size-heading-medium: 20px !default;
+$pt-line-height-heading-medium: 22px !default;
+$pt-letter-spacing-heading-medium: 0 !default;
+
+// Small (h5, h6)
+$pt-font-size-heading-small: 16px !default;
+$pt-line-height-heading-small: 20px !default;
+$pt-letter-spacing-heading-small: -0.5px !default;
+
+// ==========================================
+// BODY TEXT (Inter)
+// ==========================================
+
+// Regular body text (default)
+$pt-font-size-body: 13px !default;
+$pt-line-height-body: 18px !default;
+$pt-letter-spacing-body: -0.25px !default;
+
+// Medium body text
+$pt-font-size-body-medium: 14px !default;
+$pt-line-height-body-medium: 21px !default;
+$pt-letter-spacing-body-medium: 0 !default;
+
+// Small body text
+$pt-font-size-body-small: 11px !default;
+$pt-line-height-body-small: 18px !default;
+$pt-letter-spacing-body-small: 0 !default;
+
+// Extra small body text
+$pt-font-size-body-xsmall: 9px !default;
+$pt-line-height-body-xsmall: 15px !default;
+$pt-letter-spacing-body-xsmall: 0 !default;
+
+// ==========================================
+// CODE / MONOSPACE (JetBrains Mono)
+// ==========================================
+
+// Regular code
+$pt-font-size-code: 12px !default;
+$pt-line-height-code: 20px !default;
+
+// Small code
+$pt-font-size-code-small: 11px !default;
+$pt-line-height-code-small: 15px !default;
+
+// Large code
+$pt-font-size-code-large: 14px !default;
+$pt-line-height-code-large: 21px !default;
+
+// ==========================================
+// USAGE NOTES
+// ==========================================
+
+// Display: Use for hero sections, landing pages, large expressive headings
+// Headings (X-Large to Small): Use for section headings and content hierarchy
+// Body (Regular, Medium, Small): Use for paragraphs, descriptions, UI text
+// Code: Use for code snippets, technical content, monospace requirements
+
+// Font Loading:
+// - Install @fontsource/inter and @fontsource/jetbrains-mono via npm
+// - For Alliance No.2, add custom @font-face declaration in your app
+// - Ensure fonts are loaded before render to prevent FOUT

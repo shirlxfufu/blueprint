@@ -1,0 +1,28 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+/*
+ * Copyright 2024 Palantir Technologies, Inc. All rights reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+import * as React from "react";
+import { IconSize } from "../../iconTypes";
+import { SVGIconContainer } from "../../svgIconContainer";
+export const Th = React.forwardRef((props, ref) => {
+    const isLarge = (props.size ?? IconSize.STANDARD) >= IconSize.LARGE;
+    const pixelGridSize = isLarge ? IconSize.LARGE : IconSize.STANDARD;
+    const translation = `${-1 * pixelGridSize / 0.05 / 2}`;
+    const style = { transformOrigin: "center" };
+    return (_jsx(SVGIconContainer, { iconName: "th", ref: ref, ...props, children: _jsx("path", { d: isLarge ? "M380 380H20C8 380 0 370 0 360V40C0 30 8 20 20 20H380C390 20 400 30 400 40V360C400 370 390 380 380 380M140 60H40V120H140zM140 140H40V200H140zM140 220H40V280H140zM360 60H160V120H360zM360 140H160V200H360zM360 220H160V280H360z" : "M300 300H20C8 300 0 290 0 280V40C0 28 8 20 20 20H300C312 20 320 28 320 40V280C320 290 312 300 300 300M120 60H40V100H120zM120 120H40V160H120zM120 180H40V220H120zM280 60H140V100H280zM280 120H140V160H280zM280 180H140V220H280z", fillRule: "evenodd", transform: `scale(0.05, -0.05) translate(${translation}, ${translation})`, style: style }) }));
+});
+Th.displayName = `Blueprint6.Icon.Th`;
+export default Th;
+//# sourceMappingURL=th.js.map

@@ -1,0 +1,4 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = ["M10.933 2.641a1 1 0 00-1.866 0L4.075 15.62a1 1 0 101.867.717L7.225 13h5.55l1.283 3.337a1 1 0 101.867-.717zM12.005 11h-4.01L10 5.786z"];
+//# sourceMappingURL=font.js.map

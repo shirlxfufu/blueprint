@@ -1,0 +1,20 @@
+> pnpm run dev
+
+
+> @blueprintjs/colors@5.1.15 dev /Users/xinyif/Documents/GitHub/blueprint/packages/colors
+> run-p "compile:esm --watch" "compile:css --watch"
+
+
+> @blueprintjs/colors@5.1.15 compile:esm /Users/xinyif/Documents/GitHub/blueprint/packages/colors
+> tsc -p ./src --watch
+
+
+> @blueprintjs/colors@5.1.15 compile:css /Users/xinyif/Documents/GitHub/blueprint/packages/colors
+> sass-compile ./src --watch
+
+[2J[3J[H[[90m3:52:57 PM[0m] Starting compilation in watch mode...
+
+[sass-compile] Finished compiling all input .scss files.
+[sass-compile] Watching /Users/xinyif/Documents/GitHub/blueprint/packages/colors/src for changes...
+[[90m3:53:03 PM[0m] Found 0 errors. Watching for file changes.
+

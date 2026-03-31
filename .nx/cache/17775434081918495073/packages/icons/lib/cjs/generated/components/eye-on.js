@@ -1,0 +1,32 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.EyeOn = void 0;
+const tslib_1 = require("tslib");
+const jsx_runtime_1 = require("react/jsx-runtime");
+/*
+ * Copyright 2024 Palantir Technologies, Inc. All rights reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+const React = tslib_1.__importStar(require("react"));
+const iconTypes_1 = require("../../iconTypes");
+const svgIconContainer_1 = require("../../svgIconContainer");
+exports.EyeOn = React.forwardRef((props, ref) => {
+    const isLarge = (props.size ?? iconTypes_1.IconSize.STANDARD) >= iconTypes_1.IconSize.LARGE;
+    const pixelGridSize = isLarge ? iconTypes_1.IconSize.LARGE : iconTypes_1.IconSize.STANDARD;
+    const translation = `${-1 * pixelGridSize / 0.05 / 2}`;
+    const style = { transformOrigin: "center" };
+    return ((0, jsx_runtime_1.jsx)(svgIconContainer_1.SVGIconContainer, { iconName: "eye-on", ref: ref, ...props, children: (0, jsx_runtime_1.jsx)("path", { d: isLarge ? "M266 225.8C269.6 222.2 274.6 220 280.2000000000001 220S290.8 222.2 294.4000000000001 225.8L394.2000000000001 325.8A20.06 20.06 0 0 1 365.8 354.2L280 268.4L234.2 314.2A19.2 19.2 0 0 1 220.2000000000001 320A20.06 20.06 0 0 1 206 285.8zM400 200.8V202.4A16 16 0 0 1 395.8 211.2C387 222.2 377 232.2 366.6 241.6L322.6 197.6C311.6 186.8 296.6 180 280.2 180C279.2 180 278.4 180.2 277.4 180.2A79.6 79.6 0 0 0 200.2 119.8A80.14 80.14 0 0 0 167 272.8A60 60 0 0 0 160.4 300C160.4 305.6 161.4 310.8 162.8 316C141.8 311.6 121.4 303.2 102.4 293C71 276 42.4 252.6 17.6 226.4C13 221.4 8.4 216.4 4.2 211.2C-1.4 204.2 -1.4 195.8 4.2 188.8C17 172.8 32.2 158.4 47.6 145.4C80.8 117.2000000000001 118.8 93.8 160.8 84.2000000000001C185 78.8 209.4 78.4 233.8 83.2C256 87.4 277.4 96.2 297.4 107C328.8 124 357.4 147.4 382.2 173.6C386.8 178.4 391.4 183.4 395.6 188.8C397.8 191.2 399.2000000000001 194.2 399.8000000000001 197.6V200C400.0000000000001 200.2 400.0000000000001 200.6 400.0000000000001 200.8M200.2000000000001 159.8C220.8000000000001 159.8 237.6000000000001 175.6 239.8000000000001 195.8L238.0000000000001 197.6L237.8000000000001 197.4L195.8000000000001 239.6C175.8000000000001 237.4 160.4000000000001 220.6 160.4000000000001 200C160.2000000000001 177.8 178.2000000000001 159.8 200.2000000000001 159.8" : "M205.8 186C209.4 182.4 214.4 180.2 220 180.2S230.6 182.4 234.2 186L314.2000000000001 266C317.6 269.6 320 274.6 320 280A20.06 20.06 0 0 1 285.8 294.2L220 228.4L194.2 254.2A20 20 0 0 1 180 260C169 260 160 251.2 160 240A20 20 0 0 1 166 226zM320 160.8V162.2A12.8 12.8 0 0 1 316.6 169.4C310.6 177.4 303.6 184.6 296.6 191.8L262.6 157.8C251.6 146.8 236.6 140.2 220 140.2C218.8 140.2 217.8 140.4 216.6 140.6C208.4 117 186.4 100 160.2 100A60.1 60.1 0 0 0 128 210.8C123.2 219.4 120.2 229.4 120.2 240C120.2 245.2 121 250 122.2 254.8C108.2 250.8 94.8 244.8 82 237.6C56.8 223.6 34 204 14 182.2C10.4 178 6.8 174 3.4 169.6C-1 163.8 -1 156.8 3.4 151C13.6 137.6 25.8 125.6 38 114.8C64.6 91.4 95 71.8 128.6 63.8C148 59.1999999999999 167.6 58.9999999999999 187 62.8C204.8000000000001 66.3999999999999 221.8000000000001 73.5999999999999 237.8 82.5999999999999C262.8 96.7999999999999 285.8 116.3999999999999 305.6 138.1999999999999C309.2000000000001 142.1999999999999 313 146.3999999999999 316.4 150.8C318.2 152.8 319.4000000000001 155.4 319.8 158.1999999999999V160.1999999999999C320 160.3999999999999 320 160.5999999999999 320 160.7999999999999M160.2 140C169.8 140 177.6 147 179.4 156.2A12 12 0 0 0 178 158L177.6 157.8L156 179.4C147 177.4 140.2 169.8 140.2 160.2C140.2 149 149.2 140 160.2 140", fillRule: "evenodd", transform: `scale(0.05, -0.05) translate(${translation}, ${translation})`, style: style }) }));
+});
+exports.EyeOn.displayName = `Blueprint6.Icon.EyeOn`;
+exports.default = exports.EyeOn;
+//# sourceMappingURL=eye-on.js.map

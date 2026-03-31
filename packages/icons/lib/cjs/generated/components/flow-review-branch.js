@@ -1,0 +1,32 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.FlowReviewBranch = void 0;
+const tslib_1 = require("tslib");
+const jsx_runtime_1 = require("react/jsx-runtime");
+/*
+ * Copyright 2024 Palantir Technologies, Inc. All rights reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+const React = tslib_1.__importStar(require("react"));
+const iconTypes_1 = require("../../iconTypes");
+const svgIconContainer_1 = require("../../svgIconContainer");
+exports.FlowReviewBranch = React.forwardRef((props, ref) => {
+    const isLarge = (props.size ?? iconTypes_1.IconSize.STANDARD) >= iconTypes_1.IconSize.LARGE;
+    const pixelGridSize = isLarge ? iconTypes_1.IconSize.LARGE : iconTypes_1.IconSize.STANDARD;
+    const translation = `${-1 * pixelGridSize / 0.05 / 2}`;
+    const style = { transformOrigin: "center" };
+    return ((0, jsx_runtime_1.jsx)(svgIconContainer_1.SVGIconContainer, { iconName: "flow-review-branch", ref: ref, ...props, children: (0, jsx_runtime_1.jsx)("path", { d: isLarge ? "M260.8 131.52C248.8 124.3200000000001 234.76 120.16 219.76 120.16A80 80 0 0 0 142.4 180.1400000000001H66.84L114.28 133.94C117.8 130.42 119.94 125.54 119.94 120.06C119.94 109.32 110.9 100.1 100.18 100.1A18.8 18.8 0 0 0 86.36 105.88L5.84 186.34A19.2 19.2 0 0 0 0 200.02C0 205.5 2.14 210.38 5.66 213.9L86.36 294.7A19.4 19.4 0 0 0 100.18 300.4600000000001C110.9 300.4600000000001 119.94 291.06 119.94 280.3200000000001A19.6 19.6 0 0 0 114.28 266.4400000000001L66.64 220.32H142.36A80 80 0 0 0 219.76 280.44C235.18 280.44 249.6 276.04 261.8 268.4600000000001L333.1 339.86L282.3400000000001 339.92A19.4 19.4 0 0 0 268.54 345.7200000000001C260.94 353.32 260.94 366.76 268.5 374.3400000000001A18.8 18.8 0 0 0 282.44 380L380.36 379.9A19.2 19.2 0 0 0 394.1600000000001 374.36C398.0200000000001 370.5 399.5600000000001 365.52 399.5600000000001 360.56L399.6600000000001 262.56A19.4 19.4 0 0 0 393.88 248.76A20.46 20.46 0 0 0 365.56 248.76A19.6 19.6 0 0 0 359.76 262.5800000000001L359.7 313.38L288.62 240.98C295.64 229.0600000000001 299.68 215.16 299.68 200.3C299.68 185.04 295.42 170.76 288.02 158.62L359.92 86.72L359.98 137.5200000000001C359.98 142.5000000000001 361.92 147.46 365.78 151.32C373.38 158.92 386.78 158.94 394.3599999999999 151.36A18.8 18.8 0 0 0 400 137.4200000000001L399.9 39.4200000000001A18.6 18.6 0 0 0 394.3599999999999 25.9200000000001A19.4 19.4 0 0 0 380.5599999999999 20.1L279.48 20A19.4 19.4 0 0 0 265.68 25.8A20.6 20.6 0 0 0 265.7200000000001 54.2A19.4 19.4 0 0 0 279.5200000000001 60L333.44 60.06z" : "M207.84 107.06A60.04 60.04 0 0 0 123.2 140.1H67.4L94.16 113.74C97.6 110.18 99.9 105.54 99.8 100.08C99.6 89.36 89.32 80.18 80 80.18S67.4 83.92 65.06 86.0600000000001L5.62 146.36A19.2 19.2 0 0 0 0 160.12A19.4 19.4 0 0 0 5.88 173.86L66.08 234.42A19.4 19.4 0 0 0 80.02 239.82C90.74 239.62 99.98 230.12 99.8 219.4A19.4 19.4 0 0 0 93.9 205.66L67.4 180.06H123.2A60 60 0 0 0 205.32 214.38L253.64 259.92L219 259.8400000000001A20 20 0 0 0 205.42 266.42A19.6 19.6 0 0 0 206.42 293.98C210.4 297.7 215.6 300.2800000000001 220.7000000000001 299.98L300.94 299.88A19.2 19.2 0 0 0 319.82 279.9000000000001L319.8 199A19.4 19.4 0 0 0 313.52 185.42A20.6 20.6 0 0 0 285.1 186.38A19.4 19.4 0 0 0 279.8 200.36V234.2L233 187.96C237.38 179.64 239.86 170.16 239.86 160.08C239.86 151.06 237.86 142.48 234.28 134.82L280 86.4L279.92 121A19.6 19.6 0 0 0 286.38 134.6A19.6 19.6 0 0 0 313.94 133.62C317.68 129.62 320.2600000000001 124.42 319.9400000000001 119.34L319.86 39.12A19.6 19.6 0 0 0 313.86 25.3A19.4 19.4 0 0 0 299.86 19.9999999999999L218.9400000000001 20.02A20 20 0 0 0 205.3600000000001 26.54A20.34 20.34 0 0 0 206.3200000000001 54.74A19.4 19.4 0 0 0 220.3000000000001 60.04H254.1600000000001z", fillRule: "evenodd", transform: `scale(0.05, -0.05) translate(${translation}, ${translation})`, style: style }) }));
+});
+exports.FlowReviewBranch.displayName = `Blueprint6.Icon.FlowReviewBranch`;
+exports.default = exports.FlowReviewBranch;
+//# sourceMappingURL=flow-review-branch.js.map

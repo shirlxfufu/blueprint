@@ -1,0 +1,4 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = ["M10.47 4.47a.75.75 0 011.06 0l3 3a.75.75 0 010 1.06l-3 3a.75.75 0 11-1.06-1.06L12.94 8l-2.47-2.47a.75.75 0 010-1.06", "M14 7.25a.75.75 0 010 1.5H2a.75.75 0 110-1.5z", "M9 8a2 2 0 11-4 0 2 2 0 014 0", "M7 10a2 2 0 110-4 2 2 0 010 4"];
+//# sourceMappingURL=flow-linear.js.map

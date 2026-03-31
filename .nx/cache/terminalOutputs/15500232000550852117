@@ -1,0 +1,16 @@
+
+> @blueprintjs/monaco-editor-theme@1.0.23 compile /Users/xinyif/Documents/GitHub/blueprint/packages/monaco-editor-theme
+> run-p "compile:*"
+
+
+> @blueprintjs/monaco-editor-theme@1.0.23 compile:esm /Users/xinyif/Documents/GitHub/blueprint/packages/monaco-editor-theme
+> tsc -p ./src
+
+
+> @blueprintjs/monaco-editor-theme@1.0.23 compile:cjs /Users/xinyif/Documents/GitHub/blueprint/packages/monaco-editor-theme
+> tsc -p ./src -m commonjs --verbatimModuleSyntax false --outDir lib/cjs
+
+
+> @blueprintjs/monaco-editor-theme@1.0.23 compile:esnext /Users/xinyif/Documents/GitHub/blueprint/packages/monaco-editor-theme
+> tsc -p ./src -t esnext --outDir lib/esnext
+

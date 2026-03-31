@@ -1,0 +1,25 @@
+
+> @blueprintjs/colors@5.1.11 compile /Users/xinyif/Documents/GitHub/blueprint/packages/colors
+> run-p "compile:*"
+
+
+> @blueprintjs/colors@5.1.11 compile:esnext /Users/xinyif/Documents/GitHub/blueprint/packages/colors
+> tsc -p ./src -t esnext --outDir lib/esnext
+
+
+> @blueprintjs/colors@5.1.11 compile:css-colors /Users/xinyif/Documents/GitHub/blueprint/packages/colors
+> generate-css-variables --retainDefault true --outputFileName colors _colors.scss
+
+
+> @blueprintjs/colors@5.1.11 compile:cjs /Users/xinyif/Documents/GitHub/blueprint/packages/colors
+> tsc -p ./src -m commonjs --verbatimModuleSyntax false --outDir lib/cjs
+
+
+> @blueprintjs/colors@5.1.11 compile:css /Users/xinyif/Documents/GitHub/blueprint/packages/colors
+> sass-compile ./src
+
+
+> @blueprintjs/colors@5.1.11 compile:esm /Users/xinyif/Documents/GitHub/blueprint/packages/colors
+> tsc -p ./src
+
+[sass-compile] Finished compiling all input .scss files.

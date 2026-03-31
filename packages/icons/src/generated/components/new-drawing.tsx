@@ -1,0 +1,38 @@
+/*
+ * Copyright 2024 Palantir Technologies, Inc. All rights reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+import * as React from "react";
+import type { SVGIconProps } from "../../svgIconProps";
+import { IconSize } from "../../iconTypes";
+import { SVGIconContainer } from "../../svgIconContainer";
+
+export const NewDrawing: React.FC<SVGIconProps> = React.forwardRef<any, SVGIconProps>((props, ref) => {
+    const isLarge = (props.size ?? IconSize.STANDARD) >= IconSize.LARGE;
+    const pixelGridSize = isLarge ? IconSize.LARGE : IconSize.STANDARD;
+    const translation = `${-1 * pixelGridSize / 0.05 / 2}`;
+    const style = { transformOrigin: "center" };
+    return (
+        <SVGIconContainer iconName="new-drawing" ref={ref} {...props}>
+            <path
+                d={isLarge ? "M374 126C384 126 394 118 394 106C394 100.86 392.54 97.2000000000001 389.6 93.72L388.0000000000001 92L308.0000000000001 12C304.0000000000001 8.0000000000001 300.0000000000001 6 294.0000000000001 6C282.0000000000001 6 274.0000000000001 16 274.0000000000001 26C274.0000000000001 31.14 275.4600000000001 34.8000000000001 278.4000000000001 38.28L280 40L360 120C364 124 368 126 374 126M36 400L203.56 340.36A60.06 60.06 0 0 1 260 260A60.06 60.06 0 0 1 337.54 202.6L352 152L352.98 150.8A8 8 0 0 0 353.9999999999999 146C353.9999999999999 142.66 352.5999999999999 137.94 349.8399999999999 134.14L348 132L268 52C264 48.0000000000001 260 46 254 46C252.5 46 251 47.12 249.5 47.68L248 48L108 88L105.76 88.84C101.3 90.72 97.14 93.72 94.92 97.84L94 100L0 364L10 376L140 246C136 240 134 234 134 226C134 204 152 186 174 186S214 204 214 226S196 266 174 266A34 34 0 0 1 156.58 261.6L154 260L24 390zM320 400C331 400 340 391 340 380V340H380C391 340 400 331 400 320S391 300 380 300H340V260C340 251.36 334.4400000000001 243.94 326.72 241.18L326.5199999999999 241.1A20 20 0 0 0 320 240C309 240 300 249 300 260V300H260C249 300 240 309 240 320L240.14 322.32C241.3 332.24 249.7800000000001 340 260 340H300V380C300 391 309 400 320 400" : "M298 100C310 100 318 90 318 80C318 74.86 316.54 71.2 313.6 67.72L312 66L252 6C248 2 244 0 238 0C228 0 218 8 218 20C218 25.14 219.46 28.8 222.4 32.28L224 34L284 94C288 98 292 100 298 100M26 318L160.68 269A60.1 60.1 0 0 1 202.5800000000001 202.56A60.1 60.1 0 0 1 270.6 160.94L278 124V120C278 114.86 276.54 111.2 273.6 107.72L272 106L212 46C208.58 42.58 205.14 40.6 200.46 40.12L198 40H194L94 60L92 60.2C87.38 61.2 83 65.4 80.8 70L80 72L0 292L6 298L122 182C120 178 118 174 118 170C118 154 130 140 148 140S178 154 178 170S164 200 148 200C144.8 200 141.6 198.72 138.4 197.2L136 196L20 312zM260 320C271 320 280 311 280 300V280H300C311 280 320 271 320 260S311 240 300 240H280V220C280 209.94 272.48 201.56 262.78 200.2L262.52 200.16A20 20 0 0 0 260 200L261.94 200.12L261.4 200.04L260.66 200.02L260 200C249 200 240 209 240 220V240H220A19.8 19.8 0 0 0 202.9 249.64A20 20 0 0 0 200 260C200 271 209 280 220 280H240V300C240 311 249 320 260 320"}
+                fillRule="evenodd"
+                transform={`scale(0.05, -0.05) translate(${translation}, ${translation})`}
+                style={style}
+            />
+        </SVGIconContainer>
+   );
+});
+NewDrawing.displayName = `Blueprint6.Icon.NewDrawing`;
+export default NewDrawing;

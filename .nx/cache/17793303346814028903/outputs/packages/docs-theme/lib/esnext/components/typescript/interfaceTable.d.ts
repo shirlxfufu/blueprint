@@ -1,0 +1,8 @@
+/// <reference types="react" />
+import { type TsClass, type TsInterface } from "@documentalist/client";
+import { type Props } from "@blueprintjs/core";
+export interface InterfaceTableProps extends Props {
+    data: TsClass | TsInterface;
+    title: string;
+}
+export declare const InterfaceTable: React.FC<InterfaceTableProps>;

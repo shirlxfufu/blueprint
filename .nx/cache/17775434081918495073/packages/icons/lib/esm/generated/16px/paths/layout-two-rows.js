@@ -1,0 +1,2 @@
+export default ["M0 10a1 1 0 011-1h14a1 1 0 011 1v5a1 1 0 01-1 1H1a1 1 0 01-1-1zm0-9a1 1 0 011-1h14a1 1 0 011 1v5a1 1 0 01-1 1H1a1 1 0 01-1-1z"];
+//# sourceMappingURL=layout-two-rows.js.map

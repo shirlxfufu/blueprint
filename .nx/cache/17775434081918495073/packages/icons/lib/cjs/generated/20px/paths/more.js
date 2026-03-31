@@ -1,0 +1,4 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = ["M3.5 8a2.5 2.5 0 110 5 2.5 2.5 0 010-5m7 0a2.5 2.5 0 110 5 2.5 2.5 0 010-5m7 0a2.5 2.5 0 110 5 2.5 2.5 0 010-5"];
+//# sourceMappingURL=more.js.map

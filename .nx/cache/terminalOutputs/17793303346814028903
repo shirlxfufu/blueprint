@@ -1,0 +1,74 @@
+
+> @blueprintjs/docs-theme@6.0.8 compile /Users/xinyif/Documents/GitHub/blueprint/packages/docs-theme
+> run-p "compile:*"
+
+
+> @blueprintjs/docs-theme@6.0.8 compile:esm /Users/xinyif/Documents/GitHub/blueprint/packages/docs-theme
+> tsc -p ./src
+
+
+> @blueprintjs/docs-theme@6.0.8 compile:cjs /Users/xinyif/Documents/GitHub/blueprint/packages/docs-theme
+> tsc -p ./src -m commonjs --verbatimModuleSyntax false --outDir lib/cjs
+
+
+> @blueprintjs/docs-theme@6.0.8 compile:esnext /Users/xinyif/Documents/GitHub/blueprint/packages/docs-theme
+> tsc -p ./src -t esnext --outDir lib/esnext
+
+
+> @blueprintjs/docs-theme@6.0.8 compile:css /Users/xinyif/Documents/GitHub/blueprint/packages/docs-theme
+> sass-compile ./src
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+8 │ @import "styles/api";
+  │         ^^^^^^^^^^^^
+  ╵
+    src/docs-theme.scss 8:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+9 │ @import "styles/banner";
+  │         ^^^^^^^^^^^^^^^
+  ╵
+    src/docs-theme.scss 9:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+10 │ @import "styles/code-block";
+   │         ^^^^^^^^^^^^^^^^^^^
+   ╵
+    src/docs-theme.scss 10:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "styles/code-example";
+   │         ^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    src/docs-theme.scss 11:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "styles/content";
+   │         ^^^^^^^^^^^^^^^^
+   ╵
+    src/docs-theme.scss 12:9  root stylesheet
+
+WARNING: 48 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+[sass-compile] Finished compiling all input .scss files.

@@ -1,0 +1,74 @@
+
+> @blueprintjs/core@6.3.4 compile /Users/xinyif/Documents/GitHub/blueprint/packages/core
+> run-p "compile:*"
+
+
+> @blueprintjs/core@6.3.4 compile:esm /Users/xinyif/Documents/GitHub/blueprint/packages/core
+> tsc -p ./src
+
+
+> @blueprintjs/core@6.3.4 compile:cjs /Users/xinyif/Documents/GitHub/blueprint/packages/core
+> tsc -p ./src -m commonjs --verbatimModuleSyntax false --outDir lib/cjs
+
+
+> @blueprintjs/core@6.3.4 compile:esnext /Users/xinyif/Documents/GitHub/blueprint/packages/core
+> tsc -p ./src -t esnext --outDir lib/esnext
+
+
+> @blueprintjs/core@6.3.4 compile:css /Users/xinyif/Documents/GitHub/blueprint/packages/core
+> sass-compile ./src
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+9 │ @import "@blueprintjs/colors/lib/scss/colors";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    src/blueprint.scss 9:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+10 │ @import "common/variables";
+   │         ^^^^^^^^^^^^^^^^^^
+   ╵
+    src/blueprint.scss 10:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "common/variables-extended";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    src/blueprint.scss 11:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "common/mixins";
+   │         ^^^^^^^^^^^^^^^
+   ╵
+    src/blueprint.scss 12:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+14 │ @import "reset";
+   │         ^^^^^^^
+   ╵
+    src/blueprint.scss 14:9  root stylesheet
+
+WARNING: 222 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+[sass-compile] Finished compiling all input .scss files.

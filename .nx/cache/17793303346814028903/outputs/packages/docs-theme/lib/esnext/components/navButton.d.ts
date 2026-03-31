@@ -1,0 +1,9 @@
+/// <reference types="react" />
+import type { IconName } from "@blueprintjs/icons";
+export interface NavButtonProps {
+    icon: IconName | React.JSX.Element;
+    hotkey: string;
+    text: string;
+    onClick: () => void;
+}
+export declare const NavButton: React.FC<NavButtonProps>;

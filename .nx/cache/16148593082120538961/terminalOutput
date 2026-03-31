@@ -1,0 +1,4 @@
+
+> @blueprintjs/stylelint-plugin@5.1.2 compile /Users/xinyif/Documents/GitHub/blueprint/packages/stylelint-plugin
+> tsc -p src/
+

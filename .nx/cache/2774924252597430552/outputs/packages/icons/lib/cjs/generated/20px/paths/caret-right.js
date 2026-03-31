@@ -1,0 +1,4 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = ["M8.125 14.376l5-4.375-5-4.375z", "M13.875 10.001a.75.75 0 00-.256-.564l-5-4.375a.75.75 0 00-1.244.564v8.75a.75.75 0 001.244.565l5-4.375.058-.057a.75.75 0 00.198-.508m-5 2.722V7.28L11.986 10z"];
+//# sourceMappingURL=caret-right.js.map

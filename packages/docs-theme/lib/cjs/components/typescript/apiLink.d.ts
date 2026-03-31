@@ -1,0 +1,10 @@
+/// <reference types="react" />
+import type { Props } from "@blueprintjs/core";
+export interface ApiLinkProps extends Props {
+    children?: never;
+    name: string;
+}
+/**
+ * Renders a link to open a symbol in the API Browser.
+ */
+export declare const ApiLink: React.FC<ApiLinkProps>;

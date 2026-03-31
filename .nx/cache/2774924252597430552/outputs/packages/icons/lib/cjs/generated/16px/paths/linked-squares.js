@@ -1,0 +1,4 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = ["M8 5.75a.75.75 0 010 1.5H6.75v5h6.5v-5H12a.75.75 0 010-1.5h2a.75.75 0 01.75.75V13a.75.75 0 01-.75.75H6a.75.75 0 01-.75-.75V6.5A.75.75 0 016 5.75zm2-3.5l.077.004A.75.75 0 0110.75 3v6.5a.75.75 0 01-.75.75H8a.75.75 0 010-1.5h1.25v-5h-6.5v5H4a.75.75 0 010 1.5H2a.75.75 0 01-.75-.75V3A.75.75 0 012 2.25z"];
+//# sourceMappingURL=linked-squares.js.map

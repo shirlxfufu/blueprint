@@ -1,0 +1,81 @@
+
+> @blueprintjs/docs-data@6.3.4 compile /Users/xinyif/Documents/GitHub/blueprint/packages/docs-data
+> node ./compile-docs-data.mjs
+
+[docs-data] compiling documentation for library packages: core, datetime, datetime2, icons, select, table, labs
+[90m[debug][0m Reading tsconfig at /Users/xinyif/Documents/GitHub/blueprint/packages/core/src/tsconfig.json
+[90m[debug][0m Using TypeScript 5.3.3 from /Users/xinyif/Documents/GitHub/blueprint/node_modules/.pnpm/typescript@5.3.3/node_modules/typescript/lib
+[90m[debug][0m Expanded /Users/xinyif/Documents/GitHub/blueprint/packages/core/src/index.ts to:
+	/Users/xinyif/Documents/GitHub/blueprint/packages/core/src/index.ts
+[90m[debug][0m Converting with 1 programs 1 entry points
+[90m[debug][0m Finished getting entry points in 4022ms
+[90m[debug][0m Begin readme.md/package.json search at /Users/xinyif/Documents/GitHub/blueprint/packages/core/src
+[90m[debug][0m Refusing to recurse when converting type: keyof IntrinsicElements
+[90m[debug][0m Refusing to recurse when converting type: string | JSXElementConstructor<any>
+[90m[debug][0m Refusing to recurse when converting type: keyof IntrinsicElements
+[90m[debug][0m Refusing to recurse when converting type: keyof IntrinsicElements
+[90m[debug][0m Refusing to recurse when converting type: keyof IntrinsicElements
+[90m[debug][0m Refusing to recurse when converting type: keyof IntrinsicElements
+[90m[debug][0m Refusing to recurse when converting type: keyof IntrinsicElements
+[90m[debug][0m Refusing to recurse when converting type: keyof IntrinsicElements
+[90m[debug][0m Refusing to recurse when converting type: keyof IntrinsicElements
+[90m[debug][0m Refusing to recurse when converting type: keyof IntrinsicElements
+[90m[debug][0m Refusing to recurse when converting type: keyof IntrinsicElements
+[90m[debug][0m Refusing to recurse when converting type: keyof IntrinsicElements
+[90m[debug][0m Refusing to recurse when converting type: keyof IntrinsicElements
+[90m[debug][0m Refusing to recurse when converting type: keyof IntrinsicElements
+[90m[debug][0m Refusing to recurse when converting type: keyof IntrinsicElements
+[90m[debug][0m Finished conversion in 416ms
+[90m[debug][0m Reading tsconfig at /Users/xinyif/Documents/GitHub/blueprint/packages/datetime/src/tsconfig.json
+[90m[debug][0m Using TypeScript 5.3.3 from /Users/xinyif/Documents/GitHub/blueprint/node_modules/.pnpm/typescript@5.3.3/node_modules/typescript/lib
+[90m[debug][0m Expanded /Users/xinyif/Documents/GitHub/blueprint/packages/datetime/src/index.ts to:
+	/Users/xinyif/Documents/GitHub/blueprint/packages/datetime/src/index.ts
+[90m[debug][0m Converting with 1 programs 1 entry points
+[90m[debug][0m Finished getting entry points in 3054ms
+[90m[debug][0m Begin readme.md/package.json search at /Users/xinyif/Documents/GitHub/blueprint/packages/datetime/src
+[90m[debug][0m Finished conversion in 134ms
+[90m[debug][0m Reading tsconfig at /Users/xinyif/Documents/GitHub/blueprint/packages/datetime2/src/tsconfig.json
+[90m[debug][0m Using TypeScript 5.3.3 from /Users/xinyif/Documents/GitHub/blueprint/node_modules/.pnpm/typescript@5.3.3/node_modules/typescript/lib
+[90m[debug][0m Expanded /Users/xinyif/Documents/GitHub/blueprint/packages/datetime2/src/index.ts to:
+	/Users/xinyif/Documents/GitHub/blueprint/packages/datetime2/src/index.ts
+[90m[debug][0m Converting with 1 programs 1 entry points
+[90m[debug][0m Finished getting entry points in 2357ms
+[90m[debug][0m Begin readme.md/package.json search at /Users/xinyif/Documents/GitHub/blueprint/packages/datetime2/src
+[90m[debug][0m Finished conversion in 70ms
+[90m[debug][0m Reading tsconfig at /Users/xinyif/Documents/GitHub/blueprint/packages/icons/src/tsconfig.json
+[90m[debug][0m Using TypeScript 5.3.3 from /Users/xinyif/Documents/GitHub/blueprint/node_modules/.pnpm/typescript@5.3.3/node_modules/typescript/lib
+[90m[debug][0m Expanded /Users/xinyif/Documents/GitHub/blueprint/packages/icons/src/index.ts to:
+	/Users/xinyif/Documents/GitHub/blueprint/packages/icons/src/index.ts
+[90m[debug][0m Converting with 1 programs 1 entry points
+[90m[debug][0m Finished getting entry points in 95714ms
+[90m[debug][0m Begin readme.md/package.json search at /Users/xinyif/Documents/GitHub/blueprint/packages/icons/src
+[90m[debug][0m Refusing to recurse when converting type: keyof IntrinsicElements
+[90m[debug][0m Finished conversion in 202ms
+[90m[debug][0m Reading tsconfig at /Users/xinyif/Documents/GitHub/blueprint/packages/select/src/tsconfig.json
+[90m[debug][0m Using TypeScript 5.3.3 from /Users/xinyif/Documents/GitHub/blueprint/node_modules/.pnpm/typescript@5.3.3/node_modules/typescript/lib
+[90m[debug][0m Expanded /Users/xinyif/Documents/GitHub/blueprint/packages/select/src/index.ts to:
+	/Users/xinyif/Documents/GitHub/blueprint/packages/select/src/index.ts
+[90m[debug][0m Converting with 1 programs 1 entry points
+[90m[debug][0m Finished getting entry points in 2803ms
+[90m[debug][0m Begin readme.md/package.json search at /Users/xinyif/Documents/GitHub/blueprint/packages/select/src
+[90m[debug][0m Finished conversion in 135ms
+[90m[debug][0m Reading tsconfig at /Users/xinyif/Documents/GitHub/blueprint/packages/table/src/tsconfig.json
+[90m[debug][0m Using TypeScript 5.3.3 from /Users/xinyif/Documents/GitHub/blueprint/node_modules/.pnpm/typescript@5.3.3/node_modules/typescript/lib
+[90m[debug][0m Expanded /Users/xinyif/Documents/GitHub/blueprint/packages/table/src/index.ts to:
+	/Users/xinyif/Documents/GitHub/blueprint/packages/table/src/index.ts
+[90m[debug][0m Converting with 1 programs 1 entry points
+[90m[debug][0m Finished getting entry points in 2515ms
+[90m[debug][0m Begin readme.md/package.json search at /Users/xinyif/Documents/GitHub/blueprint/packages/table/src
+[90m[debug][0m Refusing to recurse when converting type: keyof OverlayLifecycleProps
+[90m[debug][0m Finished conversion in 157ms
+[90m[debug][0m Reading tsconfig at /Users/xinyif/Documents/GitHub/blueprint/packages/labs/src/tsconfig.json
+[90m[debug][0m Using TypeScript 5.3.3 from /Users/xinyif/Documents/GitHub/blueprint/node_modules/.pnpm/typescript@5.3.3/node_modules/typescript/lib
+[90m[debug][0m Expanded /Users/xinyif/Documents/GitHub/blueprint/packages/labs/src/index.ts to:
+	/Users/xinyif/Documents/GitHub/blueprint/packages/labs/src/index.ts
+[90m[debug][0m Converting with 1 programs 1 entry points
+[90m[debug][0m Finished getting entry points in 1134ms
+[90m[debug][0m Begin readme.md/package.json search at /Users/xinyif/Documents/GitHub/blueprint/packages/labs/src
+[90m[debug][0m Finished conversion in 83ms
+[docs-data] successfully generated docs.json
+(node:57117) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.
+(Use `node --trace-deprecation ...` to show where the warning was created)

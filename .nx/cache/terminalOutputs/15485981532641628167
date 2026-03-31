@@ -1,0 +1,14 @@
+> pnpm run dev
+
+
+> @blueprintjs/test-commons@4.0.4 dev /Users/xinyif/Documents/GitHub/blueprint/packages/test-commons
+> pnpm compile --watch
+
+
+> @blueprintjs/test-commons@4.0.4 compile /Users/xinyif/Documents/GitHub/blueprint/packages/test-commons
+> tsc -p ./src --watch
+
+[2J[3J[H[[90m3:52:55 PM[0m] Starting compilation in watch mode...
+
+[[90m3:53:02 PM[0m] Found 0 errors. Watching for file changes.
+

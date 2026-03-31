@@ -1,0 +1,65 @@
+{
+  "run": {
+    "command": "nx run-many -t dev --exclude @blueprintjs/landing-app @blueprintjs/table-dev-app",
+    "startTime": "2026-03-30T19:52:53.104Z",
+    "endTime": "2026-03-30T19:54:59.297Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "@blueprintjs/core:dist:variables",
+      "target": "dist:variables",
+      "projectName": "@blueprintjs/core",
+      "hash": "10832987531246210203",
+      "startTime": "2026-03-30T19:52:53.217Z",
+      "endTime": "2026-03-30T19:52:55.903Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@blueprintjs/test-commons:compile",
+      "target": "compile",
+      "projectName": "@blueprintjs/test-commons",
+      "hash": "4959554231202568295",
+      "startTime": "2026-03-30T19:52:53.217Z",
+      "endTime": "2026-03-30T19:53:02.525Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@blueprintjs/colors:compile",
+      "target": "compile",
+      "projectName": "@blueprintjs/colors",
+      "hash": "14125454677703069633",
+      "startTime": "2026-03-30T19:52:53.217Z",
+      "endTime": "2026-03-30T19:53:02.888Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@blueprintjs/stylelint-plugin:compile",
+      "target": "compile",
+      "projectName": "@blueprintjs/stylelint-plugin",
+      "hash": "11443280316654919761",
+      "startTime": "2026-03-30T19:53:02.907Z",
+      "endTime": "2026-03-30T19:53:07.874Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    },
+    {
+      "taskId": "@blueprintjs/monaco-editor-theme:compile",
+      "target": "compile",
+      "projectName": "@blueprintjs/monaco-editor-theme",
+      "hash": "12937695937478742525",
+      "startTime": "2026-03-30T19:53:02.907Z",
+      "endTime": "2026-03-30T19:53:09.839Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

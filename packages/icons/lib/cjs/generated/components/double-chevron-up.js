@@ -1,0 +1,32 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DoubleChevronUp = void 0;
+const tslib_1 = require("tslib");
+const jsx_runtime_1 = require("react/jsx-runtime");
+/*
+ * Copyright 2024 Palantir Technologies, Inc. All rights reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+const React = tslib_1.__importStar(require("react"));
+const iconTypes_1 = require("../../iconTypes");
+const svgIconContainer_1 = require("../../svgIconContainer");
+exports.DoubleChevronUp = React.forwardRef((props, ref) => {
+    const isLarge = (props.size ?? iconTypes_1.IconSize.STANDARD) >= iconTypes_1.IconSize.LARGE;
+    const pixelGridSize = isLarge ? iconTypes_1.IconSize.LARGE : iconTypes_1.IconSize.STANDARD;
+    const translation = `${-1 * pixelGridSize / 0.05 / 2}`;
+    const style = { transformOrigin: "center" };
+    return ((0, jsx_runtime_1.jsx)(svgIconContainer_1.SVGIconContainer, { iconName: "double-chevron-up", ref: ref, ...props, children: (0, jsx_runtime_1.jsx)("path", { d: isLarge ? "M80 180C85.6 180 90.6 182.2 94.2 185.8L200 291.8L305.8 186C309.4 182.2 314.4 180 320 180A20.06 20.06 0 0 1 334.2000000000001 214.2L214.2 334.2000000000001A20 20 0 0 1 200 340C194.4 340 189.4 337.8 185.8 334.2L65.8 214.2A20.06 20.06 0 0 1 80 180M214.2 214.2A20 20 0 0 1 200 220C194.4 220 189.4 217.8 185.8 214.2L65.8 94.2000000000001A20.06 20.06 0 0 1 94.2 65.8L200 171.8L305.8 66C309.4 62.2 314.4 60 320 60A20.06 20.06 0 0 1 334.2000000000001 94.2000000000001z" : "M80 160C85.6 160 90.6 162.2 94.2 165.8L160 231.8L225.8 166C229.4 162.2 234.4 160 240 160A20.06 20.06 0 0 1 254.2 194.2L174.2 274.2C170.6 277.8 165.6 280 160 280S149.4 277.8 145.8 274.2L65.8 194.2A20.06 20.06 0 0 1 80 160M174.2 174.2C170.6 177.8 165.6 180 160 180S149.4 177.8 145.8 174.2L65.8 94.2A20.06 20.06 0 0 1 94.2 65.8L160 131.8L225.8 66C229.4 62.2000000000001 234.4 60 240 60A20.06 20.06 0 0 1 254.2 94.2z", fillRule: "evenodd", transform: `scale(0.05, -0.05) translate(${translation}, ${translation})`, style: style }) }));
+});
+exports.DoubleChevronUp.displayName = `Blueprint6.Icon.DoubleChevronUp`;
+exports.default = exports.DoubleChevronUp;
+//# sourceMappingURL=double-chevron-up.js.map

@@ -1,0 +1,88 @@
+> pnpm run dev
+
+
+> @blueprintjs/icons@6.7.0 dev /Users/xinyif/Documents/GitHub/blueprint/packages/icons
+> run-p "compile:esm --watch" "compile:css --watch"
+
+
+> @blueprintjs/icons@6.7.0 compile:esm /Users/xinyif/Documents/GitHub/blueprint/packages/icons
+> tsc -p ./src --watch
+
+
+> @blueprintjs/icons@6.7.0 compile:css /Users/xinyif/Documents/GitHub/blueprint/packages/icons
+> sass-compile ./src --watch
+
+[2J[3J[H[[90m3:53:09 PM[0m] Starting compilation in watch mode...
+
+[33m[1mDeprecation Warning[0m [[34mimport[0m]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"generated/16px/blueprint-icons-16"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/blueprint-icons.scss 6:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m [[34mimport[0m]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m7 │[0m @import [31m"generated/20px/blueprint-icons-20"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/blueprint-icons.scss 7:9  root stylesheet
+
+[sass-compile] Finished compiling all input .scss files.
+[sass-compile] Watching /Users/xinyif/Documents/GitHub/blueprint/packages/icons/src for changes...
+[sass-compile] Detected change in /Users/xinyif/Documents/GitHub/blueprint/packages/icons/src/generated/16px/_icon-variables.scss, re-compiling.
+[33m[1mDeprecation Warning[0m [[34mimport[0m]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"generated/16px/blueprint-icons-16"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/blueprint-icons.scss 6:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m [[34mimport[0m]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m7 │[0m @import [31m"generated/20px/blueprint-icons-20"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/blueprint-icons.scss 7:9  root stylesheet
+
+[sass-compile] Finished compiling all input .scss files.
+[sass-compile] Detected change in /Users/xinyif/Documents/GitHub/blueprint/packages/icons/src/generated/20px/_icon-variables.scss, re-compiling.
+[33m[1mDeprecation Warning[0m [[34mimport[0m]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"generated/16px/blueprint-icons-16"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/blueprint-icons.scss 6:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m [[34mimport[0m]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m7 │[0m @import [31m"generated/20px/blueprint-icons-20"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/blueprint-icons.scss 7:9  root stylesheet
+
+[sass-compile] Finished compiling all input .scss files.
+[[90m3:54:48 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m3:54:49 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m3:54:49 PM[0m] Found 0 errors. Watching for file changes.
+

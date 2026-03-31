@@ -1,0 +1,7 @@
+/// <reference types="react" />
+import { type TsDocBase } from "@documentalist/client";
+interface ApiHeaderProps extends TsDocBase {
+    children?: React.ReactNode;
+}
+export declare const ApiHeader: React.FC<ApiHeaderProps>;
+export {};

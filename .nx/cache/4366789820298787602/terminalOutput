@@ -1,0 +1,88 @@
+
+> @blueprintjs/labs@6.1.1 compile /Users/xinyif/Documents/GitHub/blueprint/packages/labs
+> run-p "compile:*"
+
+
+> @blueprintjs/labs@6.1.1 compile:esm /Users/xinyif/Documents/GitHub/blueprint/packages/labs
+> tsc -p ./src
+
+
+> @blueprintjs/labs@6.1.1 compile:cjs /Users/xinyif/Documents/GitHub/blueprint/packages/labs
+> tsc -p ./src -m commonjs --verbatimModuleSyntax false --outDir lib/cjs
+
+
+> @blueprintjs/labs@6.1.1 compile:css /Users/xinyif/Documents/GitHub/blueprint/packages/labs
+> sass-compile ./src
+
+
+> @blueprintjs/labs@6.1.1 compile:esnext /Users/xinyif/Documents/GitHub/blueprint/packages/labs
+> tsc -p ./src -t esnext --outDir lib/esnext
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "@blueprintjs/colors/lib/scss/colors";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    src/_common.scss 6:9              @use
+    src/components/box/_box.scss 5:1  @forward
+    src/blueprint-labs.scss 6:1       root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+7 │ @import "@blueprintjs/core/src/common/variables";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    src/_common.scss 7:9              @use
+    src/components/box/_box.scss 5:1  @forward
+    src/blueprint-labs.scss 6:1       root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │ @import "color-aliases";
+  │         ^^^^^^^^^^^^^^^
+  ╵
+    @blueprintjs/core/src/common/_variables.scss 4:9  @import
+    src/_common.scss 7:9                              @use
+    src/components/box/_box.scss 5:1                  @forward
+    src/blueprint-labs.scss 6:1                       root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "mixins";
+  │         ^^^^^^^^
+  ╵
+    @blueprintjs/core/src/common/_variables.scss 5:9  @import
+    src/_common.scss 7:9                              @use
+    src/components/box/_box.scss 5:1                  @forward
+    src/blueprint-labs.scss 6:1                       root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+7 │ @import "@blueprintjs/colors/lib/scss/colors";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    node_modules/@blueprintjs/core/src/common/_mixins.scss 7:9  @import
+    @blueprintjs/core/src/common/_variables.scss 5:9            @import
+    src/_common.scss 7:9                                        @use
+    src/components/box/_box.scss 5:1                            @forward
+    src/blueprint-labs.scss 6:1                                 root stylesheet
+
+WARNING: 1 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+[sass-compile] Finished compiling all input .scss files.

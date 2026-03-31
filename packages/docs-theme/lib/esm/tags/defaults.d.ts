@@ -1,0 +1,3 @@
+/// <reference types="react" />
+import type { Tag } from "@documentalist/client";
+export declare function createDefaultRenderers(): Record<string, React.ComponentType<Tag>>;

@@ -1,0 +1,74 @@
+
+> @blueprintjs/table@6.0.8 compile /Users/xinyif/Documents/GitHub/blueprint/packages/table
+> run-p "compile:*"
+
+
+> @blueprintjs/table@6.0.8 compile:esnext /Users/xinyif/Documents/GitHub/blueprint/packages/table
+> tsc -p ./src -t esnext --outDir lib/esnext
+
+
+> @blueprintjs/table@6.0.8 compile:css /Users/xinyif/Documents/GitHub/blueprint/packages/table
+> sass-compile ./src
+
+
+> @blueprintjs/table@6.0.8 compile:esm /Users/xinyif/Documents/GitHub/blueprint/packages/table
+> tsc -p ./src
+
+
+> @blueprintjs/table@6.0.8 compile:cjs /Users/xinyif/Documents/GitHub/blueprint/packages/table
+> tsc -p ./src -m commonjs --verbatimModuleSyntax false --outDir lib/cjs
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+8 │ @import "@blueprintjs/colors/lib/scss/colors";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    src/table.scss 8:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+9 │ @import "@blueprintjs/core/src/common/variables";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    src/table.scss 9:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+10 │ @import "@blueprintjs/core/src/common/mixins";
+   │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    src/table.scss 10:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │ @import "./common/loading";
+   │         ^^^^^^^^^^^^^^^^^^
+   ╵
+    src/table.scss 11:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │ @import "./common/variables";
+   │         ^^^^^^^^^^^^^^^^^^^^
+   ╵
+    src/table.scss 12:9  root stylesheet
+
+WARNING: 34 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+[sass-compile] Finished compiling all input .scss files.

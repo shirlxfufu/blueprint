@@ -1,0 +1,78 @@
+
+> @blueprintjs/select@6.0.8 compile /Users/xinyif/Documents/GitHub/blueprint/packages/select
+> run-p "compile:*"
+
+
+> @blueprintjs/select@6.0.8 compile:esm /Users/xinyif/Documents/GitHub/blueprint/packages/select
+> tsc -p ./src
+
+
+> @blueprintjs/select@6.0.8 compile:cjs /Users/xinyif/Documents/GitHub/blueprint/packages/select
+> tsc -p ./src -m commonjs --verbatimModuleSyntax false --outDir lib/cjs
+
+
+> @blueprintjs/select@6.0.8 compile:css /Users/xinyif/Documents/GitHub/blueprint/packages/select
+> sass-compile ./src
+
+
+> @blueprintjs/select@6.0.8 compile:esnext /Users/xinyif/Documents/GitHub/blueprint/packages/select
+> tsc -p ./src -t esnext --outDir lib/esnext
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+8 │ @import "./components/index";
+  │         ^^^^^^^^^^^^^^^^^^^^
+  ╵
+    src/blueprint-select.scss 8:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+4 │ @import "multi-select/multi-select";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    src/components/_index.scss 4:9  @import
+    src/blueprint-select.scss 8:9   root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+5 │ @import "omnibar/omnibar";
+  │         ^^^^^^^^^^^^^^^^^
+  ╵
+    src/components/_index.scss 5:9  @import
+    src/blueprint-select.scss 8:9   root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "select/select";
+  │         ^^^^^^^^^^^^^^^
+  ╵
+    src/components/_index.scss 6:9  @import
+    src/blueprint-select.scss 8:9   root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+7 │ @import "suggest/suggest";
+  │         ^^^^^^^^^^^^^^^^^
+  ╵
+    src/components/_index.scss 7:9  @import
+    src/blueprint-select.scss 8:9   root stylesheet
+
+WARNING: 12 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+
+[sass-compile] Finished compiling all input .scss files.

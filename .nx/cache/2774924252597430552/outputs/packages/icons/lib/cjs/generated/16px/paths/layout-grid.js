@@ -1,0 +1,4 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = ["M3.75 4.75a1 1 0 100-2 1 1 0 000 2m4.25 0a1 1 0 100-2 1 1 0 000 2m4.25 0a1 1 0 100-2 1 1 0 000 2M3.75 9a1 1 0 100-2 1 1 0 000 2M8 9a1 1 0 100-2 1 1 0 000 2m4.25 0a1 1 0 100-2 1 1 0 000 2m-8.5 4.25a1 1 0 100-2 1 1 0 000 2m4.25 0a1 1 0 100-2 1 1 0 000 2m4.25 0a1 1 0 100-2 1 1 0 000 2"];
+//# sourceMappingURL=layout-grid.js.map

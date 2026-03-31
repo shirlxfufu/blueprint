@@ -1,0 +1,4 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = ["M16.75 10a6.75 6.75 0 10-13.5 0 6.75 6.75 0 0013.5 0m1.5 0a8.25 8.25 0 11-16.5 0 8.25 8.25 0 0116.5 0", "M9.25 5.625a.75.75 0 011.5 0V9.25h3.625a.75.75 0 010 1.5H10a.75.75 0 01-.75-.75z"];
+//# sourceMappingURL=time.js.map

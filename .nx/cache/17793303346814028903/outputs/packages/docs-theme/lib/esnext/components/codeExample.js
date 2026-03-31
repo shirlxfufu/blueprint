@@ -1,0 +1,67 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+/* !
+ * (c) Copyright 2024 Palantir Technologies Inc. All rights reserved.
+ */
+import classNames from "classnames";
+import { useCallback, useState } from "react";
+import { Button, Classes, Pre, Tooltip } from "@blueprintjs/core";
+import { useTheme } from "../common";
+import { DOCS_CODE_BLOCK } from "../common/classes";
+import { analyzeCode, getHtml, getIndex, getpackageJson, getParameters, getStyles, getTsconfig, } from "../common/sandbox";
+export const CodeExample = props => {
+    const { children, className, id, previewCode, sourceCode, ...rest } = props;
+    const classes = classNames("docs-code-example-frame", className);
+    const [isMinimized, setIsMinimized] = useState(true);
+    const toggleMinimized = useCallback(() => {
+        setIsMinimized((prev) => !prev);
+    }, []);
+    return (_jsxs("div", { className: classes, "data-example-id": id, ...rest, children: [_jsx("div", { className: "docs-code-example", children: children }), _jsxs("div", { className: "docs-code-example-toolbar", children: [_jsx(CodeSandboxButton, { id: id, sourceCode: sourceCode }), _jsx(CodeMinimizeButton, { isMinimized: isMinimized, onClick: toggleMinimized }), _jsx(CopyToClipboardButton, { text: isMinimized ? previewCode : sourceCode })] }), _jsxs("div", { children: [_jsx(Pre, { className: DOCS_CODE_BLOCK, "aria-hidden": !isMinimized, "data-lang": "typescript", children: previewCode.trimEnd() }), _jsx(Pre, { className: DOCS_CODE_BLOCK, "aria-hidden": isMinimized, "data-lang": "typescript", children: sourceCode.trimEnd() })] })] }));
+};
+function CodeSandboxButton({ id, sourceCode }) {
+    const { isDarkTheme } = useTheme();
+    const { dependencies, stylesheets } = analyzeCode(sourceCode);
+    const packageJson = getpackageJson(dependencies);
+    const indexJs = getIndex(stylesheets, isDarkTheme);
+    const parameters = getParameters({
+        files: {
+            "package.json": {
+                content: packageJson,
+                isBinary: false,
+            },
+            "public/index.html": {
+                content: getHtml({ title: `${id} - Blueprint` }),
+                isBinary: false,
+            },
+            "src/Demo.tsx": {
+                content: sourceCode,
+                isBinary: false,
+            },
+            "src/index.tsx": {
+                content: indexJs,
+                isBinary: false,
+            },
+            "src/styles.scss": {
+                content: getStyles(),
+                isBinary: false,
+            },
+            "tsconfig.json": {
+                content: getTsconfig(),
+                isBinary: false,
+            },
+        },
+    });
+    return (_jsxs("form", { action: "https://codesandbox.io/api/v1/sandboxes/define", method: "POST", target: "_blank", children: [_jsx("input", { type: "hidden", name: "parameters", value: parameters }), _jsx("input", { type: "hidden", name: "embed", value: "1" }), _jsx("input", { type: "hidden", name: "query", value: "module=/src/Demo.tsx" }), _jsx(Tooltip, { content: "Open in CodeSandbox", hoverOpenDelay: 300, position: "top", children: _jsx(Button, { "aria-label": "Open in CodeSandbox", icon: _jsx(CodeSandboxIcon, {}), type: "submit" }) })] }));
+}
+export function CodeSandboxIcon() {
+    return (_jsx("span", { className: Classes.ICON, children: _jsx("svg", { xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 256 256", width: 20, height: 20, children: _jsxs("g", { fill: "none", stroke: "currentColor", strokeLinecap: "round", strokeLinejoin: "round", strokeWidth: "16", children: [_jsx("path", { d: "M131.84,25l88,48.18a8,8,0,0,1,4.16,7v95.64a8,8,0,0,1-4.16,7l-88,48.18a8,8,0,0,1-7.68,0l-88-48.18a8,8,0,0,1-4.16-7V80.18a8,8,0,0,1,4.16-7l88-48.18A8,8,0,0,1,131.84,25Z" }), _jsx("line", { x1: "128", y1: "128", x2: "128", y2: "232" }), _jsx("polyline", { points: "32.03 125.73 80 152 80 206.84" }), _jsx("polyline", { points: "224 125.72 176 152 176 206.84" }), _jsx("polyline", { points: "83.14 47.44 128 72 172.86 47.44" }), _jsx("polyline", { points: "33.14 76.06 128 128 222.86 76.06" })] }) }) }));
+}
+function CodeMinimizeButton({ isMinimized, onClick }) {
+    return (_jsx(Tooltip, { content: isMinimized ? "Expand code" : "Minimize code", hoverOpenDelay: 300, position: "top", children: _jsx(Button, { "aria-label": isMinimized ? "Expand code" : "Minimize code", icon: isMinimized ? "maximize" : "minimize", onClick: onClick }) }));
+}
+function CopyToClipboardButton({ text }) {
+    const onClick = useCallback(() => {
+        navigator.clipboard.writeText(text);
+    }, [text]);
+    return (_jsx(Tooltip, { content: "Copy to clipboard", hoverOpenDelay: 300, position: "top", children: _jsx(Button, { "aria-label": "Copy to clipboard", icon: "duplicate", onClick: onClick }) }));
+}
+//# sourceMappingURL=codeExample.js.map

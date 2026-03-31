@@ -1,0 +1,8 @@
+/// <reference types="react" />
+export interface ThemeContextValue {
+    isDarkTheme: boolean;
+    toggleTheme?: (useDark: boolean) => void;
+}
+export declare const ThemeContext: import("react").Context<ThemeContextValue>;
+export declare const useTheme: () => ThemeContextValue;
+export declare const ThemeProvider: import("react").Provider<ThemeContextValue>;

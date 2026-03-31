@@ -1,0 +1,35 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Airplane = void 0;
+const tslib_1 = require("tslib");
+const jsx_runtime_1 = require("react/jsx-runtime");
+/*
+ * Copyright 2024 Palantir Technologies, Inc. All rights reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+const React = tslib_1.__importStar(require("react"));
+const iconTypes_1 = require("../../iconTypes");
+const svgIconContainer_1 = require("../../svgIconContainer");
+exports.Airplane = React.forwardRef((props, ref) => {
+    const isLarge = props.size >= iconTypes_1.IconSize.LARGE;
+    const pixelGridSize = isLarge ? iconTypes_1.IconSize.LARGE : iconTypes_1.IconSize.STANDARD;
+    const translation = `${-1 * pixelGridSize / 0.05 / 2}`;
+    const style = { transformOrigin: "center" };
+    return ((0, jsx_runtime_1.jsx)(svgIconContainer_1.SVGIconContainer, { iconName: "airplane", ref: ref, ...props, children: (0, jsx_runtime_1.jsx)("path", { d: isLarge ? "M322.56 300A22.58 22.58 0 0 1 284.1600000000001 316.0800000000001L235.94 264.7200000000001A15 15 0 0 0 219.88 260.9L91.34 307.66L73.54 289.86L170.8 224.96A15 15 0 0 0 173.08 201.88L135.6 164.4A15 15 0 0 0 125 160H93.7L76.68 143L118.08 126.42A15 15 0 0 0 126.42 118.06L142.96 76.7000000000001L160 93.7V125C160 128.98 161.58 132.8 164.4 135.6L201.88 173.1L203.1400000000001 174.22A15 15 0 0 0 224.9800000000001 170.82L289.8200000000001 73.56L307.6200000000001 91.36L260.9000000000001 219.86A15 15 0 0 0 264.7200000000001 235.92L315.9600000000001 284.06C320.1600000000001 288.3 322.5600000000001 294.02 322.5600000000001 300M352.5600000000001 300C352.5600000000001 286.06 347.0200000000001 272.68 337.1600000000001 262.84L336.8400000000002 262.5L292.4400000000001 220.84L339.1000000000002 92.62A15 15 0 0 0 335.6000000000001 76.9L298.1000000000001 39.4A15 15 0 0 0 275.0200000000001 41.68L210.1600000000001 138.96L190 118.8V87.5A15 15 0 0 0 185.6 76.9L148.1 39.4A15 15 0 0 0 123.56 44.4L100.94 101L44.42 123.6A15 15 0 0 0 39.38 148.12L76.88 185.62L79.18 187.5A15 15 0 0 0 87.5 190.02H118.78L138.94 210.2L41.68 275A15 15 0 0 0 39.38 298.08L76.88 335.6L78.54 337A15 15 0 0 0 92.62 339.08L220.8 292.48L262.5 336.84L262.82 337.16A52.56 52.56 0 0 0 352.56 300" : "M255.06 240A15.06 15.06 0 0 1 229.34 250.64L190.94 209.74A15 15 0 0 0 174.88 205.9L73.84 242.64L63.52 232.34L138.32 182.48A15 15 0 0 0 140.6 159.38L110.6 129.38A15 15 0 0 0 100 124.98H76.2L66.68 115.48L95.56 103.92L96.96 103.3A15 15 0 0 0 103.92 95.58L115.46 66.7L125 76.2V100C125 103.96 126.58 107.8 129.4 110.6L159.4 140.6L160.64 141.72A15 15 0 0 0 182.48 138.32L232.32 63.54L242.64 73.86L205.9 174.86A15 15 0 0 0 209.72 190.92L250.7 229.44A15 15 0 0 1 255.06 240M285.06 240C285.06 228.04 280.3 216.6 271.86 208.14L271.52 207.82L237.4600000000001 175.84L274.1 75.12A15 15 0 0 0 270.6 59.38L240.6 29.38A15 15 0 0 0 217.5200000000001 31.68L167.66 106.46L155 93.78V69.98A15 15 0 0 0 150.6 59.38L120.6 29.38A15 15 0 0 0 96.06 34.42L78.46 78.46L34.42 96.0600000000001A15 15 0 0 0 29.4 120.6L59.4 150.6L61.7 152.48A15 15 0 0 0 70 155H93.8L106.44 167.66L31.68 217.5A15 15 0 0 0 29.38 240.6L59.38 270.6L61.02 272.02A15 15 0 0 0 75.12 274.1L175.8 237.48L207.8 271.52L208.12 271.84A45.06 45.06 0 0 0 285.06 240", fillRule: "evenodd", transform: `scale(0.05, -0.05) translate(${translation}, ${translation})`, style: style }) }));
+});
+exports.Airplane.defaultProps = {
+    size: iconTypes_1.IconSize.STANDARD,
+};
+exports.Airplane.displayName = `Blueprint6.Icon.Airplane`;
+exports.default = exports.Airplane;
+//# sourceMappingURL=airplane.js.map

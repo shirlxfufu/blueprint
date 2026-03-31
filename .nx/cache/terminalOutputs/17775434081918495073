@@ -1,0 +1,93 @@
+> nx run @blueprintjs/icons:compile
+
+> pnpm run compile
+
+
+> @blueprintjs/icons@6.7.0 compile /Users/xinyif/Documents/GitHub/blueprint/packages/icons
+> npm-run-all -s "generate-icon-src" -p "compile:*" -p "copy:*"
+
+
+> @blueprintjs/icons@6.7.0 generate-icon-src /Users/xinyif/Documents/GitHub/blueprint/packages/icons
+> node scripts/generate-icon-fonts.mjs && node scripts/generate-icon-paths.mjs && node scripts/generate-icon-components.mjs
+
+[33mGenerating font kit...[39m
+[37m✔ 704 SVGs found in /Users/xinyif/Documents/GitHub/blueprint/resources/icons/16px[39m
+[34m✔ Generated [36m/Users/xinyif/Documents/GitHub/blueprint/packages/icons/src/generated/16px/blueprint-icons-16.ttf[34m[39m
+[34m✔ Generated [36m/Users/xinyif/Documents/GitHub/blueprint/packages/icons/src/generated/16px/blueprint-icons-16.eot[34m[39m
+[34m✔ Generated [36m/Users/xinyif/Documents/GitHub/blueprint/packages/icons/src/generated/16px/blueprint-icons-16.woff2[34m[39m
+[34m✔ Generated [36m/Users/xinyif/Documents/GitHub/blueprint/packages/icons/src/generated/16px/blueprint-icons-16.woff[34m[39m
+[34m✔ Generated [36m/Users/xinyif/Documents/GitHub/blueprint/packages/icons/src/generated/16px/blueprint-icons-16.svg[34m[39m
+[34m✔ Generated [36m/Users/xinyif/Documents/GitHub/blueprint/packages/icons/src/generated/16px/blueprint-icons-16.css[34m[39m
+[34m✔ Generated [36m/Users/xinyif/Documents/GitHub/blueprint/packages/icons/src/generated/16px/_icon-variables.scss[34m[39m
+[34m✔ Generated [36m/Users/xinyif/Documents/GitHub/blueprint/packages/icons/src/generated/16px/blueprint-icons-16.ts[34m[39m
+[32m[1mDone[22m[39m
+[37m✔ 704 SVGs found in /Users/xinyif/Documents/GitHub/blueprint/resources/icons/20px[39m
+[34m✔ Generated [36m/Users/xinyif/Documents/GitHub/blueprint/packages/icons/src/generated/20px/blueprint-icons-20.ttf[34m[39m
+[34m✔ Generated [36m/Users/xinyif/Documents/GitHub/blueprint/packages/icons/src/generated/20px/blueprint-icons-20.eot[34m[39m
+[34m✔ Generated [36m/Users/xinyif/Documents/GitHub/blueprint/packages/icons/src/generated/20px/blueprint-icons-20.woff2[34m[39m
+[34m✔ Generated [36m/Users/xinyif/Documents/GitHub/blueprint/packages/icons/src/generated/20px/blueprint-icons-20.woff[34m[39m
+[34m✔ Generated [36m/Users/xinyif/Documents/GitHub/blueprint/packages/icons/src/generated/20px/blueprint-icons-20.svg[34m[39m
+[34m✔ Generated [36m/Users/xinyif/Documents/GitHub/blueprint/packages/icons/src/generated/20px/blueprint-icons-20.css[34m[39m
+[34m✔ Generated [36m/Users/xinyif/Documents/GitHub/blueprint/packages/icons/src/generated/20px/_icon-variables.scss[34m[39m
+[34m✔ Generated [36m/Users/xinyif/Documents/GitHub/blueprint/packages/icons/src/generated/20px/blueprint-icons-20.ts[34m[39m
+[32m[1mDone[22m[39m
+Parsed 704 16px icons.
+Writing index file for 16px icon kit paths...
+Done.
+Parsed 704 20px icons.
+Writing index file for 20px icon kit paths...
+Done.
+Parsing SVG glyphs from generated 16px SVG icon font...
+Parsed 704 16px icons.
+Parsing SVG glyphs from generated 20px SVG icon font...
+Parsed 704 20px icons.
+Clearing existing icon modules...
+Generating ES modules for each icon...
+Writing index file for all icon modules...
+Writing index file for package...
+Done.
+
+> @blueprintjs/icons@6.7.0 compile:esm /Users/xinyif/Documents/GitHub/blueprint/packages/icons
+> tsc -p ./src
+
+
+> @blueprintjs/icons@6.7.0 compile:esnext /Users/xinyif/Documents/GitHub/blueprint/packages/icons
+> tsc -p ./src -t esnext --outDir lib/esnext
+
+
+> @blueprintjs/icons@6.7.0 compile:cjs /Users/xinyif/Documents/GitHub/blueprint/packages/icons
+> tsc -p ./src -m commonjs --verbatimModuleSyntax false --outDir lib/cjs
+
+
+> @blueprintjs/icons@6.7.0 compile:css /Users/xinyif/Documents/GitHub/blueprint/packages/icons
+> sass-compile ./src
+
+[33m[1mDeprecation Warning[0m [[34mimport[0m]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"generated/16px/blueprint-icons-16"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/blueprint-icons.scss 6:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m [[34mimport[0m]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m7 │[0m @import [31m"generated/20px/blueprint-icons-20"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/blueprint-icons.scss 7:9  root stylesheet
+
+[sass-compile] Finished compiling all input .scss files.
+
+> @blueprintjs/icons@6.7.0 copy:fonts /Users/xinyif/Documents/GitHub/blueprint/packages/icons
+> scripts/copy-fonts.sh
+
+
+> @blueprintjs/icons@6.7.0 copy:scss /Users/xinyif/Documents/GitHub/blueprint/packages/icons
+> scripts/copy-scss.sh
+

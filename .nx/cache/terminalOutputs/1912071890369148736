@@ -1,0 +1,60 @@
+
+> @blueprintjs/icons@6.3.1 dev /Users/xinyif/Documents/GitHub/blueprint/packages/icons
+> run-p "compile:esm --watch" "compile:css --watch"
+
+
+> @blueprintjs/icons@6.3.1 compile:esm /Users/xinyif/Documents/GitHub/blueprint/packages/icons
+> tsc -p ./src --watch
+
+
+> @blueprintjs/icons@6.3.1 compile:css /Users/xinyif/Documents/GitHub/blueprint/packages/icons
+> sass-compile ./src --watch
+
+c[[90m1:23:06 AM[0m] Starting compilation in watch mode...
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+6 │ @import "generated/16px/blueprint-icons-16";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    src/blueprint-icons.scss 6:9  root stylesheet
+
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+7 │ @import "generated/20px/blueprint-icons-20";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    src/blueprint-icons.scss 7:9  root stylesheet
+
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+sass.Exception [Error]: Can't find stylesheet to import.
+  ╷
+6 │ @import "generated/16px/blueprint-icons-16";
+  │         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+  src/blueprint-icons.scss 6:9  root stylesheet
+    at Object.wrapException (/Users/xinyif/Documents/GitHub/blueprint/node_modules/[4m.pnpm[24m/sass@1.93.2/node_modules/[4msass[24m/sass.dart.js:2292:47)
+    at /Users/xinyif/Documents/GitHub/blueprint/node_modules/[4m.pnpm[24m/sass@1.93.2/node_modules/[4msass[24m/sass.dart.js:87606:25
+    at _wrapJsFunctionForAsync_closure.$protected (/Users/xinyif/Documents/GitHub/blueprint/node_modules/[4m.pnpm[24m/sass@1.93.2/node_modules/[4msass[24m/sass.dart.js:4960:15)
+    at _wrapJsFunctionForAsync_closure.call$2 (/Users/xinyif/Documents/GitHub/blueprint/node_modules/[4m.pnpm[24m/sass@1.93.2/node_modules/[4msass[24m/sass.dart.js:37968:12)
+    at _awaitOnObject_closure.call$1 (/Users/xinyif/Documents/GitHub/blueprint/node_modules/[4m.pnpm[24m/sass@1.93.2/node_modules/[4msass[24m/sass.dart.js:37956:32)
+    at Object._rootRunUnary (/Users/xinyif/Documents/GitHub/blueprint/node_modules/[4m.pnpm[24m/sass@1.93.2/node_modules/[4msass[24m/sass.dart.js:5378:18)
+    at StaticClosure.<anonymous> (/Users/xinyif/Documents/GitHub/blueprint/node_modules/[4m.pnpm[24m/sass@1.93.2/node_modules/[4msass[24m/sass.dart.js:124712:16)
+    at _CustomZone.runUnary$2$2 (/Users/xinyif/Documents/GitHub/blueprint/node_modules/[4m.pnpm[24m/sass@1.93.2/node_modules/[4msass[24m/sass.dart.js:39399:39)
+    at _Future__propagateToListeners_handleValueCallback.call$0 (/Users/xinyif/Documents/GitHub/blueprint/node_modules/[4m.pnpm[24m/sass@1.93.2/node_modules/[4msass[24m/sass.dart.js:38457:51)
+    at Object._Future__propagateToListeners (/Users/xinyif/Documents/GitHub/blueprint/node_modules/[4m.pnpm[24m/sass@1.93.2/node_modules/[4msass[24m/sass.dart.js:5170:93)
+
+Node.js v24.11.1
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed.[39m
+ERROR: "compile:css --watch" exited with 1.
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m

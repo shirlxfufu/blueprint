@@ -1,0 +1,4 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = ["M6.22 8.72a.75.75 0 111.06 1.06l-2.47 2.47H6a.75.75 0 010 1.5H3a.75.75 0 01-.75-.75v-3a.75.75 0 011.5 0v1.19zM13.75 6a.75.75 0 01-1.5 0V4.81L9.78 7.28a.75.75 0 11-1.06-1.06l2.47-2.47H10a.75.75 0 010-1.5h3a.75.75 0 01.75.75z"];
+//# sourceMappingURL=maximize.js.map

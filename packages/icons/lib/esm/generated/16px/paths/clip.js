@@ -1,0 +1,2 @@
+export default ["M0 1a1 1 0 011-1h4a1 1 0 010 2H2v3a1 1 0 01-2 0zm1 15a1 1 0 01-1-1v-4a1 1 0 112 0v3h3a1 1 0 110 2zm14 0a1 1 0 001-1v-4a1 1 0 10-2 0v3h-3a1 1 0 100 2zm0-16a1 1 0 011 1v4a1 1 0 11-2 0V2h-3a1 1 0 110-2zM8 11a3 3 0 100-6 3 3 0 000 6"];
+//# sourceMappingURL=clip.js.map

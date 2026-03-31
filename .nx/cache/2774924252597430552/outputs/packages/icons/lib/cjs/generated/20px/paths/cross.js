@@ -1,0 +1,4 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = ["M15.095 3.845a.75.75 0 111.06 1.06l-11.25 11.25a.75.75 0 11-1.06-1.06z", "M3.845 3.845a.75.75 0 011.06 0l11.25 11.25a.75.75 0 11-1.06 1.06L3.845 4.905a.75.75 0 010-1.06"];
+//# sourceMappingURL=cross.js.map

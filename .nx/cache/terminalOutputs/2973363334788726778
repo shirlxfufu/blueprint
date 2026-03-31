@@ -1,0 +1,4 @@
+
+> @blueprintjs/test-commons@4.0.2 compile /Users/xinyif/Documents/GitHub/blueprint/packages/test-commons
+> tsc -p ./src
+

@@ -1,0 +1,8 @@
+> nx run @blueprintjs/core:dist:variables
+
+> pnpm run dist:variables
+
+
+> @blueprintjs/core@6.10.0 dist:variables /Users/xinyif/Documents/GitHub/blueprint/packages/core
+> generate-css-variables --retainDefault true ../../colors/src/_colors.scss common/_color-aliases.scss common/_variables.scss
+

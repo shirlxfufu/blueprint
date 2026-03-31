@@ -1,0 +1,28 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+/*
+ * Copyright 2024 Palantir Technologies, Inc. All rights reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+import * as React from "react";
+import { IconSize } from "../../iconTypes";
+import { SVGIconContainer } from "../../svgIconContainer";
+export const WarningSign = React.forwardRef((props, ref) => {
+    const isLarge = (props.size ?? IconSize.STANDARD) >= IconSize.LARGE;
+    const pixelGridSize = isLarge ? IconSize.LARGE : IconSize.STANDARD;
+    const translation = `${-1 * pixelGridSize / 0.05 / 2}`;
+    const style = { transformOrigin: "center" };
+    return (_jsx(SVGIconContainer, { iconName: "warning-sign", ref: ref, ...props, children: _jsx("path", { d: isLarge ? "M397.2 49.6L397.4000000000001 49.8000000000001L217.4 369.8000000000001L217.2 369.6C213.8 375.8 207.4 380 200 380S186.2 375.8 182.8 369.6L182.6 369.8L2.6 49.8L2.8 49.5999999999999C1.2 46.8 0 43.5999999999999 0 39.9999999999999C0 28.9999999999999 9 19.9999999999999 20 19.9999999999999H380C391 19.9999999999999 400 28.9999999999999 400 39.9999999999999C400 43.5999999999999 398.8 46.8 397.2 49.5999999999999M220 60H180V100H220zM220 120H180V280H220z" : "M316.8 50L317 50.2L177 290.2L176.8 290C173.4 296 167.2 300 159.8 300S146.4 296 142.8 290L142.6 290.2L2.6 50.2L2.8 50C1 47 -0.2 43.8 -0.2 40C-0.2 29 8.8 20 19.8 20H299.8C310.8 20 319.8 29 319.8 40C319.8 43.8 318.6 47 316.8 50M179.8 60.2H139.8V100.2H179.8zM179.8 120.2H139.8V220.2H179.8z", fillRule: "evenodd", transform: `scale(0.05, -0.05) translate(${translation}, ${translation})`, style: style }) }));
+});
+WarningSign.displayName = `Blueprint6.Icon.WarningSign`;
+export default WarningSign;
+//# sourceMappingURL=warning-sign.js.map

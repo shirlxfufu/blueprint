@@ -1,0 +1,8 @@
+> nx run @blueprintjs/stylelint-plugin:compile
+
+> pnpm run compile
+
+
+> @blueprintjs/stylelint-plugin@5.2.1 compile /Users/xinyif/Documents/GitHub/blueprint/packages/stylelint-plugin
+> tsc -p src/
+

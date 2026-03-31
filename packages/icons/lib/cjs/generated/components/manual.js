@@ -1,0 +1,32 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Manual = void 0;
+const tslib_1 = require("tslib");
+const jsx_runtime_1 = require("react/jsx-runtime");
+/*
+ * Copyright 2024 Palantir Technologies, Inc. All rights reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+const React = tslib_1.__importStar(require("react"));
+const iconTypes_1 = require("../../iconTypes");
+const svgIconContainer_1 = require("../../svgIconContainer");
+exports.Manual = React.forwardRef((props, ref) => {
+    const isLarge = (props.size ?? iconTypes_1.IconSize.STANDARD) >= iconTypes_1.IconSize.LARGE;
+    const pixelGridSize = isLarge ? iconTypes_1.IconSize.LARGE : iconTypes_1.IconSize.STANDARD;
+    const translation = `${-1 * pixelGridSize / 0.05 / 2}`;
+    const style = { transformOrigin: "center" };
+    return ((0, jsx_runtime_1.jsx)(svgIconContainer_1.SVGIconContainer, { iconName: "manual", ref: ref, ...props, children: (0, jsx_runtime_1.jsx)("path", { d: isLarge ? "M400 378A19.52 19.52 0 0 1 383.4000000000001 395.6C303 408.6 241.4 393.2 200 350C158.6 393.2 97 408.6 16.8 395.6C7.4 394 0.6 386.6 0 378V77.8C0 76.4 0 75 0.2 73.6C2 63.2 12.4 56 23.2 57.8C100.2 70.2000000000001 151.2 54.6 183.2 8.6C183.6 8.2 183.8 7.8 184.2 7.2C184.6 6.8 185 6.4 185.4 5.8L185.6 5.6A20 20 0 0 1 191.2 1.8C191.4 1.8 191.4 1.5999999999999 191.6 1.5999999999999C192.2 1.3999999999999 193 0.9999999999999 193.6 0.7999999999999C193.8 0.7999999999999 194 0.5999999999999 194.4 0.5999999999999C195 0.3999999999999 195.8 0.1999999999999 196.4 0.1999999999999C196.6 0.1999999999999 196.8 0.1999999999999 197.2 -1e-13H200C200.8 -1e-13 201.8 -1e-13 202.6 0.1999999999999C202.8 0.1999999999999 203.2 0.1999999999999 203.4 0.3999999999999C204 0.6 204.6 0.6 205.4 0.7999999999999C205.6 0.7999999999999 206 0.9999999999999 206.2 0.9999999999999C206.8 1.2 207.6 1.3999999999999 208.2 1.8C208.4 1.8 208.6 1.9999999999999 208.8 1.9999999999999C210.2 2.6 211.4 3.4 212.5999999999999 4.1999999999999C212.8 4.1999999999999 212.8 4.4 213 4.4C213.3999999999999 4.8 213.7999999999999 5 214.1999999999999 5.4C214.4 5.6 214.5999999999999 5.8 214.7999999999999 5.8L215.8 6.8C216 7 216.1999999999999 7.2 216.1999999999999 7.4C216.3999999999999 7.8 216.5999999999999 8.0000000000001 216.9999999999999 8.4C249.1999999999999 54.4 300 70.2000000000001 376.9999999999999 57.6C387.7999999999999 55.8000000000001 398.1999999999999 62.8000000000001 399.9999999999999 73.4C399.7999999999999 74.4 399.9999999999999 75.2000000000001 399.9999999999999 76zM180 67.4C144.4 93.6 97.6 104 40 98.4V360C105.2 367.4 150.2 352.2 180 313zM360 98.6C302.4000000000001 104.2000000000001 255.6 93.8 220 67.6V313.2C249.8 352.4 294.8 367.4 360 360.2z" : "M319.8 297.4C319.4000000000001 305.6 313.2 312.8 304.2000000000001 314.8C245.2 327.2 196.8 317.4 160 286C123.2 317.4 74.8 327.2 15.6 314.8C6.6 313 0.6 305.6 0.2 297.4H0V57.4C0 55.8 0 54 0.4 52.2C2.8 42 13.4 35.8 24.2 38.0000000000001C76.8 49.0000000000001 116 38.8 144.4 6.6C144.8 6.0000000000001 145.6 5.8000000000001 146 5.4S146.6 4.6 147 4.2C147.8 3.6 148.8 3.4 149.6 2.8C150.6 2.2 151.4 1.8 152.4 1.4C154.6 0.6 157 0 159.4 0H160.2C162.5999999999999 0 165 0.6 167.2 1.4C168.2 1.8 169 2.4 170 2.8C170.8 3.2 171.8 3.6 172.6 4.2C173 4.6 173.2 5 173.6 5.4C174.2 5.8 174.8 6 175.2 6.6C203.6 38.6 243 49.0000000000001 295.4 38.0000000000001C306.2 35.8000000000001 316.8 42.2 319.2 52.2C320 54.0000000000001 320 55.8000000000001 320 57.4zM140 60.2C112 76.8 78.6 83 40 78.8V280.8C82.2 286.4 115 276.8 140 251.6zM280 78.6C241.4 82.8 208 76.6 180 60V251.6C205 276.8 237.8 286.4 280 280.8z", fillRule: "evenodd", transform: `scale(0.05, -0.05) translate(${translation}, ${translation})`, style: style }) }));
+});
+exports.Manual.displayName = `Blueprint6.Icon.Manual`;
+exports.default = exports.Manual;
+//# sourceMappingURL=manual.js.map

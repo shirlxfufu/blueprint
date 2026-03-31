@@ -1,0 +1,28 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+/*
+ * Copyright 2024 Palantir Technologies, Inc. All rights reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+import * as React from "react";
+import { IconSize } from "../../iconTypes";
+import { SVGIconContainer } from "../../svgIconContainer";
+export const ChevronLeft = React.forwardRef((props, ref) => {
+    const isLarge = (props.size ?? IconSize.STANDARD) >= IconSize.LARGE;
+    const pixelGridSize = isLarge ? IconSize.LARGE : IconSize.STANDARD;
+    const translation = `${-1 * pixelGridSize / 0.05 / 2}`;
+    const style = { transformOrigin: "center" };
+    return (_jsx(SVGIconContainer, { iconName: "chevron-left", ref: ref, ...props, children: _jsx("path", { d: isLarge ? "M168.2 200L274 305.8C277.8 309.4 280 314.4 280 320A20.06 20.06 0 0 1 245.8 334.2L125.8 214.2C122.2 210.6 120 205.6 120 200S122.2 189.4 125.8 185.8L245.8 65.8A20.06 20.06 0 0 1 274.2 94.2z" : "M148.2 160L214 225.8C217.8 229.4 220 234.4 220 240A20.06 20.06 0 0 1 185.8 254.2L105.8 174.2C102.2 170.6 100 165.6 100 160S102.2 149.4 105.8 145.8L185.8 65.8A20.06 20.06 0 0 1 214.2 94.2z", fillRule: "evenodd", transform: `scale(0.05, -0.05) translate(${translation}, ${translation})`, style: style }) }));
+});
+ChevronLeft.displayName = `Blueprint6.Icon.ChevronLeft`;
+export default ChevronLeft;
+//# sourceMappingURL=chevron-left.js.map

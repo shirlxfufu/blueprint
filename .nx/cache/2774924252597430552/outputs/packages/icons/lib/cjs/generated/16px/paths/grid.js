@@ -1,0 +1,4 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = ["M10.75 11.75h2.5v-1.5h-2.5zm-4 0h2.5v-1.5h-2.5zm-4 0h2.5v-1.5h-2.5zm8-3h2.5v-1.5h-2.5zm-4 0h2.5v-1.5h-2.5zm-4 0h2.5v-1.5h-2.5zm8-3h2.5v-1.5h-2.5zm-4 0h2.5v-1.5h-2.5zm-4 0h2.5v-1.5h-2.5zm12 6.25c0 .69-.56 1.25-1.25 1.25h-11c-.69 0-1.25-.56-1.25-1.25V4c0-.69.56-1.25 1.25-1.25h11c.69 0 1.25.56 1.25 1.25z"];
+//# sourceMappingURL=grid.js.map

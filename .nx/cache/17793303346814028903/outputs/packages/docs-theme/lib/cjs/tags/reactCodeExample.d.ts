@@ -1,0 +1,8 @@
+/// <reference types="react" />
+import type { Tag } from "@documentalist/client";
+import type { ExampleMap } from "./reactExample";
+export declare class ReactCodeExampleTagRenderer {
+    private examples;
+    constructor(examples: ExampleMap);
+    render: React.FC<Tag>;
+}

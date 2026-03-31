@@ -1,0 +1,4 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = ["M3.5 8a2.5 2.5 0 11.608-4.926 4.002 4.002 0 017.382-1.03A3 3 0 1112 8zM3 10a1 1 0 012 0v4a1 1 0 11-2 0zm7-1a1 1 0 00-1 1v5a1 1 0 102 0v-5a1 1 0 00-1-1m2 1a1 1 0 112 0v2a1 1 0 11-2 0zM7 9a1 1 0 00-1 1v2a1 1 0 102 0v-2a1 1 0 00-1-1"];
+//# sourceMappingURL=rain.js.map

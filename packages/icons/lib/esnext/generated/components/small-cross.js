@@ -1,0 +1,28 @@
+import { jsx as _jsx } from "react/jsx-runtime";
+/*
+ * Copyright 2024 Palantir Technologies, Inc. All rights reserved.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+import * as React from "react";
+import { IconSize } from "../../iconTypes";
+import { SVGIconContainer } from "../../svgIconContainer";
+export const SmallCross = React.forwardRef((props, ref) => {
+    const isLarge = (props.size ?? IconSize.STANDARD) >= IconSize.LARGE;
+    const pixelGridSize = isLarge ? IconSize.LARGE : IconSize.STANDARD;
+    const translation = `${-1 * pixelGridSize / 0.05 / 2}`;
+    const style = { transformOrigin: "center" };
+    return (_jsx(SVGIconContainer, { iconName: "small-cross", ref: ref, ...props, children: _jsx("path", { d: isLarge ? "M228.2 200L294 265.8C297.8 269.4 300 274.4 300 280A20.06 20.06 0 0 1 265.8 294.2L200 228.2L134.2 294.2A20.06 20.06 0 0 1 105.8 265.8L171.8 200L106 134.2000000000001C102.2 130.6 100 125.6 100 120A20.06 20.06 0 0 1 134.2 105.8L200 171.8L265.8 106C269.4 102.2000000000001 274.4 100 280 100A20.06 20.06 0 0 1 294.2000000000001 134.2000000000001z" : "M188.2 160L234 205.8C237.8 209.4 240 214.4 240 220A20.06 20.06 0 0 1 205.8 234.2L160 188.2L114.2 234.2A20.06 20.06 0 0 1 85.8 205.8L131.8 160L86 114.2C82.2 110.6 80 105.6 80 100A20.06 20.06 0 0 1 114.2 85.8L160 131.8L205.8 86C209.4 82.2 214.4 80 220 80A20.06 20.06 0 0 1 234.2 114.2z", fillRule: "evenodd", transform: `scale(0.05, -0.05) translate(${translation}, ${translation})`, style: style }) }));
+});
+SmallCross.displayName = `Blueprint6.Icon.SmallCross`;
+export default SmallCross;
+//# sourceMappingURL=small-cross.js.map

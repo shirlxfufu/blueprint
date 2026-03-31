@@ -1,0 +1,2 @@
+export default ["M3.956 4.47A1 1 0 014.804 4h6.392a1 1 0 01.848.47L13 6h5a1 1 0 110 2h-5v1h4a3 3 0 010 6H3a3 3 0 010-6V6.287a1 1 0 01.152-.53zM3 11a1 1 0 000 2h14a1 1 0 000-2z"];
+//# sourceMappingURL=tank.js.map
