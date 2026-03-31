@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Tag, Icon } from '@blueprintjs/core';
 import styles from '../styles.module.scss';
 
-interface IconComparisonCardProps {
+export interface IconComparisonCardProps {
   iconName: string;
   displayName?: string;
   oldIconSvg: string | null;
