@@ -1,13 +1,9 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { Button, Menu, MenuItem, Popover, Icon, Tooltip } from '@blueprintjs/core';
+import { Button, Menu, MenuItem, Popover, Icon, Tooltip, InputGroup } from '@blueprintjs/core';
 import { IconComparisonCard } from './components/IconComparisonCard';
 import { LoadingState } from './components/LoadingState';
 import { Skeleton } from './components/Skeleton';
-// import { AlgorithmDrawer } from './components/AlgorithmDrawer';
-// import { NameChangeReview, NameChange } from './components/NameChangeReview';
 import { loadManualOverrides, saveManualOverrides, exportTaggedIcons, exportTaggedIconsCSV, exportHTMLReport, analyzeIconStyle } from './utils/iconAnalysis';
-// import { analyzeUserEdits, generateAlgorithmRefinementPrompt } from './utils/algorithmAnalyzer';
-// import { refineAlgorithm, generateMockAlgorithmUpdate, AlgorithmUpdate } from './utils/claudeAPIClient';
 import { IconData, IconMetadata, ManualOverrides } from './types';
 import styles from './styles.module.scss';
 
@@ -17,7 +13,7 @@ const blueprintIcons: IconMetadata[] = require('@blueprintjs/icons/icons.json');
 // Load icon name mapping
 const iconNameMapping: Record<string, { newName: string; status: 'renamed' | 'keep-as-is' }> = require('../icon-name-mapping.json');
 
-type FilterMode = 'all' | 'outline' | 'design' | 'renamed' | 'keep-as-is' | 'edited';
+type FilterMode = 'all' | 'outline' | 'design' | 'renamed' | 'keep-as-is';
 
 export const App: React.FC = () => {
   const [icons, setIcons] = useState<IconData[]>([]);
@@ -26,15 +22,6 @@ export const App: React.FC = () => {
   const [filterMode, setFilterMode] = useState<FilterMode>('all');
   const [loading, setLoading] = useState(true);
   const [showBackToTop, setShowBackToTop] = useState(false);
-
-  // Algorithm iteration state
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-  const [algorithmUpdate, setAlgorithmUpdate] = useState<any | null>(null);
-  const [isAnalyzing, setIsAnalyzing] = useState(false);
-  const [isApplying, setIsApplying] = useState(false);
-  const [pendingChanges, setPendingChanges] = useState<any[]>([]);
-  const [acceptedChanges, setAcceptedChanges] = useState<Set<string>>(new Set());
-  const [rejectedChanges, setRejectedChanges] = useState<Set<string>>(new Set());
 
   // Load icons on mount
   useEffect(() => {
@@ -62,7 +49,12 @@ export const App: React.FC = () => {
       // Load icons in batches for progressive rendering
       const loadIconBatch = async (batch: typeof blueprintIcons) => {
         const promises = batch.map(async (bpIcon) => {
+          // Get the new name from mapping for display purposes
+          const mapping = iconNameMapping[bpIcon.iconName];
+          const newIconName = mapping?.newName || bpIcon.iconName;
+
           // Load both icons in parallel
+          // IMPORTANT: Use the original icon name for loading new icons from Figma
           const [oldResponse, newResponse] = await Promise.allSettled([
             fetch(`${basePath}current-icons/${bpIcon.iconName}.svg`),
             fetch(`${basePath}new-icons/${bpIcon.iconName}.svg`),
@@ -114,32 +106,17 @@ export const App: React.FC = () => {
       const override = manualOverrides[icon.name];
       const mapping = iconNameMapping[icon.name];
 
-      // Determine the effective new name
-      // Priority: manual override > icon mapping
-      const hasManualEdit = override?.newName !== undefined && override?.isNameManuallyOverridden;
+      // Determine the effective new name from icon mapping only
       const mappedName = mapping?.newName;
-      const nameStatus = mapping?.status || 'keep-as-is';
-
-      let newName: string | undefined;
-      let isEdited = false;
-
-      if (hasManualEdit) {
-        // User manually edited the name
-        newName = override.newName;
-        isEdited = true;
-      } else if (mappedName) {
-        // Use mapped name from icon-name-mapping.json
-        newName = mappedName;
-      }
+      const mappedStatus = mapping?.status || 'keep-as-is';
 
       return {
         ...icon,
         isUnfilled: override?.isUnfilled ?? icon.isUnfilled,
         hasMajorChange: override?.hasMajorChange ?? icon.hasMajorChange,
         isManuallyTagged: icon.name in manualOverrides,
-        newName,
-        nameStatus,
-        isEdited,
+        newName: mappedName,
+        nameStatus: mappedName ? mappedStatus : undefined,
       };
     });
   }, [icons, manualOverrides]);
@@ -165,8 +142,6 @@ export const App: React.FC = () => {
       filtered = filtered.filter(icon => icon.nameStatus === 'renamed');
     } else if (filterMode === 'keep-as-is') {
       filtered = filtered.filter(icon => icon.nameStatus === 'keep-as-is');
-    } else if (filterMode === 'edited') {
-      filtered = filtered.filter(icon => icon.isEdited);
     }
 
     return filtered;
@@ -201,39 +176,9 @@ export const App: React.FC = () => {
   };
 
   const handleRenameIcon = (iconName: string, newName: string) => {
-    const newOverrides = { ...manualOverrides };
-    const currentOverride = newOverrides[iconName] || {};
-    const mapping = iconNameMapping[iconName];
-    const mappedName = mapping?.newName;
-
-    // If newName is empty, remove the manual override
-    if (!newName.trim()) {
-      const { newName: _, isNameManuallyOverridden: __, ...rest } = currentOverride;
-      if (Object.keys(rest).length === 0) {
-        delete newOverrides[iconName];
-      } else {
-        newOverrides[iconName] = {
-          ...rest,
-          timestamp: Date.now()
-        };
-      }
-    } else {
-      // Check if this is different from the mapped name
-      const isDifferentFromMapping = !mappedName || newName.trim() !== mappedName;
-
-      newOverrides[iconName] = {
-        ...currentOverride,
-        newName: newName.trim(),
-        isNameManuallyOverridden: isDifferentFromMapping,
-        timestamp: Date.now()
-      };
-    }
-
-    setManualOverrides(newOverrides);
-    saveManualOverrides(newOverrides);
+    // Renaming is disabled in this version - icons use names from icon-name-mapping.json
+    console.log('Rename functionality disabled');
   };
-
-  // handleAcceptChange and handleRejectChange removed - no longer needed with new mapping system
 
   const handleExportJSON = () => {
     exportTaggedIcons(iconsWithOverrides);
@@ -251,85 +196,10 @@ export const App: React.FC = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // Handle algorithm iteration
-  const handleReiterateAlgorithm = async () => {
-    setIsAnalyzing(true);
-
-    try {
-      // Analyze user edits to detect patterns using the new mapping system
-      // Build a mock aiSuggestedNames structure from iconNameMapping for analysis
-      const mappingAsAISuggestions = Object.entries(iconNameMapping).reduce((acc, [iconName, mapping]) => {
-        acc[iconName] = {
-          newName: mapping.newName,
-          reason: mapping.status === 'renamed' ? 'Renamed per visual-first algorithm' : 'Kept original name',
-          confidence: 'high' as const
-        };
-        return acc;
-      }, {} as Record<string, { newName: string; reason: string; confidence: 'high' | 'medium' | 'low' }>);
-
-      // const analysis = analyzeUserEdits(mappingAsAISuggestions, manualOverrides);
-
-      // For now, use mock data since we don't have API key setup
-      // In production, you would call: refineAlgorithm(currentAlgorithm, prompt, apiKey)
-      // const update = generateMockAlgorithmUpdate();
-
-      // setAlgorithmUpdate(update);
-      // setIsDrawerOpen(true);
-    } catch (error) {
-      console.error('Failed to analyze algorithm:', error);
-      alert('Failed to analyze algorithm. See console for details.');
-    } finally {
-      setIsAnalyzing(false);
-    }
-  };
-
-  // Apply the new algorithm
-  const handleApplyAlgorithm = () => {
-    // Commented out - not used in basic demo
-    // if (!algorithmUpdate) return;
-
-    // setIsApplying(true);
-
-    // Simulate applying algorithm changes
-    // In production, this would regenerate names using the new rules
-    // const changes: NameChange[] = algorithmUpdate.impactAssessment.improved.map(item => ({
-    //   iconName: item.icon,
-    //   oldName: item.oldName,
-    //   newName: item.newName,
-    //   reason: item.reason,
-    // }));
-
-    // setPendingChanges(changes);
-    // setAcceptedChanges(new Set());
-    // setRejectedChanges(new Set());
-    // setIsDrawerOpen(false);
-    // setIsApplying(false);
-
-    // Scroll to top to show the review section
-    // window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  // Accept a pending name change from algorithm update
-  const handleAcceptPendingChange = (iconName: string) => {
-    const change = pendingChanges.find(c => c.iconName === iconName);
-    if (!change) return;
-
-    // Apply the change to manual overrides
-    handleRenameIcon(iconName, change.newName);
-
-    setAcceptedChanges(prev => new Set([...prev, iconName]));
-  };
-
-  // Reject a pending name change from algorithm update
-  const handleRejectPendingChange = (iconName: string) => {
-    setRejectedChanges(prev => new Set([...prev, iconName]));
-  };
-
   const unfilledCount = iconsWithOverrides.filter(icon => icon.isUnfilled).length;
   const majorChangeCount = iconsWithOverrides.filter(icon => icon.hasMajorChange).length;
   const renamedCount = iconsWithOverrides.filter(icon => icon.nameStatus === 'renamed').length;
   const keepAsIsCount = iconsWithOverrides.filter(icon => icon.nameStatus === 'keep-as-is').length;
-  const editedCount = iconsWithOverrides.filter(icon => icon.isEdited).length;
 
   return (
     <div className={styles.appContainer}>
@@ -348,14 +218,6 @@ export const App: React.FC = () => {
           <div className={styles.headerTitle}>Blueprint ShrimpClub</div>
         </div>
         <div className={styles.headerActions}>
-          <Button
-            text="Reiterate Algorithm"
-            icon="lightbulb"
-            onClick={handleReiterateAlgorithm}
-            loading={isAnalyzing}
-            intent="none"
-            outlined
-          />
           <Popover
             content={
               <Menu>
@@ -397,27 +259,6 @@ export const App: React.FC = () => {
             All Comparisons <span className={styles.countBadge}>{loading ? <Skeleton width={20} height={13} /> : `(${iconsWithOverrides.length})`}</span>
           </div>
           <div
-            className={`${styles.filterChip} ${filterMode === 'renamed' ? styles.chipBlue : ''}`}
-            onClick={() => setFilterMode('renamed')}
-          >
-            <span className={`${styles.filterDot} ${styles.dotBlue}`}></span>
-            Renamed <span className={styles.countBadge}>{loading ? <Skeleton width={20} height={13} /> : `(${renamedCount})`}</span>
-          </div>
-          <div
-            className={`${styles.filterChip} ${filterMode === 'keep-as-is' ? styles.chipGreen : ''}`}
-            onClick={() => setFilterMode('keep-as-is')}
-          >
-            <span className={`${styles.filterDot} ${styles.dotGreen}`}></span>
-            Keep As-Is <span className={styles.countBadge}>{loading ? <Skeleton width={20} height={13} /> : `(${keepAsIsCount})`}</span>
-          </div>
-          <div
-            className={`${styles.filterChip} ${filterMode === 'edited' ? styles.chipPurple : ''}`}
-            onClick={() => setFilterMode('edited')}
-          >
-            <span className={`${styles.filterDot} ${styles.dotPurple}`}></span>
-            Edited <span className={styles.countBadge}>{loading ? <Skeleton width={20} height={13} /> : `(${editedCount})`}</span>
-          </div>
-          <div
             className={`${styles.filterChip} ${filterMode === 'outline' ? styles.chipAmber : ''}`}
             onClick={() => setFilterMode('outline')}
           >
@@ -431,22 +272,33 @@ export const App: React.FC = () => {
             <span className={`${styles.filterDot} ${styles.dotViolet}`}></span>
             Major Design Change <span className={styles.countBadge}>{loading ? <Skeleton width={20} height={13} /> : `(${majorChangeCount})`}</span>
           </div>
+          <div className={styles.filterDivider}></div>
+          <div
+            className={`${styles.filterChip} ${filterMode === 'renamed' ? styles.chipIndigo : ''}`}
+            onClick={() => setFilterMode('renamed')}
+          >
+            <Icon icon="lightning" size={12} style={{ color: '#5C70E0' }} />
+            Renamed <span className={styles.countBadge}>{loading ? <Skeleton width={20} height={13} /> : `(${renamedCount})`}</span>
+          </div>
+          <div
+            className={`${styles.filterChip} ${filterMode === 'keep-as-is' ? styles.chipGreen : ''}`}
+            onClick={() => setFilterMode('keep-as-is')}
+          >
+            <Icon icon="tick" size={12} style={{ color: '#10A86B' }} />
+            Keep As-Is <span className={styles.countBadge}>{loading ? <Skeleton width={20} height={13} /> : `(${keepAsIsCount})`}</span>
+          </div>
         </div>
+        <InputGroup
+          leftIcon="search"
+          placeholder="Search icons..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          style={{ width: '250px' }}
+        />
       </nav>
 
       {/* Main Content */}
       <main className={styles.mainContent}>
-        {/* Name Change Review Section */}
-        {/* {pendingChanges.length > 0 && (
-          <NameChangeReview
-            changes={pendingChanges}
-            onAccept={handleAcceptPendingChange}
-            onReject={handleRejectPendingChange}
-            acceptedChanges={acceptedChanges}
-            rejectedChanges={rejectedChanges}
-          />
-        )} */}
-
         {loading ? (
           <LoadingState />
         ) : (
@@ -463,7 +315,6 @@ export const App: React.FC = () => {
                 isManuallyTagged={icon.isManuallyTagged}
                 newName={icon.newName}
                 nameStatus={icon.nameStatus}
-                isEdited={icon.isEdited}
                 onToggleUnfilled={() => handleToggleUnfilled(icon.name)}
                 onToggleMajorChange={() => handleToggleMajorChange(icon.name)}
                 onRename={(newName) => handleRenameIcon(icon.name, newName)}
@@ -517,15 +368,6 @@ export const App: React.FC = () => {
           />
         </Tooltip>
       )}
-
-      {/* Algorithm Drawer */}
-      {/* <AlgorithmDrawer
-        isOpen={isDrawerOpen}
-        onClose={() => setIsDrawerOpen(false)}
-        algorithmUpdate={algorithmUpdate}
-        onApply={handleApplyAlgorithm}
-        isApplying={isApplying}
-      /> */}
     </div>
   );
 };

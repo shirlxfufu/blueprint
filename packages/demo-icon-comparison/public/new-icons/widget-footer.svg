@@ -1,3 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
-  <path fill="#5f6b7c" d="M12.75 1.25a.75.75 0 0 1 .75.75v12a.75.75 0 0 1-.75.75h-9.5A.75.75 0 0 1 2.5 14V2a.75.75 0 0 1 .75-.75zM4 10.5v2.75h8V10.5zm0-7.75V9h8V2.75z"/>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="widget-footer">
+<path id="Path" d="M12.75 1.25C13.1642 1.25 13.5 1.58579 13.5 2V14C13.5 14.4142 13.1642 14.75 12.75 14.75H3.25C2.83579 14.75 2.5 14.4142 2.5 14V2C2.5 1.58579 2.83579 1.25 3.25 1.25H12.75ZM4 10.5V13.25H12V10.5H4ZM4 2.75V9H12V2.75H4Z" fill="#5F6B7C"/>
+</g>
 </svg>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Tag, Icon } from '@blueprintjs/core';
+import { Icon } from '@blueprintjs/core';
 import styles from '../styles.module.scss';
 
 export interface IconComparisonCardProps {
@@ -11,8 +11,7 @@ export interface IconComparisonCardProps {
   hasMajorChange: boolean;
   isManuallyTagged: boolean;
   newName?: string;
-  nameStatus?: 'renamed' | 'keep-as-is';
-  isEdited?: boolean;
+  nameStatus?: 'renamed' | 'keep-as-is' | 'edited';
   onToggleUnfilled: () => void;
   onToggleMajorChange: () => void;
   onRename: (newName: string) => void;
@@ -28,7 +27,6 @@ export const IconComparisonCard: React.FC<IconComparisonCardProps> = ({
   isManuallyTagged,
   newName,
   nameStatus,
-  isEdited,
   onToggleUnfilled,
   onToggleMajorChange,
   onRename,
@@ -37,9 +35,9 @@ export const IconComparisonCard: React.FC<IconComparisonCardProps> = ({
   const [renameValue, setRenameValue] = useState(newName || '');
 
   // Determine if we should show naming indicators
-  const showRenamedTag = nameStatus === 'renamed' && !isEdited;
-  const showKeepAsIsTag = nameStatus === 'keep-as-is' && !isEdited;
-  const showEditedTag = isEdited;
+  const showRenamedTag = nameStatus === 'renamed';
+  const showKeepAsIsTag = nameStatus === 'keep-as-is';
+  const showEditedTag = nameStatus === 'edited';
   const hasAnyNameTag = showRenamedTag || showKeepAsIsTag || showEditedTag;
   const hasNameChange = newName && newName !== iconName;
 
@@ -115,30 +113,6 @@ export const IconComparisonCard: React.FC<IconComparisonCardProps> = ({
               Design Change
             </span>
           )}
-
-          {/* Renamed Tag */}
-          {showRenamedTag && (
-            <span className={`${styles.tag} ${styles.tagActive}`} style={{ backgroundColor: 'rgba(92, 112, 224, 0.15)', borderColor: 'rgba(92, 112, 224, 0.3)' }}>
-              <Icon icon="exchange" size={12} style={{ opacity: 0.7 }} />
-              Renamed
-            </span>
-          )}
-
-          {/* Keep As-Is Tag */}
-          {showKeepAsIsTag && (
-            <span className={`${styles.tag} ${styles.tagActive}`} style={{ backgroundColor: 'rgba(16, 168, 107, 0.15)', borderColor: 'rgba(16, 168, 107, 0.3)' }}>
-              <Icon icon="tick-circle" size={12} style={{ opacity: 0.7 }} />
-              Keep As-Is
-            </span>
-          )}
-
-          {/* Edited Tag */}
-          {showEditedTag && (
-            <span className={`${styles.tag} ${styles.tagActive}`} style={{ backgroundColor: 'rgba(138, 92, 224, 0.15)', borderColor: 'rgba(138, 92, 224, 0.3)' }}>
-              <Icon icon="edit" size={12} style={{ opacity: 0.7 }} />
-              Edited
-            </span>
-          )}
         </div>
       </div>
 
@@ -180,15 +154,6 @@ export const IconComparisonCard: React.FC<IconComparisonCardProps> = ({
 
             {/* Name display - click to edit */}
             <div style={{ position: 'relative', width: '100%', minHeight: '28px' }}>
-              {/* Icon indicator - always rendered to prevent movement */}
-              {hasAnyNameTag && (
-                <div style={{ position: 'absolute', right: '4px', top: '50%', transform: 'translateY(-50%)', zIndex: 10, pointerEvents: 'none' }}>
-                  {showRenamedTag && <Icon icon="exchange" size={12} style={{ color: '#5C70E0', opacity: 0.7 }} />}
-                  {showKeepAsIsTag && <Icon icon="tick-circle" size={12} style={{ color: '#10A86B', opacity: 0.7 }} />}
-                  {showEditedTag && <Icon icon="edit" size={12} style={{ color: '#8A5CE0', opacity: 0.7 }} />}
-                </div>
-              )}
-
               {isEditingName ? (
                 <input
                   type="text"
@@ -199,13 +164,40 @@ export const IconComparisonCard: React.FC<IconComparisonCardProps> = ({
                   onKeyDown={handleRenameKeyPress}
                   placeholder={iconName}
                   autoFocus
-                  style={{ paddingRight: hasAnyNameTag ? '28px' : '4px' }}
+                  style={{ paddingRight: hasAnyNameTag ? '20px' : '4px' }}
                 />
               ) : (
-                <div style={{ display: 'flex', alignItems: 'center', padding: '4px 0', paddingRight: hasAnyNameTag ? '28px' : '4px', cursor: 'text', borderRadius: '3px', transition: 'background-color 150ms' }} onClick={handleNameClick}>
-                  <span style={hasNameChange ? { fontSize: '14px', fontWeight: 500, color: '#5C70E0', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' } : { fontSize: '14px', fontWeight: 400, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '8px', padding: '4px 0', cursor: 'text', borderRadius: '3px', transition: 'background-color 150ms' }} onClick={handleNameClick}>
+                  <span style={{
+                    fontSize: '14px',
+                    fontWeight: hasAnyNameTag ? 500 : 400,
+                    whiteSpace: 'nowrap',
+                    overflow: 'hidden',
+                    textOverflow: 'ellipsis',
+                    flex: 1
+                  }}>
                     {newName || iconName}
                   </span>
+                  {/* Icon indicator on the right */}
+                  {hasAnyNameTag && (
+                    <span style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      padding: '4px',
+                      borderRadius: '4px',
+                      backgroundColor: showRenamedTag ? 'rgba(92, 112, 224, 0.15)' : showKeepAsIsTag ? 'rgba(16, 168, 107, 0.15)' : showEditedTag ? 'rgba(255, 152, 0, 0.15)' : 'transparent',
+                      flexShrink: 0
+                    }}>
+                      <Icon
+                        icon={showRenamedTag ? 'lightning' : showKeepAsIsTag ? 'tick' : 'edit'}
+                        size={12}
+                        style={{
+                          color: showRenamedTag ? '#5C70E0' : showKeepAsIsTag ? '#10A86B' : '#FF9800'
+                        }}
+                      />
+                    </span>
+                  )}
                 </div>
               )}
             </div>

@@ -1,3 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16">
-  <path fill="#5f6b7c" d="M12.75 14.75a.75.75 0 0 0 .75-.75V2a.75.75 0 0 0-.75-.75h-9.5A.75.75 0 0 0 2.5 2v12c0 .414.336.75.75.75zM4 5.5V2.75h8V5.5zm0 7.75V7h8v6.25z"/>
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="widget-header">
+<path id="Path" d="M12.75 14.75C13.1642 14.75 13.5 14.4142 13.5 14V2C13.5 1.58579 13.1642 1.25 12.75 1.25H3.25C2.83579 1.25 2.5 1.58579 2.5 2V14C2.5 14.4142 2.83579 14.75 3.25 14.75H12.75ZM4 5.5V2.75H12V5.5H4ZM4 13.25V7H12V13.25H4Z" fill="#5F6B7C"/>
+</g>
 </svg>

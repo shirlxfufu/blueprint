@@ -142,6 +142,14 @@ body {
 .filterChips {
   display: flex;
   gap: var(--spacing-sm);
+  align-items: center;
+}
+
+.filterDivider {
+  width: 1px;
+  height: 24px;
+  background: var(--color-border);
+  margin: 0 var(--spacing-sm);
 }
 
 .filterChip {
@@ -158,8 +166,24 @@ body {
   background: transparent;
   color: var(--color-text-primary);
 
+  // Round background for icons in filter chips
+  :global(.bp5-icon) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba($dark-gray1, 0.1);
+    padding: 4px;
+  }
+
   &:hover {
     background: rgba($light-gray1, 0.3);
+
+    :global(.bp5-icon) {
+      background: rgba($dark-gray1, 0.15);
+    }
   }
 
   &.chipAll {
@@ -180,6 +204,21 @@ body {
   &.chipIndigo {
     background: rgba($indigo3, 0.1);
     border-color: rgba($indigo3, 0.2);
+  }
+
+  &.chipBlue {
+    background: rgba($blue3, 0.1);
+    border-color: rgba($blue3, 0.2);
+  }
+
+  &.chipGreen {
+    background: rgba($green3, 0.1);
+    border-color: rgba($green3, 0.2);
+  }
+
+  &.chipOrange {
+    background: rgba(#FF9800, 0.1);
+    border-color: rgba(#FF9800, 0.2);
   }
 }
 
@@ -205,6 +244,14 @@ body {
 
   &.dotIndigo {
     background: $indigo3;
+  }
+
+  &.dotBlue {
+    background: $blue3;
+  }
+
+  &.dotGreen {
+    background: $green3;
   }
 }
 
