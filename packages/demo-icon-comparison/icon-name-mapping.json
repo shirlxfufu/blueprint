@@ -1,2818 +1,706 @@
 {
-  "add": {
-    "newName": "plus",
-    "status": "renamed"
-  },
-  "add-application": {
-    "newName": "window-plus",
-    "status": "renamed"
-  },
-  "add-child": {
-    "newName": "box-plus-below",
-    "status": "renamed"
-  },
-  "add-clip": {
-    "newName": "clip-plus",
-    "status": "renamed"
-  },
-  "add-column-left": {
-    "newName": "column-plus-left",
-    "status": "renamed"
-  },
-  "add-column-right": {
-    "newName": "column-plus-right",
-    "status": "renamed"
-  },
-  "add-derived-column": {
-    "newName": "column-plus-branch",
-    "status": "renamed"
-  },
-  "add-location": {
-    "newName": "map-pin-plus",
-    "status": "renamed"
-  },
-  "add-parent": {
-    "newName": "box-plus-above",
-    "status": "renamed"
-  },
-  "add-row-bottom": {
-    "newName": "row-plus-bottom",
-    "status": "renamed"
-  },
-  "add-row-top": {
-    "newName": "row-plus-top",
-    "status": "renamed"
-  },
-  "add-tile": {
-    "newName": "tile-plus",
-    "status": "renamed"
-  },
-  "add-to-artifact": {
-    "newName": "list-plus",
-    "status": "renamed"
-  },
-  "add-to-folder": {
-    "newName": "folder-plus",
-    "status": "renamed"
-  },
-  "aimpoints-target": {
-    "newName": "circle-plus-orbit",
-    "status": "renamed"
-  },
-  "align-center": {
-    "newName": "text-align-center",
-    "status": "renamed"
-  },
-  "align-justify": {
-    "newName": "text-align-justify",
-    "status": "renamed"
-  },
-  "align-left": {
-    "newName": "text-align-left",
-    "status": "renamed"
-  },
-  "align-right": {
-    "newName": "text-align-right",
-    "status": "renamed"
-  },
-  "alignment-bottom": {
-    "newName": "text-align-bottom",
-    "status": "renamed"
-  },
-  "alignment-horizontal-center": {
-    "newName": "text-align-horizontal-center",
-    "status": "renamed"
-  },
-  "alignment-left": {
-    "newName": "text-align-left",
-    "status": "renamed"
-  },
-  "alignment-right": {
-    "newName": "text-align-right",
-    "status": "renamed"
-  },
-  "alignment-top": {
-    "newName": "text-align-top",
-    "status": "renamed"
-  },
-  "alignment-vertical-center": {
-    "newName": "text-align-vertical-center",
-    "status": "renamed"
-  },
-  "ammunition": {
-    "newName": "bullets-three",
-    "status": "renamed"
-  },
-  "anchor": {
-    "newName": "anchor-ship",
-    "status": "renamed"
-  },
-  "annotation": {
-    "newName": "pencil-square",
-    "status": "renamed"
-  },
-  "announcement": {
-    "newName": "megaphone",
-    "status": "renamed"
-  },
-  "app-header": {
-    "newName": "rectangle-header-lines",
-    "status": "renamed"
-  },
-  "application": {
-    "newName": "window-lines-horizontal",
-    "status": "renamed"
-  },
-  "applications": {
-    "newName": "windows-stacked",
-    "status": "renamed"
-  },
-  "archive": {
-    "newName": "box-arrow-down",
-    "status": "renamed"
-  },
-  "area-of-interest": {
-    "newName": "map-pin-area",
-    "status": "renamed"
-  },
-  "array": {
-    "newName": "brackets-square",
-    "status": "renamed"
-  },
-  "array-boolean": {
-    "newName": "brackets-square-toggle",
-    "status": "renamed"
-  },
-  "array-date": {
-    "newName": "brackets-square-calendar",
-    "status": "renamed"
-  },
-  "array-floating-point": {
-    "newName": "brackets-square-decimal",
-    "status": "renamed"
-  },
-  "array-numeric": {
-    "newName": "brackets-square-123",
-    "status": "renamed"
-  },
-  "array-object": {
-    "newName": "brackets-square-curly",
-    "status": "renamed"
-  },
-  "array-string": {
-    "newName": "brackets-square-quotes",
-    "status": "renamed"
-  },
-  "array-timestamp": {
-    "newName": "brackets-square-clock",
-    "status": "renamed"
-  },
-  "arrow-bottom-left": {
-    "newName": "arrow-down-left",
-    "status": "renamed"
-  },
-  "arrow-bottom-right": {
-    "newName": "arrow-down-right",
-    "status": "renamed"
-  },
-  "arrow-top-left": {
-    "newName": "arrow-up-left",
-    "status": "renamed"
-  },
-  "arrow-top-right": {
-    "newName": "arrow-up-right",
-    "status": "renamed"
-  },
-  "arrows-arc": {
-    "newName": "arrows-corner-arc",
-    "status": "renamed"
-  },
-  "arrows-horizontal": {
-    "newName": "arrows-left-right",
-    "status": "renamed"
-  },
-  "arrows-vertical": {
-    "newName": "arrows-up-down",
-    "status": "renamed"
-  },
-  "at": {
-    "newName": "at-sign",
-    "status": "renamed"
-  },
-  "automatic-updates": {
-    "newName": "arrow-circular-check",
-    "status": "renamed"
-  },
-  "axle": {
-    "newName": "axle-wheels",
-    "status": "renamed"
-  },
-  "backlink": {
-    "newName": "link-arrow-left",
-    "status": "renamed"
-  },
-  "backward-ten": {
-    "newName": "arrow-circular-10-left",
-    "status": "renamed"
-  },
-  "badge": {
-    "newName": "badge-shield",
-    "status": "renamed"
-  },
-  "ban-circle": {
-    "newName": "circle-slash",
-    "status": "renamed"
-  },
-  "bank-account": {
-    "newName": "piggy-bank",
-    "status": "renamed"
-  },
-  "binary-number": {
-    "newName": "zero-one",
-    "status": "renamed"
-  },
-  "block-promote": {
-    "newName": "rectangle-arrows-t-shape",
-    "status": "renamed"
-  },
-  "blocked-person": {
-    "newName": "person-slash",
-    "status": "renamed"
-  },
-  "bold": {
-    "newName": "text-b",
-    "status": "renamed"
-  },
-  "book": {
-    "newName": "book-open",
-    "status": "renamed"
-  },
-  "bookmark": {
-    "newName": "bookmark-ribbon",
-    "status": "renamed"
-  },
-  "box": {
-    "newName": "box-cube",
-    "status": "renamed"
-  },
-  "branch-locked": {
-    "newName": "git-branch-padlock",
-    "status": "renamed"
-  },
-  "branch-unlocked": {
-    "newName": "git-branch-padlock-open",
-    "status": "renamed"
-  },
-  "bring-data": {
-    "newName": "database-arrow-down",
-    "status": "renamed"
-  },
-  "bring-forward": {
-    "newName": "layers-arrow-forward",
-    "status": "renamed"
-  },
-  "british-pound": {
-    "newName": "currency-pound",
-    "status": "renamed"
-  },
-  "bug": {
-    "newName": "bug-insect",
-    "status": "renamed"
-  },
-  "build": {
-    "newName": "hammer",
-    "status": "renamed"
-  },
-  "bullseye": {
-    "newName": "circles-concentric-arrow",
-    "status": "renamed"
-  },
-  "cargo-ship": {
-    "newName": "cargo-ship-containers",
-    "status": "renamed"
-  },
-  "changes": {
-    "newName": "arrows-up-down-bar",
-    "status": "renamed"
-  },
-  "chart": {
-    "newName": "chart-line-up",
-    "status": "renamed"
-  },
-  "chat": {
-    "newName": "chat-bubbles",
-    "status": "renamed"
-  },
-  "chevron-backward": {
-    "newName": "chevron-double-left",
-    "status": "renamed"
-  },
-  "chevron-forward": {
-    "newName": "chevron-double-right",
-    "status": "renamed"
-  },
-  "circle-arrow-down": {
-    "newName": "arrow-down-circle",
-    "status": "renamed"
-  },
-  "circle-arrow-left": {
-    "newName": "arrow-left-circle",
-    "status": "renamed"
-  },
-  "circle-arrow-right": {
-    "newName": "arrow-right-circle",
-    "status": "renamed"
-  },
-  "circle-arrow-up": {
-    "newName": "arrow-up-circle",
-    "status": "renamed"
-  },
-  "citation": {
-    "newName": "quote-brackets",
-    "status": "renamed"
-  },
-  "clean": {
-    "newName": "broom",
-    "status": "renamed"
-  },
-  "clip": {
-    "newName": "corners-circle-focus",
-    "status": "renamed"
-  },
-  "clipboard-file": {
-    "newName": "clipboard-document",
-    "status": "renamed"
-  },
-  "cloud-download": {
-    "newName": "cloud-arrow-down",
-    "status": "renamed"
-  },
-  "cloud-server": {
-    "newName": "cloud-servers",
-    "status": "renamed"
-  },
-  "cloud-tick": {
-    "newName": "cloud-check",
-    "status": "renamed"
-  },
-  "cloud-upload": {
-    "newName": "cloud-arrow-up",
-    "status": "renamed"
-  },
-  "code": {
-    "newName": "code-brackets-slash",
-    "status": "renamed"
-  },
-  "code-block": {
-    "newName": "code-brackets-document",
-    "status": "renamed"
-  },
-  "cog": {
-    "newName": "cog-gear",
-    "status": "renamed"
-  },
-  "collapse-all": {
-    "newName": "arrows-in",
-    "status": "renamed"
-  },
-  "color-fill": {
-    "newName": "paint-bucket",
-    "status": "renamed"
-  },
-  "column-layout": {
-    "newName": "columns-three",
-    "status": "renamed"
-  },
-  "comment": {
-    "newName": "comment-bubble",
-    "status": "renamed"
-  },
-  "comparison": {
-    "newName": "bars-split",
-    "status": "renamed"
-  },
-  "compressed": {
-    "newName": "package-arrow-down",
-    "status": "renamed"
-  },
-  "confirm": {
-    "newName": "check-circle",
-    "status": "renamed"
-  },
-  "console-alert": {
-    "newName": "console-exclamation",
-    "status": "renamed"
-  },
-  "control": {
-    "newName": "sliders-horizontal",
-    "status": "renamed"
-  },
-  "crop": {
-    "newName": "crop-corners",
-    "status": "renamed"
-  },
-  "cross": {
-    "newName": "cross-x",
-    "status": "renamed"
-  },
-  "cross-circle": {
-    "newName": "circle-x",
-    "status": "renamed"
-  },
-  "css-style": {
-    "newName": "css-brackets",
-    "status": "renamed"
-  },
-  "cube": {
-    "newName": "cube-3d",
-    "status": "renamed"
-  },
-  "cube-add": {
-    "newName": "cube-plus",
-    "status": "renamed"
-  },
-  "cube-cutouts": {
-    "newName": "cubes-overlapped",
-    "status": "renamed"
-  },
-  "cube-edit": {
-    "newName": "cube-pencil",
-    "status": "renamed"
-  },
-  "cube-remove": {
-    "newName": "cube-minus",
-    "status": "renamed"
-  },
-  "cubes": {
-    "newName": "cubes-stacked",
-    "status": "renamed"
-  },
-  "curly-braces": {
-    "newName": "brackets-curly",
-    "status": "renamed"
-  },
-  "curved-range-chart": {
-    "newName": "chart-curved-range",
-    "status": "renamed"
-  },
-  "cut": {
-    "newName": "scissors",
-    "status": "renamed"
-  },
-  "cycle": {
-    "newName": "bicycle",
-    "status": "renamed"
-  },
-  "dashboard": {
-    "newName": "gauge",
-    "status": "renamed"
-  },
-  "data-cloud": {
-    "newName": "cloud-database",
-    "status": "renamed"
-  },
-  "data-connection": {
-    "newName": "database-lightning",
-    "status": "renamed"
-  },
-  "data-lineage": {
-    "newName": "rectangles-connected-tree",
-    "status": "renamed"
-  },
-  "data-search": {
-    "newName": "database-magnifying-glass",
-    "status": "renamed"
-  },
-  "data-sync": {
-    "newName": "database-arrows-circular",
-    "status": "renamed"
-  },
-  "delete": {
-    "newName": "trash",
-    "status": "renamed"
-  },
-  "delete-clip": {
-    "newName": "clip-x",
-    "status": "renamed"
-  },
-  "delta": {
-    "newName": "delta-triangle",
-    "status": "renamed"
-  },
-  "derive-column": {
-    "newName": "column-branch",
-    "status": "renamed"
-  },
-  "descendant": {
-    "newName": "arrow-down-square-below",
-    "status": "renamed"
-  },
-  "desktop": {
-    "newName": "desktop-monitor",
-    "status": "renamed"
-  },
-  "detection": {
-    "newName": "radar",
-    "status": "renamed"
-  },
-  "diagnosis": {
-    "newName": "stethoscope-clipboard",
-    "status": "renamed"
-  },
-  "diagram-tree": {
-    "newName": "squares-tree-connected",
-    "status": "renamed"
-  },
-  "direction-left": {
-    "newName": "triangle-arrow-left",
-    "status": "renamed"
-  },
-  "direction-right": {
-    "newName": "triangle-arrow-right",
-    "status": "renamed"
-  },
-  "disable": {
-    "newName": "slash-circle",
-    "status": "renamed"
-  },
-  "divide": {
-    "newName": "divide-dots",
-    "status": "renamed"
-  },
-  "document-code": {
-    "newName": "document-code-brackets",
-    "status": "renamed"
-  },
-  "document-locked": {
-    "newName": "document-padlock",
-    "status": "renamed"
-  },
-  "document-open": {
-    "newName": "document-arrow-down",
-    "status": "renamed"
-  },
-  "document-share": {
-    "newName": "document-arrow-up-right",
-    "status": "renamed"
-  },
-  "dollar": {
-    "newName": "currency-dollar",
-    "status": "renamed"
-  },
-  "dot": {
-    "newName": "dot-circle",
-    "status": "renamed"
-  },
-  "double-caret-horizontal": {
-    "newName": "carets-double-horizontal",
-    "status": "renamed"
-  },
-  "double-caret-vertical": {
-    "newName": "carets-double-vertical",
-    "status": "renamed"
-  },
-  "double-chevron-down": {
-    "newName": "chevrons-double-down",
-    "status": "renamed"
-  },
-  "doughnut-chart": {
-    "newName": "chart-doughnut",
-    "status": "renamed"
-  },
-  "download": {
-    "newName": "arrow-down-tray",
-    "status": "renamed"
-  },
-  "draw": {
-    "newName": "pencil-drawing",
-    "status": "renamed"
-  },
-  "drive-time": {
-    "newName": "car-clock",
-    "status": "renamed"
-  },
-  "duplicate": {
-    "newName": "squares-overlapped",
-    "status": "renamed"
-  },
-  "edit": {
-    "newName": "pencil",
-    "status": "renamed"
-  },
-  "endorsed": {
-    "newName": "check-endorsed",
-    "status": "renamed"
-  },
-  "engagement": {
-    "newName": "handshake-target",
-    "status": "renamed"
-  },
-  "euro": {
-    "newName": "currency-euro",
-    "status": "renamed"
-  },
-  "exchange": {
-    "newName": "circles-arrows-circular",
-    "status": "renamed"
-  },
-  "exclude-row": {
-    "newName": "row-x",
-    "status": "renamed"
-  },
-  "expand-all": {
-    "newName": "arrows-out",
-    "status": "renamed"
-  },
-  "explain": {
-    "newName": "circle-lightning-quarter",
-    "status": "renamed"
-  },
-  "eye-off": {
-    "newName": "eye-closed",
-    "status": "renamed"
-  },
-  "eye-on": {
-    "newName": "eye-open",
-    "status": "renamed"
-  },
-  "feed": {
-    "newName": "list-feed",
-    "status": "renamed"
-  },
-  "feed-subscribed": {
-    "newName": "rss-bell",
-    "status": "renamed"
-  },
-  "filter": {
-    "newName": "funnel",
-    "status": "renamed"
-  },
-  "filter-keep": {
-    "newName": "funnel-check",
-    "status": "renamed"
-  },
-  "filter-list": {
-    "newName": "funnel-list",
-    "status": "renamed"
-  },
-  "filter-open": {
-    "newName": "funnel-open",
-    "status": "renamed"
-  },
-  "filter-remove": {
-    "newName": "funnel-x",
-    "status": "renamed"
-  },
-  "filter-sort-asc": {
-    "newName": "funnel-arrow-up",
-    "status": "renamed"
-  },
-  "filter-sort-desc": {
-    "newName": "funnel-arrow-down",
-    "status": "renamed"
-  },
-  "floating-point": {
-    "newName": "one-point-zero",
-    "status": "renamed"
-  },
-  "flow-branch": {
-    "newName": "circles-arrows-branch",
-    "status": "renamed"
-  },
-  "flow-end": {
-    "newName": "arrow-right-circle",
-    "status": "renamed"
-  },
-  "flow-linear": {
-    "newName": "circles-arrow-linear",
-    "status": "renamed"
-  },
-  "flow-review": {
-    "newName": "circles-arrows-bidirectional",
-    "status": "renamed"
-  },
-  "flow-review-branch": {
-    "newName": "circles-arrows-branch-bidirectional",
-    "status": "renamed"
-  },
-  "flows": {
-    "newName": "diagram-flow",
-    "status": "renamed"
-  },
-  "folder-close": {
-    "newName": "folder-closed",
-    "status": "renamed"
-  },
-  "folder-new": {
-    "newName": "folder-plus",
-    "status": "renamed"
-  },
-  "follower": {
-    "newName": "person-arrow-right",
-    "status": "renamed"
-  },
-  "following": {
-    "newName": "person-arrow-left",
-    "status": "renamed"
-  },
-  "font": {
-    "newName": "text-font",
-    "status": "renamed"
-  },
-  "fork": {
-    "newName": "path-split-right",
-    "status": "renamed"
-  },
-  "fork-end": {
-    "newName": "path-join-right",
-    "status": "renamed"
-  },
-  "form": {
-    "newName": "checkbox-box-lines",
-    "status": "renamed"
-  },
-  "full-stacked-chart": {
-    "newName": "chart-bars-stacked",
-    "status": "renamed"
-  },
-  "fullscreen": {
-    "newName": "arrows-outward",
-    "status": "renamed"
-  },
-  "function": {
-    "newName": "fx-parentheses",
-    "status": "renamed"
-  },
-  "function-minimal": {
-    "newName": "f-slash",
-    "status": "renamed"
-  },
-  "gantt-chart": {
-    "newName": "chart-gantt",
-    "status": "renamed"
-  },
-  "generate": {
-    "newName": "sparkle",
-    "status": "renamed"
-  },
-  "geofence": {
-    "newName": "map-pin-square-corner",
-    "status": "renamed"
-  },
-  "geolocation": {
-    "newName": "location-pin-arrow",
-    "status": "renamed"
-  },
-  "geosearch": {
-    "newName": "globe-magnifying-glass",
-    "status": "renamed"
-  },
-  "geotime": {
-    "newName": "clock-map-pin",
-    "status": "renamed"
-  },
-  "git-new-branch": {
-    "newName": "git-branch-plus",
-    "status": "renamed"
-  },
-  "git-push": {
-    "newName": "git-arrow-up",
-    "status": "renamed"
-  },
-  "git-rebase": {
-    "newName": "git-branches-joined",
-    "status": "renamed"
-  },
-  "globe-network-add": {
-    "newName": "globe-network-plus",
-    "status": "renamed"
-  },
-  "graph": {
-    "newName": "circles-lines-connected",
-    "status": "renamed"
-  },
-  "graph-remove": {
-    "newName": "graph-minus",
-    "status": "renamed"
-  },
-  "greater-than-or-equal-to": {
-    "newName": "greater-than-equal",
-    "status": "renamed"
-  },
-  "group-item": {
-    "newName": "shapes-diamond-squares",
-    "status": "renamed"
-  },
-  "group-objects": {
-    "newName": "shapes-grouped",
-    "status": "renamed"
-  },
-  "grouped-bar-chart": {
-    "newName": "chart-bars-grouped",
-    "status": "renamed"
-  },
-  "header": {
-    "newName": "text-header",
-    "status": "renamed"
-  },
-  "header-one": {
-    "newName": "text-h1",
-    "status": "renamed"
-  },
-  "header-three": {
-    "newName": "text-h3",
-    "status": "renamed"
-  },
-  "header-two": {
-    "newName": "text-h2",
-    "status": "renamed"
-  },
-  "heat-grid": {
-    "newName": "grid-gradient-cells",
-    "status": "renamed"
-  },
-  "helper-management": {
-    "newName": "question-circle-grid",
-    "status": "renamed"
-  },
-  "history": {
-    "newName": "clock-counter-clockwise",
-    "status": "renamed"
-  },
-  "horizontal-bar-chart": {
-    "newName": "chart-bars-horizontal",
-    "status": "renamed"
-  },
-  "horizontal-bar-chart-asc": {
-    "newName": "chart-bars-horizontal-ascending",
-    "status": "renamed"
-  },
-  "horizontal-bar-chart-desc": {
-    "newName": "chart-bars-horizontal-descending",
-    "status": "renamed"
-  },
-  "id-number": {
-    "newName": "card-badge-lines",
-    "status": "renamed"
-  },
-  "image-rotate-left": {
-    "newName": "image-arrow-counter-clockwise",
-    "status": "renamed"
-  },
-  "image-rotate-right": {
-    "newName": "image-arrow-clockwise",
-    "status": "renamed"
-  },
-  "inbox-search": {
-    "newName": "inbox-magnifying-glass",
-    "status": "renamed"
-  },
-  "info-sign": {
-    "newName": "info-circle",
-    "status": "renamed"
-  },
-  "inheritance": {
-    "newName": "arrow-curved-down-left",
-    "status": "renamed"
-  },
-  "inherited-group": {
-    "newName": "people-arrow-right",
-    "status": "renamed"
-  },
-  "inner-join": {
-    "newName": "circles-overlap-filled",
-    "status": "renamed"
-  },
-  "input": {
-    "newName": "semicircle-arrow-in",
-    "status": "renamed"
-  },
-  "insert": {
-    "newName": "plus-square",
-    "status": "renamed"
-  },
-  "intelligence": {
-    "newName": "brain-lightbulb",
-    "status": "renamed"
-  },
-  "intersection": {
-    "newName": "circles-overlap-center-only",
-    "status": "renamed"
-  },
-  "ip-address": {
-    "newName": "map-pin-10",
-    "status": "renamed"
-  },
-  "issue": {
-    "newName": "exclamation-circle",
-    "status": "renamed"
-  },
-  "issue-closed": {
-    "newName": "issue-checkmark",
-    "status": "renamed"
-  },
-  "issue-new": {
-    "newName": "issue-plus",
-    "status": "renamed"
-  },
-  "italic": {
-    "newName": "text-italic",
-    "status": "renamed"
-  },
-  "join-table": {
-    "newName": "tables-joined",
-    "status": "renamed"
-  },
-  "known-vehicle": {
-    "newName": "car-check",
-    "status": "renamed"
-  },
-  "layers": {
-    "newName": "layers-stacked",
-    "status": "renamed"
-  },
-  "layout-three-columns": {
-    "newName": "columns-three",
-    "status": "renamed"
-  },
-  "layout-three-rows": {
-    "newName": "rows-three",
-    "status": "renamed"
-  },
-  "layout-two-columns": {
-    "newName": "columns-two",
-    "status": "renamed"
-  },
-  "layout-two-rows": {
-    "newName": "rows-two",
-    "status": "renamed"
-  },
-  "learning": {
-    "newName": "brain-book",
-    "status": "renamed"
-  },
-  "left-join": {
-    "newName": "circles-overlap-left-filled",
-    "status": "renamed"
-  },
-  "lengthen-text": {
-    "newName": "text-lines-arrow-right",
-    "status": "renamed"
-  },
-  "less-than-or-equal-to": {
-    "newName": "less-than-equal",
-    "status": "renamed"
-  },
-  "locate": {
-    "newName": "map-pin-target",
-    "status": "renamed"
-  },
-  "manual": {
-    "newName": "hand-pointing",
-    "status": "renamed"
-  },
-  "manually-entered-data": {
-    "newName": "spreadsheet-hand",
-    "status": "renamed"
-  },
-  "maximize": {
-    "newName": "arrows-out-corners",
-    "status": "renamed"
-  },
-  "menu": {
-    "newName": "menu-hamburger",
-    "status": "renamed"
-  },
-  "menu-open": {
-    "newName": "menu-hamburger",
-    "status": "renamed"
-  },
-  "merge-columns": {
-    "newName": "columns-arrows-in",
-    "status": "renamed"
-  },
-  "merge-links": {
-    "newName": "links-arrows-in",
-    "status": "renamed"
-  },
-  "minimize": {
-    "newName": "arrows-in-corners",
-    "status": "renamed"
-  },
-  "model": {
-    "newName": "mountain-wave",
-    "status": "renamed"
-  },
-  "more": {
-    "newName": "dots-three-horizontal",
-    "status": "renamed"
-  },
-  "move": {
-    "newName": "arrows-four-way",
-    "status": "renamed"
-  },
-  "mugshot": {
-    "newName": "person-square-frame",
-    "status": "renamed"
-  },
-  "multi-select": {
-    "newName": "checkboxes-multiple",
-    "status": "renamed"
-  },
-  "nest": {
-    "newName": "arrow-curved-return",
-    "status": "renamed"
-  },
-  "new-comment": {
-    "newName": "comment-plus",
-    "status": "renamed"
-  },
-  "new-drawing": {
-    "newName": "drawing-plus",
-    "status": "renamed"
-  },
-  "new-grid-item": {
-    "newName": "grid-item-plus",
-    "status": "renamed"
-  },
-  "new-layer": {
-    "newName": "layer-plus",
-    "status": "renamed"
-  },
-  "new-layers": {
-    "newName": "layers-plus",
-    "status": "renamed"
-  },
-  "new-link": {
-    "newName": "link-plus",
-    "status": "renamed"
-  },
-  "new-object": {
-    "newName": "object-plus",
-    "status": "renamed"
-  },
-  "new-person": {
-    "newName": "person-plus",
-    "status": "renamed"
-  },
-  "new-prescription": {
-    "newName": "prescription-plus",
-    "status": "renamed"
-  },
-  "new-shield": {
-    "newName": "shield-plus",
-    "status": "renamed"
-  },
-  "new-text-box": {
-    "newName": "text-box-plus",
-    "status": "renamed"
-  },
-  "not-equal-to": {
-    "newName": "not-equal",
-    "status": "renamed"
-  },
-  "notifications": {
-    "newName": "bell",
-    "status": "renamed"
-  },
-  "notifications-add": {
-    "newName": "bell-plus",
-    "status": "renamed"
-  },
-  "notifications-snooze": {
-    "newName": "bell-zzz",
-    "status": "renamed"
-  },
-  "notifications-updated": {
-    "newName": "bell-dot",
-    "status": "renamed"
-  },
-  "numbered-list": {
-    "newName": "list-numbers",
-    "status": "renamed"
-  },
-  "numerical": {
-    "newName": "one-two-three",
-    "status": "renamed"
-  },
-  "object-view": {
-    "newName": "cube-frame-corners",
-    "status": "renamed"
-  },
-  "offline": {
-    "newName": "circle-lightning",
-    "status": "renamed"
-  },
-  "one-column": {
-    "newName": "column-one",
-    "status": "renamed"
-  },
-  "open-application": {
-    "newName": "window-arrow-up",
-    "status": "renamed"
-  },
-  "outdated": {
-    "newName": "arrow-circular-exclamation",
-    "status": "renamed"
-  },
-  "outer-join": {
-    "newName": "circles-overlap-outer-filled",
-    "status": "renamed"
-  },
-  "output": {
-    "newName": "semicircle-arrow-out",
-    "status": "renamed"
-  },
-  "package": {
-    "newName": "cube-3d",
-    "status": "renamed"
-  },
-  "page-break": {
-    "newName": "rectangles-dashed-line-between",
-    "status": "renamed"
-  },
-  "page-layout": {
-    "newName": "page-sections-grid",
-    "status": "renamed"
-  },
-  "panel": {
-    "newName": "rectangle-sidebar-right",
-    "status": "renamed"
-  },
-  "panel-stats": {
-    "newName": "panel-chart-lines",
-    "status": "renamed"
-  },
-  "panel-table": {
-    "newName": "panel-table-grid",
-    "status": "renamed"
-  },
-  "paragraph": {
-    "newName": "text-paragraph",
-    "status": "renamed"
-  },
-  "paste-variable": {
-    "newName": "clipboard-variable",
-    "status": "renamed"
-  },
-  "path-search": {
-    "newName": "path-magnifying-glass",
-    "status": "renamed"
-  },
-  "phone-search": {
-    "newName": "phone-magnifying-glass",
-    "status": "renamed"
-  },
-  "pie-chart": {
-    "newName": "chart-pie",
-    "status": "renamed"
-  },
-  "pin": {
-    "newName": "pushpin",
-    "status": "renamed"
-  },
-  "pivot": {
-    "newName": "arrows-corner-rotate",
-    "status": "renamed"
-  },
-  "pivot-table": {
-    "newName": "grid-arrows-swap",
-    "status": "renamed"
-  },
-  "playbook": {
-    "newName": "diagram-x-arrows",
-    "status": "renamed"
-  },
-  "popout": {
-    "newName": "arrow-square-out",
-    "status": "renamed"
-  },
-  "predictive-analysis": {
-    "newName": "brain",
-    "status": "renamed"
-  },
-  "print": {
-    "newName": "printer",
-    "status": "renamed"
-  },
-  "projects": {
-    "newName": "briefcase",
-    "status": "renamed"
-  },
-  "properties": {
-    "newName": "list-bullets",
-    "status": "renamed"
-  },
-  "property": {
-    "newName": "list-bullets-mixed",
-    "status": "renamed"
-  },
-  "publish-function": {
-    "newName": "package-arrow-up",
-    "status": "renamed"
-  },
-  "random": {
-    "newName": "arrows-crossed",
-    "status": "renamed"
-  },
-  "refresh": {
-    "newName": "arrows-clockwise",
-    "status": "renamed"
-  },
-  "refresh-off": {
-    "newName": "arrows-clockwise-slash",
-    "status": "renamed"
-  },
-  "regex": {
-    "newName": "asterisk-dot",
-    "status": "renamed"
-  },
-  "regression-chart": {
-    "newName": "chart-regression",
-    "status": "renamed"
-  },
-  "remove": {
-    "newName": "minus",
-    "status": "renamed"
-  },
-  "remove-column": {
-    "newName": "column-minus",
-    "status": "renamed"
-  },
-  "remove-column-left": {
-    "newName": "column-minus-left",
-    "status": "renamed"
-  },
-  "remove-column-right": {
-    "newName": "column-minus-right",
-    "status": "renamed"
-  },
-  "remove-row-bottom": {
-    "newName": "row-minus-bottom",
-    "status": "renamed"
-  },
-  "remove-row-top": {
-    "newName": "row-minus-top",
-    "status": "renamed"
-  },
-  "repeat": {
-    "newName": "arrow-circular-clockwise-square",
-    "status": "renamed"
-  },
-  "reset": {
-    "newName": "arrow-counter-clockwise-square",
-    "status": "renamed"
-  },
-  "resolve": {
-    "newName": "check-shield",
-    "status": "renamed"
-  },
-  "right-join": {
-    "newName": "circles-overlap-right-filled",
-    "status": "renamed"
-  },
-  "root-folder": {
-    "newName": "folder-tree-root",
-    "status": "renamed"
-  },
-  "rotate-ccw": {
-    "newName": "arrow-counter-clockwise",
-    "status": "renamed"
-  },
-  "rotate-cw": {
-    "newName": "arrow-clockwise",
-    "status": "renamed"
-  },
-  "rotate-document": {
-    "newName": "document-rotation",
-    "status": "renamed"
-  },
-  "rotate-page": {
-    "newName": "page-rotation",
-    "status": "renamed"
-  },
-  "route": {
-    "newName": "map-pins-path",
-    "status": "renamed"
-  },
-  "saved": {
-    "newName": "check-saved",
-    "status": "renamed"
-  },
-  "scatter-plot": {
-    "newName": "chart-scatter",
-    "status": "renamed"
-  },
-  "search": {
-    "newName": "magnifying-glass",
-    "status": "renamed"
-  },
-  "search-around": {
-    "newName": "magnifying-glass-area",
-    "status": "renamed"
-  },
-  "search-template": {
-    "newName": "magnifying-glass-document",
-    "status": "renamed"
-  },
-  "search-text": {
-    "newName": "magnifying-glass-text",
-    "status": "renamed"
-  },
-  "segmented-control": {
-    "newName": "buttons-segmented",
-    "status": "renamed"
-  },
-  "select": {
-    "newName": "cursor-selection",
-    "status": "renamed"
-  },
-  "selection": {
-    "newName": "circles-concentric-target",
-    "status": "renamed"
-  },
-  "selection-box-add": {
-    "newName": "selection-box-plus",
-    "status": "renamed"
-  },
-  "selection-box-remove": {
-    "newName": "selection-box-minus",
-    "status": "renamed"
-  },
-  "send-backward": {
-    "newName": "layers-arrow-backward",
-    "status": "renamed"
-  },
-  "send-message": {
-    "newName": "paper-plane",
-    "status": "renamed"
-  },
-  "send-to": {
-    "newName": "arrow-share",
-    "status": "renamed"
-  },
-  "send-to-graph": {
-    "newName": "chart-arrow",
-    "status": "renamed"
-  },
-  "send-to-map": {
-    "newName": "map-arrow",
-    "status": "renamed"
-  },
-  "series-add": {
-    "newName": "series-plus",
-    "status": "renamed"
-  },
-  "series-configuration": {
-    "newName": "chart-settings",
-    "status": "renamed"
-  },
-  "series-derived": {
-    "newName": "chart-line-arrow-up",
-    "status": "renamed"
-  },
-  "series-filtered": {
-    "newName": "chart-line-funnel",
-    "status": "renamed"
-  },
-  "series-search": {
-    "newName": "series-magnifying-glass",
-    "status": "renamed"
-  },
-  "settings": {
-    "newName": "gear",
-    "status": "renamed"
-  },
-  "shapes": {
-    "newName": "circle-triangle-square",
-    "status": "renamed"
-  },
-  "shared-filter": {
-    "newName": "shared-funnel",
-    "status": "renamed"
-  },
-  "shorten-text": {
-    "newName": "text-lines-arrow-left",
-    "status": "renamed"
-  },
-  "signal-search": {
-    "newName": "signal-magnifying-glass",
-    "status": "renamed"
-  },
-  "small-info-sign": {
-    "newName": "info-circle-small",
-    "status": "renamed"
-  },
-  "sort": {
-    "newName": "bars-ascending",
-    "status": "renamed"
-  },
-  "sort-alphabetical": {
-    "newName": "letters-ascending",
-    "status": "renamed"
-  },
-  "sort-alphabetical-desc": {
-    "newName": "letters-descending",
-    "status": "renamed"
-  },
-  "sort-asc": {
-    "newName": "bars-arrow-up",
-    "status": "renamed"
-  },
-  "sort-desc": {
-    "newName": "bars-arrow-down",
-    "status": "renamed"
-  },
-  "sort-numerical": {
-    "newName": "numbers-ascending",
-    "status": "renamed"
-  },
-  "sort-numerical-desc": {
-    "newName": "numbers-descending",
-    "status": "renamed"
-  },
-  "spell-check": {
-    "newName": "letter-a-check",
-    "status": "renamed"
-  },
-  "spin": {
-    "newName": "arrows-spiral-refresh",
-    "status": "renamed"
-  },
-  "split-columns": {
-    "newName": "columns-arrows-out",
-    "status": "renamed"
-  },
-  "stacked-chart": {
-    "newName": "chart-stacked",
-    "status": "renamed"
-  },
-  "star-empty": {
-    "newName": "star-outline",
-    "status": "renamed"
-  },
-  "step-backward": {
-    "newName": "step-left",
-    "status": "renamed"
-  },
-  "step-chart": {
-    "newName": "chart-step",
-    "status": "renamed"
-  },
-  "step-forward": {
-    "newName": "step-right",
-    "status": "renamed"
-  },
-  "strikethrough": {
-    "newName": "text-strikethrough",
-    "status": "renamed"
-  },
-  "style": {
-    "newName": "text-style",
-    "status": "renamed"
-  },
-  "subtract-right-join": {
-    "newName": "circles-overlap-left-minus-center",
-    "status": "renamed"
-  },
-  "swap-horizontal": {
-    "newName": "arrows-swap-horizontal",
-    "status": "renamed"
-  },
-  "swap-vertical": {
-    "newName": "arrows-swap-vertical",
-    "status": "renamed"
-  },
-  "sweep": {
-    "newName": "broom",
-    "status": "renamed"
-  },
-  "switch": {
-    "newName": "toggle",
-    "status": "renamed"
-  },
-  "tag-add": {
-    "newName": "tag-plus",
-    "status": "renamed"
-  },
-  "take-action": {
-    "newName": "hand-pen-diagonal",
-    "status": "renamed"
-  },
-  "target": {
-    "newName": "circle-crosshair",
-    "status": "renamed"
-  },
-  "th": {
-    "newName": "table",
-    "status": "renamed"
-  },
-  "th-add": {
-    "newName": "table-plus",
-    "status": "renamed"
-  },
-  "th-derived": {
-    "newName": "table-derived",
-    "status": "renamed"
-  },
-  "th-disconnect": {
-    "newName": "table-disconnect",
-    "status": "renamed"
-  },
-  "th-filtered": {
-    "newName": "table-filtered",
-    "status": "renamed"
-  },
-  "th-list": {
-    "newName": "table-list",
-    "status": "renamed"
-  },
-  "th-list-add": {
-    "newName": "table-list-plus",
-    "status": "renamed"
-  },
-  "th-virtual": {
-    "newName": "table-virtual",
-    "status": "renamed"
-  },
-  "th-virtual-add": {
-    "newName": "table-virtual-plus",
-    "status": "renamed"
-  },
-  "third-party": {
-    "newName": "people-globe",
-    "status": "renamed"
-  },
-  "tick-circle": {
-    "newName": "check-circle",
-    "status": "renamed"
-  },
-  "timeline-area-chart": {
-    "newName": "timeline-chart-area",
-    "status": "renamed"
-  },
-  "timeline-bar-chart": {
-    "newName": "timeline-chart-bars",
-    "status": "renamed"
-  },
-  "timeline-events": {
-    "newName": "timeline-dots",
-    "status": "renamed"
-  },
-  "timeline-line-chart": {
-    "newName": "timeline-chart-line",
-    "status": "renamed"
-  },
-  "translate": {
-    "newName": "letter-a-globe",
-    "status": "renamed"
-  },
-  "trending-down": {
-    "newName": "arrow-trending-down",
-    "status": "renamed"
-  },
-  "trending-up": {
-    "newName": "arrow-trending-up",
-    "status": "renamed"
-  },
-  "unarchive": {
-    "newName": "box-arrow-up",
-    "status": "renamed"
-  },
-  "underline": {
-    "newName": "text-underline",
-    "status": "renamed"
-  },
-  "ungroup-objects": {
-    "newName": "shapes-ungrouped",
-    "status": "renamed"
-  },
-  "unknown-vehicle": {
-    "newName": "car-question",
-    "status": "renamed"
-  },
-  "unpin": {
-    "newName": "pushpin-slash",
-    "status": "renamed"
-  },
-  "unresolve": {
-    "newName": "x-shield",
-    "status": "renamed"
-  },
-  "updated": {
-    "newName": "arrow-circular-check",
-    "status": "renamed"
-  },
-  "upload": {
-    "newName": "arrow-up-tray",
-    "status": "renamed"
-  },
-  "variable": {
-    "newName": "x-curly-braces",
-    "status": "renamed"
-  },
-  "vertical-bar-chart-asc": {
-    "newName": "chart-bars-vertical-ascending",
-    "status": "renamed"
-  },
-  "vertical-bar-chart-desc": {
-    "newName": "chart-bars-vertical-descending",
-    "status": "renamed"
-  },
-  "walk": {
-    "newName": "person-walking",
-    "status": "renamed"
-  },
-  "warning-sign": {
-    "newName": "exclamation-triangle",
-    "status": "renamed"
-  },
-  "waterfall-chart": {
-    "newName": "chart-waterfall",
-    "status": "renamed"
-  },
-  "wrap-lines": {
-    "newName": "text-lines-curved-arrow",
-    "status": "renamed"
-  },
-  "yen": {
-    "newName": "currency-yen",
-    "status": "renamed"
-  },
-  "zoom-in": {
-    "newName": "magnifying-glass-plus",
-    "status": "renamed"
-  },
-  "zoom-out": {
-    "newName": "magnifying-glass-minus",
-    "status": "renamed"
-  },
-  "zoom-to-fit": {
-    "newName": "frame-corners",
-    "status": "renamed"
-  },
-  "airplane": {
-    "newName": "airplane",
-    "status": "keep-as-is"
-  },
-  "antenna": {
-    "newName": "antenna",
-    "status": "keep-as-is"
-  },
-  "arrow-down": {
-    "newName": "arrow-down",
-    "status": "keep-as-is"
-  },
-  "arrow-left": {
-    "newName": "arrow-left",
-    "status": "keep-as-is"
-  },
-  "arrow-right": {
-    "newName": "arrow-right",
-    "status": "keep-as-is"
-  },
-  "arrow-up": {
-    "newName": "arrow-up",
-    "status": "keep-as-is"
-  },
-  "asterisk": {
-    "newName": "asterisk",
-    "status": "keep-as-is"
-  },
-  "barcode": {
-    "newName": "barcode",
-    "status": "keep-as-is"
-  },
-  "blank": {
-    "newName": "blank",
-    "status": "keep-as-is"
-  },
-  "briefcase": {
-    "newName": "briefcase",
-    "status": "keep-as-is"
-  },
-  "buggy": {
-    "newName": "buggy",
-    "status": "keep-as-is"
-  },
-  "calculator": {
-    "newName": "calculator",
-    "status": "keep-as-is"
-  },
-  "calendar": {
-    "newName": "calendar",
-    "status": "keep-as-is"
-  },
-  "camera": {
-    "newName": "camera",
-    "status": "keep-as-is"
-  },
-  "caret-down": {
-    "newName": "caret-down",
-    "status": "keep-as-is"
-  },
-  "caret-left": {
-    "newName": "caret-left",
-    "status": "keep-as-is"
-  },
-  "caret-right": {
-    "newName": "caret-right",
-    "status": "keep-as-is"
-  },
-  "caret-up": {
-    "newName": "caret-up",
-    "status": "keep-as-is"
-  },
-  "cell-tower": {
-    "newName": "cell-tower",
-    "status": "keep-as-is"
-  },
-  "chevron-down": {
-    "newName": "chevron-down",
-    "status": "keep-as-is"
-  },
-  "chevron-left": {
-    "newName": "chevron-left",
-    "status": "keep-as-is"
-  },
-  "chevron-right": {
-    "newName": "chevron-right",
-    "status": "keep-as-is"
-  },
-  "chevron-up": {
-    "newName": "chevron-up",
-    "status": "keep-as-is"
-  },
-  "circle": {
-    "newName": "circle",
-    "status": "keep-as-is"
-  },
-  "circle-dashed": {
-    "newName": "circle-dashed",
-    "status": "keep-as-is"
-  },
-  "clipboard": {
-    "newName": "clipboard",
-    "status": "keep-as-is"
-  },
-  "cloud": {
-    "newName": "cloud",
-    "status": "keep-as-is"
-  },
-  "compass": {
-    "newName": "compass",
-    "status": "keep-as-is"
-  },
-  "console": {
-    "newName": "console",
-    "status": "keep-as-is"
-  },
-  "construction": {
-    "newName": "construction",
-    "status": "keep-as-is"
-  },
-  "contrast": {
-    "newName": "contrast",
-    "status": "keep-as-is"
-  },
-  "credit-card": {
-    "newName": "credit-card",
-    "status": "keep-as-is"
-  },
-  "crown": {
-    "newName": "crown",
-    "status": "keep-as-is"
-  },
-  "cube-cutout": {
-    "newName": "cube-cutout",
-    "status": "keep-as-is"
-  },
-  "database": {
-    "newName": "database",
-    "status": "keep-as-is"
-  },
-  "document": {
-    "newName": "document",
-    "status": "keep-as-is"
-  },
-  "double-chevron-left": {
-    "newName": "double-chevron-left",
-    "status": "keep-as-is"
-  },
-  "double-chevron-right": {
-    "newName": "double-chevron-right",
-    "status": "keep-as-is"
-  },
-  "double-chevron-up": {
-    "newName": "double-chevron-up",
-    "status": "keep-as-is"
-  },
-  "drag-handle-horizontal": {
-    "newName": "drag-handle-horizontal",
-    "status": "keep-as-is"
-  },
-  "drag-handle-vertical": {
-    "newName": "drag-handle-vertical",
-    "status": "keep-as-is"
-  },
-  "drawer-left": {
-    "newName": "drawer-left",
-    "status": "keep-as-is"
-  },
-  "drawer-left-filled": {
-    "newName": "drawer-left-filled",
-    "status": "keep-as-is"
-  },
-  "drawer-right": {
-    "newName": "drawer-right",
-    "status": "keep-as-is"
-  },
-  "drawer-right-filled": {
-    "newName": "drawer-right-filled",
-    "status": "keep-as-is"
-  },
-  "drone": {
-    "newName": "drone",
-    "status": "keep-as-is"
-  },
-  "drone-uav": {
-    "newName": "drone-uav",
-    "status": "keep-as-is"
-  },
-  "eject": {
-    "newName": "eject",
-    "status": "keep-as-is"
-  },
-  "emoji": {
-    "newName": "emoji",
-    "status": "keep-as-is"
-  },
-  "endnote": {
-    "newName": "endnote",
-    "status": "keep-as-is"
-  },
-  "envelope": {
-    "newName": "envelope",
-    "status": "keep-as-is"
-  },
-  "equals": {
-    "newName": "equals",
-    "status": "keep-as-is"
-  },
-  "eraser": {
-    "newName": "eraser",
-    "status": "keep-as-is"
-  },
-  "error": {
-    "newName": "error",
-    "status": "keep-as-is"
-  },
-  "excavator": {
-    "newName": "excavator",
-    "status": "keep-as-is"
-  },
-  "export": {
-    "newName": "export",
-    "status": "keep-as-is"
-  },
-  "eye-open": {
-    "newName": "eye-open",
-    "status": "keep-as-is"
-  },
-  "fast-backward": {
-    "newName": "fast-backward",
-    "status": "keep-as-is"
-  },
-  "fast-forward": {
-    "newName": "fast-forward",
-    "status": "keep-as-is"
-  },
-  "fighter-jet": {
-    "newName": "fighter-jet",
-    "status": "keep-as-is"
-  },
-  "film": {
-    "newName": "film",
-    "status": "keep-as-is"
-  },
-  "flag": {
-    "newName": "flag",
-    "status": "keep-as-is"
-  },
-  "flame": {
-    "newName": "flame",
-    "status": "keep-as-is"
-  },
-  "flash": {
-    "newName": "flash",
-    "status": "keep-as-is"
-  },
-  "floppy-disk": {
-    "newName": "floppy-disk",
-    "status": "keep-as-is"
-  },
-  "folder-open": {
-    "newName": "folder-open",
-    "status": "keep-as-is"
-  },
-  "folder-shared": {
-    "newName": "folder-shared",
-    "status": "keep-as-is"
-  },
-  "folder-shared-open": {
-    "newName": "folder-shared-open",
-    "status": "keep-as-is"
-  },
-  "forward-ten": {
-    "newName": "forward-ten",
-    "status": "keep-as-is"
-  },
-  "fuel": {
-    "newName": "fuel",
-    "status": "keep-as-is"
-  },
-  "full-circle": {
-    "newName": "full-circle",
-    "status": "keep-as-is"
-  },
-  "gift-box": {
-    "newName": "gift-box",
-    "status": "keep-as-is"
-  },
-  "git-branch": {
-    "newName": "git-branch",
-    "status": "keep-as-is"
-  },
-  "git-commit": {
-    "newName": "git-commit",
-    "status": "keep-as-is"
-  },
-  "git-merge": {
-    "newName": "git-merge",
-    "status": "keep-as-is"
-  },
-  "git-pull": {
-    "newName": "git-pull",
-    "status": "keep-as-is"
-  },
-  "git-repo": {
-    "newName": "git-repo",
-    "status": "keep-as-is"
-  },
-  "glass": {
-    "newName": "glass",
-    "status": "keep-as-is"
-  },
-  "globe": {
-    "newName": "globe",
-    "status": "keep-as-is"
-  },
-  "globe-network": {
-    "newName": "globe-network",
-    "status": "keep-as-is"
-  },
-  "greater-than": {
-    "newName": "greater-than",
-    "status": "keep-as-is"
-  },
-  "grid": {
-    "newName": "grid",
-    "status": "keep-as-is"
-  },
-  "grid-view": {
-    "newName": "grid-view",
-    "status": "keep-as-is"
-  },
-  "hand": {
-    "newName": "hand",
-    "status": "keep-as-is"
-  },
-  "hand-down": {
-    "newName": "hand-down",
-    "status": "keep-as-is"
-  },
-  "hand-left": {
-    "newName": "hand-left",
-    "status": "keep-as-is"
-  },
-  "hand-right": {
-    "newName": "hand-right",
-    "status": "keep-as-is"
-  },
-  "hand-up": {
-    "newName": "hand-up",
-    "status": "keep-as-is"
-  },
-  "hat": {
-    "newName": "hat",
-    "status": "keep-as-is"
-  },
-  "headset": {
-    "newName": "headset",
-    "status": "keep-as-is"
-  },
-  "heart": {
-    "newName": "heart",
-    "status": "keep-as-is"
-  },
-  "heart-broken": {
-    "newName": "heart-broken",
-    "status": "keep-as-is"
-  },
-  "heatmap": {
-    "newName": "heatmap",
-    "status": "keep-as-is"
-  },
-  "helicopter": {
-    "newName": "helicopter",
-    "status": "keep-as-is"
-  },
-  "help": {
-    "newName": "help",
-    "status": "keep-as-is"
-  },
-  "hexagon": {
-    "newName": "hexagon",
-    "status": "keep-as-is"
-  },
-  "high-priority": {
-    "newName": "high-priority",
-    "status": "keep-as-is"
-  },
-  "high-voltage-pole": {
-    "newName": "high-voltage-pole",
-    "status": "keep-as-is"
-  },
-  "highlight": {
-    "newName": "highlight",
-    "status": "keep-as-is"
-  },
-  "home": {
-    "newName": "home",
-    "status": "keep-as-is"
-  },
-  "horizontal-distribution": {
-    "newName": "horizontal-distribution",
-    "status": "keep-as-is"
-  },
-  "horizontal-inbetween": {
-    "newName": "horizontal-inbetween",
-    "status": "keep-as-is"
-  },
-  "hurricane": {
-    "newName": "hurricane",
-    "status": "keep-as-is"
-  },
-  "import": {
-    "newName": "import",
-    "status": "keep-as-is"
-  },
-  "inbox": {
-    "newName": "inbox",
-    "status": "keep-as-is"
-  },
-  "inbox-filtered": {
-    "newName": "inbox-filtered",
-    "status": "keep-as-is"
-  },
-  "inbox-geo": {
-    "newName": "inbox-geo",
-    "status": "keep-as-is"
-  },
-  "inbox-update": {
-    "newName": "inbox-update",
-    "status": "keep-as-is"
-  },
-  "key": {
-    "newName": "key",
-    "status": "keep-as-is"
-  },
-  "key-backspace": {
-    "newName": "key-backspace",
-    "status": "keep-as-is"
-  },
-  "key-command": {
-    "newName": "key-command",
-    "status": "keep-as-is"
-  },
-  "key-control": {
-    "newName": "key-control",
-    "status": "keep-as-is"
-  },
-  "key-delete": {
-    "newName": "key-delete",
-    "status": "keep-as-is"
-  },
-  "key-enter": {
-    "newName": "key-enter",
-    "status": "keep-as-is"
-  },
-  "key-escape": {
-    "newName": "key-escape",
-    "status": "keep-as-is"
-  },
-  "key-option": {
-    "newName": "key-option",
-    "status": "keep-as-is"
-  },
-  "key-shift": {
-    "newName": "key-shift",
-    "status": "keep-as-is"
-  },
-  "key-tab": {
-    "newName": "key-tab",
-    "status": "keep-as-is"
-  },
-  "lab-test": {
-    "newName": "lab-test",
-    "status": "keep-as-is"
-  },
-  "label": {
-    "newName": "label",
-    "status": "keep-as-is"
-  },
-  "layer": {
-    "newName": "layer",
-    "status": "keep-as-is"
-  },
-  "layer-outline": {
-    "newName": "layer-outline",
-    "status": "keep-as-is"
-  },
-  "layout": {
-    "newName": "layout",
-    "status": "keep-as-is"
-  },
-  "layout-auto": {
-    "newName": "layout-auto",
-    "status": "keep-as-is"
-  },
-  "layout-balloon": {
-    "newName": "layout-balloon",
-    "status": "keep-as-is"
-  },
-  "layout-bottom-row-three-tiles": {
-    "newName": "layout-bottom-row-three-tiles",
-    "status": "keep-as-is"
-  },
-  "layout-bottom-row-two-tiles": {
-    "newName": "layout-bottom-row-two-tiles",
-    "status": "keep-as-is"
-  },
-  "layout-circle": {
-    "newName": "layout-circle",
-    "status": "keep-as-is"
-  },
-  "layout-grid": {
-    "newName": "layout-grid",
-    "status": "keep-as-is"
-  },
-  "layout-group-by": {
-    "newName": "layout-group-by",
-    "status": "keep-as-is"
-  },
-  "layout-hierarchy": {
-    "newName": "layout-hierarchy",
-    "status": "keep-as-is"
-  },
-  "layout-left-column-three-tiles": {
-    "newName": "layout-left-column-three-tiles",
-    "status": "keep-as-is"
-  },
-  "layout-left-column-two-tiles": {
-    "newName": "layout-left-column-two-tiles",
-    "status": "keep-as-is"
-  },
-  "layout-linear": {
-    "newName": "layout-linear",
-    "status": "keep-as-is"
-  },
-  "layout-right-column-three-tiles": {
-    "newName": "layout-right-column-three-tiles",
-    "status": "keep-as-is"
-  },
-  "layout-right-column-two-tiles": {
-    "newName": "layout-right-column-two-tiles",
-    "status": "keep-as-is"
-  },
-  "layout-skew-grid": {
-    "newName": "layout-skew-grid",
-    "status": "keep-as-is"
-  },
-  "layout-sorted-clusters": {
-    "newName": "layout-sorted-clusters",
-    "status": "keep-as-is"
-  },
-  "layout-top-row-three-tiles": {
-    "newName": "layout-top-row-three-tiles",
-    "status": "keep-as-is"
-  },
-  "layout-top-row-two-tiles": {
-    "newName": "layout-top-row-two-tiles",
-    "status": "keep-as-is"
-  },
-  "less-than": {
-    "newName": "less-than",
-    "status": "keep-as-is"
-  },
-  "lifesaver": {
-    "newName": "lifesaver",
-    "status": "keep-as-is"
-  },
-  "lightbulb": {
-    "newName": "lightbulb",
-    "status": "keep-as-is"
-  },
-  "lightning": {
-    "newName": "lightning",
-    "status": "keep-as-is"
-  },
-  "link": {
-    "newName": "link",
-    "status": "keep-as-is"
-  },
-  "linked-squares": {
-    "newName": "linked-squares",
-    "status": "keep-as-is"
-  },
-  "list": {
-    "newName": "list",
-    "status": "keep-as-is"
-  },
-  "list-columns": {
-    "newName": "list-columns",
-    "status": "keep-as-is"
-  },
-  "list-detail-view": {
-    "newName": "list-detail-view",
-    "status": "keep-as-is"
-  },
-  "lock": {
-    "newName": "lock",
-    "status": "keep-as-is"
-  },
-  "locomotive": {
-    "newName": "locomotive",
-    "status": "keep-as-is"
-  },
-  "log-in": {
-    "newName": "log-in",
-    "status": "keep-as-is"
-  },
-  "log-out": {
-    "newName": "log-out",
-    "status": "keep-as-is"
-  },
-  "low-voltage-pole": {
-    "newName": "low-voltage-pole",
-    "status": "keep-as-is"
-  },
-  "many-to-many": {
-    "newName": "many-to-many",
-    "status": "keep-as-is"
-  },
-  "many-to-one": {
-    "newName": "many-to-one",
-    "status": "keep-as-is"
-  },
-  "map": {
-    "newName": "map",
-    "status": "keep-as-is"
-  },
-  "map-create": {
-    "newName": "map-create",
-    "status": "keep-as-is"
-  },
-  "map-marker": {
-    "newName": "map-marker",
-    "status": "keep-as-is"
-  },
-  "markdown": {
-    "newName": "markdown",
-    "status": "keep-as-is"
-  },
-  "media": {
-    "newName": "media",
-    "status": "keep-as-is"
-  },
-  "menu-closed": {
-    "newName": "menu-closed",
-    "status": "keep-as-is"
-  },
-  "microphone": {
-    "newName": "microphone",
-    "status": "keep-as-is"
-  },
-  "minus": {
-    "newName": "minus",
-    "status": "keep-as-is"
-  },
-  "mobile-phone": {
-    "newName": "mobile-phone",
-    "status": "keep-as-is"
-  },
-  "mobile-video": {
-    "newName": "mobile-video",
-    "status": "keep-as-is"
-  },
-  "modal": {
-    "newName": "modal",
-    "status": "keep-as-is"
-  },
-  "modal-filled": {
-    "newName": "modal-filled",
-    "status": "keep-as-is"
-  },
-  "moon": {
-    "newName": "moon",
-    "status": "keep-as-is"
-  },
-  "mountain": {
-    "newName": "mountain",
-    "status": "keep-as-is"
-  },
-  "music": {
-    "newName": "music",
-    "status": "keep-as-is"
-  },
-  "ninja": {
-    "newName": "ninja",
-    "status": "keep-as-is"
-  },
-  "office": {
-    "newName": "office",
-    "status": "keep-as-is"
-  },
-  "oil-field": {
-    "newName": "oil-field",
-    "status": "keep-as-is"
-  },
-  "one-to-many": {
-    "newName": "one-to-many",
-    "status": "keep-as-is"
-  },
-  "one-to-one": {
-    "newName": "one-to-one",
-    "status": "keep-as-is"
-  },
-  "paperclip": {
-    "newName": "paperclip",
-    "status": "keep-as-is"
-  },
-  "path": {
-    "newName": "path",
-    "status": "keep-as-is"
-  },
-  "pause": {
-    "newName": "pause",
-    "status": "keep-as-is"
-  },
-  "people": {
-    "newName": "people",
-    "status": "keep-as-is"
-  },
-  "percentage": {
-    "newName": "percentage",
-    "status": "keep-as-is"
-  },
-  "person": {
-    "newName": "person",
-    "status": "keep-as-is"
-  },
-  "phone": {
-    "newName": "phone",
-    "status": "keep-as-is"
-  },
-  "phone-call": {
-    "newName": "phone-call",
-    "status": "keep-as-is"
-  },
-  "phone-forward": {
-    "newName": "phone-forward",
-    "status": "keep-as-is"
-  },
-  "pill": {
-    "newName": "pill",
-    "status": "keep-as-is"
-  },
-  "pistol": {
-    "newName": "pistol",
-    "status": "keep-as-is"
-  },
-  "play": {
-    "newName": "play",
-    "status": "keep-as-is"
-  },
-  "plus": {
-    "newName": "plus",
-    "status": "keep-as-is"
-  },
-  "polygon-filter": {
-    "newName": "polygon-filter",
-    "status": "keep-as-is"
-  },
-  "power": {
-    "newName": "power",
-    "status": "keep-as-is"
-  },
-  "prescription": {
-    "newName": "prescription",
-    "status": "keep-as-is"
-  },
-  "presentation": {
-    "newName": "presentation",
-    "status": "keep-as-is"
-  },
-  "pulse": {
-    "newName": "pulse",
-    "status": "keep-as-is"
-  },
-  "rain": {
-    "newName": "rain",
-    "status": "keep-as-is"
-  },
-  "range-ring": {
-    "newName": "range-ring",
-    "status": "keep-as-is"
-  },
-  "record": {
-    "newName": "record",
-    "status": "keep-as-is"
-  },
-  "rect-height": {
-    "newName": "rect-height",
-    "status": "keep-as-is"
-  },
-  "rect-width": {
-    "newName": "rect-width",
-    "status": "keep-as-is"
-  },
-  "rectangle": {
-    "newName": "rectangle",
-    "status": "keep-as-is"
-  },
-  "redo": {
-    "newName": "redo",
-    "status": "keep-as-is"
-  },
-  "rig": {
-    "newName": "rig",
-    "status": "keep-as-is"
-  },
-  "ring": {
-    "newName": "ring",
-    "status": "keep-as-is"
-  },
-  "rocket": {
-    "newName": "rocket",
-    "status": "keep-as-is"
-  },
-  "rocket-slant": {
-    "newName": "rocket-slant",
-    "status": "keep-as-is"
-  },
-  "run-history": {
-    "newName": "run-history",
-    "status": "keep-as-is"
-  },
-  "satellite": {
-    "newName": "satellite",
-    "status": "keep-as-is"
-  },
-  "selection-box": {
-    "newName": "selection-box",
-    "status": "keep-as-is"
-  },
-  "selection-box-edit": {
-    "newName": "selection-box-edit",
-    "status": "keep-as-is"
-  },
-  "sensor": {
-    "newName": "sensor",
-    "status": "keep-as-is"
-  },
-  "server": {
-    "newName": "server",
-    "status": "keep-as-is"
-  },
-  "server-install": {
-    "newName": "server-install",
-    "status": "keep-as-is"
-  },
-  "share": {
-    "newName": "share",
-    "status": "keep-as-is"
-  },
-  "shield": {
-    "newName": "shield",
-    "status": "keep-as-is"
-  },
-  "ship": {
-    "newName": "ship",
-    "status": "keep-as-is"
-  },
-  "shop": {
-    "newName": "shop",
-    "status": "keep-as-is"
-  },
-  "shopping-cart": {
-    "newName": "shopping-cart",
-    "status": "keep-as-is"
-  },
-  "sim-card": {
-    "newName": "sim-card",
-    "status": "keep-as-is"
-  },
-  "slash": {
-    "newName": "slash",
-    "status": "keep-as-is"
-  },
-  "small-cross": {
-    "newName": "small-cross",
-    "status": "keep-as-is"
-  },
-  "small-minus": {
-    "newName": "small-minus",
-    "status": "keep-as-is"
-  },
-  "small-plus": {
-    "newName": "small-plus",
-    "status": "keep-as-is"
-  },
-  "small-square": {
-    "newName": "small-square",
-    "status": "keep-as-is"
-  },
-  "small-tick": {
-    "newName": "small-tick",
-    "status": "keep-as-is"
-  },
-  "snowflake": {
-    "newName": "snowflake",
-    "status": "keep-as-is"
-  },
-  "soccer-ball": {
-    "newName": "soccer-ball",
-    "status": "keep-as-is"
-  },
-  "social-media": {
-    "newName": "social-media",
-    "status": "keep-as-is"
-  },
-  "sports-stadium": {
-    "newName": "sports-stadium",
-    "status": "keep-as-is"
-  },
-  "square": {
-    "newName": "square",
-    "status": "keep-as-is"
-  },
-  "stadium-geometry": {
-    "newName": "stadium-geometry",
-    "status": "keep-as-is"
-  },
-  "star": {
-    "newName": "star",
-    "status": "keep-as-is"
-  },
-  "stop": {
-    "newName": "stop",
-    "status": "keep-as-is"
-  },
-  "stopwatch": {
-    "newName": "stopwatch",
-    "status": "keep-as-is"
-  },
-  "subscript": {
-    "newName": "subscript",
-    "status": "keep-as-is"
-  },
-  "superscript": {
-    "newName": "superscript",
-    "status": "keep-as-is"
-  },
-  "symbol-circle": {
-    "newName": "symbol-circle",
-    "status": "keep-as-is"
-  },
-  "symbol-cross": {
-    "newName": "symbol-cross",
-    "status": "keep-as-is"
-  },
-  "symbol-diamond": {
-    "newName": "symbol-diamond",
-    "status": "keep-as-is"
-  },
-  "symbol-rectangle": {
-    "newName": "symbol-rectangle",
-    "status": "keep-as-is"
-  },
-  "symbol-square": {
-    "newName": "symbol-square",
-    "status": "keep-as-is"
-  },
-  "symbol-triangle-down": {
-    "newName": "symbol-triangle-down",
-    "status": "keep-as-is"
-  },
-  "symbol-triangle-up": {
-    "newName": "symbol-triangle-up",
-    "status": "keep-as-is"
-  },
-  "syringe": {
-    "newName": "syringe",
-    "status": "keep-as-is"
-  },
-  "table-sync": {
-    "newName": "table-sync",
-    "status": "keep-as-is"
-  },
-  "tag": {
-    "newName": "tag",
-    "status": "keep-as-is"
-  },
-  "tag-promote": {
-    "newName": "tag-promote",
-    "status": "keep-as-is"
-  },
-  "tag-refresh": {
-    "newName": "tag-refresh",
-    "status": "keep-as-is"
-  },
-  "tag-undo": {
-    "newName": "tag-undo",
-    "status": "keep-as-is"
-  },
-  "tags": {
-    "newName": "tags",
-    "status": "keep-as-is"
-  },
-  "tank": {
-    "newName": "tank",
-    "status": "keep-as-is"
-  },
-  "taxi": {
-    "newName": "taxi",
-    "status": "keep-as-is"
-  },
-  "team": {
-    "newName": "team",
-    "status": "keep-as-is"
-  },
-  "temperature": {
-    "newName": "temperature",
-    "status": "keep-as-is"
-  },
-  "text-highlight": {
-    "newName": "text-highlight",
-    "status": "keep-as-is"
-  },
-  "thumbs-down": {
-    "newName": "thumbs-down",
-    "status": "keep-as-is"
-  },
-  "thumbs-up": {
-    "newName": "thumbs-up",
-    "status": "keep-as-is"
-  },
-  "tick": {
-    "newName": "tick",
-    "status": "keep-as-is"
-  },
-  "time": {
-    "newName": "time",
-    "status": "keep-as-is"
-  },
-  "tint": {
-    "newName": "tint",
-    "status": "keep-as-is"
-  },
-  "torch": {
-    "newName": "torch",
-    "status": "keep-as-is"
-  },
-  "tractor": {
-    "newName": "tractor",
-    "status": "keep-as-is"
-  },
-  "train": {
-    "newName": "train",
-    "status": "keep-as-is"
-  },
-  "trash": {
-    "newName": "trash",
-    "status": "keep-as-is"
-  },
-  "tree": {
-    "newName": "tree",
-    "status": "keep-as-is"
-  },
-  "trophy": {
-    "newName": "trophy",
-    "status": "keep-as-is"
-  },
-  "truck": {
-    "newName": "truck",
-    "status": "keep-as-is"
-  },
-  "two-columns": {
-    "newName": "two-columns",
-    "status": "keep-as-is"
-  },
-  "undo": {
-    "newName": "undo",
-    "status": "keep-as-is"
-  },
-  "unlink": {
-    "newName": "unlink",
-    "status": "keep-as-is"
-  },
-  "unlock": {
-    "newName": "unlock",
-    "status": "keep-as-is"
-  },
-  "user": {
-    "newName": "user",
-    "status": "keep-as-is"
-  },
-  "variable-layer": {
-    "newName": "variable-layer",
-    "status": "keep-as-is"
-  },
-  "vector": {
-    "newName": "vector",
-    "status": "keep-as-is"
-  },
-  "vertical-distribution": {
-    "newName": "vertical-distribution",
-    "status": "keep-as-is"
-  },
-  "vertical-inbetween": {
-    "newName": "vertical-inbetween",
-    "status": "keep-as-is"
-  },
-  "video": {
-    "newName": "video",
-    "status": "keep-as-is"
-  },
-  "virus": {
-    "newName": "virus",
-    "status": "keep-as-is"
-  },
-  "volume-down": {
-    "newName": "volume-down",
-    "status": "keep-as-is"
-  },
-  "volume-off": {
-    "newName": "volume-off",
-    "status": "keep-as-is"
-  },
-  "volume-up": {
-    "newName": "volume-up",
-    "status": "keep-as-is"
-  },
-  "waves": {
-    "newName": "waves",
-    "status": "keep-as-is"
-  },
-  "widget": {
-    "newName": "widget",
-    "status": "keep-as-is"
-  },
-  "widget-button": {
-    "newName": "widget-button",
-    "status": "keep-as-is"
-  },
-  "widget-footer": {
-    "newName": "widget-footer",
-    "status": "keep-as-is"
-  },
-  "widget-header": {
-    "newName": "widget-header",
-    "status": "keep-as-is"
-  },
-  "wind": {
-    "newName": "wind",
-    "status": "keep-as-is"
-  },
-  "won": {
-    "newName": "won",
-    "status": "keep-as-is"
-  },
-  "wrench": {
-    "newName": "wrench",
-    "status": "keep-as-is"
-  },
-  "wrench-redo": {
-    "newName": "wrench-redo",
-    "status": "keep-as-is"
-  },
-  "wrench-snooze": {
-    "newName": "wrench-snooze",
-    "status": "keep-as-is"
-  },
-  "wrench-time": {
-    "newName": "wrench-time",
-    "status": "keep-as-is"
-  }
+  "add": "plus",
+  "add-application": "window-plus",
+  "add-child": "box-plus-below",
+  "add-clip": "clip-plus",
+  "add-column-left": "column-plus-left",
+  "add-column-right": "column-plus-right",
+  "add-derived-column": "column-plus-branch",
+  "add-location": "map-pin-plus",
+  "add-parent": "box-plus-above",
+  "add-row-bottom": "row-plus-bottom",
+  "add-row-top": "row-plus-top",
+  "add-tile": "tile-plus",
+  "add-to-artifact": "list-plus",
+  "add-to-folder": "folder-plus",
+  "aimpoints-target": "circle-plus-orbit",
+  "align-center": "text-align-center",
+  "align-justify": "text-align-justify",
+  "align-left": "text-align-left",
+  "align-right": "text-align-right",
+  "alignment-bottom": "text-align-bottom",
+  "alignment-horizontal-center": "text-align-horizontal-center",
+  "alignment-left": "text-align-left",
+  "alignment-right": "text-align-right",
+  "alignment-top": "text-align-top",
+  "alignment-vertical-center": "text-align-vertical-center",
+  "ammunition": "bullets-three",
+  "anchor": "anchor-ship",
+  "annotation": "pencil-square",
+  "announcement": "megaphone",
+  "app-header": "rectangle-header-lines",
+  "application": "window-lines-horizontal",
+  "applications": "windows-stacked",
+  "archive": "box-arrow-down",
+  "area-of-interest": "map-pin-area",
+  "array": "brackets-square",
+  "array-boolean": "brackets-square-toggle",
+  "array-date": "brackets-square-calendar",
+  "array-floating-point": "brackets-square-decimal",
+  "array-numeric": "brackets-square-123",
+  "array-object": "brackets-square-curly",
+  "array-string": "brackets-square-quotes",
+  "array-timestamp": "brackets-square-clock",
+  "arrow-bottom-left": "arrow-down-left",
+  "arrow-bottom-right": "arrow-down-right",
+  "arrow-top-left": "arrow-up-left",
+  "arrow-top-right": "arrow-up-right",
+  "arrows-arc": "arrows-corner-arc",
+  "arrows-horizontal": "arrows-left-right",
+  "arrows-vertical": "arrows-up-down",
+  "at": "at-sign",
+  "automatic-updates": "arrow-circular-check",
+  "axle": "axle-wheels",
+  "backlink": "link-arrow-left",
+  "backward-ten": "arrow-circular-10-left",
+  "badge": "badge-shield",
+  "ban-circle": "circle-slash",
+  "bank-account": "piggy-bank",
+  "binary-number": "zero-one",
+  "block-promote": "rectangle-arrows-t-shape",
+  "blocked-person": "person-slash",
+  "bold": "text-b",
+  "book": "book-open",
+  "bookmark": "bookmark-ribbon",
+  "box": "box-cube",
+  "branch-locked": "git-branch-padlock",
+  "branch-unlocked": "git-branch-padlock-open",
+  "bring-data": "database-arrow-down",
+  "bring-forward": "layers-arrow-forward",
+  "british-pound": "currency-pound",
+  "bug": "bug-insect",
+  "build": "hammer",
+  "bullseye": "circles-concentric-arrow",
+  "cargo-ship": "cargo-ship-containers",
+  "changes": "arrows-up-down-bar",
+  "chart": "chart-line-up",
+  "chat": "chat-bubbles",
+  "chevron-backward": "chevron-double-left",
+  "chevron-forward": "chevron-double-right",
+  "circle-arrow-down": "arrow-down-circle",
+  "circle-arrow-left": "arrow-left-circle",
+  "circle-arrow-right": "arrow-right-circle",
+  "circle-arrow-up": "arrow-up-circle",
+  "citation": "quote-brackets",
+  "clean": "broom",
+  "clip": "corners-circle-focus",
+  "clipboard-file": "clipboard-document",
+  "cloud-download": "cloud-arrow-down",
+  "cloud-server": "cloud-servers",
+  "cloud-tick": "cloud-check",
+  "cloud-upload": "cloud-arrow-up",
+  "code": "code-brackets-slash",
+  "code-block": "code-brackets-document",
+  "cog": "cog-gear",
+  "collapse-all": "arrows-in",
+  "color-fill": "paint-bucket",
+  "column-layout": "columns-three",
+  "comment": "comment-bubble",
+  "comparison": "bars-split",
+  "compressed": "package-arrow-down",
+  "confirm": "check-circle",
+  "console-alert": "console-exclamation",
+  "control": "sliders-horizontal",
+  "crop": "crop-corners",
+  "cross": "cross-x",
+  "cross-circle": "circle-x",
+  "css-style": "css-brackets",
+  "cube": "cube-3d",
+  "cube-add": "cube-plus",
+  "cube-cutouts": "cubes-overlapped",
+  "cube-edit": "cube-pencil",
+  "cube-remove": "cube-minus",
+  "cubes": "cubes-stacked",
+  "curly-braces": "brackets-curly",
+  "curved-range-chart": "chart-curved-range",
+  "cut": "scissors",
+  "cycle": "bicycle",
+  "dashboard": "gauge",
+  "data-cloud": "cloud-database",
+  "data-connection": "database-lightning",
+  "data-lineage": "rectangles-connected-tree",
+  "data-search": "database-magnifying-glass",
+  "data-sync": "database-arrows-circular",
+  "delete": "trash",
+  "delete-clip": "clip-x",
+  "delta": "delta-triangle",
+  "derive-column": "column-branch",
+  "descendant": "arrow-down-square-below",
+  "desktop": "desktop-monitor",
+  "detection": "radar",
+  "diagnosis": "stethoscope-clipboard",
+  "diagram-tree": "squares-tree-connected",
+  "direction-left": "triangle-arrow-left",
+  "direction-right": "triangle-arrow-right",
+  "disable": "slash-circle",
+  "divide": "divide-dots",
+  "document-code": "document-code-brackets",
+  "document-locked": "document-padlock",
+  "document-open": "document-arrow-down",
+  "document-share": "document-arrow-up-right",
+  "dollar": "currency-dollar",
+  "dot": "dot-circle",
+  "double-caret-horizontal": "carets-double-horizontal",
+  "double-caret-vertical": "carets-double-vertical",
+  "double-chevron-down": "chevrons-double-down",
+  "doughnut-chart": "chart-doughnut",
+  "download": "arrow-down-tray",
+  "draw": "pencil-drawing",
+  "drive-time": "car-clock",
+  "duplicate": "squares-overlapped",
+  "edit": "pencil",
+  "endorsed": "check-endorsed",
+  "engagement": "handshake-target",
+  "euro": "currency-euro",
+  "exchange": "circles-arrows-circular",
+  "exclude-row": "row-x",
+  "expand-all": "arrows-out",
+  "explain": "circle-lightning-quarter",
+  "eye-off": "eye-closed",
+  "eye-on": "eye-open",
+  "feed": "list-feed",
+  "feed-subscribed": "rss-bell",
+  "filter": "funnel",
+  "filter-keep": "funnel-check",
+  "filter-list": "funnel-list",
+  "filter-open": "funnel-open",
+  "filter-remove": "funnel-x",
+  "filter-sort-asc": "funnel-arrow-up",
+  "filter-sort-desc": "funnel-arrow-down",
+  "floating-point": "one-point-zero",
+  "flow-branch": "circles-arrows-branch",
+  "flow-end": "arrow-right-circle",
+  "flow-linear": "circles-arrow-linear",
+  "flow-review": "circles-arrows-bidirectional",
+  "flow-review-branch": "circles-arrows-branch-bidirectional",
+  "flows": "diagram-flow",
+  "folder-close": "folder-closed",
+  "folder-new": "folder-plus",
+  "follower": "person-arrow-right",
+  "following": "person-arrow-left",
+  "font": "text-font",
+  "fork": "path-split-right",
+  "fork-end": "path-join-right",
+  "form": "checkbox-box-lines",
+  "full-stacked-chart": "chart-bars-stacked",
+  "fullscreen": "arrows-outward",
+  "function": "fx-parentheses",
+  "function-minimal": "f-slash",
+  "gantt-chart": "chart-gantt",
+  "generate": "sparkle",
+  "geofence": "map-pin-square-corner",
+  "geolocation": "location-pin-arrow",
+  "geosearch": "globe-magnifying-glass",
+  "geotime": "clock-map-pin",
+  "git-new-branch": "git-branch-plus",
+  "git-push": "git-arrow-up",
+  "git-rebase": "git-branches-joined",
+  "globe-network-add": "globe-network-plus",
+  "graph": "circles-lines-connected",
+  "graph-remove": "graph-minus",
+  "greater-than-or-equal-to": "greater-than-equal",
+  "group-item": "shapes-diamond-squares",
+  "group-objects": "shapes-grouped",
+  "grouped-bar-chart": "chart-bars-grouped",
+  "header": "text-header",
+  "header-one": "text-h1",
+  "header-three": "text-h3",
+  "header-two": "text-h2",
+  "heat-grid": "grid-gradient-cells",
+  "helper-management": "question-circle-grid",
+  "history": "clock-counter-clockwise",
+  "horizontal-bar-chart": "chart-bars-horizontal",
+  "horizontal-bar-chart-asc": "chart-bars-horizontal-ascending",
+  "horizontal-bar-chart-desc": "chart-bars-horizontal-descending",
+  "id-number": "card-badge-lines",
+  "image-rotate-left": "image-arrow-counter-clockwise",
+  "image-rotate-right": "image-arrow-clockwise",
+  "inbox-search": "inbox-magnifying-glass",
+  "info-sign": "info-circle",
+  "inheritance": "arrow-curved-down-left",
+  "inherited-group": "people-arrow-right",
+  "inner-join": "circles-overlap-filled",
+  "input": "semicircle-arrow-in",
+  "insert": "plus-square",
+  "intelligence": "brain-lightbulb",
+  "intersection": "circles-overlap-center-only",
+  "ip-address": "map-pin-10",
+  "issue": "exclamation-circle",
+  "issue-closed": "issue-checkmark",
+  "issue-new": "issue-plus",
+  "italic": "text-italic",
+  "join-table": "tables-joined",
+  "known-vehicle": "car-check",
+  "layers": "layers-stacked",
+  "layout-three-columns": "columns-three",
+  "layout-three-rows": "rows-three",
+  "layout-two-columns": "columns-two",
+  "layout-two-rows": "rows-two",
+  "learning": "brain-book",
+  "left-join": "circles-overlap-left-filled",
+  "lengthen-text": "text-lines-arrow-right",
+  "less-than-or-equal-to": "less-than-equal",
+  "locate": "map-pin-target",
+  "manual": "hand-pointing",
+  "manually-entered-data": "spreadsheet-hand",
+  "maximize": "arrows-out-corners",
+  "menu": "menu-hamburger",
+  "menu-open": "menu-hamburger",
+  "merge-columns": "columns-arrows-in",
+  "merge-links": "links-arrows-in",
+  "minimize": "arrows-in-corners",
+  "model": "mountain-wave",
+  "more": "dots-three-horizontal",
+  "move": "arrows-four-way",
+  "mugshot": "person-square-frame",
+  "multi-select": "checkboxes-multiple",
+  "nest": "arrow-curved-return",
+  "new-comment": "comment-plus",
+  "new-drawing": "drawing-plus",
+  "new-grid-item": "grid-item-plus",
+  "new-layer": "layer-plus",
+  "new-layers": "layers-plus",
+  "new-link": "link-plus",
+  "new-object": "object-plus",
+  "new-person": "person-plus",
+  "new-prescription": "prescription-plus",
+  "new-shield": "shield-plus",
+  "new-text-box": "text-box-plus",
+  "not-equal-to": "not-equal",
+  "notifications": "bell",
+  "notifications-add": "bell-plus",
+  "notifications-snooze": "bell-zzz",
+  "notifications-updated": "bell-dot",
+  "numbered-list": "list-numbers",
+  "numerical": "one-two-three",
+  "object-view": "cube-frame-corners",
+  "offline": "circle-lightning",
+  "one-column": "column-one",
+  "open-application": "window-arrow-up",
+  "outdated": "arrow-circular-exclamation",
+  "outer-join": "circles-overlap-outer-filled",
+  "output": "semicircle-arrow-out",
+  "package": "cube-3d",
+  "page-break": "rectangles-dashed-line-between",
+  "page-layout": "page-sections-grid",
+  "panel": "rectangle-sidebar-right",
+  "panel-stats": "panel-chart-lines",
+  "panel-table": "panel-table-grid",
+  "paragraph": "text-paragraph",
+  "paste-variable": "clipboard-variable",
+  "path-search": "path-magnifying-glass",
+  "phone-search": "phone-magnifying-glass",
+  "pie-chart": "chart-pie",
+  "pin": "pushpin",
+  "pivot": "arrows-corner-rotate",
+  "pivot-table": "grid-arrows-swap",
+  "playbook": "diagram-x-arrows",
+  "popout": "arrow-square-out",
+  "predictive-analysis": "brain",
+  "print": "printer",
+  "projects": "briefcase",
+  "properties": "list-bullets",
+  "property": "list-bullets-mixed",
+  "publish-function": "package-arrow-up",
+  "random": "arrows-crossed",
+  "refresh": "arrows-clockwise",
+  "refresh-off": "arrows-clockwise-slash",
+  "regex": "asterisk-dot",
+  "regression-chart": "chart-regression",
+  "remove": "minus",
+  "remove-column": "column-minus",
+  "remove-column-left": "column-minus-left",
+  "remove-column-right": "column-minus-right",
+  "remove-row-bottom": "row-minus-bottom",
+  "remove-row-top": "row-minus-top",
+  "repeat": "arrow-circular-clockwise-square",
+  "reset": "arrow-counter-clockwise-square",
+  "resolve": "check-shield",
+  "right-join": "circles-overlap-right-filled",
+  "root-folder": "folder-tree-root",
+  "rotate-ccw": "arrow-counter-clockwise",
+  "rotate-cw": "arrow-clockwise",
+  "rotate-document": "document-rotation",
+  "rotate-page": "page-rotation",
+  "route": "map-pins-path",
+  "saved": "check-saved",
+  "scatter-plot": "chart-scatter",
+  "search": "magnifying-glass",
+  "search-around": "magnifying-glass-area",
+  "search-template": "magnifying-glass-document",
+  "search-text": "magnifying-glass-text",
+  "segmented-control": "buttons-segmented",
+  "select": "cursor-selection",
+  "selection": "circles-concentric-target",
+  "selection-box-add": "selection-box-plus",
+  "selection-box-remove": "selection-box-minus",
+  "send-backward": "layers-arrow-backward",
+  "send-message": "paper-plane",
+  "send-to": "arrow-share",
+  "send-to-graph": "chart-arrow",
+  "send-to-map": "map-arrow",
+  "series-add": "series-plus",
+  "series-configuration": "chart-settings",
+  "series-derived": "chart-line-arrow-up",
+  "series-filtered": "chart-line-funnel",
+  "series-search": "series-magnifying-glass",
+  "settings": "gear",
+  "shapes": "circle-triangle-square",
+  "shared-filter": "shared-funnel",
+  "shorten-text": "text-lines-arrow-left",
+  "signal-search": "signal-magnifying-glass",
+  "small-info-sign": "info-circle-small",
+  "sort": "bars-ascending",
+  "sort-alphabetical": "letters-ascending",
+  "sort-alphabetical-desc": "letters-descending",
+  "sort-asc": "bars-arrow-up",
+  "sort-desc": "bars-arrow-down",
+  "sort-numerical": "numbers-ascending",
+  "sort-numerical-desc": "numbers-descending",
+  "spell-check": "letter-a-check",
+  "spin": "arrows-spiral-refresh",
+  "split-columns": "columns-arrows-out",
+  "stacked-chart": "chart-stacked",
+  "star-empty": "star-outline",
+  "step-backward": "step-left",
+  "step-chart": "chart-step",
+  "step-forward": "step-right",
+  "strikethrough": "text-strikethrough",
+  "style": "text-style",
+  "subtract-right-join": "circles-overlap-left-minus-center",
+  "swap-horizontal": "arrows-swap-horizontal",
+  "swap-vertical": "arrows-swap-vertical",
+  "sweep": "broom",
+  "switch": "toggle",
+  "tag-add": "tag-plus",
+  "take-action": "hand-pen-diagonal",
+  "target": "circle-crosshair",
+  "th": "table",
+  "th-add": "table-plus",
+  "th-derived": "table-derived",
+  "th-disconnect": "table-disconnect",
+  "th-filtered": "table-filtered",
+  "th-list": "table-list",
+  "th-list-add": "table-list-plus",
+  "th-virtual": "table-virtual",
+  "th-virtual-add": "table-virtual-plus",
+  "third-party": "people-globe",
+  "tick-circle": "check-circle",
+  "timeline-area-chart": "timeline-chart-area",
+  "timeline-bar-chart": "timeline-chart-bars",
+  "timeline-events": "timeline-dots",
+  "timeline-line-chart": "timeline-chart-line",
+  "translate": "letter-a-globe",
+  "trending-down": "arrow-trending-down",
+  "trending-up": "arrow-trending-up",
+  "unarchive": "box-arrow-up",
+  "underline": "text-underline",
+  "ungroup-objects": "shapes-ungrouped",
+  "unknown-vehicle": "car-question",
+  "unpin": "pushpin-slash",
+  "unresolve": "x-shield",
+  "updated": "arrow-circular-check",
+  "upload": "arrow-up-tray",
+  "variable": "x-curly-braces",
+  "vertical-bar-chart-asc": "chart-bars-vertical-ascending",
+  "vertical-bar-chart-desc": "chart-bars-vertical-descending",
+  "walk": "person-walking",
+  "warning-sign": "exclamation-triangle",
+  "waterfall-chart": "chart-waterfall",
+  "wrap-lines": "text-lines-curved-arrow",
+  "yen": "currency-yen",
+  "zoom-in": "magnifying-glass-plus",
+  "zoom-out": "magnifying-glass-minus",
+  "zoom-to-fit": "frame-corners",
+  "airplane": "",
+  "antenna": "",
+  "arrow-down": "",
+  "arrow-left": "",
+  "arrow-right": "",
+  "arrow-up": "",
+  "asterisk": "",
+  "barcode": "",
+  "blank": "",
+  "briefcase": "",
+  "buggy": "",
+  "calculator": "",
+  "calendar": "",
+  "camera": "",
+  "caret-down": "",
+  "caret-left": "",
+  "caret-right": "",
+  "caret-up": "",
+  "cell-tower": "",
+  "chevron-down": "",
+  "chevron-left": "",
+  "chevron-right": "",
+  "chevron-up": "",
+  "circle": "",
+  "circle-dashed": "",
+  "clipboard": "",
+  "cloud": "",
+  "compass": "",
+  "console": "",
+  "construction": "",
+  "contrast": "",
+  "credit-card": "",
+  "crown": "",
+  "cube-cutout": "",
+  "database": "",
+  "document": "",
+  "double-chevron-left": "",
+  "double-chevron-right": "",
+  "double-chevron-up": "",
+  "drag-handle-horizontal": "",
+  "drag-handle-vertical": "",
+  "drawer-left": "",
+  "drawer-left-filled": "",
+  "drawer-right": "",
+  "drawer-right-filled": "",
+  "drone": "",
+  "drone-uav": "",
+  "eject": "",
+  "emoji": "",
+  "endnote": "",
+  "envelope": "",
+  "equals": "",
+  "eraser": "",
+  "error": "",
+  "excavator": "",
+  "export": "arrow-up-tray",
+  "eye-open": "",
+  "fast-backward": "",
+  "fast-forward": "",
+  "fighter-jet": "",
+  "film": "",
+  "flag": "",
+  "flame": "",
+  "flash": "",
+  "floppy-disk": "",
+  "folder-open": "",
+  "folder-shared": "folder-arrow-top-right",
+  "folder-shared-open": "folder-arrow-top-right-open",
+  "forward-ten": "",
+  "fuel": "",
+  "full-circle": "",
+  "gift-box": "",
+  "git-branch": "",
+  "git-commit": "",
+  "git-merge": "",
+  "git-pull": "",
+  "git-repo": "",
+  "glass": "",
+  "globe": "",
+  "globe-network": "",
+  "greater-than": "",
+  "grid": "",
+  "grid-view": "",
+  "hand": "",
+  "hand-down": "",
+  "hand-left": "",
+  "hand-right": "",
+  "hand-up": "",
+  "hat": "",
+  "headset": "",
+  "heart": "",
+  "heart-broken": "",
+  "heatmap": "",
+  "helicopter": "",
+  "help": "",
+  "hexagon": "",
+  "high-priority": "",
+  "high-voltage-pole": "",
+  "highlight": "",
+  "home": "",
+  "horizontal-distribution": "",
+  "horizontal-inbetween": "",
+  "hurricane": "",
+  "import": "arrow-down-tray",
+  "inbox": "",
+  "inbox-filtered": "",
+  "inbox-geo": "",
+  "inbox-update": "",
+  "key": "",
+  "key-backspace": "",
+  "key-command": "",
+  "key-control": "",
+  "key-delete": "",
+  "key-enter": "",
+  "key-escape": "",
+  "key-option": "",
+  "key-shift": "",
+  "key-tab": "",
+  "lab-test": "",
+  "label": "",
+  "layer": "",
+  "layer-outline": "",
+  "layout": "",
+  "layout-auto": "",
+  "layout-balloon": "",
+  "layout-bottom-row-three-tiles": "",
+  "layout-bottom-row-two-tiles": "",
+  "layout-circle": "",
+  "layout-grid": "",
+  "layout-group-by": "",
+  "layout-hierarchy": "",
+  "layout-left-column-three-tiles": "",
+  "layout-left-column-two-tiles": "",
+  "layout-linear": "",
+  "layout-right-column-three-tiles": "",
+  "layout-right-column-two-tiles": "",
+  "layout-skew-grid": "",
+  "layout-sorted-clusters": "",
+  "layout-top-row-three-tiles": "",
+  "layout-top-row-two-tiles": "",
+  "less-than": "",
+  "lifesaver": "",
+  "lightbulb": "",
+  "lightning": "",
+  "link": "",
+  "linked-squares": "",
+  "list": "",
+  "list-columns": "",
+  "list-detail-view": "",
+  "lock": "",
+  "locomotive": "",
+  "log-in": "",
+  "log-out": "",
+  "low-voltage-pole": "",
+  "many-to-many": "",
+  "many-to-one": "",
+  "map": "",
+  "map-create": "",
+  "map-marker": "",
+  "markdown": "",
+  "media": "",
+  "menu-closed": "",
+  "microphone": "",
+  "minus": "",
+  "mobile-phone": "",
+  "mobile-video": "",
+  "modal": "",
+  "modal-filled": "",
+  "moon": "",
+  "mountain": "",
+  "music": "",
+  "ninja": "",
+  "office": "",
+  "oil-field": "",
+  "one-to-many": "",
+  "one-to-one": "",
+  "paperclip": "",
+  "path": "",
+  "pause": "",
+  "people": "",
+  "percentage": "",
+  "person": "",
+  "phone": "",
+  "phone-call": "",
+  "phone-forward": "",
+  "pill": "",
+  "pistol": "",
+  "play": "",
+  "plus": "",
+  "polygon-filter": "",
+  "power": "",
+  "prescription": "",
+  "presentation": "",
+  "pulse": "",
+  "rain": "",
+  "range-ring": "",
+  "record": "",
+  "rect-height": "",
+  "rect-width": "",
+  "rectangle": "",
+  "redo": "",
+  "rig": "",
+  "ring": "",
+  "rocket": "",
+  "rocket-slant": "",
+  "run-history": "",
+  "satellite": "",
+  "selection-box": "",
+  "selection-box-edit": "",
+  "sensor": "",
+  "server": "",
+  "server-install": "",
+  "share": "",
+  "shield": "",
+  "ship": "",
+  "shop": "",
+  "shopping-cart": "",
+  "sim-card": "",
+  "slash": "",
+  "small-cross": "",
+  "small-minus": "",
+  "small-plus": "",
+  "small-square": "",
+  "small-tick": "",
+  "snowflake": "",
+  "soccer-ball": "",
+  "social-media": "",
+  "sports-stadium": "",
+  "square": "",
+  "stadium-geometry": "",
+  "star": "",
+  "stop": "",
+  "stopwatch": "",
+  "subscript": "",
+  "superscript": "",
+  "symbol-circle": "",
+  "symbol-cross": "",
+  "symbol-diamond": "",
+  "symbol-rectangle": "",
+  "symbol-square": "",
+  "symbol-triangle-down": "",
+  "symbol-triangle-up": "",
+  "syringe": "",
+  "table-sync": "",
+  "tag": "",
+  "tag-promote": "",
+  "tag-refresh": "",
+  "tag-undo": "",
+  "tags": "",
+  "tank": "",
+  "taxi": "",
+  "team": "",
+  "temperature": "",
+  "text-highlight": "",
+  "thumbs-down": "",
+  "thumbs-up": "",
+  "tick": "",
+  "time": "",
+  "tint": "",
+  "torch": "",
+  "tractor": "",
+  "train": "",
+  "trash": "",
+  "tree": "",
+  "trophy": "",
+  "truck": "",
+  "two-columns": "",
+  "undo": "",
+  "unlink": "",
+  "unlock": "",
+  "user": "",
+  "variable-layer": "",
+  "vector": "",
+  "vertical-distribution": "",
+  "vertical-inbetween": "",
+  "video": "",
+  "virus": "",
+  "volume-down": "",
+  "volume-off": "",
+  "volume-up": "",
+  "waves": "",
+  "widget": "",
+  "widget-button": "",
+  "widget-footer": "",
+  "widget-header": "",
+  "wind": "",
+  "won": "currency-won",
+  "wrench": "",
+  "wrench-redo": "",
+  "wrench-snooze": "",
+  "wrench-time": ""
 }
