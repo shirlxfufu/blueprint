@@ -35,12 +35,12 @@ jobs:
           version: 10.29.3
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
       - name: Build demo
         run: |
           cd packages/demo-icon-comparison
-          NODE_ENV=production pnpm build
+          pnpm build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
