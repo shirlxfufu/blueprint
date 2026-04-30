@@ -262,8 +262,10 @@ body {
 .mainContent {
   flex: 1;
   overflow-y: auto;
-  padding: var(--spacing-3xl);
+  padding-left: 0;
+  padding-right: 0;
   padding-top: 180px; // Account for fixed header + filter bar + spacing
+  padding-bottom: var(--spacing-3xl);
   scroll-snap-type: y proximity;
 }
 
@@ -273,10 +275,14 @@ body {
 
 .gridContainer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(350px, 1fr));
   gap: var(--spacing-xl);
   max-width: 1400px;
   margin: 0 auto;
+  padding-left: var(--spacing-3xl);
+  padding-right: var(--spacing-3xl);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 // =================================================
@@ -294,6 +300,8 @@ body {
   scroll-snap-align: start;
   scroll-margin-top: 80px;
   transition: all var(--transition-fast);
+  min-width: 350px;
+  width: 100%;
 
   &:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -341,6 +349,11 @@ body {
     &.tagNaming {
       background-color: rgba($blue3, 0.15);
       border: 1px solid rgba($blue3, 0.3);
+    }
+
+    &.tagOrange {
+      background-color: rgba(#FF9800, 0.15);
+      border: 1px solid rgba(#FF9800, 0.3);
     }
 
     .tagRemove {

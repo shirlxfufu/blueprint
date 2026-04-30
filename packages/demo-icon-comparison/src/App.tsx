@@ -10,10 +10,17 @@ import styles from './styles.module.scss';
 // Load Blueprint icon metadata
 const blueprintIcons: IconMetadata[] = require('@blueprintjs/icons/icons.json');
 
-// Load icon name mapping
-const iconNameMapping: Record<string, { newName: string; status: 'renamed' | 'keep-as-is' }> = require('../icon-name-mapping.json');
+// Load icon comparison data (includes both Xinyi and Greg's names + tags)
+const iconComparisonData: Record<string, {
+  original: string;
+  xinyi: string;
+  xinyiStatus: string;
+  greg: string | null;
+  gregStatus?: string;
+  gregTags: string[];
+}> = require('../icon-comparison-data.json');
 
-type FilterMode = 'all' | 'outline' | 'design' | 'renamed' | 'keep-as-is';
+type FilterMode = 'all' | 'outline' | 'design' | 'renamed' | 'keep-as-is' | 'named-differently';
 
 export const App: React.FC = () => {
   const [icons, setIcons] = useState<IconData[]>([]);
@@ -49,9 +56,8 @@ export const App: React.FC = () => {
       // Load icons in batches for progressive rendering
       const loadIconBatch = async (batch: typeof blueprintIcons) => {
         const promises = batch.map(async (bpIcon) => {
-          // Get the new name from mapping for display purposes
-          const mapping = iconNameMapping[bpIcon.iconName];
-          const newIconName = mapping?.newName || bpIcon.iconName;
+          // Get the comparison data (Xinyi and Greg's names + tags)
+          const comparisonData = iconComparisonData[bpIcon.iconName];
 
           // Load both icons in parallel
           // IMPORTANT: Use the original icon name for loading new icons from Figma
@@ -79,6 +85,11 @@ export const App: React.FC = () => {
             isUnfilled: false,
             hasMajorChange: false,
             isManuallyTagged: false,
+            xinyiName: comparisonData?.xinyi,
+            xinyiStatus: comparisonData?.xinyiStatus,
+            gregName: comparisonData?.greg,
+            gregStatus: comparisonData?.gregStatus,
+            gregTags: comparisonData?.gregTags || [],
           };
         });
 
@@ -100,23 +111,16 @@ export const App: React.FC = () => {
     }
   }
 
-  // Apply manual overrides and icon name mapping to icons
+  // Apply manual overrides to icons
   const iconsWithOverrides = useMemo(() => {
     return icons.map(icon => {
       const override = manualOverrides[icon.name];
-      const mapping = iconNameMapping[icon.name];
-
-      // Determine the effective new name from icon mapping only
-      const mappedName = mapping?.newName;
-      const mappedStatus = mapping?.status || 'keep-as-is';
 
       return {
         ...icon,
         isUnfilled: override?.isUnfilled ?? icon.isUnfilled,
         hasMajorChange: override?.hasMajorChange ?? icon.hasMajorChange,
         isManuallyTagged: icon.name in manualOverrides,
-        newName: mappedName,
-        nameStatus: mappedName ? mappedStatus : undefined,
       };
     });
   }, [icons, manualOverrides]);
@@ -130,7 +134,9 @@ export const App: React.FC = () => {
       filtered = filtered.filter(icon =>
         icon.name.toLowerCase().includes(query) ||
         icon.displayName?.toLowerCase().includes(query) ||
-        icon.newName?.toLowerCase().includes(query)
+        icon.xinyiName?.toLowerCase().includes(query) ||
+        icon.gregName?.toLowerCase().includes(query) ||
+        icon.gregTags?.some(tag => tag.toLowerCase().includes(query))
       );
     }
 
@@ -139,9 +145,14 @@ export const App: React.FC = () => {
     } else if (filterMode === 'design') {
       filtered = filtered.filter(icon => icon.hasMajorChange);
     } else if (filterMode === 'renamed') {
-      filtered = filtered.filter(icon => icon.nameStatus === 'renamed');
+      filtered = filtered.filter(icon => icon.xinyiStatus === 'renamed');
     } else if (filterMode === 'keep-as-is') {
-      filtered = filtered.filter(icon => icon.nameStatus === 'keep-as-is');
+      filtered = filtered.filter(icon => icon.xinyiStatus === 'keep-as-is');
+    } else if (filterMode === 'named-differently') {
+      filtered = filtered.filter(icon => {
+        const namesMatch = icon.xinyiName && icon.gregName && icon.xinyiName === icon.gregName;
+        return !namesMatch && icon.xinyiName && icon.gregName;
+      });
     }
 
     return filtered;
@@ -196,10 +207,12 @@ export const App: React.FC = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const unfilledCount = iconsWithOverrides.filter(icon => icon.isUnfilled).length;
-  const majorChangeCount = iconsWithOverrides.filter(icon => icon.hasMajorChange).length;
-  const renamedCount = iconsWithOverrides.filter(icon => icon.nameStatus === 'renamed').length;
-  const keepAsIsCount = iconsWithOverrides.filter(icon => icon.nameStatus === 'keep-as-is').length;
+  const renamedCount = iconsWithOverrides.filter(icon => icon.xinyiStatus === 'renamed').length;
+  const keepAsIsCount = iconsWithOverrides.filter(icon => icon.xinyiStatus === 'keep-as-is').length;
+  const namedDifferentlyCount = iconsWithOverrides.filter(icon => {
+    const namesMatch = icon.xinyiName && icon.gregName && icon.xinyiName === icon.gregName;
+    return !namesMatch && icon.xinyiName && icon.gregName;
+  }).length;
 
   return (
     <div className={styles.appContainer}>
@@ -258,20 +271,6 @@ export const App: React.FC = () => {
           >
             All Comparisons <span className={styles.countBadge}>{loading ? <Skeleton width={20} height={13} /> : `(${iconsWithOverrides.length})`}</span>
           </div>
-          <div
-            className={`${styles.filterChip} ${filterMode === 'outline' ? styles.chipAmber : ''}`}
-            onClick={() => setFilterMode('outline')}
-          >
-            <span className={`${styles.filterDot} ${styles.dotAmber}`}></span>
-            Outline Change <span className={styles.countBadge}>{loading ? <Skeleton width={20} height={13} /> : `(${unfilledCount})`}</span>
-          </div>
-          <div
-            className={`${styles.filterChip} ${filterMode === 'design' ? styles.chipViolet : ''}`}
-            onClick={() => setFilterMode('design')}
-          >
-            <span className={`${styles.filterDot} ${styles.dotViolet}`}></span>
-            Major Design Change <span className={styles.countBadge}>{loading ? <Skeleton width={20} height={13} /> : `(${majorChangeCount})`}</span>
-          </div>
           <div className={styles.filterDivider}></div>
           <div
             className={`${styles.filterChip} ${filterMode === 'renamed' ? styles.chipIndigo : ''}`}
@@ -286,6 +285,13 @@ export const App: React.FC = () => {
           >
             <Icon icon="tick" size={12} style={{ color: '#10A86B' }} />
             Keep As-Is <span className={styles.countBadge}>{loading ? <Skeleton width={20} height={13} /> : `(${keepAsIsCount})`}</span>
+          </div>
+          <div
+            className={`${styles.filterChip} ${filterMode === 'named-differently' ? styles.chipOrange : ''}`}
+            onClick={() => setFilterMode('named-differently')}
+          >
+            <Icon icon="warning-sign" size={12} style={{ color: '#FF9800' }} />
+            Named Differently <span className={styles.countBadge}>{loading ? <Skeleton width={20} height={13} /> : `(${namedDifferentlyCount})`}</span>
           </div>
         </div>
         <InputGroup
@@ -313,8 +319,11 @@ export const App: React.FC = () => {
                 isUnfilled={icon.isUnfilled}
                 hasMajorChange={icon.hasMajorChange}
                 isManuallyTagged={icon.isManuallyTagged}
-                newName={icon.newName}
-                nameStatus={icon.nameStatus}
+                xinyiName={icon.xinyiName}
+                xinyiStatus={icon.xinyiStatus}
+                gregName={icon.gregName}
+                gregStatus={icon.gregStatus}
+                gregTags={icon.gregTags}
                 onToggleUnfilled={() => handleToggleUnfilled(icon.name)}
                 onToggleMajorChange={() => handleToggleMajorChange(icon.name)}
                 onRename={(newName) => handleRenameIcon(icon.name, newName)}
@@ -364,7 +373,6 @@ export const App: React.FC = () => {
             className="back-to-top-button"
             icon="arrow-up"
             onClick={scrollToTop}
-            large
           />
         </Tooltip>
       )}
