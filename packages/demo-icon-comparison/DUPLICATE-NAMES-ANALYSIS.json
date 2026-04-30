@@ -1,0 +1,161 @@
+{
+  "summary": {
+    "total_duplicates": 9,
+    "description": "Duplicate icon names found in xinyi-icon-names.json that need to be resolved"
+  },
+  "duplicates": [
+    {
+      "duplicate_name": "arrow-right-circle",
+      "original_icons": [
+        {
+          "old_name": "circle-arrow-right",
+          "current_new_name": "arrow-right-circle",
+          "visual_description": "Circle with arrow pointing right inside",
+          "recommended_action": "Keep as arrow-right-circle"
+        },
+        {
+          "old_name": "flow-end",
+          "current_new_name": "arrow-right-circle",
+          "visual_description": "Arrow pointing right to a filled circle",
+          "recommended_action": "Change to arrow-right-circle-filled"
+        }
+      ]
+    },
+    {
+      "duplicate_name": "arrows-circular-check",
+      "original_icons": [
+        {
+          "old_name": "automatic-updates",
+          "current_new_name": "arrows-circular-check",
+          "visual_description": "Circular arrows with checkmark in center",
+          "recommended_action": "Keep as arrows-circular-check"
+        },
+        {
+          "old_name": "updated",
+          "current_new_name": "arrows-circular-check",
+          "visual_description": "Circular arrows with checkmark (slightly different positioning)",
+          "recommended_action": "Change to arrows-circular-check-alt"
+        }
+      ]
+    },
+    {
+      "duplicate_name": "bars-arrow-down",
+      "original_icons": [
+        {
+          "old_name": "send-backward",
+          "current_new_name": "bars-arrow-down",
+          "visual_description": "Horizontal bars/layers with arrow pointing down",
+          "recommended_action": "Keep as bars-arrow-down"
+        },
+        {
+          "old_name": "sort",
+          "current_new_name": "bars-arrow-down",
+          "visual_description": "List items with arrow pointing down (sorting icon)",
+          "recommended_action": "Change to list-arrow-down"
+        }
+      ]
+    },
+    {
+      "duplicate_name": "box-arrow-down",
+      "original_icons": [
+        {
+          "old_name": "archive",
+          "current_new_name": "box-arrow-down",
+          "visual_description": "Box/archive with arrow pointing down and divider at top",
+          "recommended_action": "Keep as box-arrow-down"
+        },
+        {
+          "old_name": "compressed",
+          "current_new_name": "box-arrow-down",
+          "visual_description": "Box/archive with arrow pointing down (appears identical)",
+          "recommended_action": "Change to box-arrow-down-alt (or keep same if truly identical icons)"
+        }
+      ]
+    },
+    {
+      "duplicate_name": "check-circle",
+      "original_icons": [
+        {
+          "old_name": "confirm",
+          "current_new_name": "check-circle",
+          "visual_description": "Checkmark in circle with motion swoosh effect",
+          "recommended_action": "Change to check-circle-swoosh"
+        },
+        {
+          "old_name": "tick-circle",
+          "current_new_name": "check-circle",
+          "visual_description": "Simple checkmark in circle outline",
+          "recommended_action": "Keep as check-circle"
+        }
+      ]
+    },
+    {
+      "duplicate_name": "circle-minus",
+      "original_icons": [
+        {
+          "old_name": "ban-circle",
+          "current_new_name": "circle-minus",
+          "visual_description": "Filled circle with minus/horizontal line",
+          "recommended_action": "Change to circle-minus-filled"
+        },
+        {
+          "old_name": "remove",
+          "current_new_name": "circle-minus",
+          "visual_description": "Circle outline with minus/horizontal line",
+          "recommended_action": "Keep as circle-minus"
+        }
+      ]
+    },
+    {
+      "duplicate_name": "circle-x",
+      "original_icons": [
+        {
+          "old_name": "cross-circle",
+          "current_new_name": "circle-x",
+          "visual_description": "Filled circle with X mark",
+          "recommended_action": "Change to circle-x-filled"
+        },
+        {
+          "old_name": "graph-remove",
+          "current_new_name": "circle-x",
+          "visual_description": "Partial/incomplete circle with X mark (different design)",
+          "recommended_action": "Change to circle-x-partial"
+        }
+      ]
+    },
+    {
+      "duplicate_name": "eye-open",
+      "original_icons": [
+        {
+          "old_name": "eye-on",
+          "current_new_name": "eye-open",
+          "visual_description": "Open eye with checkmark above it",
+          "recommended_action": "Change to eye-open-check"
+        },
+        {
+          "old_name": "eye-open",
+          "current_new_name": "eye-open",
+          "visual_description": "Simple open eye icon",
+          "recommended_action": "Keep as eye-open"
+        }
+      ]
+    },
+    {
+      "duplicate_name": "ring",
+      "original_icons": [
+        {
+          "old_name": "dot",
+          "current_new_name": "ring",
+          "visual_description": "Small filled circle (dot)",
+          "recommended_action": "Change to circle-small"
+        },
+        {
+          "old_name": "ring",
+          "current_new_name": "ring",
+          "visual_description": "Larger ring/donut shape with thicker stroke",
+          "recommended_action": "Keep as ring"
+        }
+      ]
+    }
+  ]
+}

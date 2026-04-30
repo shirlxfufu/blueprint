@@ -1,0 +1,2322 @@
+[
+  {
+    "original": "add",
+    "xinyi": "circle-plus",
+    "greg": "add"
+  },
+  {
+    "original": "add-application",
+    "xinyi": "window-plus",
+    "greg": "application-plus"
+  },
+  {
+    "original": "add-child",
+    "xinyi": "box-plus-below",
+    "greg": "row-plus-bottom"
+  },
+  {
+    "original": "add-clip",
+    "xinyi": "frame-dot",
+    "greg": "frame-dot-plus"
+  },
+  {
+    "original": "add-column-left",
+    "xinyi": "column-plus-left",
+    "greg": "columns-plus-left"
+  },
+  {
+    "original": "add-column-right",
+    "xinyi": "column-plus-right",
+    "greg": "columns-plus-right"
+  },
+  {
+    "original": "add-derived-column",
+    "xinyi": "column-plus-branch",
+    "greg": "table-derived-column-plus"
+  },
+  {
+    "original": "add-location",
+    "xinyi": "circle-ring-plus",
+    "greg": "circle-dot-plus"
+  },
+  {
+    "original": "add-parent",
+    "xinyi": "box-plus-above",
+    "greg": "row-plus-top"
+  },
+  {
+    "original": "add-row-bottom",
+    "xinyi": "row-plus-bottom",
+    "greg": "rows-plus-bottom"
+  },
+  {
+    "original": "add-row-top",
+    "xinyi": "row-plus-top",
+    "greg": "rows-plus-top"
+  },
+  {
+    "original": "add-tile",
+    "xinyi": "tile-plus",
+    "greg": "add-tile"
+  },
+  {
+    "original": "add-to-artifact",
+    "xinyi": "list-plus",
+    "greg": "add-to-artifact"
+  },
+  {
+    "original": "add-to-folder",
+    "xinyi": "folder-arrow-in-plus",
+    "greg": "folder-arrow-up-right-alt"
+  },
+  {
+    "original": "aimpoints-target",
+    "xinyi": "circle-crosshair-dots",
+    "greg": "aimpoints-target"
+  },
+  {
+    "original": "alignment-bottom",
+    "xinyi": "items-align-bottom",
+    "greg": "alignment-bottom"
+  },
+  {
+    "original": "alignment-horizontal-center",
+    "xinyi": "items-align-horizontal-center",
+    "greg": "align-vertical-center"
+  },
+  {
+    "original": "alignment-left",
+    "xinyi": "items-align-left",
+    "greg": "alignment-left"
+  },
+  {
+    "original": "alignment-right",
+    "xinyi": "items-align-right",
+    "greg": "alignment-right"
+  },
+  {
+    "original": "alignment-top",
+    "xinyi": "items-align-top",
+    "greg": "alignment-top"
+  },
+  {
+    "original": "alignment-vertical-center",
+    "xinyi": "items-align-vertical-center",
+    "greg": "align-horizontal-center"
+  },
+  {
+    "original": "ammunition",
+    "xinyi": "bullets-three",
+    "greg": "ammunition"
+  },
+  {
+    "original": "anchor",
+    "xinyi": "anchor-ship",
+    "greg": "anchor"
+  },
+  {
+    "original": "annotation",
+    "xinyi": "pencil-square",
+    "greg": "annotation"
+  },
+  {
+    "original": "announcement",
+    "xinyi": "megaphone",
+    "greg": "announcement"
+  },
+  {
+    "original": "app-header",
+    "xinyi": "rectangle-header-h",
+    "greg": "app-header"
+  },
+  {
+    "original": "application",
+    "xinyi": "window-lines-horizontal",
+    "greg": "application"
+  },
+  {
+    "original": "applications",
+    "xinyi": "windows-stacked",
+    "greg": "applications"
+  },
+  {
+    "original": "archive",
+    "xinyi": "box-arrow-down",
+    "greg": "archive"
+  },
+  {
+    "original": "area-of-interest",
+    "xinyi": "map-pin-region",
+    "greg": "area-of-interest"
+  },
+  {
+    "original": "array",
+    "xinyi": "brackets-square",
+    "greg": "array"
+  },
+  {
+    "original": "array-boolean",
+    "xinyi": "brackets-square-toggle",
+    "greg": "array-boolean"
+  },
+  {
+    "original": "array-date",
+    "xinyi": "brackets-square-calendar",
+    "greg": "array-date"
+  },
+  {
+    "original": "array-floating-point",
+    "xinyi": "brackets-square-decimal",
+    "greg": "array-floating-point"
+  },
+  {
+    "original": "array-numeric",
+    "xinyi": "brackets-square-123",
+    "greg": "array-numeric"
+  },
+  {
+    "original": "array-object",
+    "xinyi": "brackets-square-curly",
+    "greg": "array-object"
+  },
+  {
+    "original": "array-string",
+    "xinyi": "brackets-square-quotes",
+    "greg": "array-string"
+  },
+  {
+    "original": "array-timestamp",
+    "xinyi": "brackets-square-clock",
+    "greg": "array-timestamp"
+  },
+  {
+    "original": "arrow-bottom-left",
+    "xinyi": "arrow-down-left",
+    "greg": "arrow-bottom-left"
+  },
+  {
+    "original": "arrow-bottom-right",
+    "xinyi": "arrow-down-right",
+    "greg": "arrow-bottom-right"
+  },
+  {
+    "original": "arrow-top-left",
+    "xinyi": "arrow-up-left",
+    "greg": "arrow-top-left"
+  },
+  {
+    "original": "arrow-top-right",
+    "xinyi": "arrow-up-right",
+    "greg": "arrow-top-right"
+  },
+  {
+    "original": "arrows-arc",
+    "xinyi": "arrow-up-right-arc",
+    "greg": "arrows-arc"
+  },
+  {
+    "original": "arrows-horizontal",
+    "xinyi": "arrows-left-right",
+    "greg": "arrows-horizontal"
+  },
+  {
+    "original": "arrows-vertical",
+    "xinyi": "arrows-up-down",
+    "greg": "arrows-vertical"
+  },
+  {
+    "original": "at",
+    "xinyi": "at-sign",
+    "greg": "at"
+  },
+  {
+    "original": "automatic-updates",
+    "xinyi": "arrows-circular-check",
+    "greg": "automatic-updates"
+  },
+  {
+    "original": "axle",
+    "xinyi": "bar-ends-perpendicular",
+    "greg": "axle"
+  },
+  {
+    "original": "backlink",
+    "xinyi": "link-chain-arrow-left",
+    "greg": "backlink"
+  },
+  {
+    "original": "backward-ten",
+    "xinyi": "arrow-counter-clockwise-10",
+    "greg": "backward-ten"
+  },
+  {
+    "original": "ban-circle",
+    "xinyi": "circle-minus",
+    "greg": "circle-minus-filled"
+  },
+  {
+    "original": "bank-account",
+    "xinyi": "piggy-bank",
+    "greg": "bank-account"
+  },
+  {
+    "original": "binary-number",
+    "xinyi": "zero-one",
+    "greg": "binary-number"
+  },
+  {
+    "original": "block-promote",
+    "xinyi": "rectangle-chevrons-double",
+    "greg": "square-chevron-double-right"
+  },
+  {
+    "original": "blocked-person",
+    "xinyi": "person-slash",
+    "greg": "user-ban"
+  },
+  {
+    "original": "book",
+    "xinyi": "book-closed",
+    "greg": "book"
+  },
+  {
+    "original": "box",
+    "xinyi": "box-archive",
+    "greg": "box"
+  },
+  {
+    "original": "branch-locked",
+    "xinyi": "git-branch-lock",
+    "greg": "branch-locked"
+  },
+  {
+    "original": "branch-unlocked",
+    "xinyi": "git-branch-unlock",
+    "greg": "branch-unlocked"
+  },
+  {
+    "original": "bring-data",
+    "xinyi": "dots-arrow-down-bar",
+    "greg": "bring-data"
+  },
+  {
+    "original": "bring-forward",
+    "xinyi": "bars-arrow-up",
+    "greg": "bring-forward"
+  },
+  {
+    "original": "british-pound",
+    "xinyi": "currency-pound",
+    "greg": "currency-gbp"
+  },
+  {
+    "original": "bug",
+    "xinyi": "bug-insect",
+    "greg": "bug"
+  },
+  {
+    "original": "build",
+    "xinyi": "hammer",
+    "greg": "build"
+  },
+  {
+    "original": "bullseye",
+    "xinyi": "target-arrow",
+    "greg": "bullseye"
+  },
+  {
+    "original": "cargo-ship",
+    "xinyi": "cargo-ship-containers",
+    "greg": "cargo-ship"
+  },
+  {
+    "original": "changes",
+    "xinyi": "arrow-down-arrow-up-bar",
+    "greg": "changes"
+  },
+  {
+    "original": "chart",
+    "xinyi": "chart-bars-line-up",
+    "greg": "chart-trend-up"
+  },
+  {
+    "original": "chat",
+    "xinyi": "comment-bubbles",
+    "greg": "chats"
+  },
+  {
+    "original": "chevron-backward",
+    "xinyi": "chevron-double-left",
+    "greg": "chevron-line-left"
+  },
+  {
+    "original": "chevron-forward",
+    "xinyi": "chevron-double-right",
+    "greg": "chevron-line-right"
+  },
+  {
+    "original": "circle-arrow-down",
+    "xinyi": "arrow-down-circle",
+    "greg": "circle-arrow-down"
+  },
+  {
+    "original": "circle-arrow-left",
+    "xinyi": "arrow-left-circle",
+    "greg": "circle-arrow-left"
+  },
+  {
+    "original": "circle-arrow-right",
+    "xinyi": "arrow-right-circle",
+    "greg": "circle-arrow-right"
+  },
+  {
+    "original": "circle-arrow-up",
+    "xinyi": "arrow-up-circle",
+    "greg": "circle-arrow-up"
+  },
+  {
+    "original": "clean",
+    "xinyi": "sparkle-stars",
+    "greg": "clean"
+  },
+  {
+    "original": "clip",
+    "xinyi": "corners-circle",
+    "greg": "frame-dot"
+  },
+  {
+    "original": "cloud-download",
+    "xinyi": "cloud-arrow-down",
+    "greg": "cloud-download"
+  },
+  {
+    "original": "cloud-tick",
+    "xinyi": "cloud-checkmark",
+    "greg": "cloud-tick"
+  },
+  {
+    "original": "cloud-upload",
+    "xinyi": "cloud-arrow-up",
+    "greg": "cloud-upload"
+  },
+  {
+    "original": "code",
+    "xinyi": "chevrons-slash",
+    "greg": "code"
+  },
+  {
+    "original": "code-block",
+    "xinyi": "chevrons-file",
+    "greg": "code-block"
+  },
+  {
+    "original": "cog",
+    "xinyi": "cog-gear",
+    "greg": "cog"
+  },
+  {
+    "original": "collapse-all",
+    "xinyi": "chevrons-inward",
+    "greg": "chevrons-in"
+  },
+  {
+    "original": "color-fill",
+    "xinyi": "paint-bucket",
+    "greg": "color-fill"
+  },
+  {
+    "original": "column-layout",
+    "xinyi": "rectangle-columns-three",
+    "greg": "columns-layout"
+  },
+  {
+    "original": "comment",
+    "xinyi": "comment-dots",
+    "greg": "chat-dots"
+  },
+  {
+    "original": "comparison",
+    "xinyi": "rectangles-bar",
+    "greg": "comparison"
+  },
+  {
+    "original": "compressed",
+    "xinyi": "box-arrow-down",
+    "greg": "compressed"
+  },
+  {
+    "original": "confirm",
+    "xinyi": "check-circle",
+    "greg": "circle-check-alt"
+  },
+  {
+    "original": "console-alert",
+    "xinyi": "terminal-exclamation",
+    "greg": "console-alert"
+  },
+  {
+    "original": "control",
+    "xinyi": "rectangle-toggles",
+    "greg": "control"
+  },
+  {
+    "original": "crop",
+    "xinyi": "corners-crop",
+    "greg": "crop"
+  },
+  {
+    "original": "cross-circle",
+    "xinyi": "circle-x",
+    "greg": "circle-x-filled"
+  },
+  {
+    "original": "css-style",
+    "xinyi": "file-css-text",
+    "greg": "css-style"
+  },
+  {
+    "original": "cube-add",
+    "xinyi": "cube-plus",
+    "greg": "cube-add"
+  },
+  {
+    "original": "cube-cutouts",
+    "xinyi": "squares-cube",
+    "greg": "cube-cutouts"
+  },
+  {
+    "original": "cube-edit",
+    "xinyi": "cube-pencil",
+    "greg": "cube-edit"
+  },
+  {
+    "original": "cube-remove",
+    "xinyi": "cube-minus",
+    "greg": "cube-remove"
+  },
+  {
+    "original": "cubes",
+    "xinyi": "cubes-connected",
+    "greg": "cubes"
+  },
+  {
+    "original": "curly-braces",
+    "xinyi": "braces-curly",
+    "greg": "curly-braces"
+  },
+  {
+    "original": "curved-range-chart",
+    "xinyi": "chart-area-curved",
+    "greg": "chart-curved-range"
+  },
+  {
+    "original": "cut",
+    "xinyi": "scissors",
+    "greg": "cut"
+  },
+  {
+    "original": "cycle",
+    "xinyi": "bicycle",
+    "greg": "person-bike"
+  },
+  {
+    "original": "dashboard",
+    "xinyi": "gauge-speedometer",
+    "greg": "dashboard"
+  },
+  {
+    "original": "data-cloud",
+    "xinyi": "database-cloud",
+    "greg": "data-cloud"
+  },
+  {
+    "original": "data-lineage",
+    "xinyi": "rectangles-tree-connected",
+    "greg": "data-lineage"
+  },
+  {
+    "original": "data-search",
+    "xinyi": "database-magnifying-glass",
+    "greg": "data-search"
+  },
+  {
+    "original": "data-sync",
+    "xinyi": "database-arrows-circular",
+    "greg": "data-sync"
+  },
+  {
+    "original": "delete",
+    "xinyi": "circle-trash",
+    "greg": "circle-x"
+  },
+  {
+    "original": "delete-clip",
+    "xinyi": "corners-x-circle",
+    "greg": "frame-dot-x"
+  },
+  {
+    "original": "delta",
+    "xinyi": "triangle-delta",
+    "greg": "delta"
+  },
+  {
+    "original": "derive-column",
+    "xinyi": "brackets-function-arrow",
+    "greg": "derive-column"
+  },
+  {
+    "original": "descendant",
+    "xinyi": "arrow-down-square",
+    "greg": "square-arrow-left-in"
+  },
+  {
+    "original": "desktop",
+    "xinyi": "monitor",
+    "greg": "desktop"
+  },
+  {
+    "original": "detection",
+    "xinyi": "corners-square-scan",
+    "greg": "frame-square"
+  },
+  {
+    "original": "diagnosis",
+    "xinyi": "stethoscope-circle",
+    "greg": "diagnosis"
+  },
+  {
+    "original": "diagram-tree",
+    "xinyi": "squares-tree-connected",
+    "greg": "diagram-tree"
+  },
+  {
+    "original": "direction-left",
+    "xinyi": "triangle-chevron-left",
+    "greg": "navigation-arrow-left"
+  },
+  {
+    "original": "direction-right",
+    "xinyi": "triangle-chevron-right",
+    "greg": "navigation-arrow-right"
+  },
+  {
+    "original": "disable",
+    "xinyi": "circle-slash",
+    "greg": "disable"
+  },
+  {
+    "original": "divide",
+    "xinyi": "divide-dots",
+    "greg": "divide"
+  },
+  {
+    "original": "document-code",
+    "xinyi": "document-chevrons",
+    "greg": "document-code"
+  },
+  {
+    "original": "document-locked",
+    "xinyi": "document-lock",
+    "greg": "document-locked"
+  },
+  {
+    "original": "document-open",
+    "xinyi": "document-arrow-down-right",
+    "greg": "file-arrow-up-right-alt"
+  },
+  {
+    "original": "document-share",
+    "xinyi": "document-arrow-up-right",
+    "greg": "document-share"
+  },
+  {
+    "original": "dot",
+    "xinyi": "ring",
+    "greg": "dot"
+  },
+  {
+    "original": "double-caret-horizontal",
+    "xinyi": "carets-horizontal",
+    "greg": "double-caret-horizontal"
+  },
+  {
+    "original": "double-caret-vertical",
+    "xinyi": "carets-vertical",
+    "greg": "double-caret-vertical"
+  },
+  {
+    "original": "double-chevron-down",
+    "xinyi": "chevrons-down",
+    "greg": "chevron-double-down"
+  },
+  {
+    "original": "download",
+    "xinyi": "circle-arrow-down-tray",
+    "greg": "circle-arrow-down-filled"
+  },
+  {
+    "original": "draw",
+    "xinyi": "pen-tip",
+    "greg": "draw"
+  },
+  {
+    "original": "drive-time",
+    "xinyi": "car",
+    "greg": "drive-time"
+  },
+  {
+    "original": "duplicate",
+    "xinyi": "squares-overlapped",
+    "greg": "copy"
+  },
+  {
+    "original": "edit",
+    "xinyi": "pencil",
+    "greg": "edit"
+  },
+  {
+    "original": "endorsed",
+    "xinyi": "badge-checkmark",
+    "greg": "endorsed"
+  },
+  {
+    "original": "engagement",
+    "xinyi": "person-chat-bubble",
+    "greg": "user-chat"
+  },
+  {
+    "original": "euro",
+    "xinyi": "currency-euro",
+    "greg": "currency-eur"
+  },
+  {
+    "original": "exchange",
+    "xinyi": "circles-arrows-exchange",
+    "greg": "exchange"
+  },
+  {
+    "original": "exclude-row",
+    "xinyi": "bars-x-bar",
+    "greg": "exclude-row"
+  },
+  {
+    "original": "expand-all",
+    "xinyi": "chevrons-outward",
+    "greg": "chevrons-out"
+  },
+  {
+    "original": "explain",
+    "xinyi": "circle-lightning-quarter",
+    "greg": "badge-lightning"
+  },
+  {
+    "original": "export",
+    "xinyi": "arrow-up-tray",
+    "greg": "arrow-up-from-bracket"
+  },
+  {
+    "original": "eye-off",
+    "xinyi": "eye-closed",
+    "greg": "eye-off"
+  },
+  {
+    "original": "eye-on",
+    "xinyi": "eye-open",
+    "greg": "eye-on"
+  },
+  {
+    "original": "feed",
+    "xinyi": "list-feed",
+    "greg": "feed"
+  },
+  {
+    "original": "feed-subscribed",
+    "xinyi": "rss-bell",
+    "greg": "feed-subscribed"
+  },
+  {
+    "original": "filter",
+    "xinyi": "funnel",
+    "greg": "filter"
+  },
+  {
+    "original": "filter-keep",
+    "xinyi": "funnel-check",
+    "greg": "filter-keep"
+  },
+  {
+    "original": "filter-list",
+    "xinyi": "funnel-list",
+    "greg": "filter-list"
+  },
+  {
+    "original": "filter-open",
+    "xinyi": "funnel-open",
+    "greg": "funnel-caret-right"
+  },
+  {
+    "original": "filter-remove",
+    "xinyi": "funnel-x",
+    "greg": "filter-remove"
+  },
+  {
+    "original": "filter-sort-asc",
+    "xinyi": "funnel-arrow-up",
+    "greg": "filter-sort-asc"
+  },
+  {
+    "original": "filter-sort-desc",
+    "xinyi": "funnel-arrow-down",
+    "greg": "filter-sort-desc"
+  },
+  {
+    "original": "floating-point",
+    "xinyi": "one-point-zero",
+    "greg": "floating-point"
+  },
+  {
+    "original": "flow-branch",
+    "xinyi": "circle-arrows-branching",
+    "greg": "flow-branch"
+  },
+  {
+    "original": "flow-end",
+    "xinyi": "arrow-right-circle",
+    "greg": "flow-end"
+  },
+  {
+    "original": "flow-linear",
+    "xinyi": "circles-arrow-linear",
+    "greg": "arrow-right-dot"
+  },
+  {
+    "original": "flow-review",
+    "xinyi": "circles-arrows-bidirectional",
+    "greg": "flow-review"
+  },
+  {
+    "original": "flow-review-branch",
+    "xinyi": "circles-arrows-branch-bidirectional",
+    "greg": "flow-review-branch"
+  },
+  {
+    "original": "flows",
+    "xinyi": "diagram-flow",
+    "greg": "arrow-right-between-dots"
+  },
+  {
+    "original": "folder-close",
+    "xinyi": "folder-closed",
+    "greg": "folder-close"
+  },
+  {
+    "original": "folder-new",
+    "xinyi": "folder-plus",
+    "greg": "folder-new"
+  },
+  {
+    "original": "folder-shared",
+    "xinyi": "folder-arrow-top-right",
+    "greg": "folder-shared"
+  },
+  {
+    "original": "folder-shared-open",
+    "xinyi": "folder-arrow-top-right-open",
+    "greg": "folder-open-arrow-up-right"
+  },
+  {
+    "original": "follower",
+    "xinyi": "person-arrow-right",
+    "greg": "user-arrow-right"
+  },
+  {
+    "original": "following",
+    "xinyi": "person-arrow-left",
+    "greg": "user-arrow-left"
+  },
+  {
+    "original": "font",
+    "xinyi": "text-font",
+    "greg": "font"
+  },
+  {
+    "original": "fork",
+    "xinyi": "path-split-right",
+    "greg": "fork"
+  },
+  {
+    "original": "fork-end",
+    "xinyi": "path-join-right",
+    "greg": "fork-end"
+  },
+  {
+    "original": "form",
+    "xinyi": "checkbox-box-lines",
+    "greg": "form"
+  },
+  {
+    "original": "full-stacked-chart",
+    "xinyi": "chart-bars-stacked",
+    "greg": "chart-stacked-bar-full"
+  },
+  {
+    "original": "fullscreen",
+    "xinyi": "arrows-outward",
+    "greg": "maximize"
+  },
+  {
+    "original": "function",
+    "xinyi": "fx-parentheses",
+    "greg": "function"
+  },
+  {
+    "original": "function-minimal",
+    "xinyi": "f-slash",
+    "greg": "function-minimal"
+  },
+  {
+    "original": "generate",
+    "xinyi": "sparkle",
+    "greg": "lightning"
+  },
+  {
+    "original": "geofence",
+    "xinyi": "map-pin-square-corner",
+    "greg": "geofence-arrow-in"
+  },
+  {
+    "original": "geolocation",
+    "xinyi": "location-pin-arrow",
+    "greg": "navigation-arrow"
+  },
+  {
+    "original": "geosearch",
+    "xinyi": "globe-magnifying-glass",
+    "greg": "earth-magnifying-glass"
+  },
+  {
+    "original": "geotime",
+    "xinyi": "clock-map-pin",
+    "greg": "geotime"
+  },
+  {
+    "original": "git-new-branch",
+    "xinyi": "git-branch-plus",
+    "greg": "git-new-branch"
+  },
+  {
+    "original": "git-push",
+    "xinyi": "git-arrow-up",
+    "greg": "book-arrow-up"
+  },
+  {
+    "original": "git-rebase",
+    "xinyi": "git-branches-joined",
+    "greg": "git-rebase"
+  },
+  {
+    "original": "globe-network-add",
+    "xinyi": "globe-network-plus",
+    "greg": "globe-network-add"
+  },
+  {
+    "original": "graph",
+    "xinyi": "network-nodes-connected",
+    "greg": "graph"
+  },
+  {
+    "original": "graph-remove",
+    "xinyi": "circle-x",
+    "greg": "graph-remove"
+  },
+  {
+    "original": "greater-than-or-equal-to",
+    "xinyi": "greater-than-equal",
+    "greg": "greater-than-or-equal-to"
+  },
+  {
+    "original": "group-item",
+    "xinyi": "shapes-diamond-squares",
+    "greg": "group-item"
+  },
+  {
+    "original": "group-objects",
+    "xinyi": "shapes-grouped",
+    "greg": "group-objects"
+  },
+  {
+    "original": "grouped-bar-chart",
+    "xinyi": "chart-bars-grouped",
+    "greg": "chart-bar-grouped"
+  },
+  {
+    "original": "header",
+    "xinyi": "text-header",
+    "greg": "header"
+  },
+  {
+    "original": "header-one",
+    "xinyi": "text-h1",
+    "greg": "header-one"
+  },
+  {
+    "original": "header-three",
+    "xinyi": "text-h3",
+    "greg": "header-three"
+  },
+  {
+    "original": "header-two",
+    "xinyi": "text-h2",
+    "greg": "header-two"
+  },
+  {
+    "original": "heat-grid",
+    "xinyi": "grid-gradient-cells",
+    "greg": "heat-grid"
+  },
+  {
+    "original": "helper-management",
+    "xinyi": "question-circle-grid",
+    "greg": "helper-management"
+  },
+  {
+    "original": "history",
+    "xinyi": "clock-counter-clockwise",
+    "greg": "history"
+  },
+  {
+    "original": "horizontal-bar-chart",
+    "xinyi": "chart-bars-horizontal",
+    "greg": "horizontal-bar-chart"
+  },
+  {
+    "original": "horizontal-bar-chart-asc",
+    "xinyi": "chart-bars-horizontal-ascending",
+    "greg": "bars-horizontal-ascending"
+  },
+  {
+    "original": "horizontal-bar-chart-desc",
+    "xinyi": "chart-bars-horizontal-descending",
+    "greg": "bars-horizontal-descending"
+  },
+  {
+    "original": "id-number",
+    "xinyi": "card-badge-lines",
+    "greg": "id-number"
+  },
+  {
+    "original": "image-rotate-left",
+    "xinyi": "image-arrow-counter-clockwise",
+    "greg": "image-rotate-left"
+  },
+  {
+    "original": "image-rotate-right",
+    "xinyi": "image-arrow-clockwise",
+    "greg": "image-rotate-right"
+  },
+  {
+    "original": "import",
+    "xinyi": "arrow-down-tray",
+    "greg": "arrow-down-to-bracket"
+  },
+  {
+    "original": "inbox-search",
+    "xinyi": "inbox-magnifying-glass",
+    "greg": "inbox-search"
+  },
+  {
+    "original": "info-sign",
+    "xinyi": "info-circle",
+    "greg": "info-sign"
+  },
+  {
+    "original": "inheritance",
+    "xinyi": "arrow-curved-down-left",
+    "greg": "square-arrow-bottom-out"
+  },
+  {
+    "original": "inherited-group",
+    "xinyi": "people-arrow-right",
+    "greg": "users-arrow-right"
+  },
+  {
+    "original": "inner-join",
+    "xinyi": "circles-overlap-filled",
+    "greg": "inner-join"
+  },
+  {
+    "original": "input",
+    "xinyi": "semicircle-arrow-in",
+    "greg": "input"
+  },
+  {
+    "original": "insert",
+    "xinyi": "square-plus",
+    "greg": "insert"
+  },
+  {
+    "original": "intelligence",
+    "xinyi": "brain-lightbulb",
+    "greg": "intelligence"
+  },
+  {
+    "original": "intersection",
+    "xinyi": "circles-overlap-center-only",
+    "greg": "intersection"
+  },
+  {
+    "original": "ip-address",
+    "xinyi": "map-pin-10",
+    "greg": "ip-address"
+  },
+  {
+    "original": "issue",
+    "xinyi": "exclamation-circle",
+    "greg": "issue"
+  },
+  {
+    "original": "issue-closed",
+    "xinyi": "issue-checkmark",
+    "greg": "issue-closed"
+  },
+  {
+    "original": "issue-new",
+    "xinyi": "issue-plus",
+    "greg": "issue-new"
+  },
+  {
+    "original": "join-table",
+    "xinyi": "tables-joined",
+    "greg": "join-table"
+  },
+  {
+    "original": "known-vehicle",
+    "xinyi": "car-check",
+    "greg": "known-vehicle"
+  },
+  {
+    "original": "layers",
+    "xinyi": "layers-stacked",
+    "greg": "layers"
+  },
+  {
+    "original": "layout-three-columns",
+    "xinyi": "columns-three",
+    "greg": "layout-three-columns"
+  },
+  {
+    "original": "layout-three-rows",
+    "xinyi": "rows-three",
+    "greg": "layout-three-rows"
+  },
+  {
+    "original": "layout-two-columns",
+    "xinyi": "columns-two",
+    "greg": "layout-two-columns"
+  },
+  {
+    "original": "layout-two-rows",
+    "xinyi": "rows-two",
+    "greg": "layout-two-rows"
+  },
+  {
+    "original": "learning",
+    "xinyi": "brain-book",
+    "greg": "learning"
+  },
+  {
+    "original": "left-join",
+    "xinyi": "circles-overlap-left-filled",
+    "greg": "left-join"
+  },
+  {
+    "original": "lengthen-text",
+    "xinyi": "text-lines-arrow-right",
+    "greg": "lengthen-text"
+  },
+  {
+    "original": "less-than-or-equal-to",
+    "xinyi": "less-than-equal",
+    "greg": "less-than-or-equal-to"
+  },
+  {
+    "original": "locate",
+    "xinyi": "map-pin-target",
+    "greg": "locate"
+  },
+  {
+    "original": "manual",
+    "xinyi": "hand-pointing",
+    "greg": "manual"
+  },
+  {
+    "original": "manually-entered-data",
+    "xinyi": "spreadsheet-hand",
+    "greg": "manually-entered-data"
+  },
+  {
+    "original": "maximize",
+    "xinyi": "arrows-out-corners",
+    "greg": "maximize"
+  },
+  {
+    "original": "menu",
+    "xinyi": "menu-hamburger",
+    "greg": "menu"
+  },
+  {
+    "original": "menu-open",
+    "xinyi": "menu-hamburger-chevron",
+    "greg": "menu-open"
+  },
+  {
+    "original": "merge-columns",
+    "xinyi": "columns-arrows-in",
+    "greg": "merge-columns"
+  },
+  {
+    "original": "merge-links",
+    "xinyi": "links-arrows-in",
+    "greg": "merge-links"
+  },
+  {
+    "original": "minimize",
+    "xinyi": "arrows-in-corners",
+    "greg": "minimize"
+  },
+  {
+    "original": "model",
+    "xinyi": "mountain-wave",
+    "greg": "model"
+  },
+  {
+    "original": "more",
+    "xinyi": "dots-three-horizontal",
+    "greg": "more"
+  },
+  {
+    "original": "move",
+    "xinyi": "arrows-four-way",
+    "greg": "move"
+  },
+  {
+    "original": "mugshot",
+    "xinyi": "person-square",
+    "greg": "square-user"
+  },
+  {
+    "original": "multi-select",
+    "xinyi": "checkboxes-multiple",
+    "greg": "multi-select"
+  },
+  {
+    "original": "nest",
+    "xinyi": "arrow-curved-return",
+    "greg": "arrow-turn-bottom-right"
+  },
+  {
+    "original": "new-comment",
+    "xinyi": "comment-plus",
+    "greg": "chat-dots-plus"
+  },
+  {
+    "original": "new-drawing",
+    "xinyi": "drawing-pen-plus",
+    "greg": "new-drawing"
+  },
+  {
+    "original": "new-grid-item",
+    "xinyi": "grid-item-plus",
+    "greg": "new-grid-item"
+  },
+  {
+    "original": "new-layer",
+    "xinyi": "layer-plus",
+    "greg": "new-layer"
+  },
+  {
+    "original": "new-layers",
+    "xinyi": "layers-plus",
+    "greg": "new-layers"
+  },
+  {
+    "original": "new-link",
+    "xinyi": "link-plus",
+    "greg": "new-link"
+  },
+  {
+    "original": "new-object",
+    "xinyi": "object-plus",
+    "greg": "circle-plus-alt"
+  },
+  {
+    "original": "new-person",
+    "xinyi": "person-plus",
+    "greg": "user-plus"
+  },
+  {
+    "original": "new-prescription",
+    "xinyi": "prescription-plus",
+    "greg": "new-prescription"
+  },
+  {
+    "original": "new-shield",
+    "xinyi": "shield-plus",
+    "greg": "new-shield"
+  },
+  {
+    "original": "new-text-box",
+    "xinyi": "text-box-plus",
+    "greg": "new-text-box"
+  },
+  {
+    "original": "not-equal-to",
+    "xinyi": "not-equal",
+    "greg": "not-equal-to"
+  },
+  {
+    "original": "notifications",
+    "xinyi": "bell",
+    "greg": "notifications"
+  },
+  {
+    "original": "notifications-add",
+    "xinyi": "bell-plus",
+    "greg": "notifications-add"
+  },
+  {
+    "original": "notifications-snooze",
+    "xinyi": "bell-zzz",
+    "greg": "notifications-snooze"
+  },
+  {
+    "original": "notifications-updated",
+    "xinyi": "bell-dot",
+    "greg": "notifications-updated"
+  },
+  {
+    "original": "numbered-list",
+    "xinyi": "list-numbers",
+    "greg": "numbered-list"
+  },
+  {
+    "original": "numerical",
+    "xinyi": "one-two-three",
+    "greg": "numerical"
+  },
+  {
+    "original": "object-view",
+    "xinyi": "cube-frame-corners",
+    "greg": "object-view"
+  },
+  {
+    "original": "one-column",
+    "xinyi": "column-one",
+    "greg": "one-column"
+  },
+  {
+    "original": "open-application",
+    "xinyi": "window-arrow-up",
+    "greg": "application-arrow-up-right"
+  },
+  {
+    "original": "outdated",
+    "xinyi": "arrow-circular-exclamation",
+    "greg": "outdated"
+  },
+  {
+    "original": "outer-join",
+    "xinyi": "circles-overlap-outer-filled",
+    "greg": "outer-join"
+  },
+  {
+    "original": "output",
+    "xinyi": "semicircle-arrow-out",
+    "greg": "arrow-right-from-arc"
+  },
+  {
+    "original": "package",
+    "xinyi": "cube-3d",
+    "greg": "package"
+  },
+  {
+    "original": "page-break",
+    "xinyi": "rectangles-dashed-line-between",
+    "greg": "page-break"
+  },
+  {
+    "original": "page-layout",
+    "xinyi": "page-sections-grid",
+    "greg": "page-layout"
+  },
+  {
+    "original": "panel",
+    "xinyi": "rectangle-sidebar-right",
+    "greg": "panel"
+  },
+  {
+    "original": "panel-stats",
+    "xinyi": "panel-list-lines",
+    "greg": "panel-stats"
+  },
+  {
+    "original": "panel-table",
+    "xinyi": "panel-table-grid",
+    "greg": "panel-table"
+  },
+  {
+    "original": "paragraph",
+    "xinyi": "pilcrow",
+    "greg": "paragraph"
+  },
+  {
+    "original": "path-search",
+    "xinyi": "map-folded-magnifying-glass",
+    "greg": "path-search"
+  },
+  {
+    "original": "phone-search",
+    "xinyi": "phone-magnifying-glass",
+    "greg": "phone-search"
+  },
+  {
+    "original": "pin",
+    "xinyi": "pushpin",
+    "greg": "pin"
+  },
+  {
+    "original": "pivot",
+    "xinyi": "arrows-corner-rotate",
+    "greg": "pivot"
+  },
+  {
+    "original": "pivot-table",
+    "xinyi": "grid-arrows-swap",
+    "greg": "pivot-table"
+  },
+  {
+    "original": "playbook",
+    "xinyi": "diagram-x-arrows",
+    "greg": "playbook"
+  },
+  {
+    "original": "popout",
+    "xinyi": "arrow-square-out",
+    "greg": "square-arrow-top-out"
+  },
+  {
+    "original": "predictive-analysis",
+    "xinyi": "brain",
+    "greg": "predictive-analysis"
+  },
+  {
+    "original": "print",
+    "xinyi": "printer",
+    "greg": "print"
+  },
+  {
+    "original": "projects",
+    "xinyi": "project",
+    "greg": "cabinet-filing"
+  },
+  {
+    "original": "property",
+    "xinyi": "list-bullets-mixed",
+    "greg": "property"
+  },
+  {
+    "original": "publish-function",
+    "xinyi": "function-arrow-up",
+    "greg": "publish-function"
+  },
+  {
+    "original": "random",
+    "xinyi": "arrows-crossed",
+    "greg": "shuffle"
+  },
+  {
+    "original": "regex",
+    "xinyi": "asterisk-dot",
+    "greg": "regex"
+  },
+  {
+    "original": "regression-chart",
+    "xinyi": "chart-scatter-line",
+    "greg": "chart-regression"
+  },
+  {
+    "original": "remove",
+    "xinyi": "circle-minus",
+    "greg": "remove"
+  },
+  {
+    "original": "remove-column",
+    "xinyi": "column-minus",
+    "greg": "column-minus-left"
+  },
+  {
+    "original": "remove-column-left",
+    "xinyi": "column-minus-left",
+    "greg": "columns-x-left"
+  },
+  {
+    "original": "remove-column-right",
+    "xinyi": "column-minus-right",
+    "greg": "columns-x-right"
+  },
+  {
+    "original": "remove-row-bottom",
+    "xinyi": "row-minus-bottom",
+    "greg": "rows-x-bottom"
+  },
+  {
+    "original": "remove-row-top",
+    "xinyi": "row-minus-top",
+    "greg": "rows-x-top"
+  },
+  {
+    "original": "resolve",
+    "xinyi": "circles-checkmark",
+    "greg": "resolve"
+  },
+  {
+    "original": "right-join",
+    "xinyi": "circles-overlap-right-filled",
+    "greg": "right-join"
+  },
+  {
+    "original": "root-folder",
+    "xinyi": "folder-tree-root",
+    "greg": "folder-root"
+  },
+  {
+    "original": "rotate-ccw",
+    "xinyi": "arrow-counter-clockwise-square",
+    "greg": "square-counter-clockwise"
+  },
+  {
+    "original": "rotate-cw",
+    "xinyi": "arrow-clockwise-square",
+    "greg": "square-clockwise"
+  },
+  {
+    "original": "rotate-document",
+    "xinyi": "document-arrow-counter-clockwise",
+    "greg": "rotate-document"
+  },
+  {
+    "original": "rotate-page",
+    "xinyi": "page-arrow-counter-clockwise",
+    "greg": "rotate-page"
+  },
+  {
+    "original": "route",
+    "xinyi": "map-pin-path-pin",
+    "greg": "route"
+  },
+  {
+    "original": "saved",
+    "xinyi": "document-checkmark",
+    "greg": "saved"
+  },
+  {
+    "original": "scatter-plot",
+    "xinyi": "chart-scatter",
+    "greg": "chart-scatter-plot"
+  },
+  {
+    "original": "search",
+    "xinyi": "magnifying-glass",
+    "greg": "search"
+  },
+  {
+    "original": "search-around",
+    "xinyi": "network-nodes-square",
+    "greg": "search-around"
+  },
+  {
+    "original": "search-template",
+    "xinyi": "magnifying-glass-lines",
+    "greg": "search-template"
+  },
+  {
+    "original": "search-text",
+    "xinyi": "magnifying-glass-letter-t",
+    "greg": "search-text"
+  },
+  {
+    "original": "segmented-control",
+    "xinyi": "rectangle-square",
+    "greg": "segmented-control"
+  },
+  {
+    "original": "select",
+    "xinyi": "cursor-corners",
+    "greg": "select"
+  },
+  {
+    "original": "selection",
+    "xinyi": "target",
+    "greg": "selection"
+  },
+  {
+    "original": "selection-box-add",
+    "xinyi": "corners-plus",
+    "greg": "selection-box-add"
+  },
+  {
+    "original": "selection-box-remove",
+    "xinyi": "corners-minus",
+    "greg": "selection-box-remove"
+  },
+  {
+    "original": "send-backward",
+    "xinyi": "bars-arrow-down",
+    "greg": "send-backward"
+  },
+  {
+    "original": "send-message",
+    "xinyi": "paper-plane",
+    "greg": "send-message"
+  },
+  {
+    "original": "send-to",
+    "xinyi": "arrow-share",
+    "greg": "circle-arrow-up-right"
+  },
+  {
+    "original": "send-to-graph",
+    "xinyi": "network-nodes-arrow",
+    "greg": "send-to-graph"
+  },
+  {
+    "original": "send-to-map",
+    "xinyi": "map-arrow-corner",
+    "greg": "send-to-map"
+  },
+  {
+    "original": "series-add",
+    "xinyi": "chart-line-plus",
+    "greg": "series-add"
+  },
+  {
+    "original": "series-configuration",
+    "xinyi": "chart-line-gear",
+    "greg": "series-configuration"
+  },
+  {
+    "original": "series-derived",
+    "xinyi": "chart-line-arrow-up-right",
+    "greg": "series-derived"
+  },
+  {
+    "original": "series-search",
+    "xinyi": "chart-line-magnifying-glass",
+    "greg": "series-search"
+  },
+  {
+    "original": "settings",
+    "xinyi": "sliders",
+    "greg": "settings"
+  },
+  {
+    "original": "shapes",
+    "xinyi": "circle-triangle-square",
+    "greg": "shapes"
+  },
+  {
+    "original": "shared-filter",
+    "xinyi": "funnel-person",
+    "greg": "funnel-users"
+  },
+  {
+    "original": "shorten-text",
+    "xinyi": "lines-arrow-left",
+    "greg": "shorten-text"
+  },
+  {
+    "original": "signal-search",
+    "xinyi": "waves-magnifying-glass",
+    "greg": "signal-search"
+  },
+  {
+    "original": "small-info-sign",
+    "xinyi": "circle-info",
+    "greg": "circle-info-small"
+  },
+  {
+    "original": "sort",
+    "xinyi": "bars-arrow-down",
+    "greg": "sort"
+  },
+  {
+    "original": "sort-alphabetical",
+    "xinyi": "arrow-down-letters-a-z",
+    "greg": "sort-alphabetical"
+  },
+  {
+    "original": "sort-alphabetical-desc",
+    "xinyi": "arrow-down-letters-z-a",
+    "greg": "sort-alphabetical-desc"
+  },
+  {
+    "original": "sort-asc",
+    "xinyi": "arrow-down-bars-ascending",
+    "greg": "sort-asc"
+  },
+  {
+    "original": "sort-desc",
+    "xinyi": "arrow-down-bars-descending",
+    "greg": "sort-desc"
+  },
+  {
+    "original": "sort-numerical",
+    "xinyi": "arrow-down-numbers-1-9",
+    "greg": "sort-numerical"
+  },
+  {
+    "original": "sort-numerical-desc",
+    "xinyi": "arrow-down-numbers-9-1",
+    "greg": "sort-numerical-desc"
+  },
+  {
+    "original": "spell-check",
+    "xinyi": "letter-a-checkmark",
+    "greg": "spell-check"
+  },
+  {
+    "original": "spin",
+    "xinyi": "arrows-circular",
+    "greg": "spin"
+  },
+  {
+    "original": "split-columns",
+    "xinyi": "columns-arrows-out",
+    "greg": "split-columns"
+  },
+  {
+    "original": "stacked-chart",
+    "xinyi": "chart-area-stacked",
+    "greg": "chart-stacked-bar"
+  },
+  {
+    "original": "star-empty",
+    "xinyi": "star-outline",
+    "greg": "star"
+  },
+  {
+    "original": "step-backward",
+    "xinyi": "step-left",
+    "greg": "step-backward"
+  },
+  {
+    "original": "step-chart",
+    "xinyi": "chart-step",
+    "greg": "step-chart"
+  },
+  {
+    "original": "step-forward",
+    "xinyi": "step-right",
+    "greg": "step-forward"
+  },
+  {
+    "original": "style",
+    "xinyi": "brush",
+    "greg": "style"
+  },
+  {
+    "original": "subtract-right-join",
+    "xinyi": "circles-overlap-left-minus",
+    "greg": "subtract-right-join"
+  },
+  {
+    "original": "swap-horizontal",
+    "xinyi": "arrows-swap-horizontal",
+    "greg": "arrows-left-right"
+  },
+  {
+    "original": "swap-vertical",
+    "xinyi": "arrows-swap-vertical",
+    "greg": "arrows-down-up"
+  },
+  {
+    "original": "sweep",
+    "xinyi": "broom",
+    "greg": "sweep"
+  },
+  {
+    "original": "switch",
+    "xinyi": "circles-connected-diagonal",
+    "greg": "switch"
+  },
+  {
+    "original": "tag-add",
+    "xinyi": "tag-plus",
+    "greg": "tag-add"
+  },
+  {
+    "original": "take-action",
+    "xinyi": "hand-pen-diagonal",
+    "greg": "take-action"
+  },
+  {
+    "original": "target",
+    "xinyi": "circle-crosshair",
+    "greg": "circle-target"
+  },
+  {
+    "original": "th",
+    "xinyi": "table-rows",
+    "greg": "th"
+  },
+  {
+    "original": "th-add",
+    "xinyi": "table-plus",
+    "greg": "th-add"
+  },
+  {
+    "original": "th-derived",
+    "xinyi": "table-derived",
+    "greg": "th-derived"
+  },
+  {
+    "original": "th-disconnect",
+    "xinyi": "table-disconnect",
+    "greg": "th-disconnect"
+  },
+  {
+    "original": "th-filtered",
+    "xinyi": "table-filtered",
+    "greg": "table-funnel"
+  },
+  {
+    "original": "th-list",
+    "xinyi": "list-rows",
+    "greg": "th-list"
+  },
+  {
+    "original": "th-list-add",
+    "xinyi": "list-rows-plus",
+    "greg": "table-header-plus"
+  },
+  {
+    "original": "th-virtual",
+    "xinyi": "table-arrow-inward",
+    "greg": "th-virtual"
+  },
+  {
+    "original": "th-virtual-add",
+    "xinyi": "table-arrow-inward-plus",
+    "greg": "th-virtual-add"
+  },
+  {
+    "original": "third-party",
+    "xinyi": "people-globe",
+    "greg": "globe-user"
+  },
+  {
+    "original": "tick-circle",
+    "xinyi": "check-circle",
+    "greg": "tick-circle"
+  },
+  {
+    "original": "timeline-area-chart",
+    "xinyi": "chart-area-timeline",
+    "greg": "timeline-area-chart"
+  },
+  {
+    "original": "timeline-bar-chart",
+    "xinyi": "chart-bars-timeline",
+    "greg": "chart-bar"
+  },
+  {
+    "original": "timeline-events",
+    "xinyi": "timeline-dots",
+    "greg": "timeline-events"
+  },
+  {
+    "original": "timeline-line-chart",
+    "xinyi": "chart-line-timeline",
+    "greg": "timeline-line-chart"
+  },
+  {
+    "original": "translate",
+    "xinyi": "letter-a-globe",
+    "greg": "translate"
+  },
+  {
+    "original": "trending-down",
+    "xinyi": "arrow-trending-down",
+    "greg": "trend-down"
+  },
+  {
+    "original": "trending-up",
+    "xinyi": "arrow-trending-up",
+    "greg": "trend-up"
+  },
+  {
+    "original": "unarchive",
+    "xinyi": "box-arrow-up",
+    "greg": "unarchive"
+  },
+  {
+    "original": "ungroup-objects",
+    "xinyi": "shapes-ungrouped",
+    "greg": "ungroup-objects"
+  },
+  {
+    "original": "unknown-vehicle",
+    "xinyi": "car-question",
+    "greg": "unknown-vehicle"
+  },
+  {
+    "original": "unpin",
+    "xinyi": "pushpin-slash",
+    "greg": "unpin"
+  },
+  {
+    "original": "unresolve",
+    "xinyi": "circles-overlapping",
+    "greg": "unresolve"
+  },
+  {
+    "original": "updated",
+    "xinyi": "arrows-circular-check",
+    "greg": "arrow-counter-clockwise-check"
+  },
+  {
+    "original": "upload",
+    "xinyi": "circle-arrow-up",
+    "greg": "circle-arrow-up-filled"
+  },
+  {
+    "original": "variable",
+    "xinyi": "x-curly-braces",
+    "greg": "variable"
+  },
+  {
+    "original": "vertical-bar-chart-asc",
+    "xinyi": "bars-ascending",
+    "greg": "vertical-bar-chart-asc"
+  },
+  {
+    "original": "vertical-bar-chart-desc",
+    "xinyi": "bars-descending",
+    "greg": "vertical-bar-chart-desc"
+  },
+  {
+    "original": "walk",
+    "xinyi": "person-walking",
+    "greg": "person-walk"
+  },
+  {
+    "original": "warning-sign",
+    "xinyi": "exclamation-triangle",
+    "greg": "warning-sign"
+  },
+  {
+    "original": "won",
+    "xinyi": "currency-won",
+    "greg": "currency-krw"
+  },
+  {
+    "original": "wrap-lines",
+    "xinyi": "lines-arrow-wrapped",
+    "greg": "wrap-lines"
+  },
+  {
+    "original": "yen",
+    "xinyi": "currency-yen",
+    "greg": "currency-jpy"
+  },
+  {
+    "original": "zoom-in",
+    "xinyi": "magnifying-glass-plus",
+    "greg": "zoom-in"
+  },
+  {
+    "original": "zoom-out",
+    "xinyi": "magnifying-glass-minus",
+    "greg": "zoom-out"
+  },
+  {
+    "original": "zoom-to-fit",
+    "xinyi": "frame-corners",
+    "greg": "zoom-to-fit"
+  },
+  {
+    "original": "barcode",
+    "xinyi": "barcode",
+    "greg": "barcode-read"
+  },
+  {
+    "original": "console",
+    "xinyi": "terminal-window",
+    "greg": "console"
+  },
+  {
+    "original": "construction",
+    "xinyi": "barricade-striped",
+    "greg": "barricade"
+  },
+  {
+    "original": "contrast",
+    "xinyi": "circle-half-filled",
+    "greg": "contrast"
+  },
+  {
+    "original": "cube-cutout",
+    "xinyi": "hexagon-square",
+    "greg": "cube-cutout"
+  },
+  {
+    "original": "double-chevron-left",
+    "xinyi": "double-chevron-left",
+    "greg": "chevron-double-left"
+  },
+  {
+    "original": "double-chevron-right",
+    "xinyi": "double-chevron-right",
+    "greg": "chevron-double-right"
+  },
+  {
+    "original": "double-chevron-up",
+    "xinyi": "double-chevron-up",
+    "greg": "chevron-double-up"
+  },
+  {
+    "original": "drag-handle-horizontal",
+    "xinyi": "dots-six-horizontal",
+    "greg": "drag-handle-horizontal"
+  },
+  {
+    "original": "drag-handle-vertical",
+    "xinyi": "dots-six-vertical",
+    "greg": "drag-handle-vertical"
+  },
+  {
+    "original": "drawer-left",
+    "xinyi": "panel-left-arrow-right",
+    "greg": "drawer-arrow-right"
+  },
+  {
+    "original": "drawer-left-filled",
+    "xinyi": "panel-left-filled-arrow-right",
+    "greg": "drawer-arrow-right-filled"
+  },
+  {
+    "original": "drawer-right",
+    "xinyi": "panel-right-arrow-left",
+    "greg": "drawer-arrow-left"
+  },
+  {
+    "original": "drawer-right-filled",
+    "xinyi": "panel-right-filled-arrow-left",
+    "greg": "drawer-arrow-left-filled"
+  },
+  {
+    "original": "drone-uav",
+    "xinyi": "airplane-side-view",
+    "greg": "drone-uav"
+  },
+  {
+    "original": "eject",
+    "xinyi": "triangle-over-bar",
+    "greg": "eject"
+  },
+  {
+    "original": "emoji",
+    "xinyi": "smiley-face",
+    "greg": "emoji"
+  },
+  {
+    "original": "endnote",
+    "xinyi": "letters-a-b-superscript-one",
+    "greg": "text-endnote"
+  },
+  {
+    "original": "flash",
+    "xinyi": "sun-rays",
+    "greg": "flash"
+  },
+  {
+    "original": "fuel",
+    "xinyi": "gas-can",
+    "greg": "fuel"
+  },
+  {
+    "original": "full-circle",
+    "xinyi": "circle-outline",
+    "greg": "full-circle"
+  },
+  {
+    "original": "git-branch",
+    "xinyi": "circles-two-line-branching",
+    "greg": "git-branch"
+  },
+  {
+    "original": "git-commit",
+    "xinyi": "circle-line-horizontal",
+    "greg": "git-commit"
+  },
+  {
+    "original": "git-merge",
+    "xinyi": "circles-two-lines-merging",
+    "greg": "git-merge"
+  },
+  {
+    "original": "git-pull",
+    "xinyi": "circles-two-arrow-curved",
+    "greg": "git-pull"
+  },
+  {
+    "original": "git-repo",
+    "xinyi": "book-bookmark",
+    "greg": "git-repo"
+  },
+  {
+    "original": "glass",
+    "xinyi": "wine-glass",
+    "greg": "glass"
+  },
+  {
+    "original": "globe",
+    "xinyi": "globe",
+    "greg": "earth"
+  },
+  {
+    "original": "grid",
+    "xinyi": "grid",
+    "greg": "grid-lines"
+  },
+  {
+    "original": "grid-view",
+    "xinyi": "squares-four",
+    "greg": "grid"
+  },
+  {
+    "original": "hand-up",
+    "xinyi": "hand-up",
+    "greg": "hand-point-up"
+  },
+  {
+    "original": "heatmap",
+    "xinyi": "circles-gradient-decreasing",
+    "greg": "heatmap"
+  },
+  {
+    "original": "help",
+    "xinyi": "circle-question-mark",
+    "greg": "help"
+  },
+  {
+    "original": "high-priority",
+    "xinyi": "exclamation-mark",
+    "greg": "high-priority"
+  },
+  {
+    "original": "high-voltage-pole",
+    "xinyi": "high-voltage-pole",
+    "greg": "utility-pole-high-voltage"
+  },
+  {
+    "original": "highlight",
+    "xinyi": "highlighter-marker",
+    "greg": "highlight"
+  },
+  {
+    "original": "horizontal-distribution",
+    "xinyi": "rectangle-bars-vertical-three",
+    "greg": "horizontal-distribution"
+  },
+  {
+    "original": "horizontal-inbetween",
+    "xinyi": "bars-vertical-chevrons-two",
+    "greg": "horizontal-inbetween"
+  },
+  {
+    "original": "layer",
+    "xinyi": "layer",
+    "greg": "diamond-filled"
+  },
+  {
+    "original": "layout-auto",
+    "xinyi": "layout-auto",
+    "greg": "scissors-lightning"
+  },
+  {
+    "original": "lightning",
+    "xinyi": "lightning",
+    "greg": "lightning-alt"
+  },
+  {
+    "original": "modal",
+    "xinyi": "modal",
+    "greg": "window"
+  },
+  {
+    "original": "modal-filled",
+    "xinyi": "modal-filled",
+    "greg": "window-filled"
+  },
+  {
+    "original": "oil-field",
+    "xinyi": "oil-field",
+    "greg": "pumpjack"
+  },
+  {
+    "original": "people",
+    "xinyi": "people",
+    "greg": "users"
+  },
+  {
+    "original": "person",
+    "xinyi": "person",
+    "greg": "user"
+  },
+  {
+    "original": "range-ring",
+    "xinyi": "range-ring",
+    "greg": "circle-dashed-ring"
+  },
+  {
+    "original": "rect-height",
+    "xinyi": "rect-height",
+    "greg": "rectangle-chevrons-out"
+  },
+  {
+    "original": "redo",
+    "xinyi": "redo",
+    "greg": "arrow-arc-right"
+  },
+  {
+    "original": "rig",
+    "xinyi": "rig",
+    "greg": "oil-rig"
+  },
+  {
+    "original": "selection-box",
+    "xinyi": "selection-box",
+    "greg": "selection"
+  },
+  {
+    "original": "share",
+    "xinyi": "share",
+    "greg": "square-arrow-up-right"
+  },
+  {
+    "original": "small-cross",
+    "xinyi": "small-cross",
+    "greg": "x-small"
+  },
+  {
+    "original": "small-minus",
+    "xinyi": "small-minus",
+    "greg": "minus-small"
+  },
+  {
+    "original": "small-plus",
+    "xinyi": "small-plus",
+    "greg": "plus-small"
+  },
+  {
+    "original": "small-square",
+    "xinyi": "small-square",
+    "greg": "square-small"
+  },
+  {
+    "original": "small-tick",
+    "xinyi": "small-tick",
+    "greg": "check-small"
+  },
+  {
+    "original": "star",
+    "xinyi": "star",
+    "greg": "star-filled"
+  },
+  {
+    "original": "subscript",
+    "xinyi": "subscript",
+    "greg": "text-subscript"
+  },
+  {
+    "original": "superscript",
+    "xinyi": "superscript",
+    "greg": "text-superscript"
+  },
+  {
+    "original": "symbol-circle",
+    "xinyi": "symbol-circle",
+    "greg": "circle-small"
+  },
+  {
+    "original": "symbol-cross",
+    "xinyi": "symbol-cross",
+    "greg": "cross"
+  },
+  {
+    "original": "symbol-diamond",
+    "xinyi": "symbol-diamond",
+    "greg": "diamond-vertical"
+  },
+  {
+    "original": "tag-promote",
+    "xinyi": "tag-promote",
+    "greg": "tag-chevron-double-right"
+  },
+  {
+    "original": "tag-refresh",
+    "xinyi": "tag-refresh",
+    "greg": "tag-arrows-counter-clockwise"
+  },
+  {
+    "original": "tag-undo",
+    "xinyi": "tag-undo",
+    "greg": "tag-arrow-u-down-left"
+  },
+  {
+    "original": "torch",
+    "xinyi": "torch",
+    "greg": "flashlight"
+  },
+  {
+    "original": "undo",
+    "xinyi": "undo",
+    "greg": "arrow-arc-left"
+  },
+  {
+    "original": "vector",
+    "xinyi": "vector",
+    "greg": "vector-arrow-right"
+  },
+  {
+    "original": "vertical-inbetween",
+    "xinyi": "vertical-inbetween",
+    "greg": "chevrons-out-between-bars"
+  },
+  {
+    "original": "volume-down",
+    "xinyi": "volume-down",
+    "greg": "speaker-low"
+  },
+  {
+    "original": "volume-off",
+    "xinyi": "volume-off",
+    "greg": "speaker-none"
+  },
+  {
+    "original": "volume-up",
+    "xinyi": "volume-up",
+    "greg": "speaker-high"
+  },
+  {
+    "original": "widget-footer",
+    "xinyi": "widget-footer",
+    "greg": "rectangle-bottom-split"
+  },
+  {
+    "original": "wrench-time",
+    "xinyi": "wrench-time",
+    "greg": "wrench-clock"
+  }
+]

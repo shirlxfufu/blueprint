@@ -1,0 +1,2800 @@
+{
+  "summary": {
+    "total_differences": 464,
+    "greg_kept_original": 310,
+    "xinyi_kept_original": 45,
+    "both_renamed_differently": 109
+  },
+  "categories": {
+    "greg_kept_original": [
+      {
+        "original": "add",
+        "xinyi": "circle-plus",
+        "greg": "add",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "add-tile",
+        "xinyi": "tile-plus",
+        "greg": "add-tile",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "add-to-artifact",
+        "xinyi": "list-plus",
+        "greg": "add-to-artifact",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "aimpoints-target",
+        "xinyi": "circle-crosshair-dots",
+        "greg": "aimpoints-target",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "alignment-bottom",
+        "xinyi": "items-align-bottom",
+        "greg": "alignment-bottom",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "alignment-left",
+        "xinyi": "items-align-left",
+        "greg": "alignment-left",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "alignment-right",
+        "xinyi": "items-align-right",
+        "greg": "alignment-right",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "alignment-top",
+        "xinyi": "items-align-top",
+        "greg": "alignment-top",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "ammunition",
+        "xinyi": "bullets-three",
+        "greg": "ammunition",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "anchor",
+        "xinyi": "anchor-ship",
+        "greg": "anchor",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "annotation",
+        "xinyi": "pencil-square",
+        "greg": "annotation",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "announcement",
+        "xinyi": "megaphone",
+        "greg": "announcement",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "app-header",
+        "xinyi": "rectangle-header-h",
+        "greg": "app-header",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "application",
+        "xinyi": "window-lines-horizontal",
+        "greg": "application",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "applications",
+        "xinyi": "windows-stacked",
+        "greg": "applications",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "archive",
+        "xinyi": "box-arrow-down",
+        "greg": "archive",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "area-of-interest",
+        "xinyi": "map-pin-region",
+        "greg": "area-of-interest",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "array",
+        "xinyi": "brackets-square",
+        "greg": "array",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "array-boolean",
+        "xinyi": "brackets-square-toggle",
+        "greg": "array-boolean",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "array-date",
+        "xinyi": "brackets-square-calendar",
+        "greg": "array-date",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "array-floating-point",
+        "xinyi": "brackets-square-decimal",
+        "greg": "array-floating-point",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "array-numeric",
+        "xinyi": "brackets-square-123",
+        "greg": "array-numeric",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "array-object",
+        "xinyi": "brackets-square-curly",
+        "greg": "array-object",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "array-string",
+        "xinyi": "brackets-square-quotes",
+        "greg": "array-string",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "array-timestamp",
+        "xinyi": "brackets-square-clock",
+        "greg": "array-timestamp",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "arrow-bottom-left",
+        "xinyi": "arrow-down-left",
+        "greg": "arrow-bottom-left",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "arrow-bottom-right",
+        "xinyi": "arrow-down-right",
+        "greg": "arrow-bottom-right",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "arrow-top-left",
+        "xinyi": "arrow-up-left",
+        "greg": "arrow-top-left",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "arrow-top-right",
+        "xinyi": "arrow-up-right",
+        "greg": "arrow-top-right",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "arrows-arc",
+        "xinyi": "arrow-up-right-arc",
+        "greg": "arrows-arc",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "arrows-horizontal",
+        "xinyi": "arrows-left-right",
+        "greg": "arrows-horizontal",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "arrows-vertical",
+        "xinyi": "arrows-up-down",
+        "greg": "arrows-vertical",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "at",
+        "xinyi": "at-sign",
+        "greg": "at",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "automatic-updates",
+        "xinyi": "arrows-circular-check",
+        "greg": "automatic-updates",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "axle",
+        "xinyi": "bar-ends-perpendicular",
+        "greg": "axle",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "backlink",
+        "xinyi": "link-chain-arrow-left",
+        "greg": "backlink",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "backward-ten",
+        "xinyi": "arrow-counter-clockwise-10",
+        "greg": "backward-ten",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "bank-account",
+        "xinyi": "piggy-bank",
+        "greg": "bank-account",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "binary-number",
+        "xinyi": "zero-one",
+        "greg": "binary-number",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "book",
+        "xinyi": "book-closed",
+        "greg": "book",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "box",
+        "xinyi": "box-archive",
+        "greg": "box",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "branch-locked",
+        "xinyi": "git-branch-lock",
+        "greg": "branch-locked",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "branch-unlocked",
+        "xinyi": "git-branch-unlock",
+        "greg": "branch-unlocked",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "bring-data",
+        "xinyi": "dots-arrow-down-bar",
+        "greg": "bring-data",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "bring-forward",
+        "xinyi": "bars-arrow-up",
+        "greg": "bring-forward",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "bug",
+        "xinyi": "bug-insect",
+        "greg": "bug",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "build",
+        "xinyi": "hammer",
+        "greg": "build",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "bullseye",
+        "xinyi": "target-arrow",
+        "greg": "bullseye",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "cargo-ship",
+        "xinyi": "cargo-ship-containers",
+        "greg": "cargo-ship",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "changes",
+        "xinyi": "arrow-down-arrow-up-bar",
+        "greg": "changes",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "circle-arrow-down",
+        "xinyi": "arrow-down-circle",
+        "greg": "circle-arrow-down",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "circle-arrow-left",
+        "xinyi": "arrow-left-circle",
+        "greg": "circle-arrow-left",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "circle-arrow-right",
+        "xinyi": "arrow-right-circle",
+        "greg": "circle-arrow-right",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "circle-arrow-up",
+        "xinyi": "arrow-up-circle",
+        "greg": "circle-arrow-up",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "clean",
+        "xinyi": "sparkle-stars",
+        "greg": "clean",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "cloud-download",
+        "xinyi": "cloud-arrow-down",
+        "greg": "cloud-download",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "cloud-tick",
+        "xinyi": "cloud-checkmark",
+        "greg": "cloud-tick",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "cloud-upload",
+        "xinyi": "cloud-arrow-up",
+        "greg": "cloud-upload",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "code",
+        "xinyi": "chevrons-slash",
+        "greg": "code",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "code-block",
+        "xinyi": "chevrons-file",
+        "greg": "code-block",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "cog",
+        "xinyi": "cog-gear",
+        "greg": "cog",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "color-fill",
+        "xinyi": "paint-bucket",
+        "greg": "color-fill",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "comparison",
+        "xinyi": "rectangles-bar",
+        "greg": "comparison",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "compressed",
+        "xinyi": "box-arrow-down",
+        "greg": "compressed",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "console-alert",
+        "xinyi": "terminal-exclamation",
+        "greg": "console-alert",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "control",
+        "xinyi": "rectangle-toggles",
+        "greg": "control",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "crop",
+        "xinyi": "corners-crop",
+        "greg": "crop",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "css-style",
+        "xinyi": "file-css-text",
+        "greg": "css-style",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "cube-add",
+        "xinyi": "cube-plus",
+        "greg": "cube-add",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "cube-cutouts",
+        "xinyi": "squares-cube",
+        "greg": "cube-cutouts",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "cube-edit",
+        "xinyi": "cube-pencil",
+        "greg": "cube-edit",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "cube-remove",
+        "xinyi": "cube-minus",
+        "greg": "cube-remove",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "cubes",
+        "xinyi": "cubes-connected",
+        "greg": "cubes",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "curly-braces",
+        "xinyi": "braces-curly",
+        "greg": "curly-braces",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "cut",
+        "xinyi": "scissors",
+        "greg": "cut",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "dashboard",
+        "xinyi": "gauge-speedometer",
+        "greg": "dashboard",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "data-cloud",
+        "xinyi": "database-cloud",
+        "greg": "data-cloud",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "data-lineage",
+        "xinyi": "rectangles-tree-connected",
+        "greg": "data-lineage",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "data-search",
+        "xinyi": "database-magnifying-glass",
+        "greg": "data-search",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "data-sync",
+        "xinyi": "database-arrows-circular",
+        "greg": "data-sync",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "delta",
+        "xinyi": "triangle-delta",
+        "greg": "delta",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "derive-column",
+        "xinyi": "brackets-function-arrow",
+        "greg": "derive-column",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "desktop",
+        "xinyi": "monitor",
+        "greg": "desktop",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "diagnosis",
+        "xinyi": "stethoscope-circle",
+        "greg": "diagnosis",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "diagram-tree",
+        "xinyi": "squares-tree-connected",
+        "greg": "diagram-tree",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "disable",
+        "xinyi": "circle-slash",
+        "greg": "disable",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "divide",
+        "xinyi": "divide-dots",
+        "greg": "divide",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "document-code",
+        "xinyi": "document-chevrons",
+        "greg": "document-code",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "document-locked",
+        "xinyi": "document-lock",
+        "greg": "document-locked",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "document-share",
+        "xinyi": "document-arrow-up-right",
+        "greg": "document-share",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "dot",
+        "xinyi": "ring",
+        "greg": "dot",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "double-caret-horizontal",
+        "xinyi": "carets-horizontal",
+        "greg": "double-caret-horizontal",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "double-caret-vertical",
+        "xinyi": "carets-vertical",
+        "greg": "double-caret-vertical",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "draw",
+        "xinyi": "pen-tip",
+        "greg": "draw",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "drive-time",
+        "xinyi": "car",
+        "greg": "drive-time",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "edit",
+        "xinyi": "pencil",
+        "greg": "edit",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "endorsed",
+        "xinyi": "badge-checkmark",
+        "greg": "endorsed",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "exchange",
+        "xinyi": "circles-arrows-exchange",
+        "greg": "exchange",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "exclude-row",
+        "xinyi": "bars-x-bar",
+        "greg": "exclude-row",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "eye-off",
+        "xinyi": "eye-closed",
+        "greg": "eye-off",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "eye-on",
+        "xinyi": "eye-open",
+        "greg": "eye-on",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "feed",
+        "xinyi": "list-feed",
+        "greg": "feed",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "feed-subscribed",
+        "xinyi": "rss-bell",
+        "greg": "feed-subscribed",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "filter",
+        "xinyi": "funnel",
+        "greg": "filter",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "filter-keep",
+        "xinyi": "funnel-check",
+        "greg": "filter-keep",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "filter-list",
+        "xinyi": "funnel-list",
+        "greg": "filter-list",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "filter-remove",
+        "xinyi": "funnel-x",
+        "greg": "filter-remove",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "filter-sort-asc",
+        "xinyi": "funnel-arrow-up",
+        "greg": "filter-sort-asc",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "filter-sort-desc",
+        "xinyi": "funnel-arrow-down",
+        "greg": "filter-sort-desc",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "floating-point",
+        "xinyi": "one-point-zero",
+        "greg": "floating-point",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "flow-branch",
+        "xinyi": "circle-arrows-branching",
+        "greg": "flow-branch",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "flow-end",
+        "xinyi": "arrow-right-circle",
+        "greg": "flow-end",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "flow-review",
+        "xinyi": "circles-arrows-bidirectional",
+        "greg": "flow-review",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "flow-review-branch",
+        "xinyi": "circles-arrows-branch-bidirectional",
+        "greg": "flow-review-branch",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "folder-close",
+        "xinyi": "folder-closed",
+        "greg": "folder-close",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "folder-new",
+        "xinyi": "folder-plus",
+        "greg": "folder-new",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "folder-shared",
+        "xinyi": "folder-arrow-top-right",
+        "greg": "folder-shared",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "font",
+        "xinyi": "text-font",
+        "greg": "font",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "fork",
+        "xinyi": "path-split-right",
+        "greg": "fork",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "fork-end",
+        "xinyi": "path-join-right",
+        "greg": "fork-end",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "form",
+        "xinyi": "checkbox-box-lines",
+        "greg": "form",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "function",
+        "xinyi": "fx-parentheses",
+        "greg": "function",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "function-minimal",
+        "xinyi": "f-slash",
+        "greg": "function-minimal",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "geotime",
+        "xinyi": "clock-map-pin",
+        "greg": "geotime",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "git-new-branch",
+        "xinyi": "git-branch-plus",
+        "greg": "git-new-branch",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "git-rebase",
+        "xinyi": "git-branches-joined",
+        "greg": "git-rebase",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "globe-network-add",
+        "xinyi": "globe-network-plus",
+        "greg": "globe-network-add",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "graph",
+        "xinyi": "network-nodes-connected",
+        "greg": "graph",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "graph-remove",
+        "xinyi": "circle-x",
+        "greg": "graph-remove",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "greater-than-or-equal-to",
+        "xinyi": "greater-than-equal",
+        "greg": "greater-than-or-equal-to",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "group-item",
+        "xinyi": "shapes-diamond-squares",
+        "greg": "group-item",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "group-objects",
+        "xinyi": "shapes-grouped",
+        "greg": "group-objects",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "header",
+        "xinyi": "text-header",
+        "greg": "header",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "header-one",
+        "xinyi": "text-h1",
+        "greg": "header-one",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "header-three",
+        "xinyi": "text-h3",
+        "greg": "header-three",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "header-two",
+        "xinyi": "text-h2",
+        "greg": "header-two",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "heat-grid",
+        "xinyi": "grid-gradient-cells",
+        "greg": "heat-grid",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "helper-management",
+        "xinyi": "question-circle-grid",
+        "greg": "helper-management",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "history",
+        "xinyi": "clock-counter-clockwise",
+        "greg": "history",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "horizontal-bar-chart",
+        "xinyi": "chart-bars-horizontal",
+        "greg": "horizontal-bar-chart",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "id-number",
+        "xinyi": "card-badge-lines",
+        "greg": "id-number",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "image-rotate-left",
+        "xinyi": "image-arrow-counter-clockwise",
+        "greg": "image-rotate-left",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "image-rotate-right",
+        "xinyi": "image-arrow-clockwise",
+        "greg": "image-rotate-right",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "inbox-search",
+        "xinyi": "inbox-magnifying-glass",
+        "greg": "inbox-search",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "info-sign",
+        "xinyi": "info-circle",
+        "greg": "info-sign",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "inner-join",
+        "xinyi": "circles-overlap-filled",
+        "greg": "inner-join",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "input",
+        "xinyi": "semicircle-arrow-in",
+        "greg": "input",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "insert",
+        "xinyi": "square-plus",
+        "greg": "insert",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "intelligence",
+        "xinyi": "brain-lightbulb",
+        "greg": "intelligence",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "intersection",
+        "xinyi": "circles-overlap-center-only",
+        "greg": "intersection",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "ip-address",
+        "xinyi": "map-pin-10",
+        "greg": "ip-address",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "issue",
+        "xinyi": "exclamation-circle",
+        "greg": "issue",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "issue-closed",
+        "xinyi": "issue-checkmark",
+        "greg": "issue-closed",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "issue-new",
+        "xinyi": "issue-plus",
+        "greg": "issue-new",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "join-table",
+        "xinyi": "tables-joined",
+        "greg": "join-table",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "known-vehicle",
+        "xinyi": "car-check",
+        "greg": "known-vehicle",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "layers",
+        "xinyi": "layers-stacked",
+        "greg": "layers",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "layout-three-columns",
+        "xinyi": "columns-three",
+        "greg": "layout-three-columns",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "layout-three-rows",
+        "xinyi": "rows-three",
+        "greg": "layout-three-rows",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "layout-two-columns",
+        "xinyi": "columns-two",
+        "greg": "layout-two-columns",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "layout-two-rows",
+        "xinyi": "rows-two",
+        "greg": "layout-two-rows",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "learning",
+        "xinyi": "brain-book",
+        "greg": "learning",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "left-join",
+        "xinyi": "circles-overlap-left-filled",
+        "greg": "left-join",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "lengthen-text",
+        "xinyi": "text-lines-arrow-right",
+        "greg": "lengthen-text",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "less-than-or-equal-to",
+        "xinyi": "less-than-equal",
+        "greg": "less-than-or-equal-to",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "locate",
+        "xinyi": "map-pin-target",
+        "greg": "locate",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "manual",
+        "xinyi": "hand-pointing",
+        "greg": "manual",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "manually-entered-data",
+        "xinyi": "spreadsheet-hand",
+        "greg": "manually-entered-data",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "maximize",
+        "xinyi": "arrows-out-corners",
+        "greg": "maximize",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "menu",
+        "xinyi": "menu-hamburger",
+        "greg": "menu",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "menu-open",
+        "xinyi": "menu-hamburger-chevron",
+        "greg": "menu-open",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "merge-columns",
+        "xinyi": "columns-arrows-in",
+        "greg": "merge-columns",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "merge-links",
+        "xinyi": "links-arrows-in",
+        "greg": "merge-links",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "minimize",
+        "xinyi": "arrows-in-corners",
+        "greg": "minimize",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "model",
+        "xinyi": "mountain-wave",
+        "greg": "model",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "more",
+        "xinyi": "dots-three-horizontal",
+        "greg": "more",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "move",
+        "xinyi": "arrows-four-way",
+        "greg": "move",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "multi-select",
+        "xinyi": "checkboxes-multiple",
+        "greg": "multi-select",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "new-drawing",
+        "xinyi": "drawing-pen-plus",
+        "greg": "new-drawing",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "new-grid-item",
+        "xinyi": "grid-item-plus",
+        "greg": "new-grid-item",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "new-layer",
+        "xinyi": "layer-plus",
+        "greg": "new-layer",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "new-layers",
+        "xinyi": "layers-plus",
+        "greg": "new-layers",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "new-link",
+        "xinyi": "link-plus",
+        "greg": "new-link",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "new-prescription",
+        "xinyi": "prescription-plus",
+        "greg": "new-prescription",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "new-shield",
+        "xinyi": "shield-plus",
+        "greg": "new-shield",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "new-text-box",
+        "xinyi": "text-box-plus",
+        "greg": "new-text-box",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "not-equal-to",
+        "xinyi": "not-equal",
+        "greg": "not-equal-to",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "notifications",
+        "xinyi": "bell",
+        "greg": "notifications",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "notifications-add",
+        "xinyi": "bell-plus",
+        "greg": "notifications-add",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "notifications-snooze",
+        "xinyi": "bell-zzz",
+        "greg": "notifications-snooze",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "notifications-updated",
+        "xinyi": "bell-dot",
+        "greg": "notifications-updated",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "numbered-list",
+        "xinyi": "list-numbers",
+        "greg": "numbered-list",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "numerical",
+        "xinyi": "one-two-three",
+        "greg": "numerical",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "object-view",
+        "xinyi": "cube-frame-corners",
+        "greg": "object-view",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "one-column",
+        "xinyi": "column-one",
+        "greg": "one-column",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "outdated",
+        "xinyi": "arrow-circular-exclamation",
+        "greg": "outdated",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "outer-join",
+        "xinyi": "circles-overlap-outer-filled",
+        "greg": "outer-join",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "package",
+        "xinyi": "cube-3d",
+        "greg": "package",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "page-break",
+        "xinyi": "rectangles-dashed-line-between",
+        "greg": "page-break",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "page-layout",
+        "xinyi": "page-sections-grid",
+        "greg": "page-layout",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "panel",
+        "xinyi": "rectangle-sidebar-right",
+        "greg": "panel",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "panel-stats",
+        "xinyi": "panel-list-lines",
+        "greg": "panel-stats",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "panel-table",
+        "xinyi": "panel-table-grid",
+        "greg": "panel-table",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "paragraph",
+        "xinyi": "pilcrow",
+        "greg": "paragraph",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "path-search",
+        "xinyi": "map-folded-magnifying-glass",
+        "greg": "path-search",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "phone-search",
+        "xinyi": "phone-magnifying-glass",
+        "greg": "phone-search",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "pin",
+        "xinyi": "pushpin",
+        "greg": "pin",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "pivot",
+        "xinyi": "arrows-corner-rotate",
+        "greg": "pivot",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "pivot-table",
+        "xinyi": "grid-arrows-swap",
+        "greg": "pivot-table",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "playbook",
+        "xinyi": "diagram-x-arrows",
+        "greg": "playbook",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "predictive-analysis",
+        "xinyi": "brain",
+        "greg": "predictive-analysis",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "print",
+        "xinyi": "printer",
+        "greg": "print",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "property",
+        "xinyi": "list-bullets-mixed",
+        "greg": "property",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "publish-function",
+        "xinyi": "function-arrow-up",
+        "greg": "publish-function",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "regex",
+        "xinyi": "asterisk-dot",
+        "greg": "regex",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "remove",
+        "xinyi": "circle-minus",
+        "greg": "remove",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "resolve",
+        "xinyi": "circles-checkmark",
+        "greg": "resolve",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "right-join",
+        "xinyi": "circles-overlap-right-filled",
+        "greg": "right-join",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "rotate-document",
+        "xinyi": "document-arrow-counter-clockwise",
+        "greg": "rotate-document",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "rotate-page",
+        "xinyi": "page-arrow-counter-clockwise",
+        "greg": "rotate-page",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "route",
+        "xinyi": "map-pin-path-pin",
+        "greg": "route",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "saved",
+        "xinyi": "document-checkmark",
+        "greg": "saved",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "search",
+        "xinyi": "magnifying-glass",
+        "greg": "search",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "search-around",
+        "xinyi": "network-nodes-square",
+        "greg": "search-around",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "search-template",
+        "xinyi": "magnifying-glass-lines",
+        "greg": "search-template",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "search-text",
+        "xinyi": "magnifying-glass-letter-t",
+        "greg": "search-text",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "segmented-control",
+        "xinyi": "rectangle-square",
+        "greg": "segmented-control",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "select",
+        "xinyi": "cursor-corners",
+        "greg": "select",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "selection",
+        "xinyi": "target",
+        "greg": "selection",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "selection-box-add",
+        "xinyi": "corners-plus",
+        "greg": "selection-box-add",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "selection-box-remove",
+        "xinyi": "corners-minus",
+        "greg": "selection-box-remove",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "send-backward",
+        "xinyi": "bars-arrow-down",
+        "greg": "send-backward",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "send-message",
+        "xinyi": "paper-plane",
+        "greg": "send-message",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "send-to-graph",
+        "xinyi": "network-nodes-arrow",
+        "greg": "send-to-graph",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "send-to-map",
+        "xinyi": "map-arrow-corner",
+        "greg": "send-to-map",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "series-add",
+        "xinyi": "chart-line-plus",
+        "greg": "series-add",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "series-configuration",
+        "xinyi": "chart-line-gear",
+        "greg": "series-configuration",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "series-derived",
+        "xinyi": "chart-line-arrow-up-right",
+        "greg": "series-derived",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "series-search",
+        "xinyi": "chart-line-magnifying-glass",
+        "greg": "series-search",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "settings",
+        "xinyi": "sliders",
+        "greg": "settings",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "shapes",
+        "xinyi": "circle-triangle-square",
+        "greg": "shapes",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "shorten-text",
+        "xinyi": "lines-arrow-left",
+        "greg": "shorten-text",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "signal-search",
+        "xinyi": "waves-magnifying-glass",
+        "greg": "signal-search",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "sort",
+        "xinyi": "bars-arrow-down",
+        "greg": "sort",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "sort-alphabetical",
+        "xinyi": "arrow-down-letters-a-z",
+        "greg": "sort-alphabetical",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "sort-alphabetical-desc",
+        "xinyi": "arrow-down-letters-z-a",
+        "greg": "sort-alphabetical-desc",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "sort-asc",
+        "xinyi": "arrow-down-bars-ascending",
+        "greg": "sort-asc",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "sort-desc",
+        "xinyi": "arrow-down-bars-descending",
+        "greg": "sort-desc",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "sort-numerical",
+        "xinyi": "arrow-down-numbers-1-9",
+        "greg": "sort-numerical",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "sort-numerical-desc",
+        "xinyi": "arrow-down-numbers-9-1",
+        "greg": "sort-numerical-desc",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "spell-check",
+        "xinyi": "letter-a-checkmark",
+        "greg": "spell-check",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "spin",
+        "xinyi": "arrows-circular",
+        "greg": "spin",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "split-columns",
+        "xinyi": "columns-arrows-out",
+        "greg": "split-columns",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "step-backward",
+        "xinyi": "step-left",
+        "greg": "step-backward",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "step-chart",
+        "xinyi": "chart-step",
+        "greg": "step-chart",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "step-forward",
+        "xinyi": "step-right",
+        "greg": "step-forward",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "style",
+        "xinyi": "brush",
+        "greg": "style",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "subtract-right-join",
+        "xinyi": "circles-overlap-left-minus",
+        "greg": "subtract-right-join",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "sweep",
+        "xinyi": "broom",
+        "greg": "sweep",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "switch",
+        "xinyi": "circles-connected-diagonal",
+        "greg": "switch",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "tag-add",
+        "xinyi": "tag-plus",
+        "greg": "tag-add",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "take-action",
+        "xinyi": "hand-pen-diagonal",
+        "greg": "take-action",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "th",
+        "xinyi": "table-rows",
+        "greg": "th",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "th-add",
+        "xinyi": "table-plus",
+        "greg": "th-add",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "th-derived",
+        "xinyi": "table-derived",
+        "greg": "th-derived",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "th-disconnect",
+        "xinyi": "table-disconnect",
+        "greg": "th-disconnect",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "th-list",
+        "xinyi": "list-rows",
+        "greg": "th-list",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "th-virtual",
+        "xinyi": "table-arrow-inward",
+        "greg": "th-virtual",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "th-virtual-add",
+        "xinyi": "table-arrow-inward-plus",
+        "greg": "th-virtual-add",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "tick-circle",
+        "xinyi": "check-circle",
+        "greg": "tick-circle",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "timeline-area-chart",
+        "xinyi": "chart-area-timeline",
+        "greg": "timeline-area-chart",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "timeline-events",
+        "xinyi": "timeline-dots",
+        "greg": "timeline-events",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "timeline-line-chart",
+        "xinyi": "chart-line-timeline",
+        "greg": "timeline-line-chart",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "translate",
+        "xinyi": "letter-a-globe",
+        "greg": "translate",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "unarchive",
+        "xinyi": "box-arrow-up",
+        "greg": "unarchive",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "ungroup-objects",
+        "xinyi": "shapes-ungrouped",
+        "greg": "ungroup-objects",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "unknown-vehicle",
+        "xinyi": "car-question",
+        "greg": "unknown-vehicle",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "unpin",
+        "xinyi": "pushpin-slash",
+        "greg": "unpin",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "unresolve",
+        "xinyi": "circles-overlapping",
+        "greg": "unresolve",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "variable",
+        "xinyi": "x-curly-braces",
+        "greg": "variable",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "vertical-bar-chart-asc",
+        "xinyi": "bars-ascending",
+        "greg": "vertical-bar-chart-asc",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "vertical-bar-chart-desc",
+        "xinyi": "bars-descending",
+        "greg": "vertical-bar-chart-desc",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "warning-sign",
+        "xinyi": "exclamation-triangle",
+        "greg": "warning-sign",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "wrap-lines",
+        "xinyi": "lines-arrow-wrapped",
+        "greg": "wrap-lines",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "zoom-in",
+        "xinyi": "magnifying-glass-plus",
+        "greg": "zoom-in",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "zoom-out",
+        "xinyi": "magnifying-glass-minus",
+        "greg": "zoom-out",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "zoom-to-fit",
+        "xinyi": "frame-corners",
+        "greg": "zoom-to-fit",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "console",
+        "xinyi": "terminal-window",
+        "greg": "console",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "contrast",
+        "xinyi": "circle-half-filled",
+        "greg": "contrast",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "cube-cutout",
+        "xinyi": "hexagon-square",
+        "greg": "cube-cutout",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "drag-handle-horizontal",
+        "xinyi": "dots-six-horizontal",
+        "greg": "drag-handle-horizontal",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "drag-handle-vertical",
+        "xinyi": "dots-six-vertical",
+        "greg": "drag-handle-vertical",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "drone-uav",
+        "xinyi": "airplane-side-view",
+        "greg": "drone-uav",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "eject",
+        "xinyi": "triangle-over-bar",
+        "greg": "eject",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "emoji",
+        "xinyi": "smiley-face",
+        "greg": "emoji",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "flash",
+        "xinyi": "sun-rays",
+        "greg": "flash",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "fuel",
+        "xinyi": "gas-can",
+        "greg": "fuel",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "full-circle",
+        "xinyi": "circle-outline",
+        "greg": "full-circle",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "git-branch",
+        "xinyi": "circles-two-line-branching",
+        "greg": "git-branch",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "git-commit",
+        "xinyi": "circle-line-horizontal",
+        "greg": "git-commit",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "git-merge",
+        "xinyi": "circles-two-lines-merging",
+        "greg": "git-merge",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "git-pull",
+        "xinyi": "circles-two-arrow-curved",
+        "greg": "git-pull",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "git-repo",
+        "xinyi": "book-bookmark",
+        "greg": "git-repo",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "glass",
+        "xinyi": "wine-glass",
+        "greg": "glass",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "heatmap",
+        "xinyi": "circles-gradient-decreasing",
+        "greg": "heatmap",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "help",
+        "xinyi": "circle-question-mark",
+        "greg": "help",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "high-priority",
+        "xinyi": "exclamation-mark",
+        "greg": "high-priority",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "highlight",
+        "xinyi": "highlighter-marker",
+        "greg": "highlight",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "horizontal-distribution",
+        "xinyi": "rectangle-bars-vertical-three",
+        "greg": "horizontal-distribution",
+        "category": "greg_kept_original"
+      },
+      {
+        "original": "horizontal-inbetween",
+        "xinyi": "bars-vertical-chevrons-two",
+        "greg": "horizontal-inbetween",
+        "category": "greg_kept_original"
+      }
+    ],
+    "xinyi_kept_original": [
+      {
+        "original": "barcode",
+        "xinyi": "barcode",
+        "greg": "barcode-read",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "double-chevron-left",
+        "xinyi": "double-chevron-left",
+        "greg": "chevron-double-left",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "double-chevron-right",
+        "xinyi": "double-chevron-right",
+        "greg": "chevron-double-right",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "double-chevron-up",
+        "xinyi": "double-chevron-up",
+        "greg": "chevron-double-up",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "globe",
+        "xinyi": "globe",
+        "greg": "earth",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "grid",
+        "xinyi": "grid",
+        "greg": "grid-lines",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "hand-up",
+        "xinyi": "hand-up",
+        "greg": "hand-point-up",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "high-voltage-pole",
+        "xinyi": "high-voltage-pole",
+        "greg": "utility-pole-high-voltage",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "layer",
+        "xinyi": "layer",
+        "greg": "diamond-filled",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "layout-auto",
+        "xinyi": "layout-auto",
+        "greg": "scissors-lightning",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "lightning",
+        "xinyi": "lightning",
+        "greg": "lightning-alt",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "modal",
+        "xinyi": "modal",
+        "greg": "window",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "modal-filled",
+        "xinyi": "modal-filled",
+        "greg": "window-filled",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "oil-field",
+        "xinyi": "oil-field",
+        "greg": "pumpjack",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "people",
+        "xinyi": "people",
+        "greg": "users",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "person",
+        "xinyi": "person",
+        "greg": "user",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "range-ring",
+        "xinyi": "range-ring",
+        "greg": "circle-dashed-ring",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "rect-height",
+        "xinyi": "rect-height",
+        "greg": "rectangle-chevrons-out",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "redo",
+        "xinyi": "redo",
+        "greg": "arrow-arc-right",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "rig",
+        "xinyi": "rig",
+        "greg": "oil-rig",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "selection-box",
+        "xinyi": "selection-box",
+        "greg": "selection",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "share",
+        "xinyi": "share",
+        "greg": "square-arrow-up-right",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "small-cross",
+        "xinyi": "small-cross",
+        "greg": "x-small",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "small-minus",
+        "xinyi": "small-minus",
+        "greg": "minus-small",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "small-plus",
+        "xinyi": "small-plus",
+        "greg": "plus-small",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "small-square",
+        "xinyi": "small-square",
+        "greg": "square-small",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "small-tick",
+        "xinyi": "small-tick",
+        "greg": "check-small",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "star",
+        "xinyi": "star",
+        "greg": "star-filled",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "subscript",
+        "xinyi": "subscript",
+        "greg": "text-subscript",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "superscript",
+        "xinyi": "superscript",
+        "greg": "text-superscript",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "symbol-circle",
+        "xinyi": "symbol-circle",
+        "greg": "circle-small",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "symbol-cross",
+        "xinyi": "symbol-cross",
+        "greg": "cross",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "symbol-diamond",
+        "xinyi": "symbol-diamond",
+        "greg": "diamond-vertical",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "tag-promote",
+        "xinyi": "tag-promote",
+        "greg": "tag-chevron-double-right",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "tag-refresh",
+        "xinyi": "tag-refresh",
+        "greg": "tag-arrows-counter-clockwise",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "tag-undo",
+        "xinyi": "tag-undo",
+        "greg": "tag-arrow-u-down-left",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "torch",
+        "xinyi": "torch",
+        "greg": "flashlight",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "undo",
+        "xinyi": "undo",
+        "greg": "arrow-arc-left",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "vector",
+        "xinyi": "vector",
+        "greg": "vector-arrow-right",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "vertical-inbetween",
+        "xinyi": "vertical-inbetween",
+        "greg": "chevrons-out-between-bars",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "volume-down",
+        "xinyi": "volume-down",
+        "greg": "speaker-low",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "volume-off",
+        "xinyi": "volume-off",
+        "greg": "speaker-none",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "volume-up",
+        "xinyi": "volume-up",
+        "greg": "speaker-high",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "widget-footer",
+        "xinyi": "widget-footer",
+        "greg": "rectangle-bottom-split",
+        "category": "xinyi_kept_original"
+      },
+      {
+        "original": "wrench-time",
+        "xinyi": "wrench-time",
+        "greg": "wrench-clock",
+        "category": "xinyi_kept_original"
+      }
+    ],
+    "both_renamed_differently": [
+      {
+        "original": "add-application",
+        "xinyi": "window-plus",
+        "greg": "application-plus",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "add-child",
+        "xinyi": "box-plus-below",
+        "greg": "row-plus-bottom",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "add-clip",
+        "xinyi": "frame-dot",
+        "greg": "frame-dot-plus",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "add-column-left",
+        "xinyi": "column-plus-left",
+        "greg": "columns-plus-left",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "add-column-right",
+        "xinyi": "column-plus-right",
+        "greg": "columns-plus-right",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "add-derived-column",
+        "xinyi": "column-plus-branch",
+        "greg": "table-derived-column-plus",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "add-location",
+        "xinyi": "circle-ring-plus",
+        "greg": "circle-dot-plus",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "add-parent",
+        "xinyi": "box-plus-above",
+        "greg": "row-plus-top",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "add-row-bottom",
+        "xinyi": "row-plus-bottom",
+        "greg": "rows-plus-bottom",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "add-row-top",
+        "xinyi": "row-plus-top",
+        "greg": "rows-plus-top",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "add-to-folder",
+        "xinyi": "folder-arrow-in-plus",
+        "greg": "folder-arrow-up-right-alt",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "alignment-horizontal-center",
+        "xinyi": "items-align-horizontal-center",
+        "greg": "align-vertical-center",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "alignment-vertical-center",
+        "xinyi": "items-align-vertical-center",
+        "greg": "align-horizontal-center",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "ban-circle",
+        "xinyi": "circle-minus",
+        "greg": "circle-minus-filled",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "block-promote",
+        "xinyi": "rectangle-chevrons-double",
+        "greg": "square-chevron-double-right",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "blocked-person",
+        "xinyi": "person-slash",
+        "greg": "user-ban",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "british-pound",
+        "xinyi": "currency-pound",
+        "greg": "currency-gbp",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "chart",
+        "xinyi": "chart-bars-line-up",
+        "greg": "chart-trend-up",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "chat",
+        "xinyi": "comment-bubbles",
+        "greg": "chats",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "chevron-backward",
+        "xinyi": "chevron-double-left",
+        "greg": "chevron-line-left",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "chevron-forward",
+        "xinyi": "chevron-double-right",
+        "greg": "chevron-line-right",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "clip",
+        "xinyi": "corners-circle",
+        "greg": "frame-dot",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "collapse-all",
+        "xinyi": "chevrons-inward",
+        "greg": "chevrons-in",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "column-layout",
+        "xinyi": "rectangle-columns-three",
+        "greg": "columns-layout",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "comment",
+        "xinyi": "comment-dots",
+        "greg": "chat-dots",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "confirm",
+        "xinyi": "check-circle",
+        "greg": "circle-check-alt",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "cross-circle",
+        "xinyi": "circle-x",
+        "greg": "circle-x-filled",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "curved-range-chart",
+        "xinyi": "chart-area-curved",
+        "greg": "chart-curved-range",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "cycle",
+        "xinyi": "bicycle",
+        "greg": "person-bike",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "delete",
+        "xinyi": "circle-trash",
+        "greg": "circle-x",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "delete-clip",
+        "xinyi": "corners-x-circle",
+        "greg": "frame-dot-x",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "descendant",
+        "xinyi": "arrow-down-square",
+        "greg": "square-arrow-left-in",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "detection",
+        "xinyi": "corners-square-scan",
+        "greg": "frame-square",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "direction-left",
+        "xinyi": "triangle-chevron-left",
+        "greg": "navigation-arrow-left",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "direction-right",
+        "xinyi": "triangle-chevron-right",
+        "greg": "navigation-arrow-right",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "document-open",
+        "xinyi": "document-arrow-down-right",
+        "greg": "file-arrow-up-right-alt",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "double-chevron-down",
+        "xinyi": "chevrons-down",
+        "greg": "chevron-double-down",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "download",
+        "xinyi": "circle-arrow-down-tray",
+        "greg": "circle-arrow-down-filled",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "duplicate",
+        "xinyi": "squares-overlapped",
+        "greg": "copy",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "engagement",
+        "xinyi": "person-chat-bubble",
+        "greg": "user-chat",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "euro",
+        "xinyi": "currency-euro",
+        "greg": "currency-eur",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "expand-all",
+        "xinyi": "chevrons-outward",
+        "greg": "chevrons-out",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "explain",
+        "xinyi": "circle-lightning-quarter",
+        "greg": "badge-lightning",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "export",
+        "xinyi": "arrow-up-tray",
+        "greg": "arrow-up-from-bracket",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "filter-open",
+        "xinyi": "funnel-open",
+        "greg": "funnel-caret-right",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "flow-linear",
+        "xinyi": "circles-arrow-linear",
+        "greg": "arrow-right-dot",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "flows",
+        "xinyi": "diagram-flow",
+        "greg": "arrow-right-between-dots",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "folder-shared-open",
+        "xinyi": "folder-arrow-top-right-open",
+        "greg": "folder-open-arrow-up-right",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "follower",
+        "xinyi": "person-arrow-right",
+        "greg": "user-arrow-right",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "following",
+        "xinyi": "person-arrow-left",
+        "greg": "user-arrow-left",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "full-stacked-chart",
+        "xinyi": "chart-bars-stacked",
+        "greg": "chart-stacked-bar-full",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "fullscreen",
+        "xinyi": "arrows-outward",
+        "greg": "maximize",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "generate",
+        "xinyi": "sparkle",
+        "greg": "lightning",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "geofence",
+        "xinyi": "map-pin-square-corner",
+        "greg": "geofence-arrow-in",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "geolocation",
+        "xinyi": "location-pin-arrow",
+        "greg": "navigation-arrow",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "geosearch",
+        "xinyi": "globe-magnifying-glass",
+        "greg": "earth-magnifying-glass",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "git-push",
+        "xinyi": "git-arrow-up",
+        "greg": "book-arrow-up",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "grouped-bar-chart",
+        "xinyi": "chart-bars-grouped",
+        "greg": "chart-bar-grouped",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "horizontal-bar-chart-asc",
+        "xinyi": "chart-bars-horizontal-ascending",
+        "greg": "bars-horizontal-ascending",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "horizontal-bar-chart-desc",
+        "xinyi": "chart-bars-horizontal-descending",
+        "greg": "bars-horizontal-descending",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "import",
+        "xinyi": "arrow-down-tray",
+        "greg": "arrow-down-to-bracket",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "inheritance",
+        "xinyi": "arrow-curved-down-left",
+        "greg": "square-arrow-bottom-out",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "inherited-group",
+        "xinyi": "people-arrow-right",
+        "greg": "users-arrow-right",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "mugshot",
+        "xinyi": "person-square",
+        "greg": "square-user",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "nest",
+        "xinyi": "arrow-curved-return",
+        "greg": "arrow-turn-bottom-right",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "new-comment",
+        "xinyi": "comment-plus",
+        "greg": "chat-dots-plus",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "new-object",
+        "xinyi": "object-plus",
+        "greg": "circle-plus-alt",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "new-person",
+        "xinyi": "person-plus",
+        "greg": "user-plus",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "open-application",
+        "xinyi": "window-arrow-up",
+        "greg": "application-arrow-up-right",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "output",
+        "xinyi": "semicircle-arrow-out",
+        "greg": "arrow-right-from-arc",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "popout",
+        "xinyi": "arrow-square-out",
+        "greg": "square-arrow-top-out",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "projects",
+        "xinyi": "project",
+        "greg": "cabinet-filing",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "random",
+        "xinyi": "arrows-crossed",
+        "greg": "shuffle",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "regression-chart",
+        "xinyi": "chart-scatter-line",
+        "greg": "chart-regression",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "remove-column",
+        "xinyi": "column-minus",
+        "greg": "column-minus-left",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "remove-column-left",
+        "xinyi": "column-minus-left",
+        "greg": "columns-x-left",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "remove-column-right",
+        "xinyi": "column-minus-right",
+        "greg": "columns-x-right",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "remove-row-bottom",
+        "xinyi": "row-minus-bottom",
+        "greg": "rows-x-bottom",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "remove-row-top",
+        "xinyi": "row-minus-top",
+        "greg": "rows-x-top",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "root-folder",
+        "xinyi": "folder-tree-root",
+        "greg": "folder-root",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "rotate-ccw",
+        "xinyi": "arrow-counter-clockwise-square",
+        "greg": "square-counter-clockwise",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "rotate-cw",
+        "xinyi": "arrow-clockwise-square",
+        "greg": "square-clockwise",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "scatter-plot",
+        "xinyi": "chart-scatter",
+        "greg": "chart-scatter-plot",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "send-to",
+        "xinyi": "arrow-share",
+        "greg": "circle-arrow-up-right",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "shared-filter",
+        "xinyi": "funnel-person",
+        "greg": "funnel-users",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "small-info-sign",
+        "xinyi": "circle-info",
+        "greg": "circle-info-small",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "stacked-chart",
+        "xinyi": "chart-area-stacked",
+        "greg": "chart-stacked-bar",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "star-empty",
+        "xinyi": "star-outline",
+        "greg": "star",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "swap-horizontal",
+        "xinyi": "arrows-swap-horizontal",
+        "greg": "arrows-left-right",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "swap-vertical",
+        "xinyi": "arrows-swap-vertical",
+        "greg": "arrows-down-up",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "target",
+        "xinyi": "circle-crosshair",
+        "greg": "circle-target",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "th-filtered",
+        "xinyi": "table-filtered",
+        "greg": "table-funnel",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "th-list-add",
+        "xinyi": "list-rows-plus",
+        "greg": "table-header-plus",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "third-party",
+        "xinyi": "people-globe",
+        "greg": "globe-user",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "timeline-bar-chart",
+        "xinyi": "chart-bars-timeline",
+        "greg": "chart-bar",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "trending-down",
+        "xinyi": "arrow-trending-down",
+        "greg": "trend-down",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "trending-up",
+        "xinyi": "arrow-trending-up",
+        "greg": "trend-up",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "updated",
+        "xinyi": "arrows-circular-check",
+        "greg": "arrow-counter-clockwise-check",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "upload",
+        "xinyi": "circle-arrow-up",
+        "greg": "circle-arrow-up-filled",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "walk",
+        "xinyi": "person-walking",
+        "greg": "person-walk",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "won",
+        "xinyi": "currency-won",
+        "greg": "currency-krw",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "yen",
+        "xinyi": "currency-yen",
+        "greg": "currency-jpy",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "construction",
+        "xinyi": "barricade-striped",
+        "greg": "barricade",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "drawer-left",
+        "xinyi": "panel-left-arrow-right",
+        "greg": "drawer-arrow-right",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "drawer-left-filled",
+        "xinyi": "panel-left-filled-arrow-right",
+        "greg": "drawer-arrow-right-filled",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "drawer-right",
+        "xinyi": "panel-right-arrow-left",
+        "greg": "drawer-arrow-left",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "drawer-right-filled",
+        "xinyi": "panel-right-filled-arrow-left",
+        "greg": "drawer-arrow-left-filled",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "endnote",
+        "xinyi": "letters-a-b-superscript-one",
+        "greg": "text-endnote",
+        "category": "both_renamed_differently"
+      },
+      {
+        "original": "grid-view",
+        "xinyi": "squares-four",
+        "greg": "grid",
+        "category": "both_renamed_differently"
+      }
+    ]
+  }
+}
